@@ -9,7 +9,7 @@ Atualmente, o mod precisa de 2 mods para funcionar:
 - [Extra Map Layers](https://www.nexusmods.com/stardewvalley/mods/9633) - De aedenthorn
 
 # Instruções de instalação
-Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinstalá-lo, basta remover a pasta do mod da sua pasta Mods.
+Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinstalá-lo, basta remover a pasta **[CP] Mister Qi is a Real NPC** da sua pasta Mods.
 
 # O que está funcionando atualmente?
 O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas algumas coisas já estão funcionando, por exemplo:
