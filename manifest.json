@@ -1,0 +1,17 @@
+{
+    "Name": "Mister Qi is a Real NPC",
+    "Author": "Sionkob",
+    "Version": "0.1.0-alpha.1",
+    "Description": "Turns Mister Qi into a real NPC, with dialogues, schedules and heart events.",
+    "UniqueID": "Sionkob.MrQiReal",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [ "Nexus:16724", "GitHub:Sionkob/MrQiRealNPC" ],
+    "Dependencies": [
+        {
+            "UniqueID": "aedenthorn.ExtraMapLayers",
+            "IsRequired": true
+        },
+    ]
+}

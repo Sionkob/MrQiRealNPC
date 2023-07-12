@@ -1,0 +1,192 @@
+{
+    "Format": "1.29.0",
+    "ConfigSchema": {
+        "Kid_or_Name": {
+            "AllowValues": "Name, Kid",
+            "Default": "Name",
+            "Description": "Change the way Mr. Qi will treat you. He may refer to you as 'Kid' or your name. Default is your name."
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "NameOrKid",
+            "Value": "{{i18n:KidOrNameToken.NameOption}}",
+            "When": {
+                "Kid_or_Name": "Name"
+            }
+        },
+        {
+            "Name": "NameOrKid",
+            "Value": "{{i18n:KidOrNameToken.KidOption}}",
+            "When": {
+                "Kid_or_Name": "Kid"
+            }
+        },
+    ],
+    "Changes": [
+        //Mr. Qi's Sprite
+        {
+            "Action": "Load",
+            "Target": "Characters/Qi",
+            "FromFile": "Assets/Characters/MrQi.png"
+        },
+        //Mr. Qi's Portrait
+        {
+            "Action": "Load",
+            "Target": "Portraits/Qi",
+            "FromFile": "Assets/Portraits/MrQi.png"
+        },
+        //Fixes Patch
+        {
+            "Action": "Include",
+            "FromFile": "Data/Fixes.json",
+        },
+        //NPC Dispositions
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Qi": "adult/neutral/neutral/neutral/male/not-datable/null/Desert/winter 27//Custom_MrQiReal_QiRoom 20 4/{{i18n:MrQi.name}}"
+            }
+        },
+        //Gift Tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Qi": "{{i18n:MrQi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/66 128 220 226 276 611 904/{{i18n:MrQi.GiftReactions.Like}}/-5 -75 -79 16 245 246/{{i18n:MrQi.GiftReactions.Dislike}}/330/{{i18n:MrQi.GiftReactions.Hate}}/2/{{i18n:MrQi.GiftReactions.Neutral}}/-4/"
+            }
+        },
+        //Dialogue
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Qi",
+            "FromFile": "Data/Empty.json",
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Dialogue/Qi.json"
+        },
+        //Schedule
+        {
+            "Action": "Load",
+            "Target": "Characters/Schedules/Qi",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Schedules/Qi",
+            "Entries": {
+                "spring": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 4 0 qi_staring/1200 Custom_MrQiReal_QiLab 14 14 0 qi_staring/1500 Custom_MrQiReal_QiLab {{Random:3 11, 5 11, 11 7, 13 7, 6 7}} 0/1900 Custom_MrQiReal_QiLab 29 3 1/2410 Custom_MrQiReal_QiRoom 20 4 2 qi_sleep",
+                "Mon": "GOTO spring",
+                "Tue": "GOTO spring",
+                "Wed": "GOTO spring",
+                "Thu": "GOTO spring",
+                "Fri": "GOTO spring",
+                "Sat": "GOTO spring",
+                "Sun": "GOTO spring"
+            }
+        },
+        //Animation Descriptions
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "qi_staring": "20/20/20",
+                "qi_sleep": "51/51/51"
+            }
+        },
+        //Map Edits
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Club",
+            "FromFile": "Assets/Maps/Club.tmx",
+            "AddWarps": [
+                "33 14 Custom_MrQiReal_QiRoom 1 0",
+                "34 14 Custom_MrQiReal_QiRoom 1 0"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/QiNutRoom",
+            "FromFile": "Assets/Maps/QiNutRoom.tmx"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "AddWarps": [
+                "12 13 Custom_MrQiReal_MrQiLab 9 0"
+            ],
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 12, "Y": 12 },
+                    "SetTilesheet": "1",
+                    "SetIndex": "606",
+                    "SetProperties": {
+                        "NPCPassable": "true",
+                        "Action": "Message Custom_MrQiReal_QiRoom.9"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 12, "Y": 12 },
+                    "Remove": true
+                }
+            ],
+            "When": {
+                "Hearts:Qi": "{{Range: 6, 10}}"
+            }
+        },
+        //Map Strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Custom_MrQiReal_QiRoom.1": "{{i18n:MapString.QiRoom.1}}",
+                "Custom_MrQiReal_QiRoom.2": "{{i18n:MapString.QiRoom.2}}",
+                "Custom_MrQiReal_QiRoom.3": "{{i18n:MapString.QiRoom.3}}",
+                "Custom_MrQiReal_QiRoom.4": "{{i18n:MapString.QiRoom.4}}",
+                "Custom_MrQiReal_QiRoom.5": "{{i18n:MapString.QiRoom.5}}",
+                "Custom_MrQiReal_QiRoom.6": "{{i18n:MapString.QiRoom.6}}",
+                "Custom_MrQiReal_QiRoom.7": "{{i18n:MapString.QiRoom.7}}",
+                "Custom_MrQiReal_QiRoom.8": "{{i18n:MapString.QiRoom.8}}",
+                "Custom_MrQiReal_QiRoom.9": "{{i18n:MapString.QiRoom.9}}",
+                "Custom_MrQiReal_QiLab.1": "{{i18n:MapString.QiLab.1}}",
+                "Custom_MrQiReal_QiLab.2": "{{i18n:MapString.QiLab.2}}",
+                "Custom_MrQiReal_QiLab.3": "{{i18n:MapString.QiLab.3}}",
+                "Custom_MrQiReal_QiLab.4": "{{i18n:MapString.QiLab.4}}",
+            }
+        },
+        //Events
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Club, Data/Events/SkullCave, Data/Events/Custom_MrQiReal_QiRoom, Data/Events/Custom_MrQiReal_MrQiLab",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Events/Events.json"
+        },
+    ],
+    "CustomLocations": [
+        {
+            "Name": "Custom_MrQiReal_QiRoom",
+            "FromMapFile": "Assets/Maps/QiRoom.tmx"
+        },
+        {
+            "Name": "Custom_MrQiReal_QiLab",
+            "FromMapFile": "Assets/Maps/QiLab.tmx"
+        }
+    ]
+}

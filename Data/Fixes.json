@@ -1,0 +1,73 @@
+{
+    "Changes": [
+        //NPC Dispositions
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "MisterQi": "adult/neutral/neutral/neutral/male/not-datable/null/Desert/winter 27//Custom_MrQiReal_MrQiRoom 20 4/{{i18n:MrQi.name}}"
+            }
+        },
+        //Characters
+        {
+            "Action": "EditImage",
+            "Target": "Characters/MrQi",
+            "FromFile": "Assets/Characters/MrQi.png",
+        },
+        //Gift Tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "MisterQi": "Love Reaction Placeholder./207 232 233 400/Like Reaction Placeholder./-5 -79 422/Dislike Reaction Placeholder./80 330/Hate Reaction Placeholder./2/Neutral Reaction Placeholder./-4/"
+            }
+        },
+        //Dialogue
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "Entries": {
+                "Mon": "PLACEHOLDER",
+                "Tue": "PLACEHOLDER",
+                "Wed": "PLACEHOLDER",
+                "Thu": "PLACEHOLDER",
+                "Fri": "PLACEHOLDER",
+                "Sat": "PLACEHOLDER",
+                "Sun": "PLACEHOLDER",
+                "QiNutRoom_Mon": "PLACEHOLDER",
+                "QiNutRoom_Tue": "PLACEHOLDER",
+                "QiNutRoom_Wed": "PLACEHOLDER",
+                "QiNutRoom_Thu": "PLACEHOLDER",
+                "QiNutRoom_Fri": "PLACEHOLDER",
+                "QiNutRoom_Sat": "PLACEHOLDER",
+                "QiNutRoom_Sun": "PLACEHOLDER"
+            }
+        },
+        //Schedule
+        {
+            "Action": "Load",
+            "Target": "Characters/Schedules/Mister Qi",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Schedules/Mister Qi",
+            "Entries": {
+                "spring": "0 QiNutRoom 5 2 1/1920 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1"
+            }
+        },
+        //Animation Descriptions
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "mrqi_staring": "20/20/20"
+            }
+        }
+    ]
+}

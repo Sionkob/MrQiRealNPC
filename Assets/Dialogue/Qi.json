@@ -1,0 +1,79 @@
+{
+    //Mister Qi's Dialogue
+    "Changes": [
+        //Before Being Romanceable
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Qi",
+            "Entries": {
+                //Introduction (after enter in Club for the first time)
+                "MrQiAndClubIntroduction": "{{i18n:MrQi.MrQiAndClubIntroduction|NameOrKid={{NameOrKid}}}}",
+
+                //Spring
+                "Spring_1": "{{i18n:MrQi.Dialogue.Spring_1}}",
+                "Spring_12": "{{i18n:MrQi.Dialogue.Spring_12}}",
+                "Spring_23": "{{i18n:MrQi.Dialogue.Spring_23|NameOrKid={{NameOrKid}}}}",
+                "Spring_28": "{{i18n:MrQi.Dialogue.Spring_28}}",
+
+                //Summer
+                "Summer_1": "{{i18n:MrQi.Dialogue.Summer_1|NameOrKid={{NameOrKid}}}}",
+                "Summer_10": "{{i18n:MrQi.Dialogue.Summer_10}}",
+                "Summer_27": "{{i18n:MrQi.Dialogue.Summer_27}}",
+                
+                //Fall
+                "Fall_1": "{{i18n:MrQi.Dialogue.Fall_1}}",
+                "Fall_15": "{{i18n:MrQi.Dialogue.Fall_15}}",
+                "Fall_26": "{{i18n:MrQi.Dialogue.Fall_26}}",
+
+                //Winter
+                "Winter_1": "{{i18n:MrQi.Dialogue.Winter_1}}",
+                "Winter_7": "{{i18n:MrQi.Dialogue.Winter_7}}",
+                "Winter_15": "{{i18n:MrQi.Dialogue.Winter_15}}",
+                "Winter_24": "{{i18n:MrQi.Dialogue.Winter_24|NameOrKid={{NameOrKid}}}}",
+                "Winter_27": "{{i18n:MrQi.Dialogue.Winter_27}}",
+                
+                //Days Of Week
+               
+                //0 Hearts
+                "Mon": "{{i18n:MrQi.Dialogue.Mon}}",
+                "Tue": "{{i18n:MrQi.Dialogue.Tue|NameOrKid={{NameOrKid}}}}",
+                "Wed": "{{i18n:MrQi.Dialogue.Wed}}",
+                "Thu": "{{i18n:MrQi.Dialogue.Thu}}",
+                "Fri": "{{i18n:MrQi.Dialogue.Fri}}",
+                "Sat": "{{i18n:MrQi.Dialogue.Sat}}",
+                "Sun": "{{i18n:MrQi.Dialogue.Sun|NameOrKid={{NameOrKid}}}}",
+
+                //2 Hearts
+                "Mon2": "{{i18n:MrQi.Dialogue.Mon2|NameOrKid={{NameOrKid}}}}",
+                "Tue2": "{{i18n:MrQi.Dialogue.Tue2|NameOrKid={{NameOrKid}}}}",
+                "Wed2": "{{i18n:MrQi.Dialogue.Wed2}}",
+                "Thu2": "{{i18n:MrQi.Dialogue.Thu2}}",
+                "Fri2": "{{i18n:MrQi.Dialogue.Fri2|NameOrKid={{NameOrKid}}}}",
+                "Sat2": "{{i18n:MrQi.Dialogue.Sat2|NameOrKid={{NameOrKid}}}}",
+                "Sun2": "{{i18n:MrQi.Dialogue.Sun2}}",
+
+                //4 Hearts
+                "Mon4": "{{i18n:MrQi.Dialogue.Mon4|NameOrKid={{NameOrKid}}}}",
+                "Tue4": "{{i18n:MrQi.Dialogue.Tue4}}",
+                "Wed4": "{{i18n:MrQi.Dialogue.Wed4|NameOrKid={{NameOrKid}}}}",
+                "Thu4": "{{i18n:MrQi.Dialogue.Thu4}}",
+                "Fri4": "{{i18n:MrQi.Dialogue.Fri4}}",
+                "Sat4": "{{i18n:MrQi.Dialogue.Sat4|NameOrKid={{NameOrKid}}}}",
+                "Sun4": "{{i18n:MrQi.Dialogue.Sun4|NameOrKid={{NameOrKid}}}}",
+
+                //6 Hearts
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Qi",
+            "Entries": {
+                //Translates the Dwarvish text in Saturday's 4 hearts dialogue if the player has the Dwarvish Translation Guide in their wallet
+                "Sat4": "{{i18n:MrQi.Dialogue.Sat4.HasDwarvishGuide}}",
+            },
+            "When": {
+                "HasWalletItem": "DwarvishTranslationGuide"
+            }
+        }
+    ]
+}

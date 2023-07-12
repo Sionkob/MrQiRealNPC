@@ -1,0 +1,48 @@
+{
+    //Events
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Club",
+            "Entries": {
+                //Mr. Qi & Club Introduction
+                "16724000": "WizardSong/8 7/farmer 1000 1000 0 Qi 17 9 1/emote Qi 12/pause 300/speak Qi \"{{i18n:Event-16724000.01}}\"/message \"{{i18n:Event-16724000.02}}\"/message \"{{i18n:Event-16724000.03}}\"/speak Qi \"{{i18n:Event-16724000.04}}\"/message \"{{i18n:Event-16724000.05}}\"/speak Qi \"{{i18n:Event-16724000.06}}\"/message \"{{i18n:Event-16724000.07}}\"/emote Qi 12/speak Qi \"{{i18n:Event-16724000.08}}\"/faceDirection Qi 2 true/pause 100/faceDirection Qi 3/move Qi -9 0 3 true/pause 4000/warp farmer 8 12/pause 200/emote farmer 8/faceDirection Qi 2/emote Qi 16/speak Qi \"{{i18n:Event-16724000.09}}\"/move farmer 0 -1 0/speak Qi \"{{i18n:Event-16724000.10}}\"/emote farmer 8/speak Qi \"{{i18n:Event-16724000.11|NameOrKid={{NameOrKid}}}}\"/faceDirection Qi 3 true/pause 100/faceDirection Qi 0/move Qi 0 -5 0/move farmer 0 -2 0/pause 100/emote farmer 8/pause 300/faceDirection Qi 1 true/pause 100/faceDirection Qi 2/speak Qi \"{{i18n:Event-16724000.12}}\"/pause 200/message \"{{i18n:Event-16724000.13}}\"/faceDirection farmer 1/emote farmer 40/message \"{{i18n:Event-16724000.14}}\"/speak Qi \"{{i18n:Event-16724000.15}}\"/faceDirection Qi 3 true/pause 100/faceDirection Qi 0/showFrame Qi 20/stopMusic/addConversationTopic MrQiAndClubIntroduction 1/globalFade/viewPort -1000 -1000/pause 100/message \"{{i18n:Event-16724000.16}}\"/end",
+            },
+            "When": {
+                "HasWalletItem": "ClubCard"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/SkullCave",
+            "Entries": {
+                //The Revealed Secret
+                "16724001": "Upper_Ambient/5 5/farmer 1000 1000 0 Qi 1000 1000 0/pause 1000/playSound doorClose/warp farmer 3 4/move farmer 2 0 2/move farmer 0 1 1/warp Qi 7 9/move Qi 0 -2 0 true/move farmer 2 0 2 true/pause 1000/emote farmer 16/pause 200/speak Qi \"{{i18n:Event-16724001.01|NameOrKid={{NameOrKid}}}}\"/speak Qi \"{{i18n:Event-16724001.02|NameOrKid={{NameOrKid}}}}\"/emote farmer 8/pause 400/message \"{{i18n:Event-16724001.03}}\"/speak Qi \"{{i18n:Event-16724001.04}}\"/pause 500/emote farmer 28/pause 300/move Qi 0 -1 0/message \"{{i18n:Event-16724001.05}}\"/pause 400/question fork0 \"{{i18n:event.16724001.06}}#{{i18n:Event-16724001.07}}#{{i18n:Event-16724001.08}}\"/fork KeptSecret/switchEvent GossipFarmer",
+
+                "KeptSecret": "pause 300/emote Qi 32/speak Qi \"{{i18n:Event-16724001.KeptSecret.01|NameOrKid={{NameOrKid}}}}\"/emote farmer 40/message \"{{i18n:Event-16724001.KeptSecret.02}}\"/pause 400/speak Qi \"{{i18n:Event-16724001.KeptSecret.03|NameOrKid={{NameOrKid}}}}\"/emote farmer 28/move Qi -1 0 0/move Qi 0 -1 1/faceDirection farmer 3/speak Qi \"{{i18n:Event-16724001.KeptSecret.04}}\"/emote farmer 32/faceDirection farmer 2/move farmer 0 3 2/warp farmer -1000 1000/move Qi 1 0 2/speak Qi \"{{i18n:Event-16724001.KeptSecret.05}}\"/pause 200/stopMusic/globalFade/viewPort -1000 -1000/pause 300/message \"{{i18n:Event-16724001.KeptSecret.06}}\"/end position 3 4",
+
+                "GossipFarmer": "resetVariable/pause 300/speak Qi \"{{i18n:Event-16724001.GossipFarmer.01|NameOrKid={{NameOrKid}}}}\"/emote farmer 40/pause 200/globalFade/viewPort -1000 -1000/stopMusic/pause 200/message \"{{i18n:Event-16724001.GossipFarmer.02}}\"/pause 500/fade/viewPort 5 5/pause 300/emote Qi 32/speak Qi \"{{i18n:Event-16724001.GossipFarmer.03|NameOrKid={{NameOrKid}}}}\"/pause 500/globalFade/viewPort -1000 1000/pause 100/message \"{{i18n:Event-16724001.GossipFarmer.04}}\"/message \"{{i18n:Event-16724001.GossipFarmer.05}}\"/end position 3 4"
+            },
+            "When": {
+                "HasFlag": "QiCave"
+            },
+				"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Club",
+            "Entries": {
+                //Gambler's Advice (Mister Qi's 2 Hearts Event)
+                "16724002/f Qi 500": "clubloop/25 7/farmer 24 9 2 Qi 1000 1000 0/skippable/pause 1200/message \"{{i18n:Event-16724002.01}}\"/emote farmer 12/pause 200/message \"{{i18n:Event-16724002.02}}\"/emote farmer 16/globalFade/viewPort -1000 1000/message \"{{i18n:Event-16724002.03}}\"/fade/viewPort 25 7/emote farmer 16/warp Qi 34 13/move Qi 0 -5 3 true/message \"{{i18n:Event-16724002.04}}\"/emote farmer 12/emote Qi 8/move Qi -9 0 2/speak Qi \"{{i18n:Event-16724002.05}}\"/faceDirection farmer 0/emote farmer 16/message \"{{i18n:Event-16724002.06}}\"/emote Qi 40/speak Qi \"{{i18n:Event-16724002.07|NameOrKid={{NameOrKid}}}}\"/move farmer 0 -1 1/move Qi 5 0 1 true/move farmer 4 0 1 true/globalFade/viewPort -1000 1000/pause 500/warp farmer 1000 1000/warp Qi 1000 1000/changeLocation Custom_MrQiReal_QiRoom/warp farmer 1 0/faceDirection farmer 2/warp Qi 1 1/faceDirection Qi 2/fade/viewPort 6 6/playMusic WizardSong/pause 1000/faceDirection Qi 3 true/pause 100/faceDirection Qi 0/speak Qi \"{{i18n:Event-16724002.08}}\"/faceDirection Qi 1 true/pause 100/faceDirection Qi 2/move Qi 0 1 2/doAction 1 3/move Qi 0 4 2/pause 100/faceDirection Qi 3 true/pause 100/faceDirection Qi 0/speak Qi \"{{i18n:Event-16724002.09|NameOrKid={{NameOrKid}}}}\"/move farmer 0 5 2/faceDirection farmer 1/emote farmer 16/speak Qi \"{{i18n:Event-16724002.10}}\"/globalFade/viewPort -1000 -1000/warp farmer 5 9/faceDirection farmer 1/warp Qi 6 9/faceDirection Qi 3/fade/viewPort 8 6/pause 900/emote Qi 40/pause 200/question null \"{{i18n:Event-16724002.11}}#{{i18n:Event-16724002.12}}#{{i18n:Event-16724002.13}}\"/speak Qi \"{{i18n:Event-16724002.14|NameOrKid={{NameOrKid}}}}\"/emote farmer 12/message \"{{i18n:Event-16724002.15}}\"/speak Qi \"{{i18n:Event-16724002.16}}\"/message \"{{i18n:Event-16724002.17}}\"/speak Qi \"{{i18n:Event-16724002.18|NameOrKid={{NameOrKid}}}}\"/emote farmer 28/message \"{{i18n:Event-16724002.19}}\"/speak Qi \"{{i18n:Event-16724002.20|NameOrKid={{NameOrKid}}}}\"/emote farmer 40/faceDirection farmer 0/faceDirection Qi 0/speak Qi \"{{i18n:Event-16724002.21}}\"/move farmer -2 0 2/move farmer 0 2 1/move Qi -3 0 2/pause 300/faceDirection farmer 0/emote farmer 8/speak Qi \"{{i18n:Event-16724002.22}}\"/faceDirection farmer 1/emote farmer 40/speak Qi \"{{i18n:Event-16724002.23}}\"/pause 200/move farmer 1 0 1/move Qi 0 2 1/move farmer 4 0 1 true/move Qi 4 0 1 true/stopMusic/globalFade/warp farmer 1000 1000/warp Qi 1000 1000/viewPort -1000 1000/message \"{{i18n:Event-16724002.24}}\"/pause 1000/changeLocation Club/warp Qi 25 11/faceDirection Qi 3/fade/viewPort 25 7/playMusic clubloop/pause 500/emote Qi 40/speak Qi \"{{i18n:Event-16724002.25}}\"/message \"{{i18n:Event-16724002.26}}\"/speak Qi \"{{i18n:Event-16724002.27}}\"/message \"{{i18n:Event-16724002.28}}\"/speak Qi \"{{i18n:Event-16724002.29}}\"/pause 200/end dialogue Qi \"{{i18n:Event-16724002.30|NameOrKid={{NameOrKid}}}}\"",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/SandyHouse",
+            "Entries": {
+                //A Shared Secret (Mister Qi's 4 Hearts Event)
+                "16724003/f Qi 1000/t 900 2100": "distantBanjo/6 6/farmer 1000 1000 0 Sandy 3 7 1 Qi 4 7 3/skippable/pause 1200/speak Qi \"{{i18n:Event-16724003.01}}\"/shake Qi 200/playSound pickUpItem/shake Sandy 200/pause 200/speak Sandy \"{{i18n:Event-16724003.02}}\"/emote Qi 12/speak Qi \"{{i18n:Event-16724003.03}}\"/emote Sandy 40/speak Sandy \"{{i18n:Event-16724003.04}}\"/playSound doorClose/warp farmer 4 9/emote farmer 8/faceDirection Sandy 2 true/faceDirection Qi 2/speak Sandy \"{{i18n:Event-16724003.05}}\"/move farmer 0 -1 0/emote Sandy 40/speak Sandy \"{{i18n:Event-16724003.06}}\"/speak Qi \"{{i18n:Event-16724003.07}}\"/faceDirection Sandy 1 true/emote Sandy 16/speak Sandy \"{{i18n:Event-16724003.08}}\"/faceDirection Qi 3/speak Qi \"{{i18n:Event-16724003.09}}\"/emote Sandy 36/faceDirection Sandy 2 true/faceDirection Qi 2/emote farmer 8/speak Qi \"{{i18n:Event-16724003.10|NameOrKid={{NameOrKid}}}}\"/speak Sandy \"{{i18n:Event-16724003.11}}\"/emote farmer 40/speak Qi \"{{i18n:Event-16724003.12}}\"/faceDirection Qi 3/speak Qi \"{{i18n:Event-16724003.13}}\"/faceDirection Sandy 1/speak Sandy \"{{i18n:Event-16724003.14}}\"/emote Qi 40/speak Qi \"{{i18n:Event-16724003.15}}\"/move Qi 0 -2 1/move Qi 4 0 0/move Qi 0 -1 1/move Qi 9 0 0/move Qi 0 -2 0/warp Qi 1000 1000/pause 200/emote Sandy 40/speak Sandy \"{{i18n:Event-16724003.16}}\"/move Sandy 1 0 2/speak Sandy \"{{i18n:Event-16724003.17}}\"/stopMusic/globalFade/viewPort -1000 -1000/message \"{{i18n:Event-16724003.18}}\"/end dialogue Qi \"{{i18n:Event-16724003.19}}\"",
+            }
+        },
+    ]
+}
