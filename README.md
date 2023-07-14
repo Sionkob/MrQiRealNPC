@@ -53,14 +53,12 @@ This setting allows you to change the way Mr. Qi will refer to you in some dialo
 This mod adds 2 new maps to the game: Mr. Qi's room and a small laboratory.
 
 ### Mr. Qi's room map:
-
-<img src="https://i.ibb.co/MkNDV9K/QiRoom.png" width="710" height="355">
+> ![QiRoom](https://github.com/Sionkob/MrQiRealNPC/assets/135146475/50b72d08-9915-4ff7-8b88-aad040267e2e)
 
 Mr. Qi's room can be accessed through a corridor in the Casino.
 
 ### Lab map:
-
-<img src="https://i.ibb.co/5BtmWhk/QiLab.png" width="694" height="336">
+> ![QiLab](https://github.com/Sionkob/MrQiRealNPC/assets/135146475/893a2c2e-0f97-4b30-981c-9545d42ee1da)
 
 The entrance to Mr. Qi's laboratory is at the door in the center of the small hallway in his room. The laboratory can only be accessed when the player has 6 hearts or more with Mr. Qi. If the player doesn't have enough hearts, the entrance to Mr. Qi's laboratory will be closed with an invisible wall that prevents the player from passing through.
 
