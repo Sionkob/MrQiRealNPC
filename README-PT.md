@@ -44,14 +44,12 @@ Essa configuração permite que você mude a forma que o Sr. Qi irá se referir 
 Este mod adiciona 2 novos mapas ao jogo: O quarto do Sr. Qi e um pequeno laboratório.
 
 ### Mapa do quarto do Sr. Qi:
-
-<img src="https://i.ibb.co/MkNDV9K/QiRoom.png" width="710" height="355">
+> ![QiRoom](https://github.com/Sionkob/MrQiRealNPC/assets/135146475/50b72d08-9915-4ff7-8b88-aad040267e2e)
 
 O quarto do Sr. Qi pode ser acessado por um corredor no Cassino.
 
 ### Mapa do laboratório:
-
-<img src="https://i.ibb.co/5BtmWhk/QiLab.png" width="694" height="336">
+> ![QiLab](https://github.com/Sionkob/MrQiRealNPC/assets/135146475/893a2c2e-0f97-4b30-981c-9545d42ee1da)
 
 A entrada para o laboratório do Sr. Qi fica na porta no centro do pequeno corredor no quarto dele. O laboratório só pode ser acessado quando o jogador tiver 6 corações ou mais com o Sr. Qi. Se o jogador não tiver corações o suficiente, a entrada para o laboratório do Sr. Qi estará fechada com uma parede invisível que impede a passagem do jogador.
 
