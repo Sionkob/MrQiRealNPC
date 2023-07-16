@@ -54,7 +54,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "Qi": "{{i18n:MrQi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/66 128 220 226 276 611 904/{{i18n:MrQi.GiftReactions.Like}}/-5 -75 -79 16 245 246/{{i18n:MrQi.GiftReactions.Dislike}}/330/{{i18n:MrQi.GiftReactions.Hate}}/2/{{i18n:MrQi.GiftReactions.Neutral}}/-4/"
+                "Qi": "{{i18n:MrQi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/773 107 205 243 151 578 910/{{i18n:MrQi.GiftReactions.Like}}/211 162 798 218 903/{{i18n:MrQi.GiftReactions.Dislike}}/-7 -26/{{i18n:MrQi.GiftReactions.Hate}}/729 253 395 348 346 303/{{i18n:MrQi.GiftReactions.Neutral}}/-4 -12 -2/"
             }
         },
         //Dialogue
