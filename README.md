@@ -32,7 +32,6 @@ As the mod is updated, more functions will be added, removed, or modified.
 # What does not work/is not 100% ready?
 Currently there are a few things that are not complete yet, I will finish them as soon as possible:
 - The schedules are incomplete, there is only the Spring schedule.
-- Gift tastes are not yet defined. At the moment they are the same as Abigail's gift tastes with a few changes.
 - Mr. Qi doesn't appear in any festivals.
 - You cannot invite him to watch a movie
 - The 6, 8 and 10 heart dialogs are missing.
