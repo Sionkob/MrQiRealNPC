@@ -23,7 +23,6 @@ Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou m
 # O que não funciona/não está 100% pronto?
 Atualmente existem algumas coisas que não estão completas por enquanto, eu irei terminá-las o mais rápido possível:
 - Os horários estão incompletos, só há o horário para a Primavera.
-- Os gostos de presentes ainda não estão definidos. No momento são os mesmos gostos de presentes de Abigail com poucas alterações.
 - Sr. Qi não aparece em nenhum festival.
 - Não é possível convidá-lo para assistir um filme.
 - Faltam os diálogos de 6, 8 e 10 corações.
