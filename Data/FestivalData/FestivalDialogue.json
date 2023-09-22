@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        //Mister Qi's Festival Dialogues
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "When": {
+                "HasSeenEvent": "16724000"
+            },
+            "Entries": {
+                "Qi": "{{i18n:FestivalDialogue.Qi.{{TargetWithoutPath}}|NameOrKid={{NameOrKid}}}}"
+            }
+        }
+    ]
+}

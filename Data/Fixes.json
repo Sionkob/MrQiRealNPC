@@ -5,14 +5,14 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "MisterQi": "adult/neutral/neutral/neutral/male/not-datable/null/Desert/winter 27//Custom_MrQiReal_MrQiRoom 20 4/{{i18n:MrQi.name}}"
+                "MisterQi": "adult/neutral/neutral/neutral/male/not-datable/null/Desert/winter 27//Custom_MrQiReal_QiRoom 20 4/{{i18n:Qi.name}}"
             }
         },
         //Characters
         {
             "Action": "EditImage",
             "Target": "Characters/MrQi",
-            "FromFile": "Assets/Characters/MrQi.png",
+            "FromFile": "Assets/Characters/Qi.png",
         },
         //Gift Tastes
         {
@@ -58,7 +58,21 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/Mister Qi",
             "Entries": {
-                "spring": "0 QiNutRoom 5 2 1/1920 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1"
+                "spring": "0 QiNutRoom 5 2 1/2020 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1",
+                "summer": "0 QiNutRoom 5 2 1/2020 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1",
+                "fall": "0 QiNutRoom 5 2 1/2020 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1",
+                "winter": "0 QiNutRoom 5 2 1/2020 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Schedules/Mister Qi",
+            "Entries": {
+                "winter_28": "0 QiNutRoom 5 2 1",
+                "winter_17": "0 QiNutRoom 5 2 1"
+            },
+            "When": {
+                "HasSeenEvent": "16724004"
             }
         },
         //Animation Descriptions

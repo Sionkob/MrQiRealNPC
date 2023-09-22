@@ -14,25 +14,17 @@ To install the mod, just copy it to your game's Mods folder. To uninstall it, ju
 # What is currently working?
 The mod is under development and some things are not completed yet, but some things are already working, for example:
 - Mr. Qi is recognized as a giftable NPC by the game.
-- There are new dialogues up to 4 hearts.
-- There are 4 events ready, 2 of them are heart events.
+- There are new dialogues up to 6 hearts.
+- There are 5 events ready, 3 of them are heart events.
 - 2 new maps have been added.
-
-As the mod is updated, more functions will be added, removed, or modified.
-
-# What is currently working?
-The mod is under development and some things are not completed yet, but some things are already working, for example:
-- Mr. Qi is recognized as a giftable NPC by the game.
-- There are new dialogues up to 4 hearts.
-- There are 4 events ready, 2 of them are heart events.
-- 2 new maps have been added.
+- Mr. Qi appears at every vanilla festival when you meet him.
+- The schedules have been modified (but still incomplete).
 
 As the mod is updated, more functions will be added, removed, or modified.
 
 # What does not work/is not 100% ready?
 Currently there are a few things that are not complete yet, I will finish them as soon as possible:
-- The schedules are incomplete, there is only the Spring schedule.
-- Mr. Qi doesn't appear in any festivals.
+- The schedules are incomplete.
 - You cannot invite him to watch a movie
 - The 6, 8 and 10 heart dialogs are missing.
 - The 6, 8 and 10 heart events are missing.
@@ -76,12 +68,85 @@ Having 2 hearts with Mr. Qi, enter the [Casino](https://stardewvalleywiki.com/Ca
 #### Event #4
 Having 4 hearts with Mr. Qi, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 9PM
 
+#### Event #5
+Having 6 hearts with Mr. Qi, entre the Mr. Qi Room between 5PM and 8:50PM.
+
 ## Schedules
-Currently there is only the Spring schedule, which applies to all seasons.
+Mr. Qi's current schedule is as follows:
 
-Mr. Qi leaves his room at 7am and stays in the casino until noon, afterwards he goes into his laboratory and stays there until midnight, when he goes to sleep. Between 7pm and midnight, if you enter the [Nut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) you will find him looking at the screen in front of him. You won't get friendship points by interacting with him when he's in the Nut Room, and there are no dialogues set for him when he's there either.
+##### Spring
 
-It can be difficult to get friendship points with him at first because he spends a lot of time in the lab, which is inaccessible to the player until you have 6 hearts with him. He also spends little time in the Casino, one of the few times you can talk to him. I'll improve this schedule and add new times for weekdays and other seasons.
+| Time     | Location                                                                                                                                                   |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                                                                                                               |
+| 7:00 AM  | In the [Casino](https://stardewvalleywiki.com/Casino).                                                                                                     |
+| 4:00 PM  | In the Laboratory.                                                                                                                                         |
+| 6:00 PM  | Still in the Laboratory.                                                                                                                                   |
+| 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
+| 12:20 AM | Returns to the room to sleep.                                                                                                                              |
+
+##### Summer
+
+| Time     | Location                                                                                                                                                   |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                                                                                                               |
+| 7:00 AM  | In the [Casino](https://stardewvalleywiki.com/Casino).                                                                                                     |
+| 4:00 PM  | In the Laboratory.                                                                                                                                         |
+| 6:00 PM  | Still in the Laboratory.                                                                                                                                   |
+| 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
+| 12:20 AM | Returns to the room to sleep.                                                                                                                              |
+
+##### Fall
+
+| Time     | Location                                                                                                                                                   |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                                                                                                               |
+| 7:00 AM  | In the [Casino](https://stardewvalleywiki.com/Casino).                                                                                                     |
+| 1:00 PM  | In the [Desert](https://stardewvalleywiki.com/The_Desert), watching the Southern Pond.                                                                     |
+| 5:00 PM  | In the Laboratory.                                                                                                                                         |
+| 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
+| 12:20 AM | Returns to the room to sleep.                                                                                                                              |
+
+**Fall 15**
+
+| Time     | Location                                                                                                                                                   |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                                                                                                               |
+| 7:00 AM  | In the [Casino](https://stardewvalleywiki.com/Casino).                                                                                                     |
+| 4:00 PM  | In the Laboratory.                                                                                                                                         |
+| 6:00 PM  | Still in the Laboratory.                                                                                                                                   |
+| 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
+| 12:20 AM | Returns to the room to sleep.                                                                                                                              |
+
+##### Winter
+
+| Time     | Location                                                                                                                                                   |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                                                                                                               |
+| 7:00 AM  | In the [Casino](https://stardewvalleywiki.com/Casino).                                                                                                     |
+| 4:00 PM  | In the Laboratory.                                                                                                                                         |
+| 6:00 PM  | Still in the Laboratory.                                                                                                                                   |
+| 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
+| 12:20 AM | Returns to the room to sleep.                                                                                                                              |
+
+**Winter 17 (After seeing Mr. Qi's 6 heart event)**
+
+| Time    | Location                                                                                                                                       |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM | In his room.                                                                                                                                   |
+| 7:00 AM | In the [Casino](https://stardewvalleywiki.com/Casino).                                                                                         |
+| 3:00 PM | In the [Oasis](https://stardewvalleywiki.com/Oasis).                                                                                           |
+| 9:00 PM | Goes to the [Beach](https://stardewvalleywiki.com/The_Beach) to participate in the [Night Market](https://stardewvalleywiki.com/Night_Market). |
+
+**Winter 28 (After seeing Mr. Qi's 6 heart event)**
+
+| Time     | Location                                                                                                                                                  |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                                                                                                              |
+| 12:00 PM | Goes to the [Oasis](https://stardewvalleywiki.com/Oasis)                                                                                                  |
+| 6:00 PM  | Goes to the [Desert](https://stardewvalleywiki.com/The_Desert) and stands next to the bench at the [Oasis](https://stardewvalleywiki.com/Oasis) entrance. |
+| 8:00 PM  | Still in the [Desert](https://stardewvalleywiki.com/The_Desert), he stands in front of the bones of the Sand Dragon.                                      |
+| 11:00 PM | Goes to [Pelican Town](https://stardewvalleywiki.com/Pelican_Town) and stands in front of Mona's grave.                                                   |
 
 ## Gift Tastes
 Now Mr. Qi has his own gift tastes, see the table below:

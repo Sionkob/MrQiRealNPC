@@ -17,79 +17,117 @@
 
 	/* +++++|MISTER QI NAME TRANSLATION|+++++ */
 
-	"MrQi.name": "Sr. Qi",
+	"Qi.name": "Sr. Qi",
 
 	/* ++++++++++++++++++++++++++++++++++++++ */
 
 	/* +++++|GIFT REACTIONS|+++++ */
 
-	"MrQi.GiftReactions.Love": "Ei, obrigado pelo presente, {{NameOrKid}}! Será muito útil.",
-	"MrQi.GiftReactions.Like": "Muito obrigado por esse presente, eu gostei.",
-	"MrQi.GiftReactions.Dislike": "Ah, Ok. Obrigado, eu acho?",
-	"MrQi.GiftReactions.Hate": "O que você quer que eu faça com isso? Tenho cara de lixeira por acaso?",
-	"MrQi.GiftReactions.Neutral": "Obrigado pelo presente.",
+	"Qi.GiftReactions.Love": "Ei, obrigado pelo presente, {{NameOrKid}}! Será muito útil.",
+	"Qi.GiftReactions.Like": "Muito obrigado por esse presente, eu gostei.",
+	"Qi.GiftReactions.Dislike": "Ah, Ok. Obrigado, eu acho?",
+	"Qi.GiftReactions.Hate": "O que você quer que eu faça com isso? Tenho cara de lixeira por acaso?",
+	"Qi.GiftReactions.Neutral": "Obrigado pelo presente.",
 
 	/* ++++++++++++++++++++++++++ */
 
 	/* +++++|DIALOGUE|+++++ */
 
-	"MrQi.MrQiAndClubIntroduction": "Bem, eu sabia que você chegaria até este lugar algum dia.#$b#A partir de agora, você faz parte do meu clube, {{NameOrKid}}. Venha sempre que quiser passar um tempo.#$e#Só tome cuidado para não se viciar nesses jogos de azar, não quero lidar com esse tipo de problema.#$b#Já basta lidar com o alcoolismo de Welwick.$2",
+	//Introduction
+	"Qi.MrQiAndClubIntroduction": "Bem, eu sabia que você chegaria até este lugar algum dia.#$b#A partir de agora, você faz parte do meu clube, {{NameOrKid}}. Venha sempre que quiser passar um tempo.#$e#Só tome cuidado para não se viciar nesses jogos de azar, não quero lidar com esse tipo de problema.#$b#Já basta lidar com o alcoolismo de Welwick.$2",
 
 	//Spring
-	"MrQi.Dialogue.Spring_1": "Um novo ano acabou de começar, certamente isso significa algo pra você, certo?#$b#Para mim, isso significa que o trabalho está apenas começando, tenho muitas coisas a fazer.#$b#Então, se me der licença...",
-	"MrQi.Dialogue.Spring_12": "Sei que amanhã os aldeões do Vale irão fazer uma comemoração chamada \"Festival do Ovo\".#$b#Me pergunto porque eles comemoram isso, não existe nenhuma data especial neste dia.#$b#Mesmo assim, cada povo possui sua própria cultura, não posso julgá-los por isso.#$e#Não espere que eu esteja lá. E se eu estiver, terá que se esforçar para me encontrar no meio da multidão!",
-	"MrQi.Dialogue.Spring_23": "Amanhã será um dia movimentado para os aldeões, principalmente para os solteiros.#$b#O festival da Dança das Flores é um daqueles festivais onde as pessoas se humilham para poderem fazer parte da tradição.#$b#Espero que você já tenha um par para a dança, {{NameOrKid}}. E se não tiver, não fique incomodando as pessoas perguntando se elas querem dançar com você, é humilhante e vergonhoso.",
-	"MrQi.Dialogue.Spring_28": "O verão está chegando, a onda de calor será grande nessa época do ano.#$b#Então, se quiser, pode vir até o clube e aproveitar o ambiente climatizado.#$b#E quem sabe, se divertir um pouco nos jogos e ganhar uma grana?",
+	"Qi.Dialogue.spring_1": "Um novo ano acabou de começar, certamente isso significa algo pra você, certo?#$b#Para mim, isso significa que o trabalho está apenas começando, tenho muitas coisas a fazer.#$b#Então, se me der licença...",
+	"Qi.Dialogue.spring_12": "Sei que amanhã os aldeões do Vale irão fazer uma comemoração chamada \"Festival do Ovo\".#$b#Me pergunto porque eles comemoram isso, não existe nenhuma data especial neste dia.#$b#Mesmo assim, cada povo possui sua própria cultura, não posso julgá-los por isso.#$e#Não espere que eu esteja lá. E se eu estiver, terá que se esforçar para me encontrar no meio da multidão!",
+	"Qi.Dialogue.spring_23": "Amanhã será um dia movimentado para os aldeões, principalmente para os solteiros.#$b#O festival da Dança das Flores é um daqueles festivais onde as pessoas se humilham para poderem fazer parte da tradição.#$b#Espero que você já tenha um par para a dança, {{NameOrKid}}. E se não tiver, não fique incomodando as pessoas perguntando se elas querem dançar com você, é humilhante e vergonhoso.",
+	"Qi.Dialogue.spring_28": "O verão está chegando, a onda de calor será grande nessa época do ano.#$b#Então, se quiser, pode vir até o clube e aproveitar o ambiente climatizado.#$b#E quem sabe, se divertir um pouco nos jogos e ganhar uma grana?",
 
 	//Summer
-	"MrQi.Dialogue.Summer_1": "Espero que você tenha preparado a sua fazenda para essa nova estação, algumas colheitas são bastante lucrativas nessa época do ano.#$b#Eu posso dar algumas dicas sobre isso se você quiser.#$b#Enfim, bom verão para você, {{NameOrKid}}.",
-	"MrQi.Dialogue.Summer_10": "Amanhã será o dia do Luau, os aldeões juntam seus melhores ingredientes para fazer uma sopa para o governador experimentar...#$b#O governador confia tanto nas pessoas... Alguém poderia facilmente envenenar a sopa, é um pouco perigoso.#$b#Eu jamais provaria aquela sopa, por questões de higiene.",
-	"MrQi.Dialogue.Summer_27": "A migração das Medusas-da-Lua é um espetáculo e tanto para os aldeões, mas não para mim.#$b#Aqueles invertebrados são criaturas muito simples, elas apenas seguem o seu instinto e nadam por aí, não tem nada de incrível.#$b#Mas parece que a bioluminescência deixa os aldeões maravilhados, eles acham uma coisa tão simples quanto luzes um lindo espetáculo.#$b#A atenção deles fica voltada apenas para a luz emitida, são como mariposas sendo atraídas para uma lâmpada.",
+	"Qi.Dialogue.summer_1": "Espero que você tenha preparado a sua fazenda para essa nova estação, algumas colheitas são bastante lucrativas nessa época do ano.#$b#Eu posso dar algumas dicas sobre isso se você quiser.#$b#Enfim, bom verão para você, {{NameOrKid}}.",
+	"Qi.Dialogue.summer_10": "Amanhã será o dia do Luau, os aldeões juntam seus melhores ingredientes para fazer uma sopa para o governador experimentar...#$b#O governador confia tanto nas pessoas... Alguém poderia facilmente envenenar a sopa, é um pouco perigoso.#$b#Eu jamais provaria aquela sopa, por questões de higiene.",
+	"Qi.Dialogue.summer_27": "A migração das Medusas-da-Lua é um espetáculo e tanto para os aldeões, mas não para mim.#$b#Aqueles invertebrados são criaturas muito simples, elas apenas seguem o seu instinto e nadam por aí, não tem nada de incrível.#$b#Mas parece que a bioluminescência deixa os aldeões maravilhados, eles acham uma coisa tão simples quanto luzes um lindo espetáculo.#$b#A atenção deles fica voltada apenas para a luz emitida, são como mariposas sendo atraídas para uma lâmpada.",
 
 	//Fall
-	"MrQi.Dialogue.Fall_1": "Bem... O que dizer sobre o outono? É uma época de transição entre o verão e o inverno, é a estação em que as folhas caem no chão.#$b#Mas há lugares onde as diferenças entre essas estações não são tão notáveis assim. Em lugares tropicais, há pouca diferença entre as estações, elas podem ser facilmente confundidas.",
-	"MrQi.Dialogue.Fall_15": "Ah... a Feira do Vale do Orvalho, que festividade idiota e insignificante.#$b#Parece que as pessoas não têm o mínimo de esforço para atingir a excelência, sempre trazem produtos medíocres e esperam receber grandes pontos por fazerem o mínimo que se espera deles.$2#$b#Até mesmo o campeão apresenta produtos fracos e com pouco valor. Podem até serem variados, mas não adianta nada uma grande variedade de produtos se eles são comuns.#$b#Mas a culpa disso é do avaliador que não é criterioso o suficiente. Tenho certeza que se ele fosse mais rígido os participantes da feira se esforçariam muito mais para alcançarem o primeiro lugar.",
-	"MrQi.Dialogue.Fall_26": "A Véspera dos Espíritos é um bom festival, tem coisas interessantes para ver.#$b#Aquele homem da Guilda dos Aventureiros sempre traz alguns monstros para a exposição. Não é tão difícil fazer isso, mas é um risco que os aldeões geralmente não querem correr.",
+	"Qi.Dialogue.fall_1": "Bem... O que dizer sobre o outono? É uma época de transição entre o verão e o inverno, é a estação em que as folhas caem no chão.#$b#Mas há lugares onde as diferenças entre essas estações não são tão notáveis assim. Em lugares tropicais, há pouca diferença entre as estações, elas podem ser facilmente confundidas.",
+	"Qi.Dialogue.fall_15": "Ah... a Feira do Vale do Orvalho, que festividade idiota e insignificante.#$b#Parece que as pessoas não têm o mínimo de esforço para atingir a excelência, sempre trazem produtos medíocres e esperam receber grandes pontos por fazerem o mínimo que se espera deles.$2#$b#Até mesmo o campeão apresenta produtos fracos e com pouco valor. Podem até serem variados, mas não adianta nada uma grande variedade de produtos se eles são comuns.#$b#Mas a culpa disso é do avaliador que não é criterioso o suficiente. Tenho certeza que se ele fosse mais rígido os participantes da feira se esforçariam muito mais para alcançarem o primeiro lugar.",
+	"Qi.Dialogue.fall_26": "A Véspera dos Espíritos é um bom festival, tem coisas interessantes para ver.#$b#Aquele homem da Guilda dos Aventureiros sempre traz alguns monstros para a exposição. Não é tão difícil fazer isso, mas é um risco que os aldeões geralmente não querem correr.",
 
 	//Winter
-	"MrQi.Dialogue.Winter_1": "O inverno é uma boa época para relaxar, já que você não precisa cuidar de plantações.#$b#Mas também é uma época em que você pode focar em outras atividades. Você pode pescar, minerar e coletar itens.#$b#Mas se você não quer fazer nada disso, venha passar um tempo no cassino.",
-	"MrQi.Dialogue.Winter_7": "O Festival do Gelo, é tão... Sem graça.#$b#Algumas pessoas fazem esculturas de gelo, outras fazem bonecos de neve... São coisas tão monótonas, não há nada de interessante nisso.#$b#Mas sei que há uma competição de pesca, espero que você tenha uma boa habilidade com pesca se decidir participar.#$e#Você deve ter uma certa habilidade com isso, certo? Nunca entre em uma competição se não for para vencer.",
-	"MrQi.Dialogue.Winter_15": "Hoje é o primeiro dia do Mercado Noturno, tem muitas coisas interessantes que aqueles mercadores vendem. Coisas do meu interesse.",
-	"MrQi.Dialogue.Winter_24": "Olá, {{NameOrKid}}. Amanhã terá o Festival da Estrela Invernal, os aldeões farão a tradicional troca de presentes entre eles.#$b#Você já sabe o que irá entregar para seu amigo secreto?",
-	"MrQi.Dialogue.Winter_27": "Hoje eu vou ficar um tempo longe do cassino, é muito cansativo lidar com as pessoas daquele lugar...",
+	"Qi.Dialogue.winter_1": "O inverno é uma boa época para relaxar, já que você não precisa cuidar de plantações.#$b#Mas também é uma época em que você pode focar em outras atividades. Você pode pescar, minerar e coletar itens.#$b#Mas se você não quer fazer nada disso, venha passar um tempo no cassino.",
+	"Qi.Dialogue.winter_7": "O Festival do Gelo, é tão... Sem graça.#$b#Algumas pessoas fazem esculturas de gelo, outras fazem bonecos de neve... São coisas tão monótonas, não há nada de interessante nisso.#$b#Mas sei que há uma competição de pesca, espero que você tenha uma boa habilidade com pesca se decidir participar.#$e#Você deve ter uma certa habilidade com isso, certo? Nunca entre em uma competição se não for para vencer.",
+	"Qi.Dialogue.winter_17": "Hoje é o último dia do Mercado Noturno, tem muitas coisas interessantes que aqueles mercadores vendem. Coisas do meu interesse.",
+	"Qi.Dialogue.winter_24": "Olá, {{NameOrKid}}. Amanhã terá o Festival da Estrela Invernal, os aldeões farão a tradicional troca de presentes entre eles.#$b#Você já sabe o que irá entregar para seu amigo secreto?",
+	"Qi.Dialogue.winter_28": "Hoje eu vou ficar um tempo longe do cassino, é muito cansativo lidar com o pessoal de lá...",
 
 	//Days Of Week - 0 Hearts
-	"MrQi.Dialogue.Mon": "As segundas são dias muito movimentados, há muito trabalho para fazer.#$b#Pelo menos o clube não é tão movimentado durante o começo da semana.",
-	"MrQi.Dialogue.Tue": "Olá, {{NameOrKid}}. Precisa de alguma coisa?#$b#Se você tiver alguma dúvida, hesite em perguntar. Perguntar é a melhor maneira de aprender algo novo.",
-	"MrQi.Dialogue.Wed": "Sempre esteja atento aos mínimos detalhes. Explore os arredores com atenção.#$b#Há muitas coisas para descobrir neste lugar, algumas delas só podem ser descobertas por pessoas muito atentas.",
-	"MrQi.Dialogue.Thu": "Não conte a ninguém sobre o cassino, é um lugar exclusivo. Apenas pessoas da minha confiança podem entrar.#$b#Você deveria se sentir privilegiado de poder ter acesso a um lugar tão secreto quanto esse.^Você deveria se sentir privilegiada de poder ter acesso a um lugar tão secreto quanto esse.#$b#Você consegue manter isso em segredo, não é?.$2",
-	"MrQi.Dialogue.Fri": "O cassino é um ótimo lugar para passar o fim de semana, venha até o cassino sempre que quiser.#$b#Só não exagere na bebida, ou você ficará como Welwick.$2",
-	"MrQi.Dialogue.Sat": "Quer um conselho?#$b#Nunca deixe de buscar a perfeição.#$b#Não se contente com nada menos que a excelência em tudo o que faz.#$b#Confie em mim, ver o resultado de todo o seu trabalho é muito gratificante.",
-	"MrQi.Dialogue.Sun": "Olá, {{NameOrKid}}, como vai?#$e#Só dando um passeio? Entendo, esse lugar é muito agradável de se estar após passar horas no calor do deserto.#$b#Se você estiver livre, aproveite e jogue alguns jogos, sinto que você está com sorte hoje.",
+	"Qi.Dialogue.Mon": "As segundas são dias muito movimentados, há muito trabalho para fazer.#$b#Pelo menos o clube não é tão movimentado durante o começo da semana.",
+	"Qi.Dialogue.Tue": "Olá, {{NameOrKid}}. Precisa de alguma coisa?#$b#Se você tiver alguma dúvida, hesite em perguntar. Perguntar é a melhor maneira de aprender algo novo.",
+	"Qi.Dialogue.Wed": "Sempre esteja atento aos mínimos detalhes. Explore os arredores com atenção.#$b#Há muitas coisas para descobrir neste lugar, algumas delas só podem ser descobertas por pessoas muito atentas.",
+	"Qi.Dialogue.Thu": "Não conte a ninguém sobre o cassino, é um lugar exclusivo. Apenas pessoas da minha confiança podem entrar.#$b#Você deveria se sentir privilegiado de poder ter acesso a um lugar tão secreto quanto esse.^Você deveria se sentir privilegiada de poder ter acesso a um lugar tão secreto quanto esse.#$b#Você consegue manter isso em segredo, não é?.$2",
+	"Qi.Dialogue.Fri": "O cassino é um ótimo lugar para passar o fim de semana, venha até o cassino sempre que quiser.#$b#Só não exagere na bebida, ou você ficará como Welwick.$2",
+	"Qi.Dialogue.Sat": "Quer um conselho?#$b#Nunca deixe de buscar a perfeição.#$b#Não se contente com nada menos que a excelência em tudo o que faz.#$b#Confie em mim, ver o resultado de todo o seu trabalho é muito gratificante.",
+	"Qi.Dialogue.Sun": "Olá, {{NameOrKid}}, como vai?#$e#Só dando um passeio? Entendo, esse lugar é muito agradável de se estar após passar horas no calor do deserto.#$b#Se você estiver livre, aproveite e jogue alguns jogos, sinto que você está com sorte hoje.",
 
 	//Days Of Week - 2 Hearts
-	"MrQi.Dialogue.Mon2": "Olá, {{NameOrKid}}, como você está?#$b#Eu estou um pouco ocupado. Você sabe, tenho muitas coisas a fazer.#$b#Pode jogar alguns jogos do cassino, se quiser. Você é sempre bem-vindo aqui.^Pode jogar alguns jogos do cassino, se quiser. Você é sempre bem-vinda aqui.",
-	"MrQi.Dialogue.Tue2": "Você está tendo um bom progresso em sua fazenda, {{NameOrKid}}. Continue assim e você irá ainda mais longe.",
-	"MrQi.Dialogue.Wed2": "Aqui vai uma dica para quando você for minerar: Sempre leve comida junto com você quando entrar nas minas.#$b#Alimentos podem te ajudar a recuperar energia e assim você pode passar mais tempo minerando.",
-	"MrQi.Dialogue.Thu2": "Você já ouviu falar no Fragmento Prismático?#$b#É uma pedra que possui um brilho extremamente colorido, ninguém sabe ao certo a sua origem, ela é muito rara de ser encontrada.#$b#Lembro da primeira vez que eu vi um, o brilho dele era tão belo, era impressionante. Até cheguei a pensar que fosse radioativo dado todo o brilho, mas não é.#$b#Talvez algum dia você encontre um. Aqui vai dica: Você tem mais chances de encontrá-lo em níveis profundos da Caverna da Caveira.",
-	"MrQi.Dialogue.Fri2": "Sabe aquele cara vendendo a Estátua da Riqueza Eterna por 1 milhão de ouros?#$b#Ela é uma estátua muito útil de se ter em sua casa, além de ser uma ótima peça de decoração.#$b#Mas ela não é a única estátua útil que você obter, existem outras estátuas ainda mais úteis que ela.#$e#Quais são? Continue explorando esse mundo e em breve você descobrirá, {{NameOrKid}}.",
-	"MrQi.Dialogue.Sat2": "Como está indo o seu fim de semana até agora, {{NameOrKid}}?#$b#Sempre que você estiver entediado, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.^Sempre que você estiver entediada, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.",
-	"MrQi.Dialogue.Sun2": "Welwick disse que não iria beber demais hoje. Conhecendo ela, eu sei que ela não vai conseguir se controlar...$2#$b#Ela precisa de ajuda para superar esse problema com bebidas, mas não dá para fazer muita coisa quando a pessoa não quer ser ajudada.$2",
+	"Qi.Dialogue.Mon2": "Olá, {{NameOrKid}}, como você está?#$b#Eu estou um pouco ocupado. Você sabe, tenho muitas coisas a fazer.#$b#Pode jogar alguns jogos do cassino, se quiser. Você é sempre bem-vindo aqui.^Pode jogar alguns jogos do cassino, se quiser. Você é sempre bem-vinda aqui.",
+	"Qi.Dialogue.Tue2": "Você está tendo um bom progresso em sua fazenda, {{NameOrKid}}. Continue assim e você irá ainda mais longe.",
+	"Qi.Dialogue.Wed2": "Aqui vai uma dica para quando você for minerar: Sempre leve comida junto com você quando entrar nas minas.#$b#Alimentos podem te ajudar a recuperar energia e assim você pode passar mais tempo minerando.",
+	"Qi.Dialogue.Thu2": "Você já ouviu falar no Fragmento Prismático?#$b#É uma pedra que possui um brilho extremamente colorido, ninguém sabe ao certo a sua origem, ela é muito rara de ser encontrada.#$b#Lembro da primeira vez que eu vi um, o brilho dele era tão belo, era impressionante. Até cheguei a pensar que fosse radioativo dado todo o brilho, mas não é.#$b#Talvez algum dia você encontre um. Aqui vai dica: Você tem mais chances de encontrá-lo em níveis profundos da Caverna da Caveira.",
+	"Qi.Dialogue.Fri2": "Sabe aquele cara vendendo a Estátua da Riqueza Eterna por 1 milhão de ouros?#$b#Ela é uma estátua muito útil de se ter em sua casa, além de ser uma ótima peça de decoração.#$b#Mas ela não é a única estátua útil que você obter, existem outras estátuas ainda mais úteis que ela.#$e#Quais são? Continue explorando esse mundo e em breve você descobrirá, {{NameOrKid}}.",
+	"Qi.Dialogue.Sat2": "Como está indo o seu fim de semana até agora, {{NameOrKid}}?#$b#Sempre que você estiver entediado, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.^Sempre que você estiver entediada, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.",
+	"Qi.Dialogue.Sun2": "Welwick disse que não iria beber demais hoje. Conhecendo ela, eu sei que ela não vai conseguir se controlar...$2#$b#Ela precisa de ajuda para superar esse problema com bebidas, mas não dá para fazer muita coisa quando a pessoa não quer ser ajudada.$2",
 
 	//Days Of Week - 4 Hearts
-	"MrQi.Dialogue.Mon4": "Oi, {{NameOrKid}}. Espero que você esteja tendo um bom dia.#$b#Sempre que você quiser passar um tempo, venha se divertir no cassino.#$e#Se você encontrar alguém trapaceando, por favor me avise. Eu irei cuidar disso.",
-	"MrQi.Dialogue.Tue4": "A vendedora no andar de baixo é Sandy, ela faz parte do meu seleto grupo de 'amigos' do vale.#$b#Bem, amigos entre aspas, já que desde que nos conhecemos nunca trocamos mais que 5 palavras entre nós, ela só me vê no dia que recebe o pagamento dela.#$b#Ela não sabe muito sobre mim, e espero que nunca saiba.",
-	"MrQi.Dialogue.Wed4": "Você está praticando suas outras habilidades além da colheita, {{NameOrKid}}?#$b#Se quiser atingir a excelência, terá que ser bom em todas as suas habilidades, como dizem: A prática leva a perfeição.#$b#A vida só é divertida quando praticamos algo diferente e nos desafiamos para sempre superarmos nossas barreiras, não devemos aceitar ficarmos estagnados em um só lugar.",
-	"MrQi.Dialogue.Thu4": "Sandy sempre pede para entrar no Cassino, mas eu não permito ela entrar aqui, mesmo que eu a conheça e saiba que ela pode manter segredo.#$b#Eu não acho que ela seja o tipo de pessoa que possa ficar num cassino... Ela pode causar problemas com aquela personalidade dela.$2#$b#É preciso uma certa responsabilidade para entrar em um cassino, senão você pode... Bem, se viciar.$2",
-	"MrQi.Dialogue.Fri4": "Você já comprou alguma coisa com as moedas Qi que você ganha nos jogos do cassino? Dá para comprar muitos itens raros e úteis com elas.#$b#Aquele cara que fica próximo ao corredor que dá acesso a meu quarto vende alguns itens interessantes, você devia dar uma olhada, talvez haja algo do seu interesse.",
-	"MrQi.Dialogue.Sat4": "Existem muitos idiomas no mundo, cada um tem suas particularidades, alguns são mais difíceis de aprender do que outros.#$b#Um idioma que é mais difícil de se aprender é o idioma dos Anões, é necessário bastante estudo e convivência com os anões para aprender esse idioma.#$e#U tnota, ui sai hniunu usnu epeamo, ossem tama um mienas aintas epeamos. Ui sai hniunu um tonetomunu sionsiut epeamo siu xatì emoleot.#$b#Talvez algum dia você consiga compreender o que eu disse, {{NameOrKid}}.", //The Dwarvish text was made with the Dwarvish Translator by Kdau (https://www.kdau.com/dwarvish). I don't know how the Dwarvish works in the game when played in non-latin languages, but this translator can be used for 'translate' latin languages to Dwarvish.
-	"MrQi.Dialogue.Sat4.HasDwarvishGuide": "Existem muitos idiomas no mundo, cada um tem suas particularidades, alguns são mais difíceis de aprender do que outros.#$b#Um idioma que é mais difícil de se aprender é o idioma dos Anões, é necessário bastante estudo e convivência com os anões para aprender esse idioma.#$e#E claro, eu sou fluente neste idioma, assim como em muitos outros idiomas. Eu sou fluente em praticamente qualquer idioma que você imaginar.#$b#Oh, você conseguiu entender o que eu disse? Parabéns, significa que você está explorando esse mundo e descobrindo coisas novas, continue assim.", //The Dwarvish text will be translated when the player has the Dwarvish Translation Guide in their wallet.
-	"MrQi.Dialogue.Sun4": "Olá, {{NameOrKid}}, como está começando sua semana?#$b#Ou você considera o domingo como parte do fim de semana?#$b#De qualquer forma, tenha um bom domingo e, se quiser, venha jogar no cassino.",
+	"Qi.Dialogue.Mon4": "Oi, {{NameOrKid}}. Espero que você esteja tendo um bom dia.#$b#Sempre que você quiser passar um tempo, venha se divertir no cassino.#$e#Se você encontrar alguém trapaceando, por favor me avise. Eu irei cuidar disso.",
+	"Qi.Dialogue.Tue4": "A vendedora no andar de baixo é Sandy, ela faz parte do meu seleto grupo de 'amigos' do vale.#$b#Bem, amigos entre aspas, já que desde que nos conhecemos nunca trocamos mais que 5 palavras entre nós, ela só me vê no dia que recebe o pagamento dela.#$b#Ela não sabe muito sobre mim, e espero que nunca saiba.",
+	"Qi.Dialogue.Wed4": "Você está praticando suas outras habilidades além da colheita, {{NameOrKid}}?#$b#Se quiser atingir a excelência, terá que ser bom em todas as suas habilidades, como dizem: A prática leva a perfeição.#$b#A vida só é divertida quando praticamos algo diferente e nos desafiamos para sempre superarmos nossas barreiras, não devemos aceitar ficarmos estagnados em um só lugar.",
+	"Qi.Dialogue.Thu4": "Sandy sempre pede para entrar no Cassino, mas eu não permito ela entrar aqui, mesmo que eu a conheça e saiba que ela pode manter segredo.#$b#Eu não acho que ela seja o tipo de pessoa que possa ficar num cassino... Ela pode causar problemas com aquela personalidade dela.$2#$b#É preciso uma certa responsabilidade para entrar em um cassino, senão você pode... Bem, se viciar.$2",
+	"Qi.Dialogue.Fri4": "Você já comprou alguma coisa com as moedas Qi que você ganha nos jogos do cassino? Dá para comprar muitos itens raros e úteis com elas.#$b#Aquele cara que fica próximo ao corredor que dá acesso a meu quarto vende alguns itens interessantes, você devia dar uma olhada, talvez haja algo do seu interesse.",
+	"Qi.Dialogue.Sat4": "Existem muitos idiomas no mundo, cada um tem suas particularidades, alguns são mais difíceis de aprender do que outros.#$b#Um idioma que é mais difícil de se aprender é o idioma dos Anões, é necessário bastante estudo e convivência com os anões para aprender esse idioma.#$e#U tnota, ui sai hniunu usnu epeamo, ossem tama um mienas aintas epeamos. Ui sai hniunu um sionsiut epeamo siu xatì emoleot.#$b#Talvez algum dia você consiga compreender o que eu disse, {{NameOrKid}}.", //The Dwarvish text was made with the Dwarvish Translator by Kdau (https://www.kdau.com/dwarvish). I don't know how the Dwarvish works in the game when played in non-latin languages, but this translator can be used for 'translate' latin languages to Dwarvish.
+	"Qi.Dialogue.Sat4.HasDwarvishGuide": "Existem muitos idiomas no mundo, cada um tem suas particularidades, alguns são mais difíceis de aprender do que outros.#$b#Um idioma que é mais difícil de se aprender é o idioma dos Anões, é necessário bastante estudo e convivência com os anões para aprender esse idioma.#$e#E claro, eu sou fluente neste idioma, assim como em muitos outros idiomas. Eu sou fluente em qualquer idioma que você imaginar.#$b#Oh, você conseguiu entender o que eu disse? Parabéns, significa que você está explorando esse mundo e descobrindo coisas novas, continue assim.", //The Dwarvish text will be translated when the player has the Dwarvish Translation Guide in their wallet.
+	"Qi.Dialogue.Sun4": "Olá, {{NameOrKid}}, como está começando sua semana?#$b#Ou você considera o domingo como parte do fim de semana?#$b#De qualquer forma, tenha um bom domingo e, se quiser, venha jogar no cassino.",
 
 	//Days Of Week - 6 Hearts
-
+	"Qi.Dialogue.Mon6": "Olá, {{NameOrKid}}. Como vai? Precisa de algo?#$b#Se você precisar de mim para alguma coisa, você já sabe onde me encontrar.",
+	"Qi.Dialogue.Tue6": "Ser um conhecido de alguém como eu é um privilégio, e não estou tentando me gabar.#$b#Eu tenho um vasto conhecimento sobre muitas coisas, se você precisar tirar alguma dúvida, certamente terei a resposta.#$b#Mas eu não quero que você se aproveite da minha sabedoria, eu odeio amizades por interesse.$2",
+	"Qi.Dialogue.Wed6": "Você já viu um Junimo, não é mesmo?#$b#Eles são espíritos misteriosos que vivem escondidos nas matas, o objetivo deles é proteger esses lugares de possíveis perigos.#$b#Eles são inofensivos para os humanos, inclusive podem ser usados para benefício próprio. Você pode construir uma Cabana Junimo em sua fazenda e eles irão colher suas plantações por você.",
+	"Qi.Dialogue.Thu6": "Parece que você vem até o deserto com frequência, não é mesmo, {{NameOrKid}}?#$b#Espero que você esteja usando algum totem de teletransporte ao invés de ter que gastar 500 ouros a cada viagem.#$e#Já viu aquelas estátuas estranhas que ficam em alguns locais do vale? Elas são pontos de teletransporte, se você tiver o totem correspondente você pode se teletransportar entre os lugares do vale mais rapidamente.#$b#Você pode criar esses totens de teletransporte se você aprender a constuí-los, ou você também pode comprar alguns no meu cassino.",
+	"Qi.Dialogue.Fri6": "Ei, {{NameOrKid}}, eu estou fazendo alguns experimentos e preciso de uma cobaia, quer arriscar?#$b#Não é nada muito perigoso, talvez você só fique com algumas dores de cabeça, fique tranquilo.^Não é nada muito perigoso, talvez você só fique com algumas dores de cabeça, fique tranquila.#$e#É claro que eu estou brincando, {{NameOrKid}}. Eu jamais arrisco a vida de pessoas em meus experimentos, ainda mais a sua.#$b#Você precisa estar saudável para poder trabalhar em sua fazenda, não é mesmo?",
+	"Qi.Dialogue.Sat6": "Posso dizer uma coisa, {{NameOrKid}}?#$b#Aquelas coisas que estão no meu quarto são puramente decorativas, é apenas para não deixar tanto espaço vazio, sabe?#$b#Não costumo usá-las com frequência, nem me lembro a última vez que liguei aquele sistema de som, ele é muito alto e eu odeio coisas barulhentas demais.",
+	"Qi.Dialogue.Sun6": "Para algumas pessoas os domingos são chatos, mas para mim não.#$b#Os domingos são dias para tentar fazer algo novo.#$b#Por que você não passa um tempo jogando no cassino quando você terminar seu trabalho? Você merece uma pausa depois de trabalhar o dia todo em sua fazenda.",
 	
+	//Days Of Week - 8 Hearts
+
+
 	/* ++++++++++++++++++++ */
+
+	/* +++++|FESTIVAL DIALOGUES|+++++ */
+
+	//Egg Festival
+	"FestivalDialogue.Qi.spring13": "Ah, então você me encontrou, não é mesmo, {{NameOrKid}}?#$b#Eu disse que não seria fácil de me encontrar neste festival, mas você se esforçou pra conseguir me encontrar, parabéns.#$b#Espero que você tenha o mesmo esforço para procurar os ovos escondidos, se você quiser participar da caça aos ovos.#$b#A garota de cabelos roxos já ganhou por vários anos seguidos, tente superá-la.",
+
+	//Flower Dance
+	"FestivalDialogue.Qi.spring24": "Este festival é muito bobo, mas eu entendo o apelo que ele tem.#$b#Espero que você já tenha um par para dançar {{NameOrKid}}. Receber vários \"Nãos\" seguidos é humilhante.",
+
+	//Luau
+	"FestivalDialogue.Qi.summer11": "Esse festival é movimentado demais. Não é um problema, é que é muito mais difícil encontrar um lugar com menos pessoas por perto.#$b#Eu preciso passar despercebido para as outras pessoas.#$e#Pelo menos aqui é um pouco mais distante de toda a festa.",
+
+	//Dance of the Moonlight Jellies
+	"FestivalDialogue.Qi.summer28": "Boa noite, {{NameOrKid}}. Eu só vim aqui para observar o movimento.#$b#É muito engraçado ver os aldeões maravilhados com esses animais, eles ficam impressionados com coisas tão bobas.",
+
+	//Stardew Valley Fair
+	"FestivalDialogue.Qi.fall16": "Olá, {{NameOrKid}}. Você irá fazer uma exposição da sua fazenda, certo?#$b#Se sim, espero que você tenha trago o melhor do melhor dos produtos que sua fazenda têm a oferecer.#$b#Talvez assim os outros competidores se esforcem mais no ano que vem. Antes de todos virem até aqui, eu já estava observando os competidores organizando suas exposições. Apenas produtos fracos e sem variedade.",
+
+	//Spirit's Eve
+	"FestivalDialogue.Qi.fall27": "Este labirinto é fácil demais, Rasmodeu poderia fazer algo mais difícil, algo que fosse diferente...#$e#Sinta-se a vontade para pegar o prêmio, ele não é importante para mim. Só estou aqui por ser um lugar mais isolado.",
+
+	//Festival of Ice
+	"FestivalDialogue.Qi.winter8": "Que festival entediante.$2#$b#Enfim, espero que você seja bom com pesca se decidir participar da competição de pesca no gelo.^Enfim, espero que você seja boa com pesca se decidir participar da competição de pesca no gelo.",
+
+	//Feast of the Winter Star
+	"FestivalDialogue.Qi.winter25": "Boas festas, {{NameOrKid}}.",
+
+	/* ++++++++++++++++++++++++++++++ */
 
 	/* +++++|STRINGS|+++++ */
 
@@ -102,11 +140,21 @@
 	"MapString.QiRoom.6": "Todas as portas deste guarda-roupa estão trancadas, você só conseguirá abri-las com uma chave.",
 	"MapString.QiRoom.7": "'A Magia das Pedras', por George Clarence.",
 	"MapString.QiRoom.8": "'Astronomia para iniciantes', por Autor Desconhecido.",
-	"MapString.QiRoom.9": "Você não pode entrar aí.",
+	//"MapString.QiRoom.9": "Você não pode entrar aí.",
 	"MapString.QiLab.1": "Parece que esta fruta foi deixada aí para apodrecer. Está escura e está saindo uma gosma roxa, eca! Melhor não tocar nisso.",
 	"MapString.QiLab.2": "Parece alguma criatura estranha... Essa coisa está se mexendo ou é impressão minha???",
-	"MapString.QiLab.3": "Você descobriu uma passagem secreta no laboratório do Sr. Qi. Você não deveria estar aqui... Saia antes que ele perceba.",
+	"MapString.QiLab.3": "Você descobriu uma passagem secreta no laboratório do Sr. Qi, ela leva até um cofre, que está fechado. Você não deveria estar aqui... Saia antes que ele perceba.",
 	"MapString.QiLab.4": "Tem alguns documentos aí dentro, nada muito interessante.",
+	"MapString.QiLab.5": "Escrito com uma caligrafia cursiva elegante.^ Tempero Qi: Realça o sabor de qualquer alimento, contudo não pode ser usado em excesso.^ Ingredientes:^ - Líquido de Fruta-Estrela apodrecida;^ - Fragmento Prismático triturado;^ - Minério Radioativo triturado (em poucas quantidades);^ - Regulador de acidez.^NOTA: Necessário produzir uma variante não radioativa.^ Há uma nota atrás da folha escita com uma caligrafia diferente.    ^ \"Tempero Qi\"? Sério, Azulão? É um bom nome, mas você poderia escolher um nome diferente, que tal \"Tempero Galáctico\" ou \"Tempero Estrela\"?",
+	"MapString.QiLab.6": "Este pote de Gosma prismática brilha tanto, é muito bonito!",
+	"MapString.QiLab.7": "O Sr. Qi disse que ele coloca minério radioativo nesse recipiente, é melhor não abrir.",
+	"MapString.QiLab.8": "Tem alguns documentos guardados aí, não parece nada muito interessante.",
+	"MapString.QiLab.9": "Parece que esse computador está analisando alguns dados, infelizmente você não entende as informações que aparecem na tela do computador.",
+	"MapString.QiLab.10": "Um frasco com um pó com uma cor levemente roxa, tem uma etiqueta colada nele, está escrito \"Tempero Qi\".",
+
+	//Schedule Strings
+	"ScheduleStrings.Qi.Winter28": "Eu sinto tanto a sua falta...$3",
+	"ScheduleStrings.Qi.BeachMarket": "Estou apenas observando o movimento, preciso que a maioria dos aldeões vá embora antes de ir comprar o que quero.",
 
 	/* +++++++++++++++++++ */
 
@@ -122,7 +170,7 @@
 	"Event-16724000.07": "Welwick começa a vomitar.",
 	"Event-16724000.08": "Não!$2#$b#Ah, esquece. Faça o que você quiser...$2",
 	"Event-16724000.09": "Ah, então você veio até aqui, não é mesmo?",
-	"Event-16724000.10": "Você seguiu as instruções que eu mandei e encontrou este lugar, estou surpreso.#$b#Pessoas comuns não seguiriam ordens vindas de cartas enviadas por um estranho.#$b#Sua curiosidade falou mais alto, não é mesmo, @?",
+	"Event-16724000.10": "Você seguiu as instruções que eu mandei e encontrou este lugar, estou surpreso.#$b#Pessoas comuns não seguiriam ordens de bilhetes deixados por um estranho em determinados lugares.#$b#Sua curiosidade falou mais alto, não é mesmo, @?",
 	"Event-16724000.11": "Como eu sei o seu nome? Bem, eu sei de tudo que acontece no Vale, inclusive a sua chegada.#$b#De qualquer forma, bem-vindo à meu cassino, {{NameOrKid}}. Pode vir aqui sempre que você quiser.^De qualquer forma, bem-vinda à meu cassino, {{NameOrKid}}. Pode vir aqui sempre que você quiser.",
 	"Event-16724000.12": "Qual é o meu nome? Pode me chamar de Senhor Qi.",
 	"Event-16724000.13": "Welwick: Bleargh!",
@@ -132,7 +180,7 @@
 
 	//The Revealed Secret
 	"Event-16724001.01": "Olá novamente, {{NameOrKid}}.",
-	"Event-16724001.02": "Ha, vejo que sua exploração na Caverna da Caveira foi bem proveitosa.#$b#Eu sabia que você era diferente, você é bem corajoso, {{NameOrKid}}.^Eu sabia que você era diferente, você é muito corajosa, {{NameOrKid}}.#$b#Você realmente mereceu aquela recompensa por toda a sua bravura, explorar um lugar como a Caverna da Caveira não é pra qualquer um.",
+	"Event-16724001.02": "He he, vejo que sua exploração na Caverna da Caveira foi bem proveitosa.#$b#Eu sabia que você era diferente, você é bem corajoso, {{NameOrKid}}.^Eu sabia que você era diferente, você é muito corajosa, {{NameOrKid}}.#$b#Você realmente mereceu aquela recompensa por toda a sua bravura, explorar um lugar como a Caverna da Caveira não é pra qualquer um.",
 	"Event-16724001.03": "Como você chegou aqui tão rápido? O que foi aquilo?!",
 	"Event-16724001.04": "Bem, é sobre isso que eu quero falar com você.#$b#Como você pôde ver, eu sou diferente dos outros aldeões que você conhece, sei de coisas que eles não sabem, e faço coisas que eles não fazem.#$b#As coisas que eu sei e faço podem colocar a minha vida e a vida dos outros aldeões em risco, eu preciso manter tudo isso em segredo, pela segurança de todos.#$b#Portanto, eu não posso simplesmente deixar você ir embora e correr o risco de você contar o que viu.$2",
 	"Event-16724001.05": "Sr. Qi se aproxima de você.",
@@ -141,19 +189,19 @@
 	"Event-16724001.08": "O que acontece se eu disser não?",
 
 	//Kept Secret
-	"Event-16724001.KeptSecret.01": "Ótimo, {{NameOrKid}}. Eu realmente não quero colocar a vida de ninguém em risco, preciso manter isso em segredo.",
-	"Event-16724001.KeptSecret.02": "Eu guardo seu segredo, mas você ainda não disse o que foi aquilo que aconteceu lá na Caverna da Caveira.",
-	"Event-16724001.KeptSecret.03": "Eu não posso falar sobre isso agora, nós dois estamos muito ocupados, talvez em outro momento eu fale mais sobre isso, quando nós dois tivermos tempo.#$b#A única coisa que posso dizer é que o que aconteceu lá na Caverna da Caveira é apenas a ponta do iceberg, {{NameOrKid}}.",
-	"Event-16724001.KeptSecret.04": "Bem, já que você irá guardar meu segredo eu vou te dar um item como agradecimento.#$b#Tome, é uma Barra de Irídio, isso pode ser útil para você atualizar suas ferramentas ou construir algumas máquinas.[337]#$b#E lembre-se, o que aconteceu lá na Caverna da Caveira é segredo, não conte a ninguém.$2",
-	"Event-16724001.KeptSecret.05": "Espero que ele realmente guarde esse segredo. Ficarei de olho, por precaução.$2^Espero que ela realmente guarde esse segredo. Ficarei de olho, por precaução.$2",
-	"Event-16724001.KeptSecret.06": "Isso foi um pouco assustador, mas eu irei cumprir a minha palavra e guardar segredo. Mas definitivamente esse cara me deve explicações.",
+	"Event-16724001-KeptSecret.01": "Ótimo, {{NameOrKid}}. Eu realmente não quero colocar a vida de ninguém em risco, preciso manter isso em segredo.",
+	"Event-16724001-KeptSecret.02": "Eu guardo seu segredo, mas você ainda não disse o que foi aquilo que aconteceu lá na Caverna da Caveira.",
+	"Event-16724001-KeptSecret.03": "Eu não posso falar sobre isso agora, nós dois estamos muito ocupados, talvez em outro momento eu fale mais sobre isso, quando nós dois tivermos tempo.#$b#A única coisa que posso dizer é que o que aconteceu lá na Caverna da Caveira é apenas a ponta do iceberg, {{NameOrKid}}.",
+	"Event-16724001-KeptSecret.04": "Bem, já que você irá guardar meu segredo eu vou te dar um item como agradecimento.#$b#Tome, é uma Barra de Irídio, isso pode ser útil para você atualizar suas ferramentas ou construir algumas máquinas.[337]#$b#E lembre-se, o que aconteceu lá na Caverna da Caveira é segredo, não conte a ninguém.$2",
+	"Event-16724001-KeptSecret.05": "Espero que ele realmente guarde esse segredo. Ficarei de olho, por precaução.$2^Espero que ela realmente guarde esse segredo. Ficarei de olho, por precaução.$2",
+	"Event-16724001-KeptSecret.06": "Isso foi um pouco assustador, mas eu irei cumprir a minha palavra e guardar segredo. Mas definitivamente esse cara me deve explicações.",
 
 	//Gossip Farmer
-	"Event-16724001.GossipFarmer.01": "Se você contar isso para alguém, nós teremos grandes problemas.$2#$b#Eu escondo isso das pessoas a mais tempo do que você imagina, {{NameOrKid}}.$2#$b#Eu não vou deixar alguém como você estragar tudo!$2#$b#Por favor, vamos resolver isso de forma pacífica. Nós estamos perdendo tempo discutindo sobre isso, você tem muitas outras coisas para fazer e eu também.$2#$b#Eu não estou pedindo nada absurdo, eu apenas estou pedindo que você guarde um segredo.$2",
-	"Event-16724001.GossipFarmer.02": "Com muita hesitação, você aceita guardar o segredo do Sr. Qi.",
-	"Event-16724001.GossipFarmer.03": "Muito obrigado por aceitar guardar esse segredo, {{NameOrKid}}. É realmente importante que ninguém saiba disso.#$b#Talvez em algum outro momento eu explique tudo pra você, mas por enquanto, apenas não fale nada sobre o que viu para ninguém, ok?$2",
-	"Event-16724001.GossipFarmer.04": "Eu aceitei guardar o segredo do Sr. Qi. Não faço ideia do porquê ele está tão preocupado que esse segredo seja revelado.",
-	"Event-16724001.GossipFarmer.05": "Espero que ele possa me explicar isso em algum momento.",
+	"Event-16724001-GossipFarmer.01": "Se você contar isso para alguém, nós teremos grandes problemas.$2#$b#Eu escondo isso das pessoas a mais tempo do que você imagina, {{NameOrKid}}.$2#$b#Eu não vou deixar alguém como você estragar tudo!$2#$b#Por favor, vamos resolver isso de forma pacífica. Nós estamos perdendo tempo discutindo sobre isso, você tem muitas outras coisas para fazer e eu também.$2#$b#Eu não estou pedindo nada absurdo, eu apenas estou pedindo que você guarde um segredo.$2",
+	"Event-16724001-GossipFarmer.02": "Com muita hesitação, você aceita guardar o segredo do Sr. Qi.",
+	"Event-16724001-GossipFarmer.03": "Muito obrigado por aceitar guardar esse segredo, {{NameOrKid}}. É realmente importante que ninguém saiba disso.#$b#Talvez em algum outro momento eu explique tudo pra você, mas por enquanto, apenas não fale nada sobre o que viu para ninguém, ok?$2",
+	"Event-16724001-GossipFarmer.04": "Eu aceitei guardar o segredo do Sr. Qi. Não faço ideia do porquê ele está tão preocupado que esse segredo seja revelado.",
+	"Event-16724001-GossipFarmer.05": "Espero que ele possa me explicar isso em algum momento.",
 
 	//Gambler's Advice (Mister Qi's 2 Hearts Event)
 	"Event-16724002.01": "Cara do Calico Vinte-e-um: Você perdeu de novo.",
@@ -170,7 +218,7 @@
 	"Event-16724002.12": "Eu estava jogando Calico Vinte-e-um e perdi todas as vezes, gastei várias moedas Qi e perdi tudo! Aquele cara estava trapaceando.",
 	"Event-16724002.13": "Eu estava tentando conseguir moedas Qi o suficiente para comprar uma coisa, então decidi apostar no Calico Vinte-e-um. Então aquele cara começou a jogar sujo e me fez perder tudo! Não podia deixar isso acontecer!",
 	"Event-16724002.14": "Eu entendo a sua raiva, {{NameOrKid}}. É revoltante perder tudo em uma aposta, mas é assim que apostas funcionam, tudo depende da sua sorte.",
-	"Event-16724002.15": "Eu sei que jogos de azar dependem de sorte, mas não é possível alguém ter tanta sorte! Aquele cara sempre acertava, além de estar com um olhar suspeito. Ele claramente trapaceou!",
+	"Event-16724002.15": "Eu sei que apostar depende da sorte, mas não é possível alguém ter tanta sorte! Aquele cara sempre acertava, além de estar com um olhar suspeito. Ele claramente trapaceou!",
 	"Event-16724002.16": "Entendo, talvez ele realmente estivesse trapaceando...#$b#Mas você realmente achou que acusá-lo de trapaça iria ajudar em algo? Ele jamais iria admitir!$2",
 	"Event-16724002.17": "É que isso é tão injusto, ele estava roubando todas as minhas moedas Qi! E se ele fizer isso com outros apostadores?",
 	"Event-16724002.18": "O senso de justiça das pessoas é relativo, {{NameOrKid}}. As ações que você toma e que considera justas podem ser justas para você, mas injustas para os outros...$2#$b#Ás vezes precisamos aceitar as coisas do jeito que são, e não do jeito que queríamos que fosse...$2#$b#Da próxima vez que você jogar e perceber algo suspeito, simplesmente pare de jogar. Os trapaceiros costumam insistir para que você continue apostando mais alto, e se eles perceberem que você notou o truque, eles param.#$b#Não se deixe levar pelo prêmio, sempre esteja atento aos movimentos do adversário e saia assim que perceber que começaram a jogar sujo.",
@@ -191,7 +239,7 @@
 	"Event-16724003.01": "Aqui está o seu pagamento desse mês, Sandy.",
 	"Event-16724003.02": "Muito obrigada, Azulão!$h#$b#Quero dizer, Senhor Qi...",
 	"Event-16724003.03": "Quantas vezes eu já disse para você não me chamar de Azulão? Você sabe que eu não gosto desse apelido...$2",
-	"Event-16724003.04": "Sim, eu sei que você não gosta desse apelido, ele não traz boas lembranças pra você... Me desculpe.$s",
+	"Event-16724003.04": "Desculpa, é força do hábito, haha.$h#$b#Sim, eu sei que você não gosta desse apelido, ele não traz boas lembranças pra você... Sinto muito mesmo.$s",
 	"Event-16724003.05": "Ah! @! Bem-vindo...^Ah! @! Bem-vinda...",
 	"Event-16724003.06": "E-eu posso explicar...",
 	"Event-16724003.07": "Olá, @. O que você está fazendo aqui?",
@@ -207,6 +255,67 @@
 	"Event-16724003.17": "Enfim, o que você está fazendo aqui, @?",
 	"Event-16724003.18": "Eu não sabia que Sandy conhecia o Sr. Qi, isso foi uma descoberta interessante, mas por que ele insiste tanto em guardar segredos? O que ele esconde?",
 	"Event-16724003.19": "Me desculpe por ter saído daquele jeito, mas eu realmente estou ocupado, espero que entenda.#$b#E já que você já sabe que Sandy me conhece, dá pra ficar de olho nela por mim? Ela é meio... enérgica.$2#$b#Ela pode acabar falando o que não deve...$2",
+
+	//The Mr.Qi's Lab (Mister Qi's 6 Hearts Event)
+	"Event-16724004.01": "Sr. Qi entrou na sala.",
+	"Event-16724004.02": "O Sr. Qi disse que você não podia passar por esta porta...",
+	"Event-16724004.03": "Mesmo sabendo que não deveria, você decide entrar na sala.",
+	"Event-16724004.04": "@! O que raios você está fazendo aqui?$2#$b#Eu disse que você não podia entrar aqui!$2#$b#Eu falei em algum idioma estranho por acaso?$2",
+	"Event-16724004.05": "Falar algo para você é como falar com uma parede...$2#$b#Parece até a minha... minha...$2",
+	"Event-16724004.06": "Esquece, você só não deveria estar aqui... Tem coisas que você não deveria saber.#$b#Mas parece que você não consegue conter sua curiosidade, não é mesmo?$2",
+	"Event-16724004.07": "Me desculpe, Sr. Qi. Eu não irei entrar mais aqui sem pedir permissão.",
+	"Event-16724004.08": "Sinto muito. Mas esse lugar parece... Interessante.",
+	"Event-16724004.09": "Tudo bem, {{NameOrKid}}. Espero que você não faça isso novamente, é muito infantil.#$b#Mas como você já está aqui, pode dar uma olhada mais de perto neste lugar, eu sei que você está curioso.^Mas como você já está aqui,  pode dar uma olhada mais de perto neste lugar, eu sei que você está curiosa.",
+	"Event-16724004.10": "Ei, o que é isso? Por que brilha tanto?",
+	"Event-16724004.11": "Ah, é um pote de Gosma Prismática. É uma secreção proveniente de gosmas homônimas.#$b#As gosmas prismáticas não são comuns, quando elas aparecem, você deve matá-las para obter a Gosma Prismática.#$b#Você pode adivinhar pelo nome que ela brilha porque tem Fragmentos Prismáticos em sua composição, e você estaria certo. Gosmas prismáticas têm vestígios de Fragmento Prismático, o que dá a elas um efeito colorido e brilhante.",
+	"Event-16724004.12": "Isso é uma Fruta-Estrela, uma fruta que só existe no Vale do Orvalho, mas que é muito rara de ser encontrada.#$b#Um aspecto interessante dessa fruta é a alta concentração de radiação que ela contém. É uma radiação capaz de alterar temporariamente suas papilas gustativas. Isso faz com que a experiência de comer essa fruta seja única para cada pessoa.#$b#Devido à alta quantidade de radiação na fruta, não é uma boa ideia comer muitas delas.",
+	"Event-16274004.13": "Você olha para a fruta com mais atenção.#Está um pouco escura e tem uma gosma roxa escorrendo dela.",
+	"Event-16724004.14": "O que você vai fazer?",
+	"Event-16724004.15": "Perguntar porque a fruta está escura e escorrendo uma gosma.",
+	"Event-16724004.16": "Tentar tocar na fruta.",
+
+	//Farmer asks why the fruit is dark and oozing a goo
+	"Event-16724004-farmerAsk.01": "Bem, ela está apodrecendo.#$b#Quando a Fruta-Estrela começa a apodrecer, ela escurece e uma gosma roxa começa a sair de dentro dela.#$b#Essa gosma é extremamente ácida e é responsável por fazer a decomposição da fruta. A Fruta-Estrela é tão radioativa que qualquer inseto que tente depositar larvas nela, morre.#$b#Então a fruta se decompõe sozinha. É por isso que não cheira mal quando apodrece, não há nenhuma bactéria ou fungo se alimentando dela, é apenas a própria fruta se corroendo até não sobrar mais nada.",
+	"Event-16724004-farmerAsk.02": "Sim, é meio nojento, mas ao mesmo tempo é interessante.",
+
+	//Farmer try to touch on the fruit
+	"Event-16724004-touchFruit.01": "Você tenta tocar a fruta, mas o Sr. Qi segura seu braço antes de você fazer isso.",
+	"Event-16724004-touchFruit.02": "Ei! O que você está fazendo? Está querendo se machucar?$2",
+	"Event-16724004-touchFruit.03": "Essa fruta está apodrecendo, não está vendo esse líquido roxo escorrendo nela?$2#$b#Esse líquido é ácido, se você tocar nele você pode ter uma queimadura grave.$2",
+	"Event-16724004-touchFruit.04": "*Suspiro* Além de não conseguir seguir uma simples ordem, você não tem nenhuma noção de perigo... Como você está de pé hoje com um instinto de sobrevivência tão terrível?$2#$b#Como você pôde pensar em encostar em uma fruta que está apodrecendo sem nem ao menos usar algum equipamento de proteção?$2#$b#Você poderia ter se machucado gravemente com essa atitude, {{NameOrKid}}.$2",
+
+	//Continue the event
+	"Event-16724004-continue.01": "Enfim, já estamos tempo demais aqui. O que mais você quer ver neste lugar?",
+	"Event-16724004-continue.02": "O que é essa coisa, Sr. Qi? Ela está se mexendo!",
+	"Event-16724004-continue.03": "É uma criatura misteriosa que veio de algum lugar do espaço. Basicamente um alienígena.",
+	"Event-16724004-continue.04": "Então eles são reais? Como ele veio parar aqui?",
+	"Event-16724004-continue.05": "Sim, os alienígenas existem.#$b#Ou você realmente achava que éramos os únicos seres inteligentes do universo?#$b#Essa criatura veio parar na Terra por acidente e começou a perambular pelo Vale do Orvalho.#$b#Então, para evitar problemas, eu a capturei e a mantive aqui desde então.",
+	"Event-16724004-continue.06": "Nossa, Sr. Qi, isso é incrível! Mas não é perigoso? E se ela escapar?",
+	"Event-16724004-continue.07": "Eu apenas impedi que problemas maiores ocorressem.#$b#Imagine o que poderia acontecer se alguém visse essa criatura andando por aí?",
+	"Event-16724004-continue.08": "E sim, eu sei que é um pouco perigoso manter essa criatura aqui, mas ela está muito debilitada, mesmo que ela escapasse não conseguiria ir muito longe.#$b#Então eu estou apenas tentando dar a ela um ambiente adequado para que ela possa viver minimamente bem.",
+	"Event-16724004-continue.09": "Aliás, essa criatura ainda tem um pouco de consciência, veja só.",
+	"Event-16724004-continue.10": "Sr. Qi coloca a mão no vidro, a criatura se move lentamente e também coloca a mão vidro.",
+	"Event-16724004-continue.11": "Quando vi aquela criatura tentando segurar a mão do Sr. Qi quando ele colocou a mão no vidro, fiquei com muito medo!#O Sr. Qi me garantiu que ela não faz nada além do que isso, mas ainda me assustou!",
+	"Event-16724004-continue.12": "Após me tranquilizar, Sr. Qi continuou apresentando o laboratório dele.",
+	"Event-16724004-continue.13": "Eu deixo algumas coisas importantes nessa bancada.#$b#Você pode dar uma olhada em algumas coisas dela, {{NameOrKid}}.",
+	"Event-16724004-continue.14": "Você observa a bancada do laboratório do Sr. Qi e você vê um pote de metal com uma tampa lacrada.#Tem uma etiqueta colada escrito \"Não abra sem equipamento de proteção\".",
+	"Event-16724004-continue.15": "Tem minério radioativo dentro desse recipiente, Por isso ele está lacrado.",
+	"Event-16724004-continue.16": "Não se preocupe, não é altamente radioativo.#$b#Mas é melhor evitar se expor desnecessariamente.",
+	"Event-16724004-continue.17": "É uma folha de papel com algo escrito com uma caligrafia elegante, você pega a folha para ler o que está escrito.#Está escrito: 'Tempero Qi: Realça o sabor de qualquer alimento, contudo não pode ser usado em excesso. ^ Ingredientes: ^ - Líquido de Fruta-Estrela apodrecida; ^ - Fragmento Prismático triturado; ^ - Minério Radioativo triturado (em poucas quantidades); ^ - Regulador de acidez. ^ NOTA: Necessário produzir uma variante não radioativa.'",
+	"Event-16724004-continue.18": "Isso é um papel com ingredientes para preparar um tempero que eu fiz há algum tempo atrás.#$b#Como você leu, ele se chama 'Tempero Qi'. Uma pitada dese tempero faz com que qualquer comida feita com ele seja digna de estar em um restaurante cinco estrelas.#$b#Mas como ele tem ingredientes radioativos, não é recomendado usá-lo em altas quantidades.$2#$b#Tentei descobrir uma alternativa que não fosse radioativa, mas infelizmente o princípio ativo desse tempero está no líquido da Fruta-Estrela, que é radioativo...#$b#Porque você acha que eu tenho uma Fruta-Estrela apodrecendo bem alí?",
+	"Event-16724004-continue.19": "Você coloca a folha de papel de volta no lugar, mas percebe que há algo escrito atrás da folha.",
+	"Event-16724004-continue.20": "Você vira a folha e vê o que está escrito.#É uma caligrafia diferente, Está escrito: '\"Tempero Qi\"? Sério, Azulão? É um bom nome, mas você poderia escolher um nome diferente, que tal \"Tempero Galáctico\" ou \"Tempero Estrela\"?'",
+	"Event-16724004-continue.21": "O quê? Tem algo escrito atrás da folha?#$b#Deixe-me ver.",
+	"Event-16724004-continue.22": "Sr. Qi lê o que está escrito, ele olha para o papel sem esboçar nenhuma reação.",
+	"Event-16724004-continue.23": "Hein? Sim, eu estou bem... Não se preocupe com isso, deve ser só uma anotação boba que eu fiz e acabei me esquecendo...",
+	"Event-16724004-continue.24": "Enfim, acho que eu já apresentei o suficiente desse lugar para você...#$b#Você pode pode se retirar, por favor? Tenho muito trabalho a fazer.",
+	"Event-16724004-continue.25": "Mas já? Ainda tem tantas coisas para ver aqui!",
+	"Event-16724004-continue.26": "Você pode ver essas coisas em outra hora, {{NameOrKid}}.#$b#A partir de agora você pode entrar aqui quando você quiser. Afinal, você já sabe o que tem aqui, então não há motivo para eu esconder isso de você.#$b#Eu apenas quero que você não conte sobre esse lugar para mais ninguém, entendeu?$2",
+	"Event-16724004-continue.27": "Agora, por favor, vá embora. Preciso continuar o meu trabalho.",
+	"Event-16724004-continue.28": "Ainda tinha algumas coisas que eu queria ver... Pelo menos o Sr. Qi permitiu que eu entrasse no laboratório dele quando eu quisesse.",
+	"Event-16724004-continue.29": "Me pergunto porque ele agiu daquela forma quando viu aquela anotação no papel?",
+	"Event-16724004-continue.30": "*suspiro*",
+	"Event-16724004-continue.31": "'Tempero Galáctico'...#$b#Você era muito criativa...$3",
 
 	/* ++++++++++++++++++ */
 }

@@ -14,19 +14,20 @@ Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinst
 # O que está funcionando atualmente?
 O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas algumas coisas já estão funcionando, por exemplo:
 - Sr. Qi é reconhecido como um NPC presenteável pelo jogo.
-- Existem novos diálogos até 4 corações.
-- Existem 4 eventos prontos, sendo 2 deles eventos de coração.
+- Existem novos diálogos até 6 corações.
+- Existem 5 eventos prontos, sendo 3 deles eventos de coração.
 - 2 novos mapas foram adicionados.
+- Sr. Qi aparece em todos os festivais vanilla quando você o conhece.
+- Os horários foram modificados (mas ainda estão incompletos).
 
 Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou modificadas.
 
 # O que não funciona/não está 100% pronto?
 Atualmente existem algumas coisas que não estão completas por enquanto, eu irei terminá-las o mais rápido possível:
-- Os horários estão incompletos, só há o horário para a Primavera.
-- Sr. Qi não aparece em nenhum festival.
+- Os horários estão incompletos.
 - Não é possível convidá-lo para assistir um filme.
-- Faltam os diálogos de 6, 8 e 10 corações.
-- Faltam os eventos de 6, 8 e 10 corações.
+- Faltam os diálogos de 8 e 10 corações.
+- Faltam os eventos de 8 e 10 corações.
 
 Nos meus testes, não há nada que não esteja funcionando, apenas há alguns recursos incompletos que serão completos conforme as atualizações. Se você tiver alguma sugestão ou encontrar algum bug, sinta-se a vontade para comentar na página de [posts](https://www.nexusmods.com/stardewvalley/mods/16724?tab=posts) no Nexus Mods.
 
@@ -67,12 +68,85 @@ Tendo 2 corações com Sr. Qi, entre no [Cassino](https://pt.stardewvalleywiki.c
 #### Evento #4
 Tendo 4 corações com Sr. Qi, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 09h e 21h.
 
+#### Evento #5
+Tendo 6 corações com Sr. Qi, entre no Quarto do Sr. Qi entre 17h e 20h50.
+
 ## Horários
-Atualmente há apenas o horário para a Primavera, que é aplicado a todas as estações.
+Atualmente os horários do Sr. Qi são os seguintes:
 
-Sr. Qi sai do seu quarto as 7h e fica no cassino até o meio-dia, após isso ele entra no seu laboratório e fica lá até a meia-noite, quando vai dormir. Entre as 19h e a meia-noite, se você entrar na [Sala de Nozes](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi) você o encontrará observando o telão à sua frente. Você não conseguirá pontos de amizade interagindo com ele quando ele estiver na Sala de Nozes, e também não há diálogos definidos para ele quando ele estiver lá.
+##### Primavera
 
-Pode ser difícil obter pontos de amizade com ele no início porque ele fica muito tempo no laboratório, que é inacessível ao jogador até que você tenha 6 corações com ele. Ele também fica pouco tempo no Cassino, um dos poucos momentos em que você pode conversar com ele. Eu irei melhorar esse horário e adicionar novos horários para os dias da semana e outras estações.
+| Hora  | Local                                                                                                                                                                     |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                                            |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                                                                   |
+| 16:00 | No Laboratório.                                                                                                                                                           |
+| 18:00 | Ainda no Laboratório.                                                                                                                                                     |
+| 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
+| 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
+
+##### Verão
+
+| Hora  | Local                                                                                                                                                                     |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                                            |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                                                                   |
+| 16:00 | No Laboratório.                                                                                                                                                           |
+| 18:00 | Ainda no Laboratório.                                                                                                                                                     |
+| 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
+| 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
+
+##### Outono
+
+| Hora  | Local                                                                                                                                                                     |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                                            |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                                                                   |
+| 13:00 | No [Deserto](https://pt.stardewvalleywiki.com/O_Deserto), observando a Lagoa ao sul.                                                                                      |
+| 17:00 | No Laboratório.                                                                                                                                                           |
+| 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
+| 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
+
+**Dia 15 de Outono**
+
+| Hora  | Local                                                                                                                                                                     |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                                            |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                                                                   |
+| 16:00 | No Laboratório.                                                                                                                                                           |
+| 18:00 | Ainda no Laboratório.                                                                                                                                                     |
+| 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
+| 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
+
+##### Inverno
+
+| Hora  | Local                                                                                                                                                                     |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                                            |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                                                                   |
+| 16:00 | No Laboratório.                                                                                                                                                           |
+| 18:00 | Ainda no Laboratório.                                                                                                                                                     |
+| 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
+| 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
+
+**Dia 17 de Inverno (Após ver o evento de 6 corações do Sr. Qi)**
+
+| Hora  | Local                                                                                                                                           |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                  |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                                         |
+| 15:00 | No [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis).                                                                                        |
+| 21:00 | Vai a [Praia](https://pt.stardewvalleywiki.com/A_Praia) para participar do [Mercado Noturno](https://pt.stardewvalleywiki.com/Mercado_Noturno). |
+
+**Dia 28 de Inverno (Após ver o evento de 6 corações do Sr. Qi**
+
+| Hora  | Local                                                                                                                                                       |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                                                                                                              |
+| 12:00 | Vai até o [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis).                                                                                             |
+| 18:00 | Vai até o [Deserto](https://pt.stardewvalleywiki.com/O_Deserto) e fica no banco ao lado da entrada do [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis). |
+| 20:00 | Ainda no [Deserto](https://pt.stardewvalleywiki.com/O_Deserto), ele fica em frente aos ossos do Dragão de Areia.                                            |
+| 23:00 | Vai até a [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos) e fica em frente ao túmulo de Mona.                                             |
 
 ## Gostos de Presentes
 Agora o Sr. Qi tem seus próprios gostos de presentes, veja a tabela abaixo:
