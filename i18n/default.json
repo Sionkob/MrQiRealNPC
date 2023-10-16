@@ -129,6 +129,34 @@
 
 	/* ++++++++++++++++++++++++++++++ */
 
+	/* +++++|WALNUT ROOM DIALOGUE|+++++ */
+
+	"MrQiNutRoom.Dialogue.Mon": "There are many things this world can offer you, {{NameOrKid}}, you just have to make the effort to find them.",
+	"MrQiNutRoom.Dialogue.Tue": "The position I am is hard to reach, it took a lot of struggle to achieve what I have.#$b#Effort and willpower are the only things that take us forward.",
+	"MrQiNutRoom.Dialogue.Wed": "Wherever you go, I'll always be behind the scenes. Making sure everything is going according to plan.#$b#I am everywhere. At the same time.#$b#Or am I just trying to scare you? Good luck trying to find out, hahaha.",
+	"MrQiNutRoom.Dialogue.Thu": "I'm surprised at you, {{NameOrKid}}.#$b#Looking for the golden walnuts is hard work and a bit tedious, but you keep looking for them. That's very good.#$b#That shows that you don't like leaving thing hald done. When you start a task, you strive to finish it.#$b#It's quite a quality, some people would have stopped looking for the nuts before they even found me.",
+	"MrQiNutRoom.Dialogue.Fri": "When you achieve your goals, look for others. And when you reach them, look for others and others. Keep doing this until your days in this world are over.",
+	"MrQiNutRoom.Dialogue.Sat": "There will come a time when you wonder how I got here, or what or who I am. If you haven't thought about it, chances are you are now.#$b#You'll know everything you need to about me at the right time, just be patient.#$b#For now, you just need to know that I'm here to motivate you to achieve your goals.",
+	"MrQiNutRoom.Dialogue.Sun": "On the left, you'll find some challenges that you can choose to complete this week. These are challenges made exclusively for you, {{NameOrKid}}.#$b#And on the right, you'll find a collection of rewards you can earn by completing the challenges. Some of these items may be of interest to you.#$b#Good luck, {{NameOrKid}}.",
+
+	/* ++++++++++++++++++++++++++++++++ */
+
+	/* +++++|OTHER NPCS DIALOGUE|+++++ */
+
+	//Sandy Dialogue Edits
+	"Sandy.DialogueEdits.Thu": "Well, since you're already part of the club, can you ask when will I get a raise?#$b#My salary needs an adjustment...$s#$e#It's a joke, okay? They'll get mad if they hear this.",
+	"Sandy.DialogueEdits.Thu2": "That guy hardly ever leaves that club, he's always there.#$b#How does he not get bored? It seems to be a very monotonous routine.",
+	"Sandy.DialogueEdits.Thu4": "Hey, since you're part of the club, can you tell me what exactly is in there?#$b#They won't let me in, they say it's not a place for people like me... I wonder what they mean by that?$s#$b#Why can't I come in, but you can? It seems unfair.$s#$e#Oh, it's a secret? Alright then.$s#$b#Why am I always excluded when it comes to this club?$s",
+	"Sandy.DialogueEdits.Sun8": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for the people in the club, but I don't even talk to them, so I think I'm alone.",
+
+	//Sandy Dialogue Edits (After seeing Mister Qi's 4 Hearts event)
+	"Sandy.DialogueEdits.Thu.AfterMrQi4heartsEvent": "Well, since you're already part of the club, can you ask Mr. Qi when I'll get a raise?#$b#My salary needs an adjustment...$s#$e#It's a joke, okay? He'll be angry if he hears that.",
+	"Sandy.DialogueEdits.Thu2.AfterMrQi4heartsEvent": "That Azure hardly ever leaves that club, he's always there.#$b#How does he not get bored? It seems to be a very monotonous routine.",
+	"Sandy.DialogueEdits.Thu4.AfterMrQi4heartsEvent": "Hey, since you're part of the Mr. Qi's club, can you tell me what exactly is in there?#$b#Mr. Qi won't let me in there, he says it's not a place for people like me... What does he mean by that?$s#$b#Why can't I come in, but you can? It seems unfair. Especially since I allowed him to use that place to do whatever he wanted, I have the right to go in there.#$e#Oh, it's a secret? Alright then.$s#$b#Why am I always excluded when it comes to this club?$s",
+	"Sandy.DialogueEdits.Sun8.AfterMrQi4heartsEvent": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for Mr. Qi, but he doesn't even leave the club that often, so I guess I'm alone anyway.#$b#He used to go out more in the past, but now he stays at the club practically all day, it's rare for him to leave there.",
+
+	/* +++++++++++++++++++++++++++++++ */
+
 	/* +++++|STRINGS|+++++ */
 
 	//Map Strings

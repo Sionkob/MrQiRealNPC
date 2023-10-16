@@ -129,6 +129,34 @@
 
 	/* ++++++++++++++++++++++++++++++ */
 
+	/* +++++|WALNUT ROOM DIALOGUE|+++++ */
+
+	"MrQiNutRoom.Dialogue.Mon": "Há muitas coisas que este mundo pode oferecer a você, {{NameOrKid}}, basta se esforçar para encontrá-las.",
+	"MrQiNutRoom.Dialogue.Tue": "O lugar onde estou é difícil de alcançar, foi necessário muita luta para conquistar o que tenho.#$b#O esforço e a força de vontade são as únicas coisas que nos levam para frente.",
+	"MrQiNutRoom.Dialogue.Wed": "Onde quer que você vá, eu sempre estarei nos bastidores. Garantindo que tudo está indo de acordo com o planejado.#$b#Eu estou em todos os lugares. Ao mesmo tempo.#$b#Ou será que eu estou apenas tentando assustar você? Boa sorte tentando descobrir, hahaha.",
+	"MrQiNutRoom.Dialogue.Thu": "Eu estou surpreso com você, {{NameOrKid}}.#$b#Procurar as nozes douradas é um trabalho árduo e um pouco maçante, mas você continua as procurando. Isso é muito bom.#$b#Isso mostra que você não gosta de deixar coisas pela metade. Quando você começa uma tarefa, você se esforça para terminá-la.#$b#É uma qualidade e tanto, algumas pessoas teriam parado de procurar as nozes antes mesmo de me encontrarem.",
+	"MrQiNutRoom.Dialogue.Fri": "Quando você atingir seus objetivos, procure outros. E quando os atingí-los, procure outros e outros. Continue fazendo isso até que seus dias neste mundo se acabem.",
+	"MrQiNutRoom.Dialogue.Sat": "Chegará o momento em que você se perguntará como eu cheguei aqui, ou o que ou quem sou eu. Se você não pensou sobre isso, é muito provável que agora esteja pensando.#$b#Você saberá tudo o que precisa sobre mim no momento certo, basta ter paciência.#$b#Por enquanto, você só precisa saber que eu estou aqui para motivá-lo a atingir seus objetivos.",
+	"MrQiNutRoom.Dialogue.Sun": "À esquerda, você encontrará alguns desafios que você pode escolher completar essa semana. São desafios feitos exclusivamente para você, {{NameOrKid}}.#$b#E à direita, você encontrará uma coleção de recompensas que você pode obter ao completar os desafios. Alguns itens podem ser do seu interesse.#$b#Boa sorte, {{NameOrKid}}.",
+
+	/* ++++++++++++++++++++++++++++++++ */
+
+	/* +++++|OTHER NPCS DIALOGUE|+++++ */
+
+	//Sandy Dialogue Edits (After enter in the Casino)
+	"Sandy.DialogueEdits.Thu": "Bem, já que você já faz parte do clube, pode perguntar quando vou ter um aumento?#$b#Meu salário está precisando de um reajuste...$s#$e#É brincadeira, ok? Eles vão ficar bravos se ouvirem isso.",
+	"Sandy.DialogueEdits.Thu2": "Aquele cara quase nunca sai de dentro daquele clube, ele está sempre lá.#$b#Como ele não fica entediado? Parece ser uma rotina muito monótona.",
+	"Sandy.DialogueEdits.Thu4": "Ei, já que você faz parte do clube, pode me dizer o que exatamente tem lá dentro?#$b#Não me deixam entrar lá, dizem que não é um lugar para pessoas como eu... O que será que eles querem dizer com isso?$s#$b#Por que eu não posso entrar, mas você pode? Parece injusto.$s#$e#Ah, é segredo? Tudo bem então.$s#$b#Por que eu sempre fico de fora quando se trata desse clube?$s",
+	"Sandy.DialogueEdits.Sun8": "Olá, amor. Sim. Sou só eu. Sozinha, nesta loja velha. Huuum...#$e#Bem, exceto pelas pessoas do clube, mas eu nem falo com eles, então considero que estou sozinha mesmo.",
+
+	//Sandy Dialogue Edits (After seeing Mister Qi's 4 Hearts event)
+	"Sandy.DialogueEdits.Thu.AfterMrQi4heartsEvent": "Bem, já que você já faz parte do clube, pode perguntar pro Sr. Qi quando vou ter um aumento?#$b#Meu salário está precisando de um reajuste...$s#$e#É brincadeira, ok? Ele vai ficar bravo se ouvir isso.",
+	"Sandy.DialogueEdits.Thu2.AfterMrQi4heartsEvent": "Esse Azulão quase nunca sai de dentro daquele clube, ele está sempre lá.#$b#Como ele não fica entediado? Parece ser uma rotina muito monótona.",
+	"Sandy.DialogueEdits.Thu4.AfterMrQi4heartsEvent": "Ei, já que você faz parte do clube do Sr. Qi, pode me dizer o que exatamente tem lá dentro?#$b#O Sr. Qi não me deixa entrar lá, ele diz que não é um lugar para pessoas como eu... O que será que ele quer dizer com isso?$s#$b#Por que eu não posso entrar, mas você pode? Parece injusto. Ainda mais porque eu permiti que ele usasse aquele lugar para fazer o que ele bem entendesse, eu tenho o direito de entrar lá.#$e#Ah, é segredo? Tudo bem então.$s#$b#Por que eu sempre fico de fora quando se trata desse clube?$s",
+	"Sandy.DialogueEdits.Sun8.AfterMrQi4heartsEvent": "Olá, amor. Sim. Sou só eu. Sozinha, nesta loja velha. Huuum...#$e#Bem, exceto pelo Sr. Qi, mas ele nem sai do clube com tanta frequência, então considero que estou sozinha mesmo.#$b#Ele constumava sair mais antigamente, mas agora ele fica lá dentro praticamente o dia todo, é raro ele sair de lá.",
+
+	/* +++++++++++++++++++++++++++++++ */
+
 	/* +++++|STRINGS|+++++ */
 
 	//Map Strings

@@ -21,7 +21,7 @@
             "When": {
                 "Kid_or_Name": "Kid"
             }
-        },
+        }
     ],
     "Changes": [
         //Mr. Qi's Sprite
@@ -36,10 +36,10 @@
             "Target": "Portraits/Qi",
             "FromFile": "Assets/Portraits/Qi.png"
         },
-        //Fixes Patch
+        //Non Giftable Mr. Qi Patch
         {
             "Action": "Include",
-            "FromFile": "Data/Fixes.json"
+            "FromFile": "Data/NonGiftableData.json"
         },
         //NPC Dispositions
         {
@@ -61,11 +61,16 @@
         {
             "Action": "Load",
             "Target": "Characters/Dialogue/Qi",
-            "FromFile": "Data/Empty.json",
+            "FromFile": "Data/Empty.json"
         },
         {
             "Action": "Include",
             "FromFile": "Assets/Dialogue/Qi.json"
+        },
+        //Other NPCs Dialogue
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Dialogue/OtherNPCsDialogue.json"
         },
         //Schedule
         {
@@ -92,14 +97,10 @@
             "Target": "Maps/Club",
             "FromFile": "Assets/Maps/Club.tmx",
             "AddWarps": [
-                "33 14 Custom_MrQiReal_QiRoom 1 0",
-                "34 14 Custom_MrQiReal_QiRoom 1 0"
+                "33 60 Custom_MrQiReal_QiRoom 1 0",
+                "34 60 Custom_MrQiReal_QiRoom 1 0",
+				"8 60 SandyHouse 17 2"
             ]
-        },
-        {
-            "Action": "EditMap",
-            "Target": "Maps/QiNutRoom",
-            "FromFile": "Assets/Maps/QiNutRoom.tmx"
         },
         {
             "Action": "EditMap",
@@ -123,6 +124,13 @@
 				"When": {
                 "Hearts:Qi": "{{Range: 0, 5}}"
             }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/SandyHouse",
+            "AddWarps": [
+                "17 1 Club 8 59"
+            ]
         },
         //Map Strings
         {

@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        //Edit Non Giftable Mister Qi Sprite
+        {
+            "Action": "EditImage",
+            "Target": "Characters/MrQi",
+            "FromFile": "Assets/Characters/NonGiftable/NonGiftableQi.png"
+        },
+        //Edit Non Giftable Mister Qi Portait
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/MrQi",
+            "FromFile": "Assets/Portraits/NonGiftable/NonGiftableQi.png"
+        },
+        //Non Giftable Mister Qi Dialogue
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "Entries": {
+                "QiNutRoom_Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon}}",
+                "QiNutRoom_Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue}}",
+                "QiNutRoom_Wed": "{{i18n:MrQiNutRoom.Dialogue.Wed}}",
+                "QiNutRoom_Thu": "{{i18n:MrQiNutRoom.Dialogue.Thu|NameOrKid={{NameOrKid}}}}",
+                "QiNutRoom_Fri": "{{i18n:MrQiNutRoom.Dialogue.Fri}}",
+                "QiNutRoom_Sat": "{{i18n:MrQiNutRoom.Dialogue.Sat}}",
+                "QiNutRoom_Sun": "{{i18n:MrQiNutRoom.Dialogue.Sun|NameOrKid={{NameOrKid}}}}"
+            }
+        }
+    ]
+}

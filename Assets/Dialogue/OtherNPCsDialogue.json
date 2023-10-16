@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        //Sandy comments about the Casino and Mister Qi
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "Thu": "{{i18n:Sandy.DialogueEdits.Thu}}",
+                "Thu2": "{{i18n:Sandy.DialogueEdits.Thu2}}",
+                "Thu4": "{{i18n:Sandy.DialogueEdits.Thu4}}",
+                "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8}}",
+            },
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "Thu": "{{i18n:Sandy.DialogueEdits.Thu.AfterMrQi4heartsEvent}}",
+                "Thu2": "{{i18n:Sandy.DialogueEdits.Thu2.AfterMrQi4heartsEvent}}",
+                "Thu4": "{{i18n:Sandy.DialogueEdits.Thu4.AfterMrQi4heartsEvent}}",
+                "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8.AfterMrQi4heartsEvent}}",
+            },
+            "When": {
+                "HasSeenEvent": "16724003"
+            }
+        }
+    ]
+}

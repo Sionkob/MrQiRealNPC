@@ -160,14 +160,14 @@ Agora o Sr. Qi tem seus próprios gostos de presentes, veja a tabela abaixo:
 | Neutro            	| Peixes, Minerais e Gemas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    	|
 
 # Erros Conhecidos
-No momento há apenas um “erro” no mod:
+~~No momento há apenas um “erro” no mod:~~
 
-Ao abrir o jogo pela primeira vez (ou no início de cada dia), se você abrir o console SMAPI, encontrará um erro parecido com esse:
+~~Ao abrir o jogo pela primeira vez (ou no início de cada dia), se você abrir o console SMAPI, encontrará um erro parecido com esse:~~
 
-`[ERROR game] Failed parsing schedule for NPC Mister Qi:
+~~`[ERROR game] Failed parsing schedule for NPC Mister Qi:
 0 QiNutRoom 5 2 1/1920 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1
 ArgumentException: In warpCharacter, the character's currentLocation must not be null
    at StardewValley.Game1.warpCharacter(NPC character, GameLocation targetLocation, Vector2 position)
-   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`
+   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`~~
 	
-Esse erro acontece porque existem 2 “Senhores Qi” no jogo, cada um com um nome interno diferente. Um deles tem o nome interno definido como “Mister Qi”. Esse Sr. Qi não pode ser transformado em um NPC presenteável (ou seja, não é possível fazer amizade), mas aparentemente ele pode ter um horário, mesmo que o console SMAPI acuse erro. Nos meus testes mesmo com esse erro, o horário funciona normalmente, esse erro pode ser ignorado, pelo menos por enquanto. Eu ainda não sei como corrigir esse erro, mas eu estou estudando formas de resolvê-lo o mais rápido possível.
+~~Esse erro acontece porque existem 2 “Senhores Qi” no jogo, cada um com um nome interno diferente. Um deles tem o nome interno definido como “Mister Qi”. Esse Sr. Qi não pode ser transformado em um NPC presenteável (ou seja, não é possível fazer amizade), mas aparentemente ele pode ter um horário, mesmo que o console SMAPI acuse erro. Nos meus testes mesmo com esse erro, o horário funciona normalmente, esse erro pode ser ignorado, pelo menos por enquanto. Eu ainda não sei como corrigir esse erro, mas eu estou estudando formas de resolvê-lo o mais rápido possível.~~ Este erro foi resolvido na atualização 0.4.0-alpha.1, lançada em 16 de outubro de 2023.

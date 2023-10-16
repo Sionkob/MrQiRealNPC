@@ -160,14 +160,14 @@ Now Mr. Qi has his own gift tastes, see the table below:
 | Neutral    	| Fishes, Minerals and Gems                                                                                                                                                                                                                                                                                                                                                                                                      	|
 
 # Known Errors
-Currently there is only one "bug" in the mod:
+~~Currently there is only one "bug" in the mod:~~
 
-When opening the game for the first time (or at the beginning of each day), if you open the SMAPI console, you will encounter an error similar to this:
+~~When opening the game for the first time (or at the beginning of each day), if you open the SMAPI console, you will encounter an error similar to this:~~
 
-`[ERROR game] Failed parsing schedule for NPC Mister Qi:
+~~`[ERROR game] Failed parsing schedule for NPC Mister Qi:
 0 QiNutRoom 5 2 1/1920 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1
 ArgumentException: In warpCharacter, the character's currentLocation must not be null
    at StardewValley.Game1.warpCharacter(NPC character, GameLocation targetLocation, Vector2 position)
-   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`
+   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`~~
 
-This error happens because there are 2 "Mister Qi" in the game, each with a different internal name. One of them has the internal name set to "Mister Qi". This Mister Qi cannot be turned into a giftable NPC (i.e. it's not possible to befriend him), but apparently he can have a schedule, even if the SMAPI console returns an error. In my tests even with this error, the schedule works normally, this error can be ignored, at least for now. I still don't know how to fix this error, but I'm studying ways to solve it as soon as possible.
+~~This error happens because there are 2 "Mister Qi" in the game, each with a different internal name. One of them has the internal name set to "Mister Qi". This Mister Qi cannot be turned into a giftable NPC (i.e. it's not possible to befriend him), but apparently he can have a schedule, even if the SMAPI console returns an error. In my tests even with this error, the schedule works normally, this error can be ignored, at least for now. I still don't know how to fix this error, but I'm studying ways to solve it as soon as possible.~~ This error has been solved in the 0.4.0-alpha.1 update, released on October 16, 2023.
