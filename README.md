@@ -19,15 +19,17 @@ The mod is under development and some things are not completed yet, but some thi
 - 2 new maps have been added.
 - Mr. Qi appears at every vanilla festival when you meet him.
 - The schedules have been modified (but still incomplete).
+- New dialogues for Mr. Qi who stays inside the Walnut Room have been added.
+- Sandy talks about Mr. Qi and the casino when you become a club member.
 
 As the mod is updated, more functions will be added, removed, or modified.
 
 # What does not work/is not 100% ready?
 Currently there are a few things that are not complete yet, I will finish them as soon as possible:
 - The schedules are incomplete.
-- You cannot invite him to watch a movie
-- The 6, 8 and 10 heart dialogs are missing.
-- The 6, 8 and 10 heart events are missing.
+- You cannot invite him to watch a movie.
+- The 10 hearts dialogues are missing.
+- The 10 hearts event is missing.
 
 In my testing, there's nothing that isn't working, there are just some incomplete features that will be completed as updates roll out. If you have any suggestions or find any bugs, feel free to comment on the Nexus Mods [posts](https://www.nexusmods.com/stardewvalley/mods/16724?tab=posts) page.
 
@@ -70,6 +72,31 @@ Having 4 hearts with Mr. Qi, enter the [Oasis](https://stardewvalleywiki.com/Oas
 
 #### Event #5
 Having 6 hearts with Mr. Qi, entre the Mr. Qi Room between 5PM and 8:50PM.
+
+#### Event #6
+When you reach 8 hearts with Mr. Qi, the next day Mr. Qi will send you a letter inviting you to come to his room during the night, before the [Oasis](https://stardewvalleywiki.com/Oasis) closes, since there's an important thing he wants to talk to you about.
+
+After reading this letter, you must enter Mr. Qi Room between 7pm and 11:40pm. 
+
+<details>
+	<summary>Details (spoiler)</summary>
+
+The farmer is called by Mr. Qi, who reveals that he is a manifestation of a consciousness passed down through the ages. He explains that there have been other Misters Qi before him and that their mission is ensure the balance of resources in the world. Mr. Qi reveals that he has semi-physical, spiritual and extra-physical representations, each one is controlled by him and has specific functions, which help him fulfill his mission. The farmer is introduced to some of these representations, and at the end, Mr. Qi expresses relief that he no longer needs to hide the truth. 
+
+In response to the revelation, the farmer can react in two ways:
+
+**I'm kind of... I'm scared of you.** *(-5 friendship)*
+
+The farmer expresses fear towards Mr. Qi. Mr. Qi explains that he observes everyone with good intentions and uses this to get to know the needs of people in Stardew Valley. Despite the farmer's fear, Mr. Qi assures that he's there to help.
+
+**You can be in several places at once, you can control the world around you, you're not the first Mister Qi and now you observe and create challenges for me. It's so much to process...** *(No effect on friendship)*
+
+The farmer expresses difficulty in processing all the information revealed about Mr. Qi. Mr. Qi recognizes the complexity of the topic and admits that it may have been a mistake to reveal everything at once. He emphasizes that the intention was never to scare the player, but to share the truth.
+
+Regardless of the choice, Mr. Qi explains his interest in the farmer, revealing a promise made to the farmer's grandfather to guide and motivate the farmer's journey in Stardew Valley. And he encourages the farmer to continue exploring the valley to reach the perfection.
+ 
+</details>
+
 
 ## Schedules
 Mr. Qi's current schedule is as follows:
@@ -160,14 +187,19 @@ Now Mr. Qi has his own gift tastes, see the table below:
 | Neutral    	| Fishes, Minerals and Gems                                                                                                                                                                                                                                                                                                                                                                                                      	|
 
 # Known Errors
-~~Currently there is only one "bug" in the mod:~~
+<details>
+	<summary>Bug fixed in update 0.4.0-alpha.1, released on October 16, 2023.</summary>
 
-~~When opening the game for the first time (or at the beginning of each day), if you open the SMAPI console, you will encounter an error similar to this:~~
+When opening the game for the first time (or at the beginning of each day), if you open the SMAPI console, you will encounter an error similar to this:
 
-~~`[ERROR game] Failed parsing schedule for NPC Mister Qi:
+ `[ERROR game] Failed parsing schedule for NPC Mister Qi:
 0 QiNutRoom 5 2 1/1920 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1
 ArgumentException: In warpCharacter, the character's currentLocation must not be null
    at StardewValley.Game1.warpCharacter(NPC character, GameLocation targetLocation, Vector2 position)
-   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`~~
+   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`
+  
+This error happens because there are 2 "Mister Qi" in the game, each with a different internal name. One of them has the internal name set to "Mister Qi". This Mister Qi cannot be turned into a giftable NPC (i.e. it's not possible to befriend him), but apparently he can have a schedule, even if the SMAPI console returns an error. In my tests even with this error, the schedule works normally, this error can be ignored, at least for now. I still don't know how to fix this error, but I'm studying ways to solve it as soon as possible.
 
-~~This error happens because there are 2 "Mister Qi" in the game, each with a different internal name. One of them has the internal name set to "Mister Qi". This Mister Qi cannot be turned into a giftable NPC (i.e. it's not possible to befriend him), but apparently he can have a schedule, even if the SMAPI console returns an error. In my tests even with this error, the schedule works normally, this error can be ignored, at least for now. I still don't know how to fix this error, but I'm studying ways to solve it as soon as possible.~~ This error has been solved in the 0.4.0-alpha.1 update, released on October 16, 2023.
+</details>
+
+Actually, there's no known errors in this mod. If you find any bugs, please report on Nexus Mods [bugs](https://www.nexusmods.com/stardewvalley/mods/16724?tab=bugs) page.
