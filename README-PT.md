@@ -73,6 +73,8 @@ Tendo 4 corações com Sr. Qi, entre no [Oásis](https://pt.stardewvalleywiki.co
 #### Evento #5
 Tendo 6 corações com Sr. Qi, entre no Quarto do Sr. Qi entre 17h e 20h50.
 
+**Nota: Se você não conseguiu ver este evento completamente por causa da parede invisível que impede a passagem, instale o mod [Event Lookup](https://www.nexusmods.com/stardewvalley/mods/8505) para removê-lo da lista de eventos vistos para poder vê-lo novamente.**
+
 #### Evento #6
 Quando você alcançar 8 corações com o Sr. Qi, no dia seguinte, Senhor Qi enviará uma carta convidando você para ir até o quarto dele durante a noite, antes que o [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) feche, pois há uma coisa importante que ele quer falar com você.
 
