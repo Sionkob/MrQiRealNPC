@@ -19,6 +19,8 @@ O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas
 - 2 novos mapas foram adicionados.
 - Sr. Qi aparece em todos os festivais vanilla quando você o conhece.
 - Os horários foram modificados (mas ainda estão incompletos).
+- Novos diálogos para o Sr. Qi que fica dentro da Sala de nozes foram adicionados.
+- Sandy fala sobre o Sr. Qi e o cassino quando você se torna membro do clube.
 
 Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou modificadas.
 
@@ -26,8 +28,8 @@ Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou m
 Atualmente existem algumas coisas que não estão completas por enquanto, eu irei terminá-las o mais rápido possível:
 - Os horários estão incompletos.
 - Não é possível convidá-lo para assistir um filme.
-- Faltam os diálogos de 8 e 10 corações.
-- Faltam os eventos de 8 e 10 corações.
+- Faltam os diálogos de 10 corações.
+- O evento de 10 corações está faltando.
 
 Nos meus testes, não há nada que não esteja funcionando, apenas há alguns recursos incompletos que serão completos conforme as atualizações. Se você tiver alguma sugestão ou encontrar algum bug, sinta-se a vontade para comentar na página de [posts](https://www.nexusmods.com/stardewvalley/mods/16724?tab=posts) no Nexus Mods.
 
@@ -70,6 +72,30 @@ Tendo 4 corações com Sr. Qi, entre no [Oásis](https://pt.stardewvalleywiki.co
 
 #### Evento #5
 Tendo 6 corações com Sr. Qi, entre no Quarto do Sr. Qi entre 17h e 20h50.
+
+#### Evento #6
+Quando você alcançar 8 corações com o Sr. Qi, no dia seguinte, Senhor Qi enviará uma carta convidando você para ir até o quarto dele durante a noite, antes que o [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) feche, pois há uma coisa importante que ele quer falar com você.
+
+Após ler esta carta, você deve entrar no Quarto do Sr. Qi entre 19h e 23h40. 
+
+<details>
+	<summary>Detalhes (spoiler)</summary>
+
+O fazendeiro é chamado pelo Sr. Qi, que revela ser uma manifestação de uma consciência repassada ao longo das eras. Ele explica que existiram outros Senhores Qi antes dele e que sua missão é garantir o equilíbrio dos recursos no mundo. Sr. Qi revela ter representações semi-físicas, espirituais e extra-físicas, cada uma é controlada por ele e tem funções específicas, que o ajudam a cumprir sua missão. O fazendeiro é apresentado a algumas dessas representações, e ao final, Sr. Qi expressa alívio por não precisar mais esconder a verdade. 
+
+Em resposta a revelação, o fazendeiro pode reagir de duas maneiras:
+
+**Eu meio que... Estou com medo de você...** *(-5 pontos de amizade)*
+
+O fazendeiro expressa medo em relação ao Sr. Qi. Ele explica que ele observa a todos com boas intenções e utiliza isso para conhecer as necessidades das pessoas no Vale do Orvalho. Apesar do medo do fazendeiro, Sr. Qi assegura que está ali para ajudar.
+
+**Você pode estar em vários lugares ao mesmo tempo, pode controlar o mundo ao seu redor, não é o primeiro Senhor Qi e ainda me observa e cria desafios para mim. É tanta coisa para processar...** *(sem efeito na amizade)*
+
+O fazendeiro expressa dificuldade em processar todas as informações reveladas sobre o Sr. Qi. O Sr. Qi reconhece a complexidade do assunto e admite que talvez tenha sido um erro revelar tudo de uma vez. Ele destaca que a intenção nunca foi assustar o jogador, mas sim compartilhar a verdade.
+
+Independente da escolha, O Sr. Qi explica seu interesse no fazendeiro, revelando uma promessa feita ao avô do fazendeiro de guiar e motivar sua jornada no Vale do Orvalho. E ele o encoraja a continuar explorando o vale em busca da perfeição.
+ 
+</details>
 
 ## Horários
 Atualmente os horários do Sr. Qi são os seguintes:
@@ -160,14 +186,19 @@ Agora o Sr. Qi tem seus próprios gostos de presentes, veja a tabela abaixo:
 | Neutro            	| Peixes, Minerais e Gemas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    	|
 
 # Erros Conhecidos
-~~No momento há apenas um “erro” no mod:~~
+<details>
+	<summary>Erro resolvido na atualização 0.4.0-alpha.1, lançada em 16 de outubro de 2023.</summary>
 
-~~Ao abrir o jogo pela primeira vez (ou no início de cada dia), se você abrir o console SMAPI, encontrará um erro parecido com esse:~~
+Ao abrir o jogo pela primeira vez (ou no início de cada dia), se você abrir o console SMAPI, encontrará um erro parecido com esse:
 
-~~`[ERROR game] Failed parsing schedule for NPC Mister Qi:
+ `[ERROR game] Failed parsing schedule for NPC Mister Qi:
 0 QiNutRoom 5 2 1/1920 QiNutRoom 7 4 0 mrqi_staring/2400 QiNutRoom 5 2 1
 ArgumentException: In warpCharacter, the character's currentLocation must not be null
    at StardewValley.Game1.warpCharacter(NPC character, GameLocation targetLocation, Vector2 position)
-   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`~~
-	
-~~Esse erro acontece porque existem 2 “Senhores Qi” no jogo, cada um com um nome interno diferente. Um deles tem o nome interno definido como “Mister Qi”. Esse Sr. Qi não pode ser transformado em um NPC presenteável (ou seja, não é possível fazer amizade), mas aparentemente ele pode ter um horário, mesmo que o console SMAPI acuse erro. Nos meus testes mesmo com esse erro, o horário funciona normalmente, esse erro pode ser ignorado, pelo menos por enquanto. Eu ainda não sei como corrigir esse erro, mas eu estou estudando formas de resolvê-lo o mais rápido possível.~~ Este erro foi resolvido na atualização 0.4.0-alpha.1, lançada em 16 de outubro de 2023.
+   at StardewValley.NPC.parseMasterSchedule_Patch1(NPC this, String rawData)`
+  
+Esse erro acontece porque existem 2 “Senhores Qi” no jogo, cada um com um nome interno diferente. Um deles tem o nome interno definido como “Mister Qi”. Esse Sr. Qi não pode ser transformado em um NPC presenteável (ou seja, não é possível fazer amizade), mas aparentemente ele pode ter um horário, mesmo que o console SMAPI acuse erro. Nos meus testes mesmo com esse erro, o horário funciona normalmente, esse erro pode ser ignorado, pelo menos por enquanto. Eu ainda não sei como corrigir esse erro, mas eu estou estudando formas de resolvê-lo o mais rápido possível.
+
+</details>
+
+Atualmente, não há nenhum erro conhecido neste mod. Se você encontrar algum, por favor, reporte-o na página de [bugs](https://www.nexusmods.com/stardewvalley/mods/16724?tab=bugs) do Nexus Mods.
