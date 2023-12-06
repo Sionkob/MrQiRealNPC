@@ -73,6 +73,8 @@ Having 4 hearts with Mr. Qi, enter the [Oasis](https://stardewvalleywiki.com/Oas
 #### Event #5
 Having 6 hearts with Mr. Qi, entre the Mr. Qi Room between 5PM and 8:50PM.
 
+**Note: If you weren't able to see this event completely because of the invisible wall preventing passage, install the [Event Lookup](https://www.nexusmods.com/stardewvalley/mods/8505) mod to remove it from the list of seen events to be able to see it again.**
+
 #### Event #6
 When you reach 8 hearts with Mr. Qi, the next day Mr. Qi will send you a letter inviting you to come to his room during the night, before the [Oasis](https://stardewvalleywiki.com/Oasis) closes, since there's an important thing he wants to talk to you about.
 
