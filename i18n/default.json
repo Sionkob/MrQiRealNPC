@@ -34,7 +34,7 @@
 	/* +++++|DIALOGUE|+++++ */
 
 	//Introduction
-	"Qi.MrQiAndClubIntroduction": "Well, I knew you'd get to this place someday.#$b#From now on, you are part of my club, {{NameOrKid}}. Come whenever you want to spend some time.#$e#Just be careful not to get addicted to those gambling games, I don't want to deal with that kind of problem.#$b#Dealing with Welwick's alcoholism is enough.$2",
+	"Qi.MrQiAndClubIntroduction": "Well, I knew you'd get to this place someday.#$b#From now on, you are part of my club, {{NameOrKid}}. Come whenever you want to spend some time.#$e#Just be careful not to get addicted to those gambling games, I don't want to deal with that kind of problem.#$b#Dealing with Welwick's alcoholism is enough.$u",
 
 	//Spring
 	"Qi.Dialogue.spring_1": "A new year just started, surely this means something to you, right?#$b#For me, this means that the work is just beginning, I have a lot of things to do.#$b#So, if you'll excuse me...",
@@ -49,7 +49,7 @@
 
 	//Fall
 	"Qi.Dialogue.fall_1": "Well... What to say about autumn? It's a time of transition between summer and winter, it's the season when the leaves fall to the ground.#$b#But there are places where the differences between these seasons are not so noticeable. In tropical places, there is little difference between the seasons, they can be easily confused.",
-	"Qi.Dialogue.fall_15": "Ah... the Stardew Valley Fair, what a silly and insignificant festivity.#$b#It seems that people don't have the minimum effort to achieve excellence, they always bring mediocre products and expect to get high points for doing the minimum expected of them.$2#$b#Even the champion has weak products with little value. They may even be varied, but there's no point in having a great variety of products if they are ordinary.#$b#This is the fault of the appraiser who is not judicious enough. I'm sure that if he were stricter, the fair's participants would put in much more effort to reach first place.",
+	"Qi.Dialogue.fall_15": "Ah... the Stardew Valley Fair, what a silly and insignificant festivity.#$b#It seems that people don't have the minimum effort to achieve excellence, they always bring mediocre products and expect to get high points for doing the minimum expected of them.$u#$b#Even the champion has weak products with little value. They may even be varied, but there's no point in having a great variety of products if they are ordinary.#$b#This is the fault of the appraiser who is not judicious enough. I'm sure that if he were stricter, the fair's participants would put in much more effort to reach first place.",
 	"Qi.Dialogue.fall_26": "Spirit's Eve is a good festival, it has interesting things to see.#$b#That man from the Adventurers' Guild always brings some monsters to the exhibition. It's not that hard to do, but it's a risk that the villagers usually don't want to take.",
 
 	//Winter
@@ -63,8 +63,8 @@
 	"Qi.Dialogue.Mon": "Mondays are very busy days, there's a lot of work to do.#$b#At least the club isn't as busy during the beginning of the week.",
 	"Qi.Dialogue.Tue": "Hi {{NameOrKid}}. Do you need something?#$b#If you have any questions, feel free to ask. Asking is the best way to learn something new.",
 	"Qi.Dialogue.Wed": "Always pay attention to the smallest details. Explore the surroundings carefully.#$b#There are a lot of things to discover in this place, some of them can only be discovered by very attentive people.",
-	"Qi.Dialogue.Thu": "Don't tell anyone about the casino, it's an exclusive place. Only people I trust can enter.#$b#You should feel privileged to have access to such a secret place.#$b#You manage to keep it a secret, don't you?$2",
-	"Qi.Dialogue.Fri": "The casino is a great place to spend the weekend, come to the casino whenever you like.#$b#Just don't drink too much, or you'll be like Welwick.$2",
+	"Qi.Dialogue.Thu": "Don't tell anyone about the casino, it's an exclusive place. Only people I trust can enter.#$b#You should feel privileged to have access to such a secret place.#$b#You manage to keep it a secret, don't you?$u",
+	"Qi.Dialogue.Fri": "The casino is a great place to spend the weekend, come to the casino whenever you like.#$b#Just don't drink too much, or you'll be like Welwick.$u",
 	"Qi.Dialogue.Sat": "Want some advice?#$b#Never stop striving to achieve perfection.#$b#Settle for nothing less than excellence in everything you do.#$b#Trust me, seeing the result of all your hard work is very satisfying.",
 	"Qi.Dialogue.Sun": "Hi {{NameOrKid}}, how are you?#$e#Just taking a walk? I see, this place is very nice to be after spending hours in the desert heat.#$b#If you are free, enjoy and play some games, I feel you are in luck today.",
 
@@ -75,13 +75,13 @@
 	"Qi.Dialogue.Thu2": "Have you heard of the Prismatic Shard?#$b#It's a stone that has an extremely colorful shine, nobody knows for sure its origin, it's very rare to be found.#$b#I remember the first time I saw one, its glow was so beautiful, it was impressive. I even thought it was radioactive given all the brightness, but it's not.#$b#Maybe someday you'll find one. Here's a tip: You're more likely to find one in the deep levels of the Skull Cavern.",
 	"Qi.Dialogue.Fri2": "You know that guy selling the Statue of Endless Fortune for 1 million golds?#$b#She is a very useful statue to have in your home, as well as being a great decorative piece.#$b#But she's not the only useful statue you can get, there are other statues even more useful than her.#$e#What are they? Keep exploring this world and you will soon find out, {{NameOrKid}}.",
 	"Qi.Dialogue.Sat2": "How's your weekend going so far, {{NameOrKid}}?#$b#Whenever you're bored, you can come to the casino and spend some time playing CalicoJack or testing your luck on the slot machines.",
-	"Qi.Dialogue.Sun2": "Welwick said she wouldn't drink too much today. Knowing her, I know she won't be able to control herself...$2#$b#She needs help to overcome her drinking problem, but there's not much you can do when someone doesn't want to be helped.$2",
+	"Qi.Dialogue.Sun2": "Welwick said she wouldn't drink too much today. Knowing her, I know she won't be able to control herself...$u#$b#She needs help to overcome her drinking problem, but there's not much you can do when someone doesn't want to be helped.$u",
 	
 	//Days Of Week - 4 Hearts
 	"Qi.Dialogue.Mon4": "Hi, {{NameOrKid}}. I hope you're having a good day.#$b#Whenever you want to spend some time, come and have fun at the casino.#$e#If you find anyone cheating please let me know. I will take care of it.",
 	"Qi.Dialogue.Tue4": "The salesperson downstairs is Sandy, she's part of my select group of 'friends' in the valley.#$b#Well, friends in quotes, since we just met, never exchanged more than 5 words with each other, she only sees me on the day she gets her paycheck.#$b#She doesn't know much about me, and I hope she never does.",
 	"Qi.Dialogue.Wed4": "Are you practicing your other skills besides harvesting, {{NameOrKid}}?#$b#If you want to achieve excellence, you have to be good in all your skills, as they say: Practice makes perfect.#$b#Life is only fun when we practice something different and challenge ourselves to always overcome our barriers, we shouldn't accept becoming stagnant in one place.",
-	"Qi.Dialogue.Thu4": "Sandy always asks to come into the Casino, but I don't allow her in here, even though I know her and know she can keep it a secret.#$b#I don't think she's the kind of person who can hang out in a casino... She could cause problems with that personality of hers.$2#$b#It takes a certain responsibility to enter a casino, otherwise you can... Well, get addicted.$2",
+	"Qi.Dialogue.Thu4": "Sandy always asks to come into the Casino, but I don't allow her in here, even though I know her and know she can keep it a secret.#$b#I don't think she's the kind of person who can hang out in a casino... She could cause problems with that personality of hers.$u#$b#It takes a certain responsibility to enter a casino, otherwise you can... Well, get addicted.$u",
 	"Qi.Dialogue.Fri4": "Have you ever bought anything with the Qi coins you earn in the casino games? You can buy many rare and useful items with them.#$b#That guy next to the hallway leading to my room sells some interesting items, you should take a look, maybe there is something of interest to you.",
 	"Qi.Dialogue.Sat4": "There are many languages in the world, each one has its own particularities, some are more difficult to learn than others.#$b#One language that is more difficult to learn is the Dwarvish language, it takes a lot of study and interaction with dwarves to learn this language.#$e#Op ah taitsu, E om hniun e nhes noliolu, os yunn os mool adoot noliolus. E om hniun e ool noliolu olai to emoleu.#$b#Maybe someday you'll be able to understand what I said, {{NameOrKid}}.", //The Dwarvish text was made with the Dwarvish Translator by Kdau (https://www.kdau.com/dwarvish). I don't know how the Dwarvish works in the game when played in non-latin languages, but this translator can be used for 'translate' latin languages to Dwarvish. 
 	"Qi.Dialogue.Sat4.HasDwarvishGuide": "There are many languages in the world, each one has its own particularities, some are more difficult to learn than others.#$b#One language that is more difficult to learn is the Dwarvish language, it takes a lot of study and interaction with dwarves to learn this language.#$e#And of course, I am fluent in this language, as well as many other languages. I am fluent in any language you can imagine.#$b#Oh, did you understand what I said? Congratulations, it means you are exploring this world and discovering new things, keep it up.", //The Dwarvish text will be translated when the player has the Dwarvish Translation Guide in their wallet.
@@ -89,7 +89,7 @@
 
 	//Days Of Week - 6 Hearts
 	"Qi.Dialogue.Mon6": "Hi, {{NameOrKid}}. How are you? Do you need something?#$b#If you need me for anything, you already know where to find me.",
-	"Qi.Dialogue.Tue6": "Being an acquaintance of someone like me is a privilege, and I'm not trying to brag.#$b#I have a wealth of knowledge about many things, so if you have any questions, I'll certainly have the answer.#$b#But I don't want you to take advantage of my wisdom, I hate friendship for gain.$2",
+	"Qi.Dialogue.Tue6": "Being an acquaintance of someone like me is a privilege, and I'm not trying to brag.#$b#I have a wealth of knowledge about many things, so if you have any questions, I'll certainly have the answer.#$b#But I don't want you to take advantage of my wisdom, I hate friendship for gain.$u",
 	"Qi.Dialogue.Wed6": "You've already seen a Junimo, right?#$b#They are mysterious spirits who live hidden in the woods and their mission is to protect these places from possible dangers.#$b#They are harmless to humans and can even be used for your own benefit. You can build a Junimo Hut on your farm and they'll harvest your crops for you.",
 	"Qi.Dialogue.Thu6": "It seems like you come to the desert often, don't you, {{NameOrKid}}?#$b#I hope you're using a warp totem instead of having to spend 500 golds every trip.#$e#Have you seen those strange statues that stand in some places in the valley? They are warp points. If you have the corresponding totem, you can teleport between places in the valley more quickly.#$b#You can craft these warp totems if you learn how to build them, or you can also buy some in my casino.",
 	"Qi.Dialogue.Fri6": "Hey, {{NameOrKid}}, I'm doing some experiments and I need someone to test it out, do you want to take a chance?#$b#It's nothing too dangerous, you might just get a few headaches, but don't worry.#$e#Of course I'm joking, {{NameOrKid}}. I never risk people's lives in my experiments, let alone yours.#$b#You need to be healthy to be able to work on your farm, don't you?",
@@ -97,7 +97,13 @@
 	"Qi.Dialogue.Sun6": "For some people Sundays are boring, but not for me.#$b#Sundays are days to try something new.#$b#Why not spend some time playing in the casino when you get off work? You deserve a break after working on your farm all day.",
 	
 	//Days Of Week - 8 Hearts
-
+	"Qi.Dialogue.Mon8": "Hi @, how are you today? Need anything?#$b#Feel free to ask anything.#$e#By the way, have you been to the Walnut Room yet? I've put some new challenges in there for you.",
+	"Qi.Dialogue.Tue8": "%Mister Qi looks a little tired.#$e#Oh, I'm sorry, @. Last night I had to talk to an ancestor using my spiritual representation, it's a bit tiring to do this at night because I need to concentrate to maintain communication.#$b#The spiritual representation needs me to be conscious so that it has the ability to reply to other beings in the spiritual world, so I was awake longer than I should have been.#$e#What they talked? Well, it was one of the first Misters Qi who existed, he was worried that I was 'revealing too many secrets'.#$b#I understand his concern, but I managed to reassure him, so I think the time I stayed awake was worth it.",
+	"Qi.Dialogue.Wed8": "How is your day going, @? I hope everything is alright.#$b#If you want to spend some time, we can arrange a day to play together at the casino. Qi Coins will be on me.$h",
+	"Qi.Dialogue.Thu8": "I have to admit that when I opened this casino, I felt a little bad about winning from other people's losses. I make a lot of money from gamblers losses and the purchase of Qi Coins.#$b#I really didn't like the idea of running a casino here, I'd feel guilty if someone lost everything gambling.#$b#That's why I try to keep this environment free of cheaters, so that every game is as balanced as possible and I don't have to make money that came from an unfair match.#$e#Although I don't think making money in this way is very ethical, unfortunately it's the way I've found to support myself and the Oasis since the bus broke down.#$b#Or rather, was scrapped by Mayor Lewis. He simply left that bus abandoned and when it broke down, nobody bothered to fix it until you arrived.$u",
+	"Qi.Dialogue.Fri8": "I see you're doing a good job on your farm, @.#$b#Does it have something to do with you knowing what your grandfather expected of you?#$b#In any case, it's great that you're taking care of your farm, keep it up and you'll reach perfection faster than you think.",
+	"Qi.Dialogue.Sat8": "Hey, @, do you remember the day you reached level 100 of the Skull Cave and found me there?#$b#The one who was talking to you inside and offering you the Iridium Snake Milk was my semi-physical representation, that's why right after you left the cave, I was already at the entrance.#$b#When I decided to do that, I had to be sure that you wouldn't tell anyone what you had seen, that's why I was there at the cave entrance waiting for you.#$b#I can't let just anyone know these details about me, it's too dangerous, the power of the Misters Qi can easily be used for malicious purposes, so I'm cautious about who I tell about my powers.",
+	"Qi.Dialogue.Sun8": "Hello, @. How are you?#$b#I was thinking about leaving the casino for a while today, but there's not much to do here, at most I can talk to Sandy.#$b#Despite being somewhat energetic, Sandy is a good friend. She has always been a nice person since I moved to the desert many years ago.#$e#Why did I move to the desert? Well... I...$u#$b#I don't want to talk about it... I'm sorry.$s",
 
 	/* ++++++++++++++++++++ */
 
@@ -122,7 +128,7 @@
 	"FestivalDialogue.Qi.fall27": "This maze is too easy, Rasmodius could do something harder, something different...#$e#Feel free to take the prize, it's not important to me. I'm only here because it's a more isolated place.",
 
 	//Festival of Ice
-	"FestivalDialogue.Qi.winter8": "What a boring festival.$2#$b#Anyway, I hope you're good at fishing if you decide to participate in the ice fishing competition.",
+	"FestivalDialogue.Qi.winter8": "What a boring festival.$u#$b#Anyway, I hope you're good at fishing if you decide to participate in the ice fishing competition.",
 
 	//Feast of the Winter Star
 	"FestivalDialogue.Qi.winter25": "Happy holidays, {{NameOrKid}}.",
@@ -131,6 +137,7 @@
 
 	/* +++++|WALNUT ROOM DIALOGUE|+++++ */
 
+	//Default
 	"MrQiNutRoom.Dialogue.Mon": "There are many things this world can offer you, {{NameOrKid}}, you just have to make the effort to find them.",
 	"MrQiNutRoom.Dialogue.Tue": "The position I am is hard to reach, it took a lot of struggle to achieve what I have.#$b#Effort and willpower are the only things that take us forward.",
 	"MrQiNutRoom.Dialogue.Wed": "Wherever you go, I'll always be behind the scenes. Making sure everything is going according to plan.#$b#I am everywhere. At the same time.#$b#Or am I just trying to scare you? Good luck trying to find out, hahaha.",
@@ -138,6 +145,15 @@
 	"MrQiNutRoom.Dialogue.Fri": "When you achieve your goals, look for others. And when you reach them, look for others and others. Keep doing this until your days in this world are over.",
 	"MrQiNutRoom.Dialogue.Sat": "There will come a time when you wonder how I got here, or what or who I am. If you haven't thought about it, chances are you are now.#$b#You'll know everything you need to about me at the right time, just be patient.#$b#For now, you just need to know that I'm here to motivate you to achieve your goals.",
 	"MrQiNutRoom.Dialogue.Sun": "On the left, you'll find some challenges that you can choose to complete this week. These are challenges made exclusively for you, {{NameOrKid}}.#$b#And on the right, you'll find a collection of rewards you can earn by completing the challenges. Some of these items may be of interest to you.#$b#Good luck, {{NameOrKid}}.",
+
+	//After seeing Mr. Qi 8 Hearts Event
+	"MrQiNutRoom.Dialogue.Mon-SeenQi8heartsEvent": "Hey @, you should check out the panel on the left today, there are new challenges you can choose for this week.#$e#Good luck, @.",
+	"MrQiNutRoom.Dialogue.Tue-SeenQi8heartsEvent": "Now that you know the truth about me and the other representations, I feel lighter.#$b#Now I cause less overload on the mind of the main representation, and that's very good.$h#$b#Since I had a slightly different behavior from the other representations, the main representation's mind had to work harder to deal with two behavioral patterns and direct them to the right representations, and that's exhausting.#$b#Now that you know about my power, I have a personality more like the main representation, since there's no longer any reason to split my personality in two.",
+	"MrQiNutRoom.Dialogue.Wed-SeenQi8heartsEvent": "Hi @, have you checked out the volcano cave?#$b#You can find lots of ores that you can't find in ordinary caves.#$e#Just be careful with the monsters, they're a bit stronger than the ones in ordinary caves, so use a good weapon when going in there.",
+	"MrQiNutRoom.Dialogue.Thu-SeenQi8heartsEvent": "This island has several secrets spread around, maybe it's worth exploring this island more deeply, you might find some interesting things, @.",
+	"MrQiNutRoom.Dialogue.Fri-SeenQi8heartsEvent": "Before I moved to the Calico Desert, I lived here, on Ginger Island.#$b#I lived here because it was a nearly isolated place, and since I hadn't yet discovered the power of Consciousness Bifurcation, I needed to do all the responsibilities of a Mister Qi using the main representation.#$b#So I decided to focus on my responsibilities as Mister Qi and put my social life to one side. That's when I came here and built the walnut room, which used to be my bedroom.#$e#But... there came a time when I... I got tired of isolating myself so much from the world.$s#$b#So I decided to restart my social life by going to live in the Calico Desert. It was a bit awkward at first, mainly because I had just discovered Consciousness Bifurcation and was still getting used to dealing with the representations.#$b#But despite all that... It was really worth it.$h",
+	"MrQiNutRoom.Dialogue.Sat-SeenQi8heartsEvent": "Hey @, remember that even if you now know that your grandfather expects you to reach perfection, you don't need to rush to achieve it. You can take as long as you want to get there.#$b#Especially since your grandfather also wanted you to make the most of your new life in Stardew Valley. Perfection is just one step, not the entire journey.#$e#No matter how long it takes, we'll be happy when you achieve perfection.$h",
+	"MrQiNutRoom.Dialogue.Sun-SeenQi8heartsEvent": "I've put a perfection meter on the right to let you know how close to perfection you are.#$b#You should take a look so you know what's missing to reach perfection.",
 
 	/* ++++++++++++++++++++++++++++++++ */
 
@@ -150,10 +166,16 @@
 	"Sandy.DialogueEdits.Sun8": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for the people in the club, but I don't even talk to them, so I think I'm alone.",
 
 	//Sandy Dialogue Edits (After seeing Mister Qi's 4 Hearts event)
-	"Sandy.DialogueEdits.Thu.AfterMrQi4heartsEvent": "Well, since you're already part of the club, can you ask Mr. Qi when I'll get a raise?#$b#My salary needs an adjustment...$s#$e#It's a joke, okay? He'll be angry if he hears that.",
-	"Sandy.DialogueEdits.Thu2.AfterMrQi4heartsEvent": "That Azure hardly ever leaves that club, he's always there.#$b#How does he not get bored? It seems to be a very monotonous routine.",
-	"Sandy.DialogueEdits.Thu4.AfterMrQi4heartsEvent": "Hey, since you're part of the Mr. Qi's club, can you tell me what exactly is in there?#$b#Mr. Qi won't let me in there, he says it's not a place for people like me... What does he mean by that?$s#$b#Why can't I come in, but you can? It seems unfair. Especially since I allowed him to use that place to do whatever he wanted, I have the right to go in there.#$e#Oh, it's a secret? Alright then.$s#$b#Why am I always excluded when it comes to this club?$s",
-	"Sandy.DialogueEdits.Sun8.AfterMrQi4heartsEvent": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for Mr. Qi, but he doesn't even leave the club that often, so I guess I'm alone anyway.#$b#He used to go out more in the past, but now he stays at the club practically all day, it's rare for him to leave there.",
+	"Sandy.DialogueEdits.Thu-SeenQi4heartsEvent": "Well, since you're already part of the club, can you ask Mr. Qi when I'll get a raise?#$b#My salary needs an adjustment...$s#$e#It's a joke, okay? He'll be angry if he hears that.",
+	"Sandy.DialogueEdits.Thu2-SeenQi4heartsEvent": "That Azure hardly ever leaves that club, he's always there.#$b#How does he not get bored? It seems to be a very monotonous routine.",
+	"Sandy.DialogueEdits.Thu4-SeenQi4heartsEvent": "Hey, since you're part of the Mr. Qi's club, can you tell me what exactly is in there?#$b#Mr. Qi won't let me in there, he says it's not a place for people like me... What does he mean by that?$s#$b#Why can't I come in, but you can? It seems unfair. Especially since I allowed him to use that place to do whatever he wanted, I have the right to go in there.#$e#Oh, it's a secret? Alright then.$s#$b#Why am I always excluded when it comes to this club?$s",
+	"Sandy.DialogueEdits.Sun8-SeenQi4heartsEvent": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for Mr. Qi, but he doesn't even leave the club that often, so I guess I'm alone anyway.#$b#He used to go out more in the past, but now he stays at the club practically all day, it's rare for him to leave there.",
+
+	//Sandy Dialogue Edits (After seeing Mister Qi's 8 Hearts event)
+	"Sandy.DialogueEdits.spring_25-SeenQi8heartsEvent": "When Azure came to live here, he acted a bit strangely.#$b#Sometimes he'd sit near the counter and stare at the wall for long minutes, and sometimes he'd say things as if he was talking to someone.#$b#And he got annoyed if anyone tried to talk to him when he did these things, I even thought he was crazy.$h#$b#But he stopped doing this in a matter of weeks and then I never saw him do these things again.#$b#Just don't tell him I said that, he won't like knowing I said that.",
+	"Sandy.DialogueEdits.summer_10-SeenQi8heartsEvent": "Mr. Qi is a great guy, although he seems a bit cold towards me at times.#$b#When he's in a good mood he's a sweetheart, but when he's a bit stressed, it's better if I don't talk to him much, because I know I might get a rude response.#$b#But I don't even get angry about it, sometimes it's funny.$h",
+	"Sandy.DialogueEdits.winter_27-SeenQi8heartsEvent": "Today is Azure's birthday, but he doesn't even leave that club to celebrate his birthday.$s#$b#He only leaves on the last day of the year, so at least I can wish him a happy birthday tomorrow.#$e#Since you can get in there, can you wish him a happy birthday for me?",
+	"Sandy.DialogueEdits.Thu-SeenQi8heartsEvent": "Mister Qi always says I should stop calling him Azure, but it's become a habit.#$b#I can't stop calling him that, I know he doesn't like me calling him that, I swear I've been trying to stop.",
 
 	/* +++++++++++++++++++++++++++++++ */
 
@@ -173,7 +195,7 @@
 	"MapString.QiLab.2": "It looks like some strange creature... Is this thing moving or is it just me???",
 	"MapString.QiLab.3": "You have found a secret passage in Mr. Qi's laboratory, it leads to a vault, which is locked. You shouldn't be here... Leave before he notices.",
 	"MapString.QiLab.4": "There are some documents in there, nothing very interesting.",
-	"MapString.QiLab.5": "Written in elegant cursive handwriting.^ Qi Seasoning: Enhances the flavor of any food, but cannot be overused.^ Ingredients:^ - Rotten Stardrop liquid;^ - Grinded Prismatic Shard;^ - Grinded Radioactive Ore (in small quantities);^ - Acidity regulator.^NOTE: It's necessary to produce a non-radioactive variant.^ There is a note on the back of the page written in a different handwriting.    ^ \"Qi Seasoning\"? Really, Azure? It's a good name, but you could choose a different name, what about \"Galactic Seasoning\" or \"Star Seasoning\"?",
+	"MapString.QiLab.5": "Written in elegant cursive handwriting.^^ Qi Seasoning: Enhances the flavor of any food, but cannot be overused.^^ Ingredients:^ - Rotten Stardrop liquid;^ - Grinded Prismatic Shard;^ - Grinded Radioactive Ore (in small quantities);^ - Acidity regulator.^^NOTE: It's necessary to produce a non-radioactive variant.^^ There is a note on the back of the page written in a different handwriting.^^ \"Qi Seasoning\"? Really, Azure? It's a good name, but you could choose a different name, what about \"Galactic Seasoning\" or \"Star Seasoning\"?",
 	"MapString.QiLab.6": "This jar of Prismatic jelly is so shiny, it's really beautiful!",
 	"MapString.QiLab.7": "Mr. Qi said he puts radioactive ore in this container, it's better not to open it.",
 	"MapString.QiLab.8": "There are some documents stored there, it doesn't look very interesting.",
@@ -181,22 +203,28 @@
 	"MapString.QiLab.10": "A bottle containing a powder with a slightly purple color, with a label stuck on it, reads \"Qi Seasoning\".",
 
 	//Schedule Strings
-	"ScheduleStrings.Qi.Winter28": "I miss you so much...$3",
+	"ScheduleStrings.Qi.Winter28": "I miss you so much...$s",
 	"ScheduleStrings.Qi.BeachMarket": "I'm just watching the movement, I need most of the villagers to leave before I go and buy what I want.",
+
+	/* +++++++++++++++++++ */
+
+	/* +++++|LETTERS|+++++ */
+
+	"MailLetter.QiImportantTalk": "Dear @^^ I hope this message finds you in good health and spirits.^^ I am addressing you with the purpose of extending a formal invitation to a meeting at my residence. There is a matter of considerable importance that I would like to discuss in person.^^ I recognize that such a topic should have been shared earlier, however, I hesitated due to the need to assess mutual trust^I am now convinced that our relationship is solid enough for me to reveal this content to you.^   I would like to invite you to visit me in my home, more specifically in my bedroom, during the night. I suggest that you visit me before the Oasis closes, at a time that is convenient for you.^^  I am confident that this meeting will be fruitful and enlightening for both of us.^   Sincerely, Mr. Qi.[#]An Important Talk",
 
 	/* +++++++++++++++++++ */
 
 	/* +++++|EVENTS|+++++ */
 
 	//Mr. Qi & Club Introduction
-	"Event-16724000.01": "Welwick, I told you not to drink too much.#$b#Now you're drunk!$2",
+	"Event-16724000.01": "Welwick, I told you not to drink too much.#$b#Now you're drunk!$u",
 	"Event-16724000.02": "Welwick: I already said I'm not drunk! *hic* I'm just having fun!#Welwick: Ugh...",
 	"Event-16724000.03": "It looks like Welwick is going to throw up.",
-	"Event-16724000.04": "If you vomit in this vase you'll pay for cleaning it!$2",
+	"Event-16724000.04": "If you vomit in this vase you'll pay for cleaning it!$u",
 	"Event-16724000.05": "Welwick: I'm not gonna throw up, I'm... Ugh.",
-	"Event-16724000.06": "No, don't do this...$2",
+	"Event-16724000.06": "No, don't do this...$u",
 	"Event-16724000.07": "Welwick begins to vomit.",
-	"Event-16724000.08": "No!$2#$b#Ah, forget it. Do whatever you want...$2",
+	"Event-16724000.08": "No!$u#$b#Ah, forget it. Do whatever you want...$u",
 	"Event-16724000.09": "Ah, so you came here, didn't you?",
 	"Event-16724000.10": "You followed the instructions I sent you and found this place, I'm surprised.#$b#Ordinary people wouldn't follow orders from notes left by a stranger in certain places.#$b#Your curiosity spoke louder, didn't it, @?",
 	"Event-16724000.11": "How do I know your name? Well, I know everything that happens in the Valley, including your arrival.#$b#Anyway, welcome to my casino, {{NameOrKid}}. You can come here whenever you want.",
@@ -210,7 +238,7 @@
 	"Event-16724001.01": "Hello again, {{NameOrKid}}.",
 	"Event-16724001.02": "He he, I see your exploration in the Skull Cavern was very fruitful.#$b#I knew you were different, you are very brave, {{NameOrKid}}.#$b#You really deserved that reward for all your bravery, exploring a place like the Skull Cavern is not for everyone.",
 	"Event-16724001.03": "How did you get here so fast? What was that?!",
-	"Event-16724001.04": "Well, that's what I want to talk to you about.#$b#As you could see, I'm different from the other villagers you know, I know things they don't know, and I do things they don't do.#$b#The things I know and do could put my life and the lives of other villagers at risk, I need to keep all this a secret for everyone's safety.#$b#So I can't just let you go and run the risk of you telling what you saw.$2",
+	"Event-16724001.04": "Well, that's what I want to talk to you about.#$b#As you could see, I'm different from the other villagers you know, I know things they don't know, and I do things they don't do.#$b#The things I know and do could put my life and the lives of other villagers at risk, I need to keep all this a secret for everyone's safety.#$b#So I can't just let you go and run the risk of you telling what you saw.$u",
 	"Event-16724001.05": "Mr. Qi approaches you.",
 	"event.16724001.06": "I can trust you, right?",
 	"Event-16724001.07": "Yes, I won't tell anything.",
@@ -220,14 +248,14 @@
 	"Event-16724001-KeptSecret.01": "Great, {{NameOrKid}}. I really don't want to put anyone's life at risk, I need to keep this a secret.",
 	"Event-16724001-KeptSecret.02": "I keep your secret, but you still haven't said what happened there in Skull Cavern.",
 	"Event-16724001-KeptSecret.03": "I can't talk about it right now, we're both very busy, maybe some other time I'll talk more about it, when we both have time.#$b#The only thing I can say is that what happened back in Skull Cavern is just the tip of the iceberg, {{NameOrKid}}.",
-	"Event-16724001-KeptSecret.04": "Well, since you're going to keep my secret I'll give you an item as a thank you.#$b#Here, it's an Iridium Bar, it might be useful for you to upgrade your tools or build some machines.[337]#$b#And remember, what happened back in the Skull Cavern is a secret, don't tell anyone.$2",
-	"Event-16724001-KeptSecret.05": "I hope he really keeps this secret. I'll keep an eye out, just in case.$2^I hope she really keeps this secret. I'll keep an eye out, just in case.$2",
+	"Event-16724001-KeptSecret.04": "Well, since you're going to keep my secret I'll give you an item as a thank you.#$b#Here, it's an Iridium Bar, it might be useful for you to upgrade your tools or build some machines.[337]#$b#And remember, what happened back in the Skull Cavern is a secret, don't tell anyone.$u",
+	"Event-16724001-KeptSecret.05": "I hope he really keeps this secret. I'll keep an eye out, just in case.$u^I hope she really keeps this secret. I'll keep an eye out, just in case.$u",
 	"Event-16724001-KeptSecret.06": "That was a little scary, but I'll be true to my word and keep it a secret. But this guy definitely owes me an explanation.",
 
 	//Gossip Farmer
-	"Event-16724001-GossipFarmer.01": "If you tell anyone this, we'll be in big trouble.$2#$b#I've been hiding this from people longer than you know, {{NameOrKid}}.$2#$b#I won't let someone like you ruin everything!$2#$b#Please, let's resolve this peacefully. We're wasting time arguing about this, you have too many other things to do and so do I.$2#$b#I'm not asking for anything crazy, I'm just asking you to keep a secret.$2",
+	"Event-16724001-GossipFarmer.01": "If you tell anyone this, we'll be in big trouble.$u#$b#I've been hiding this from people longer than you know, {{NameOrKid}}.$u#$b#I won't let someone like you ruin everything!$u#$b#Please, let's resolve this peacefully. We're wasting time arguing about this, you have too many other things to do and so do I.$u#$b#I'm not asking for anything crazy, I'm just asking you to keep a secret.$u",
 	"Event-16724001-GossipFarmer.02": "With much hesitation, you agree to keep Mr. Qi's secret.",
-	"Event-16724001-GossipFarmer.03": "Thank you so much for agreeing to keep this secret, {{NameOrKid}}. It's really important that no one knows about this.#$b#Maybe some other time I'll explain everything to you, but for now, just don't say anything about what you saw to anyone, okay?$2",
+	"Event-16724001-GossipFarmer.03": "Thank you so much for agreeing to keep this secret, {{NameOrKid}}. It's really important that no one knows about this.#$b#Maybe some other time I'll explain everything to you, but for now, just don't say anything about what you saw to anyone, okay?$u",
 	"Event-16724001-GossipFarmer.04": "I agreed to keep Mr. Qi's secret. I have no idea why he's so worried that this secret will be revealed.",
 	"Event-16724001-GossipFarmer.05": "I hope he can explain this to me at some point.",
 
@@ -236,9 +264,9 @@
 	"Event-16724002.02": "CalicoJack Guy: Wanna try one more time?",
 	"Event-16724002.03": "You agree to play again, and again, and again.#You lose every time.",
 	"Event-16724002.04": "CalicoJack Guy: How dare you call me a cheater? I can't do anything if you're on a bad streak!",
-	"Event-16724002.05": "Hey, what's happening here? Why all this shouting?$2",
+	"Event-16724002.05": "Hey, what's happening here? Why all this shouting?$u",
 	"Event-16724002.06": "CalicoJack Guy: This guy is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!^CalicoJack Guy: This girl is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!#CalicoJack Guy: It's not my fault he lost 4 times in a row, I played fair!^CalicoJack Guy: It's not my fault she lost 4 times in a row, I played fair!",
-	"Event-16724002.07": "Hmm... Got it.$2#$b#Come with me, {{NameOrKid}}. You need to calm down.",
+	"Event-16724002.07": "Hmm... Got it.$u#$b#Come with me, {{NameOrKid}}. You need to calm down.",
 	"Event-16724002.08": "I don't usually bring people here, it's a very private place, you're a privileged person.#$b#Anyway, let's go inside and have a little chat.",
 	"Event-16724002.09": "Come on, {{NameOrKid}}, you can come in.",
 	"Event-16724002.10": "Yeah, this is my room, when I'm not at the casino I'm here.#$b#Come on, we need to talk.",
@@ -247,26 +275,26 @@
 	"Event-16724002.13": "I was trying to get enough Qi coins to buy something, so I decided to bet on CalicoJack. Then that guy started playing dirty and made me lose everything! I couldn't let that happen!",
 	"Event-16724002.14": "I understand your anger, {{NameOrKid}}. It's infuriating to lose everything on a bet, but that's how betting works, it all depends on your luck.",
 	"Event-16724002.15": "I know betting depends on luck, but it's not possible for someone to be that lucky! That guy always got it right, plus he had a suspicious look on his face. He clearly cheated!",
-	"Event-16724002.16": "I see, maybe he really was cheating...#$b#But did you really think that accusing him of cheating would help at all? He'd never admit it!$2",
+	"Event-16724002.16": "I see, maybe he really was cheating...#$b#But did you really think that accusing him of cheating would help at all? He'd never admit it!$u",
 	"Event-16724002.17": "It's just that it's so unfair, he was stealing all my Qi coins! What if he does this to other gamblers?",
-	"Event-16724002.18": "People's sense of fairness is relative, {{NameOrKid}}. The actions you take that you think are fair may be fair to you, but unfair to others...$2#$b#Sometimes we need to accept things the way they are, and not the way we wanted them to be...$2#$b#The next time you play and notice something suspicious, simply stop playing. Cheaters often insist that you keep betting higher, and if they realize you've noticed the trick, they'll stop.#$b#Don't get carried away with the prize, always be aware of your opponent's movements and leave as soon as you realize they have started playing dirty.",
+	"Event-16724002.18": "People's sense of fairness is relative, {{NameOrKid}}. The actions you take that you think are fair may be fair to you, but unfair to others...$u#$b#Sometimes we need to accept things the way they are, and not the way we wanted them to be...$u#$b#The next time you play and notice something suspicious, simply stop playing. Cheaters often insist that you keep betting higher, and if they realize you've noticed the trick, they'll stop.#$b#Don't get carried away with the prize, always be aware of your opponent's movements and leave as soon as you realize they have started playing dirty.",
 	"Event-16724002.19": "You're right... I don't know what I was hoping would happen if I accused that guy of cheating.#I must have gotten carried away, I'll be more careful when gambling at the casino...",
 	"Event-16724002.20": "Yes, I hope that doesn't happen again, {{NameOrKid}}.",
-	"Event-16724002.21": "Well, I don't usually bring people into my room, you're one of the first people to come in here.#$b#It's kind of big, isn't it?#$b#If you want, you can take a look at it.#$b#Just don't touch my stuff.$2",
-	"Event-16724002.22": "Do you see that door over there?#$b#You cannot enter there. Under no circumstances.$2",
+	"Event-16724002.21": "Well, I don't usually bring people into my room, you're one of the first people to come in here.#$b#It's kind of big, isn't it?#$b#If you want, you can take a look at it.#$b#Just don't touch my stuff.$u",
+	"Event-16724002.22": "Do you see that door over there?#$b#You cannot enter there. Under no circumstances.$u",
 	"Event-16724002.23": "Well, I'll introduce you to a bit of my room and then you can leave.",
 	"Event-16724002.24": "Mr. Qi's room is huge! I had no idea it was so big.#...#I wonder what he hides behind that door?",
-	"Event-16724002.25": "So? Were you really cheating or not?$2",
+	"Event-16724002.25": "So? Were you really cheating or not?$u",
 	"Event-16724002.26": "CalicoJack Guy: No, I wasn't cheating, I swear!#CalicoJack Guy: He was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.^CalicoJack Guy: She was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.",
-	"Event-16724002.27": "I'm keeping an eye on you... If I hear one more complaint of cheating you won't be coming back to this casino any time soon, understand?$2",
+	"Event-16724002.27": "I'm keeping an eye on you... If I hear one more complaint of cheating you won't be coming back to this casino any time soon, understand?$u",
 	"Event-16724002.28": "CalicoJack Guy: Yes, I understand, Mr. Qi...",
-	"Event-16724002.29": "Great, I hope I don't hear any more complaints like that.$2",
-	"Event-16724002.30": "Hello, {{NameOrKid}}, I hope you don't have any more problems with cheaters around here, I always value fair play.#$e#What? Why do I have a double bed if I'm a single?$2#$b#@, I may have allowed you into my room, but I didn't give you permission to ask questions about my personal life. Don't be nosy.$2",
+	"Event-16724002.29": "Great, I hope I don't hear any more complaints like that.$u",
+	"Event-16724002.30": "Hello, {{NameOrKid}}, I hope you don't have any more problems with cheaters around here, I always value fair play.#$e#What? Why do I have a double bed if I'm a single?$u#$b#@, I may have allowed you into my room, but I didn't give you permission to ask questions about my personal life. Don't be nosy.$u",
 
 	//A Shared Secret (Mister Qi's 4 Hearts Event)
 	"Event-16724003.01": "Here's your paycheck for this month, Sandy.",
 	"Event-16724003.02": "Thanks a lot, Azure!$h#$b#I mean, Mister Qi...",
-	"Event-16724003.03": "How many times have I told you not to call me Azure? You know I don't like that nickname...$2",
+	"Event-16724003.03": "How many times have I told you not to call me Azure? You know I don't like this nickname...$u",
 	"Event-16724003.04": "Sorry, got used to that, haha.$h#$b#Yes, I know you don't like this nickname, it doesn't bring back good memories for you... I'm really sorry.$s",
 	"Event-16724003.05": "Oh! @! Welcome...",
 	"Event-16724003.06": "I-I can explain...",
@@ -276,21 +304,21 @@
 	"Event-16724003.10": "I've known Sandy for a long time, {{NameOrKid}}. She allowed me to set up my club upstairs.",
 	"Event-16724003.11": "And in exchange for allowing him to stay there, I would have to keep it a secret and not tell anyone about the club and Mr. Qi...#$b#Since I've been running this place, he pays me a lot of money to keep it a secret.#$b#It's because of this money that I'm not going bankrupt, hardly anyone comes here besides you, @.$s",
 	"Event-16724003.12": "Anyway, now that you know how I met Sandy, I'm going back to the club, I have a lot of things to do and no time for small talk.",
-	"Event-16724003.13": "And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot he doesn't know about me yet.$2^And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot she doesn't know about me yet.$2",
+	"Event-16724003.13": "And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot he doesn't know about me yet.$u^And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot she doesn't know about me yet.$u",
 	"Event-16724003.14": "Okay, okay, no need to repeat that so many times...#$b#You are so annoying sometimes, Azu... Mister Qi...",
-	"Event-16724003.15": "I already told you not to...$2#$b#Ah, forget it, just don't talk about me too much, okay?#$b#Anyway, see you later, @.",
+	"Event-16724003.15": "I already told you not to...$u#$b#Ah, forget it, just don't talk about me too much, okay?#$b#Anyway, see you later, @.",
 	"Event-16724003.16": "Wow... Looks like he's a little stressed today.",
 	"Event-16724003.17": "Anyway, what are you doing here, @?",
 	"Event-16724003.18": "I didn't know that Sandy knew Mr. Qi, that was an interesting discovery, but why is he so insistent on keeping secrets? What is he hiding?",
-	"Event-16724003.19": "I'm sorry for leaving like that, but I'm really busy, I hope you understand.#$b#And since you already know that Sandy knows me, can you keep an eye on her for me? She is kind of... energetic.$2#$b#She may end up saying what she shouldn't...$2",
+	"Event-16724003.19": "I'm sorry for leaving like that, but I'm really busy, I hope you understand.#$b#And since you already know that Sandy knows me, can you keep an eye on her for me? She is kind of... energetic.$u#$b#She may end up saying what she shouldn't...$u",
 
 	//The Mr.Qi's Lab (Mister Qi's 6 Hearts Event)
 	"Event-16724004.01": "Mr. Qi entered the room.",
 	"Event-16724004.02": "Mr. Qi said you couldn't go through this door....",
 	"Event-16724004.03": "Even though you know you shouldn't, you decide to enter the room.",
-	"Event-16724004.04": "@! What on earth are you doing here?$2#$b#I told you that you couldn't come in here!$2#$b#Did I speak in some strange language by any chance?$2",
-	"Event-16724004.05": "Saying something to you is like talking to a wall...$2#$b#It even sounds like my... my...$2",
-	"Event-16724004.06": "Forget it, you just shouldn't be here.... There are things you shouldn't know.#$b#But it seems you can't contain your curiosity, eh?$2",
+	"Event-16724004.04": "@! What on earth are you doing here?$u#$b#I told you that you couldn't come in here!$u#$b#Did I speak in some strange language by any chance?$u",
+	"Event-16724004.05": "Saying something to you is like talking to a wall...$u#$b#It even sounds like my... my...$u",
+	"Event-16724004.06": "Forget it, you just shouldn't be here.... There are things you shouldn't know.#$b#But it seems you can't contain your curiosity, eh?$u",
 	"Event-16724004.07": "I'm sorry, Mr. Qi. I'll not enter here again without asking permission.",
 	"Event-16724004.08": "I am really sorry. But this place looks... interesting.",
 	"Event-16724004.09": "That's okay, {{NameOrKid}}. I hope you don't do this again, it's too childish.#$b#But since you're already here, you can have a closer look at this place, I know you're curious.",
@@ -308,9 +336,9 @@
 
 	//Farmer try to touch on the fruit
 	"Event-16724004-touchFruit.01": "You try to touch the fruit, but Mr. Qi holds your arm before you do.",
-	"Event-16724004-touchFruit.02": "Hey! What are you doing? Are you trying to hurt yourself?$2",
-	"Event-16724004-touchFruit.03": "This fruit is rotting, don't you see that purple liquid oozing out of it?$2#$b#This liquid is acidic, if you touch it you can get a severe burn.$2",
-	"Event-16724004-touchFruit.04": "*Sigh* Aside from not being able to follow a simple order, you have no sense of danger... How are you standing today with such a terrible survival instinct?$2#$b#How could you think of touching a rotting fruit without even wearing any protective equipment?$2#$b#You could have seriously hurt yourself with that attitude, {{NameOrKid}}.$2",
+	"Event-16724004-touchFruit.02": "Hey! What are you doing? Are you trying to hurt yourself?$u",
+	"Event-16724004-touchFruit.03": "This fruit is rotting, don't you see that purple liquid oozing out of it?$u#$b#This liquid is acidic, if you touch it you can get a severe burn.$u",
+	"Event-16724004-touchFruit.04": "*Sigh* Aside from not being able to follow a simple order, you have no sense of danger... How are you standing today with such a terrible survival instinct?$u#$b#How could you think of touching a rotting fruit without even wearing any protective equipment?$u#$b#You could have seriously hurt yourself with that attitude, {{NameOrKid}}.$u",
 
 	//Continue the event
 	"Event-16724004-continue.01": "Anyway, we've been here too long. What else do you want to see in this place?",
@@ -330,7 +358,7 @@
 	"Event-16724004-continue.15": "There's radioactive ore in that container, that's why it's sealed",
 	"Event-16724004-continue.16": "Don't worry, it's not highly radioactive.#$b#But it's best to avoid exposing yourself unnecessarily.",
 	"Event-16724004-continue.17": "It's a sheet of paper with something written on it in elegant handwriting, you pick it up to read what's written.#Is written: 'Qi Seasoning: Enhances the flavor of any food, but cannot be overused. ^ Ingredients: ^ - Rotten Stardrop liquid; ^ - Grinded Prismatic Shard; ^ - Grinded Radioactive Ore (in small quantities); ^ - Acidity regulator. ^ NOTE: It's necessary to produce a non-radioactive variant.'",
-	"Event-16724004-continue.18": "This is a piece of paper with ingredients to prepare a seasoning I made some time ago.#$b#As you've read, it's called 'Qi Seasoning'. A pinch of this spice makes any food made with it worthy of being in a five-star restaurant.#$b#But as it has radioactive ingredients, it's not recommended to use it in high quantities.$2#$b#I tried to find a non-radioactive alternative, but unfortunately the active ingredient in this spice is in the Stardrop liquid, which is radioactive...#$b#Why do you think I have a Stardrop rotting right there?",
+	"Event-16724004-continue.18": "This is a piece of paper with ingredients to prepare a seasoning I made some time ago.#$b#As you've read, it's called 'Qi Seasoning'. A pinch of this spice makes any food made with it worthy of being in a five-star restaurant.#$b#But as it has radioactive ingredients, it's not recommended to use it in high quantities.$u#$b#I tried to find a non-radioactive alternative, but unfortunately the active ingredient in this spice is in the Stardrop liquid, which is radioactive...#$b#Why do you think I have a Stardrop rotting right there?",
 	"Event-16724004-continue.19": "You put the sheet of paper back in place, but you notice that there is something written on the back of the sheet.",
 	"Event-16724004-continue.20": "You turn the page and see what is written.#It's a different handwriting, it's written: '\"Qi Seasoning\"? Really, Azure? It's a good name, but you could choose a different name, what about \"Galactic Seasoning\" or \"Star Seasoning\"?'",
 	"Event-16724004-continue.21": "What? There's something written on the back of the page?#$b#Let me see.",
@@ -338,12 +366,108 @@
 	"Event-16724004-continue.23": "Huh? Yes, I'm fine... Don't worry about it, it's probably just a silly note I made and forgot...",
 	"Event-16724004-continue.24": "Anyway, I think I've introduced you to enough of this place...#$b#Would you please leave? I have a lot of work to do.",
 	"Event-16724004-continue.25": "But now? There's so many things to see here!",
-	"Event-16724004-continue.26": "You can see these things another time, {{NameOrKid}}.#$b#From now on, you can come here whenever you want. After all, you already know what's here, so there's no reason for me to hide it from you.#$b#I just want you not to tell anyone else about this place, okay?$2",
+	"Event-16724004-continue.26": "You can see these things another time, {{NameOrKid}}.#$b#From now on, you can come here whenever you want. After all, you already know what's here, so there's no reason for me to hide it from you.#$b#I just want you not to tell anyone else about this place, okay?$u",
 	"Event-16724004-continue.27": "Now please leave. I need to continue my work.",
 	"Event-16724004-continue.28": "There were still a few things I wanted to see... At least Mr. Qi allowed me to enter his laboratory whenever I wanted.",
 	"Event-16724004-continue.29": "I wonder why he acted that way when he saw that note on the paper?",
 	"Event-16724004-continue.30": "*sigh*",
-	"Event-16724004-continue.31": "'Galactic Seasoning'...#$b#You were so creative...$3",
+	"Event-16724004-continue.31": "'Galactic Seasoning'...#$b#You were so creative...$s",
+
+	//Properly Explanations (Mister Qi's 8 Hearts Event)
+	"Event-16724005.01": "Ah, @, you came.#$b#I knew you would come after reading that letter.",
+	"Event-16724005.02": "Come here, we need to talk. I owe you some explanations.",
+	"Event-16724005.03": "Well, I must start by saying what I'm doing now is a mistake, I shouldn't tell you that.#$b#But I don't feel right hiding it from you, we're much closer to each other, but you still don't know me that well. I feel like I'm lying to you.#$b#Because, in a way, that's what I'm doing...$s",
+	"Event-16724005.04": "Okay, I know I'm confusing you, so I'll cut to the chase.#$b#You know that I know a lot of things about this world, right?",
+	"Event-16724005.05": "Yes, you told me you knew everything that was going on in the Valley, but what does that have to do with anything?",
+	"Event-16724005.06": "Yes, I also remember that you knew my name before we even met, but why does that matter?",
+	"Event-16724005.07": "Have you ever wondered how I know so many things without even leaving this place often?",
+	"Event-16724005.08": "No, right? Just as I imagined.#$b#Well, I know about a lot of things in the world because I'm one of the many manifestations of a consciousness that has been passed on between different beings over the ages.",
+	"Event-16724005.09": "What? What do you mean by manifestations?",
+	"Event-16724005.10": "I already expected this reaction, allow me to explain better.#$b#When I say that I am a manifestation I mean that I'm not the first or the last being to have this name and this purpose.#$b#I'm just one of the links in a chain that will stretch throughout history.#$b#In simple words: I'm not the first Mister Qi, there have been others before me.#$b#Each of them passed on their knowledge and responsibility to me, and one day, I'll have to do the same with the next Mister or Missus Qi.",
+	"Event-16724005.11": "That's amazing, Mister Qi! What is your mission?",
+	"Event-16724005.12": "Our mission is to ensure that the world's finite resources, such as minerals, building materials like wood or stone, and of course food, continue to exist.#$b#How do you think it's possible for you to find so many items around the world? Or who do you think puts rewards in the mine chests? This is the work of the Misters Qi.#$b#We have the ability to manipulate characteristics of the world around us, to create and distribute resources that are necessary for life.#$b#We do this so that the balance of the world is maintained and to prevent precious resources from running out.",
+	"Event-16724005.13": "But how can you do this just being here at the casino? Isn't that a lot of responsibility for just one person?",
+	"Event-16724005.14": "Yes, you're right, it's a lot of responsibility for one person.#$b#Only a human being like me couldn't do all this alone, he wouldn't have time for anything else.#$b#That's why I use a power called Consciousness Bifurcation to fulfill my mission and at the same time be able to lead a relatively normal life.",
+	"Event-16724005.15": "The Consciousness Bifurcation is a power I discovered when I decided to move to the Desert.#$b#This power allows me to divide my consciousness between other bodies, or representations, as I call them.#$b#I have four representations including this one, each of these representations has a different function and is linked to the main representation, which, in this case, is me.#$b#I can see what each of them is doing, control and communicate with them.#$b#This allows me to be in multiple places at once. This way, I can continue fulfilling my mission while still living my life as an ordinary human being.#$b#In the past, this was more difficult, since everything happened in the main representation.",
+	"Event-16724005.16": "So you're in several places at once because of your representations, and even control and communicate with them from a distance? It's very hard to believe...",
+	"Event-16724005.17": "Yes, I know it's hard to believe, but I'm telling the truth.#$b#Besides this one, I have three other representations scattered around the world, one is in the physical world and the other two are on other layers.#$b#I can prove it to you, I can bring my representations here if you want. Do you want to see them?",
+	"Event-16724005.18": "Of course yes. I want to see them.",
+	"Event-16724005.19": "I'm glad you want to see my representations. I was afraid you'd be frightened by this revelation and not want to see them.#$b#I'd understand if you were scared, because it's not usual for someone to say something like that.",
+	"Event-16724005.20": "Are you ready, @?",
+	"Event-16724005.21": "Yes, I'm ready!",
+	"Event-16724005.22": "Ok, So let's go.#$b#Some of my representations don't have a physical form, but you'll be able to hear them. It can be a little scary, but it's normal.",
+	"Event-16724005.23": "Wow! Another Mister Qi appeared right in front of us!",
+	"Event-16724005.24": "Hey! What are you doing? I was doing something important!$u#$b#And why @ is here? Don't tell me you...$u",
+	"Event-16724005.25": "I'm sorry, I know you were doing other things.#$b#And yes, I told him about the representations. And he wanted to see you.^And yes, I told her about the representations. And she wanted to see you.",
+	"Event-16724005.26": "You know this is a mistake... You know the risks.$u",
+	"Event-16724005.27": "Yeah, I know it's a mistake... But I trust @ and I know nothing bad will happen.#$b#Besides, I'm his friend, I wouldn't be able to hide it from him for so long.^Besides, I'm her friend, I wouldn't be able to hide it from her for so long.",
+	"Event-16724005.28": "Can any of you explain to me what's going on???",
+	"Event-16724005.29": "I'm sorry, @. This is my semi-physical representation.#$b#It's my only representation that has a physical form.",
+	"Event-16724005.30": "We are identical in shape, but have a different structure.#$b#While the main representation is made of flesh and blood, I am made of a different material.#$b#I am made of a magical material that allows me to exist physically, but without the necessities that an ordinary human being needs to live.",
+	"Event-16724005.31": "This representation is always in the Walnut Room, it's responsible for keeping that place safe. Only people who I think deserve to go there enter.",
+	"Event-16724005.32": "Well, now that you know this representation, I'll go back to the Walnut Room, that place needs me.",
+	"Event-16724005.33": "You hear a voice. It sounds like it's behind you.",
+	"Event-16724005.34": "Mister Qi (Spiritual): Hello, {{PlayerName}}. It seems like you're discovering the truth about the Misters Qi, right?",
+	"Event-16724005.35": "There is no one.",
+	"Event-16724005.36": "Calm down, I heard the voice too.#$b#It's my spiritual representation, it has no physical form, it just has a voice.",
+	"Event-16724005.37": "Mister Qi (Spiritual): In fact, I shouldn't even have a voice here in the physical world. I shouldn't even be in the physical world in the first place.",
+	"Event-16724005.38": "Mister Qi (Spiritual): I'm only here talking to you because the main representation asked me to introduce myself.",
+	"Event-16724005.39": "As I said, I can control each of these representations. I can easily communicate with them.",
+	"Event-16724005.40": "Mister Qi (Spiritual): Each of the representations has different responsibilities. I am responsible for communicating with beings in the spirit world, including the Misters Qi who preceded us.",
+	"Event-16724005.41": "Mister Qi (Spiritual): I'm a communication channel between the Misters Qi, if any of our ancestors have something important to say, they communicate with me.",
+	"Event-16724005.42": "The spiritual representation also has a great importance for keeping memories, since it holds the knowledge of previous Misters Qi.#$b#Everything they learned throughout their lives is stored in it.",
+	"Event-16724005.43": "Now I'm going to show you my extra-physical representation.#$b#It's the most important representation, it can't manifest in the physical world like the others, but I'll find a way to show it to you. Get ready.",
+	"Event-16724005.44": "You feel something weird.",
+	"Event-16724005.45": "I'm sorry for introducing myself that way, @. But I can't communicate with you any other way.$s#$b#Just like the spiritual representation, it also has no physical form, but it has a deep connection with this world.#$b#With this representation, I can see everything you and other valley residents are doing.#$b#It is with it that I have the ability to manipulate the world, it is with it that I create and distribute the resources you need to live.#$b#It is with it that I propose challenges and rewards for you to better explore Stardew Valley and strive to improve the farm as much as possible.#$b#Well, I can't stay inside your head for long, so I'm going to bring you back so the main representation can explain things better.#$b#Again, I apologize for invading your head like that...$s",
+	"Event-16724005.46": "Welcome back, @!#$b#Now you know the truth about me, I feel so much better now that I don't have to hide it from you.$h#$b#I'll no longer have to pretend to be just someone who runs a casino.",
+	"Event-16724005.47": "...$s",
+	"Event-16724005.48": "What's wrong?",
+	"Event-16724005.49": "I'm kind of... I'm scared of you.",
+	"Event-16724005.50": "You can be in several places at once, you can control the world around you, you're not the first Mister Qi and now you observe and create challenges for me. It's so much to process...",
+
+	//Fearful Farmer
+	"Event-16724005-FearfulFarmer.01": "You are afraid of me?$s#$b#I understand your feeling, knowing that you are being watched twenty-four hours a day is kind of scary.",
+	"Event-16724005-FearfulFarmer.02": "But I want you to know that I don't observe you or anyone else with bad intentions.#$b#On the contrary, I need to observe people so that I know what kind of resources they need most.#$b#For example: If Robin, the Stardew Valley carpenter, is in need of wood for a specific project, I can make more trees grow in the valley.#$b#If Clint, the valley blacksmith, needs iron to forge tools, I can make more iron ores be in the mines.#$b#And in your case, I observe you so that I know what kind of challenges I should propose to you on the week.",
+	"Event-16724005-FearfulFarmer.03": "My duty as Mister Qi is not to let essential things run out, so it's easier to do that if I know what each person needs, including you.#$b#That's why I watch not only you, but the whole Stardew Valley. Now you understand why I do that?",
+	"Event-16724005-FearfulFarmer.04": "I understand. But I have another question...",
+	"Event-16724005-FearfulFarmer.05": "And what is your question?",
+	"Event-16724005-FearfulFarmer.06": "Why you challenge me? What is your interest in me?",
+	"Event-16724005-FearfulFarmer.07": "So that's your question? Of course I'll answer.#$b#My interest in you is due to a promise I made to someone, that someone is your grandfather.",
+	"Event-16724005-FearfulFarmer.08": "My grandfather? You knew him?",
+	"Event-16724005-FearfulFarmer.09": "Yeah, I knew him. He was one of the few who knew about the existence of the Misters Qi and our power.#$b#When he was at the end of his life, he asked me to guide him through your journey through Stardew Valley.#$b#He wanted you to strive to take care of your farm, to have a motivation to continue the %farm's legacy.#$b#So he asked me to observe you, create challenges and rewards for your efforts so that you could achieve 'perfection', as he called it.#$b#I accepted this responsibility in respect for your grandfather, he was a great friend of mine.",
+	"Event-16724005-FearfulFarmer.10": "That's a great honor, but at the same time it's a great burden...",
+	"Event-16724005-FearfulFarmer.11": "I know, the journey to perfection is challenging, but you're not alone. I'm here to help you get there.$h#$b#Furthermore, you don't have to rush to achieve perfection, do everything in your own time.#$b#Enjoy as much as the valley has to offer and before you know it, you'll have reached perfection.",
+	"Event-16724005-FearfulFarmer.12": "Are you still scared of me because you know I watch you?$s",
+	"Event-16724005-FearfulFarmer.13": "It's okay, I'm not mad at you for being afraid of me, it's understandable.#$b#You just need some time to understand everything.#$b#I hope you know that even though you're afraid of me, I'll always be here to help you.",
+	"Event-16724005-FearfulFarmer.14": "I didn't expect our conversation to go this far, it's very scary.",
+	"Event-16724005-FearfulFarmer.15": "I think I need some time to trust Mister Qi again...",
+
+	//Surprised Farmer
+	"Event-16724005-SurprisedFarmer.01": "I can understand...$s#$b#I know it's a lot for you to process, but that's the truth.#$b#Maybe I made a mistake by telling you all this so suddenly...$s#$b#I should have introduced this subject to you when we first met, but I was too worried to tell you everything.#$b#I wanted to make sure I could trust you to reveal such an important secret like this.",
+	"Event-16724005-SurprisedFarmer.02": "I hope this doesn't make you afraid to talk to me, that was never my intention.#$b#I just wanted you to know the truth about me, because I consider you a friend.",
+	"Event-16724005-SurprisedFarmer.03": "So you're afraid of me now, after knowing all this?$s",
+	"Event-16724005-SurprisedFarmer.04": "Afraid of you? Not at all! I'm a friend of a very powerful person who's on my side. I see no reason to be afraid of you.",
+	"Event-16724005-SurprisedFarmer.05": "I'm not afraid of you, in fact I'm honored to be your friend!",
+	"Event-16724005-SurprisedFarmer.06": "Good to know you're not afraid of me, @.#$b#That was the biggest worry I had, even my ancestors were worried about how you would react.#$b#But anyway, do you still have any questions about me?",
+	"Event-16724005-SurprisedFarmer.07": "Yes, you watch me so you can create challenges for me, but why? Why did you do that?",
+	"Event-16724005-SurprisedFarmer.08": "Oh, that... well, I think the moment has come when I really need to explain.#$b#I don't know if he'll get upset, but knowing him, he probably wouldn't mind you knowing.",
+	"Event-16724005-SurprisedFarmer.09": "So, you know your grandfather? It's because of him that I watch you to propose challenges for you.",
+	"Event-16724005-SurprisedFarmer.10": "Yes, I knew your grandfather, he was one of the few who knew about the existence of the Misters Qi and our power.#$b#When he decided that he would leave the %farm farm to you as an inheritance, he asked me to watch you from afar and prepare challenges for you.#$b#He wanted you to have a motivation to continue %farm's legacy and achieve 'perfection'.",
+	"Event-16724005-SurprisedFarmer.11": "Perfection?",
+	"Event-16724005-SurprisedFarmer.12": "'Perfection' is the continuous search for excellence and improvement.#$b#It's never accepting standing still in one place, always looking for something new to do.#$b#Your grandfather believed that you had the potential to make this place even better, so he decided to leave %farm in your hands.#$b#But he also knew that reaching perfection alone is complicated, so he gave me the mission of helping you on your journey, and since he was my friend, I accepted that mission.",
+	"Event-16724005-SurprisedFarmer.13": "That's why I watch you and create challenges for you, I try to help you reach the full potential your grandfather believed you could have.$h",
+	"Event-16724005-SurprisedFarmer.14": "Wow, my grandfather had a lot of expectations for me.",
+	"Event-16724005-SurprisedFarmer.15": "Yes, your grandfather always expected the best from you.#$b#That's why he left %farm with you.$h",
+	"Event-16724005-SurprisedFarmer.16": "Do you think I'm doing a good job honoring my grandfather's legacy?",
+	"Event-16724005-SurprisedFarmer.17": "If you're doing a good job? I'm sure you are.#$b#Your grandfather must be happy to see everything you're doing on the %farm.$h#$b#He'll certainly be happy when you reach perfection.$h#$b#But you don't have to rush to perfection, take your time. After all, time is what you don't lack.#$b#Keep exploring the valley and taking care of your farm and, before you know it, you'll have achieved perfection.",
+	"Event-16724005-SurprisedFarmer.18": "Well, I guess that's it, you finally know the truth about me.#$b#Well, I guess that's it, you finally know the truth about me. I hope I've made things clearer and that you've understood my purpose in the world.#$b#I'm really happy you weren't scared of me after knowing all this, it was my biggest worry.",
+	"Event-16724005-SurprisedFarmer.19": "It's getting late, you can leave, you need to wake up early to take care of the farm.#$b#I'll always be here at the casino if you want to talk or play something,#$b#And my semi-physical representation will always be in the Walnut Room waiting for you to choose a challenge for the week.",
+	"Event-16724005-SurprisedFarmer.20": "This conversation I had with Mister Qi was very eye-opening! I discovered a lot about him, I had no idea he was so powerful.",
+	"Event-16724005-SurprisedFarmer.21": "And I also discovered more things about my grandfather, he trusted me a lot and I won't disappoint him!",
+
+	//Extras (NOTE: Don't remove the underscores, they'll be replaced by spaces during the event)
+	"Extras.Event-16724005.MrQiSemiPhysicalName": "Semi-physical_Qi", 
+	"Extras.Event-16724005.MrQiExtraPhysicalName": "Extra-physical_Qi",
 
 	/* ++++++++++++++++++ */
 }

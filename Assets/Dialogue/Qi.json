@@ -66,6 +66,17 @@
                 "Fri6": "{{i18n:Qi.Dialogue.Fri6|NameOrKid={{NameOrKid}}}}",
                 "Sat6": "{{i18n:Qi.Dialogue.Sat6|NameOrKid={{NameOrKid}}}}",
                 "Sun6": "{{i18n:Qi.Dialogue.Sun6}}",
+
+                //8 Hearts
+                "Mon8": "{{i18n:Qi.Dialogue.Mon8}}",
+                "Tue8": "{{i18n:Qi.Dialogue.Tue8}}",
+                "Wed8": "{{i18n:Qi.Dialogue.Wed8}}",
+                "Thu8": "{{i18n:Qi.Dialogue.Thu8}}",
+                "Fri8": "{{i18n:Qi.Dialogue.Fri8}}",
+                "Sat8": "{{i18n:Qi.Dialogue.Sat8}}",
+                "Sun8": "{{i18n:Qi.Dialogue.Sun8}}",
+
+                //10 Hearts
             }
         },
         //Translates the Dwarvish text in Saturday's 4 hearts dialogue if the player has the Dwarvish Translation Guide in their wallet

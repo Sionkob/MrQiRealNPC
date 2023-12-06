@@ -8,7 +8,7 @@
                 "Thu": "{{i18n:Sandy.DialogueEdits.Thu}}",
                 "Thu2": "{{i18n:Sandy.DialogueEdits.Thu2}}",
                 "Thu4": "{{i18n:Sandy.DialogueEdits.Thu4}}",
-                "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8}}",
+                "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8}}"
             },
             "When": {
                 "HasSeenEvent": "16724000"
@@ -18,13 +18,27 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
-                "Thu": "{{i18n:Sandy.DialogueEdits.Thu.AfterMrQi4heartsEvent}}",
-                "Thu2": "{{i18n:Sandy.DialogueEdits.Thu2.AfterMrQi4heartsEvent}}",
-                "Thu4": "{{i18n:Sandy.DialogueEdits.Thu4.AfterMrQi4heartsEvent}}",
-                "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8.AfterMrQi4heartsEvent}}",
+                "Thu": "{{i18n:Sandy.DialogueEdits.Thu-SeenQi4heartsEvent}}",
+                "Thu2": "{{i18n:Sandy.DialogueEdits.Thu2-SeenQi4heartsEvent}}",
+                "Thu4": "{{i18n:Sandy.DialogueEdits.Thu4-SeenQi4heartsEvent}}",
+                "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8-SeenQi4heartsEvent}}"
             },
             "When": {
                 "HasSeenEvent": "16724003"
+            }
+        },
+        //Sandy comments about Mister Qi (after seeing Mr. Qi 8 hearts event)
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "spring_25": "{{i18n:Sandy.DialogueEdits.spring_25-SeenQi8heartsEvent}}",
+                "summer_10": "{{i18n:Sandy.DialogueEdits.summer_10-SeenQi8heartsEvent}}",
+                "winter_27": "{{i18n:Sandy.DialogueEdits.winter_27-SeenQi8heartsEvent}}",
+                "Thu": "{{i18n:Sandy.DialogueEdits.Thu-SeenQi8heartsEvent}}"
+            },
+            "When": {
+                "HasSeenEvent": "16724005"
             }
         }
     ]

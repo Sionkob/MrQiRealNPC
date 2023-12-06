@@ -122,8 +122,10 @@
                 }
             ],
 				"When": {
-                "Hearts:Qi": "{{Range: 0, 5}}"
-            }
+                "Hearts:Qi": "{{Range: 0, 5}}",
+                "LocationName": "Club, Custom_MrQiReal_QiRoom"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "Action": "EditMap",
@@ -169,7 +171,7 @@
             "Target": "Strings/schedules/Qi",
             "Entries": {
                 "Winter28": "{{i18n:ScheduleStrings.Qi.Winter28}}",
-                "BeachMarket": "{{i18n:ScheduleStrings.Qi.BeachMarket}}",
+                "BeachMarket": "{{i18n:ScheduleStrings.Qi.BeachMarket}}"
             }
         },
         //Events
@@ -191,6 +193,25 @@
         {
             "Action": "Include",
             "FromFile": "Data/FestivalData/FestivalDialogue.json"
+        },
+        //Letters
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                //Sends a letter to you when you have 8 hearts with Mister Qi to trigger the 8 hearts event
+                "-167240001/x QiImportantTalk true": ""
+            },
+            "When": {
+                "Hearts:Qi": "8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "QiImportantTalk": "{{i18n:MailLetter.QiImportantTalk}}"
+            }
         }
     ],
     "CustomLocations": [

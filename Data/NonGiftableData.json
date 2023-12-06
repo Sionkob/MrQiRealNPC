@@ -12,12 +12,13 @@
             "Target": "Portraits/MrQi",
             "FromFile": "Assets/Portraits/NonGiftable/NonGiftableQi.png"
         },
-        //Non Giftable Mister Qi Dialogue
+        //Load Non Giftable Mister Qi Dialogue
         {
             "Action": "Load",
             "Target": "Characters/Dialogue/Mister Qi",
             "FromFile": "Data/Empty.json"
         },
+        //Non Giftable Mister Qi Default Dialogue
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/Mister Qi",
@@ -29,6 +30,23 @@
                 "QiNutRoom_Fri": "{{i18n:MrQiNutRoom.Dialogue.Fri}}",
                 "QiNutRoom_Sat": "{{i18n:MrQiNutRoom.Dialogue.Sat}}",
                 "QiNutRoom_Sun": "{{i18n:MrQiNutRoom.Dialogue.Sun|NameOrKid={{NameOrKid}}}}"
+            }
+        },
+        //Non Giftable Mister Qi Dialogue (After seeing Mr. Qi's 8 Hearts Event)
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "Entries": {
+                "QiNutRoom_Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon-SeenQi8heartsEvent}}",
+                "QiNutRoom_Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-SeenQi8heartsEvent}}",
+                "QiNutRoom_Wed": "{{i18n:MrQiNutRoom.Dialogue.Wed-SeenQi8heartsEvent}}",
+                "QiNutRoom_Thu": "{{i18n:MrQiNutRoom.Dialogue.Thu-SeenQi8heartsEvent}}",
+                "QiNutRoom_Fri": "{{i18n:MrQiNutRoom.Dialogue.Fri-SeenQi8heartsEvent}}",
+                "QiNutRoom_Sat": "{{i18n:MrQiNutRoom.Dialogue.Sat-SeenQi8heartsEvent}}",
+                "QiNutRoom_Sun": "{{i18n:MrQiNutRoom.Dialogue.Sun-SeenQi8heartsEvent}}"
+            },
+            "When": {
+                "HasSeenEvent": "16724005"
             }
         }
     ]
