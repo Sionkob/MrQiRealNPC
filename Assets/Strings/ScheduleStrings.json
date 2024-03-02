@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        //Schedule Strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Qi",
+            "Entries": {
+                "Winter28": "{{i18n:ScheduleStrings.Qi.Winter28}}",
+                "BeachMarket": "{{i18n:ScheduleStrings.Qi.BeachMarket}}"
+            }
+        }
+    ]
+}

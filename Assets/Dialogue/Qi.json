@@ -76,7 +76,14 @@
                 "Sat8": "{{i18n:Qi.Dialogue.Sat8}}",
                 "Sun8": "{{i18n:Qi.Dialogue.Sun8}}",
 
-                //10 Hearts
+                //10 Hearts (Before seen 10 hearts event)
+                "Mon10": "{{i18n:Qi.Dialogue.Mon10}}",
+                "Tue10": "{{i18n:Qi.Dialogue.Tue10}}",
+                "Wed10": "{{i18n:Qi.Dialogue.Wed10}}",
+                "Thu10": "{{i18n:Qi.Dialogue.Thu10}}",
+                "Fri10": "{{i18n:Qi.Dialogue.Fri10}}",
+                "Sat10": "{{i18n:Qi.Dialogue.Sat10}}",
+                "Sun10": "{{i18n:Qi.Dialogue.Sun10}}"
             }
         },
         //Translates the Dwarvish text in Saturday's 4 hearts dialogue if the player has the Dwarvish Translation Guide in their wallet
@@ -84,7 +91,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Qi",
             "Entries": {
-                "Sat4": "{{i18n:Qi.Dialogue.Sat4.HasDwarvishGuide}}",
+                "Sat4": "{{i18n:Qi.Dialogue.Sat4.HasDwarvishGuide}}"
             },
             "When": {
                 "HasWalletItem": "DwarvishTranslationGuide"
@@ -98,9 +105,45 @@
                 "winter_17": "{{i18n:Qi.Dialogue.winter_17}}",
                 "winter_28": "{{i18n:Qi.Dialogue.winter_28}}"
             },
+            "Condition": "PLAYER_HAS_SEEN_EVENT Current 16724004"
+        },
+        //If you anwser that you're afraid of Mr. Qi in his 8 hearts event, he'll ask if you still afraid of him
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Qi",
+            "Entries": {
+                "winter_26": "{{i18n:Qi.Dialogue.winter_26}}#$q -1672401/-1672402 StillAfraid#{{i18n:Qi.Questions.StillAfraid.QuestionText}}#$r -1672401 0 StillAfraid_Yes#{{i18n:Qi.Questions.StillAfraid.QuestionAnwser1}}#$r -1672402 0 StillAfraid_No#{{i18n:Qi.Questions.StillAfraid.QuestionAnwser2}}",
+
+                "StillAfraid_Yes": "{{i18n:Qi.Questions.StillAfraid_Yes}}",
+                "StillAfraid_No": "{{i18n:Qi.Questions.StillAfraid_No}}"
+            },
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Qi 2500, PLAYER_HAS_MAIL Current AfraidOfQi,!PLAYER_HAS_MAIL Current OnlyFriendableQiRoute"
+        },
+        //Mr. Qi's 10 hearts dialogue (if you haven't unlock him as a romance option)
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Qi",
+            "Entries": {
+                "Mon10": "{{i18n:Qi.Dialogue.Mon10}}",
+                "Tue10": "{{i18n:Qi.Dialogue.Tue10}}",
+                "Wed10": "{{i18n:Qi.Dialogue.Wed10}}",
+                "Thu10": "{{i18n:Qi.Dialogue.Thu10}}",
+                "Fri10": "{{i18n:Qi.Dialogue.Fri10}}",
+                "Sat10": "{{i18n:Qi.Dialogue.Sat10}}",
+                "Sun10": "{{i18n:Qi.Dialogue.Sun10}}"
+            },
+            "Condition": "PLAYER_HAS_MAIL Current OnlyFriendableQiRoute"
+        },
+        //Mister Qi's Dialogue (After Being Romanceable)
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Qi",
+            "Entries": {
+                
+            },
             "When": {
-                "HasSeenEvent": "16724004"
-            }
-        }
+                "HasFlag": "RomanceableQiRoute"
+            },
+        },
     ]
 }

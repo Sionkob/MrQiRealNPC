@@ -21,6 +21,13 @@
 
 	/* ++++++++++++++++++++++++++++++++++++++ */
 
+	/* +++++|LOCATION NAMES TRANSLATION|+++++ */
+
+	"Location.QiRoom": "Mister Qi's Room",
+	"Location.QiLab": "Mister Qi's Laboratory",
+
+	/* ++++++++++++++++++++++++++++++++++++++ */
+
 	/* +++++|GIFT REACTIONS|+++++ */
 
 	"Qi.GiftReactions.Love": "Hey, thanks for the gift, {{NameOrKid}}! It will very useful.",
@@ -57,6 +64,7 @@
 	"Qi.Dialogue.winter_7": "The Festival of Ice, it's so... boring.#$b#Some people make ice sculptures, some people make snowmen. It's such a monotonous thing, there's nothing interesting about it.#$b#But I know there's a fishing competition, so I hope you have good fishing skills if you decide to participate.#$e#You must have a certain skill with this, right? Never enter a competition if you're not going to win.",
 	"Qi.Dialogue.winter_17": "Today is the last day of the Night Market, there are many interesting things that those merchants sell. Things that interest me.",
 	"Qi.Dialogue.winter_24": "Hello, {{NameOrKid}}. Tomorrow will have the Winter Star Festival, the villagers will do the traditional gift exchange among themselves.#$b#Do you already know what to give your secret friend?",
+	"Qi.Dialogue.winter_26": "Hey @, the day I told you the truth about me, you said you were scared of me...$s#$b#So I wanted to ask you something...",
 	"Qi.Dialogue.winter_28": "Today I'm going to be away from the casino for a while, it's very tiring to deal with the people there...",
 
 	//Days Of Week - 0 Hearts
@@ -104,6 +112,31 @@
 	"Qi.Dialogue.Fri8": "I see you're doing a good job on your farm, @.#$b#Does it have something to do with you knowing what your grandfather expected of you?#$b#In any case, it's great that you're taking care of your farm, keep it up and you'll reach perfection faster than you think.",
 	"Qi.Dialogue.Sat8": "Hey, @, do you remember the day you reached level 100 of the Skull Cave and found me there?#$b#The one who was talking to you inside and offering you the Iridium Snake Milk was my semi-physical representation, that's why right after you left the cave, I was already at the entrance.#$b#When I decided to do that, I had to be sure that you wouldn't tell anyone what you had seen, that's why I was there at the cave entrance waiting for you.#$b#I can't let just anyone know these details about me, it's too dangerous, the power of the Misters Qi can easily be used for malicious purposes, so I'm cautious about who I tell about my powers.",
 	"Qi.Dialogue.Sun8": "Hello, @. How are you?#$b#I was thinking about leaving the casino for a while today, but there's not much to do here, at most I can talk to Sandy.#$b#Despite being somewhat energetic, Sandy is a good friend. She has always been a nice person since I moved to the desert many years ago.#$e#Why did I move to the desert? Well... I...$u#$b#I don't want to talk about it... I'm sorry.$s",
+
+	//Days Of Week - 10 Hearts (Before seen 10 hearts event)
+	"Qi.Dialogue.Mon10-Before10HeartsEvent": "Taking care of this casino isn't an easy task, even though few people frequent it.#$b#I decided to keep this casino exclusive to people I trust because, at the time, I already knew I couldn't manage a place like this if it were open to the public.#$e#And to think that I once considered opening this place to the public... It would be a big mistake.$s",
+	"Qi.Dialogue.Tue10-Before10HeartsEvent": "Hey @, Did you know I'm good at cooking?$h#$b#Yes, I learned to cook thanks to an ancestor who was a chef. The food preparation knowledge he had was passed on to me.#$b#Do you think I made Qi Seasoning by accident? Not at all!  I wanted to use this skill I'd acquired to create amazing things.#$b#It's a shame that Qi Seasoning is radioactive... it's not so safe to consume because of that.$s#$b#You can use it in small quantities, as the amount of radiation emitted by the seasoning is reduced by almost 70 percent when compared to the radiation that Stardrop emits when consumed, but it's still there.#$e#If you ever want to taste it, you can come to my room and ask me to prepare something for you.#$b#I won't be using Qi Seasoning, of course.$h",
+	"Qi.Dialogue.Wed10-Before10HeartsEvent": "You know @, in the beginning, before I discovered that I was one of the Misters Qi, I was an ordinary boy.#$b#I was still a child, leading an ordinary life: I studied, had friends and a family. But I always noticed that there was something different about me, I knew things that other people my age wouldn't know.#$b#Many people considered me a prodigy, they asked me how I knew so many things, and I simply couldn't explain it, I just... knew.#$e#I only realized that I was one of the Misters Qi in my early teens, that's when I understood why I knew many things that other people didn't, it was the knowledge of previous Misters Qi that was passed on to me.#$b#I started to listen more carefully to the voices in my head, they were the previous Misters Qi. They explained to me that I was a Mister Qi and told me about my responsibility in the world.#$b#I had a huge responsibility on my hands when I was still a teenager, so I decided to put my ordinary life aside and listen to the advice of past Misters Qi.#$e#It was because of them that I moved to Ginger Island, many Misters Qi stayed there because it was an isolated place that would allow me to concentrate solely on my mission as a Mister Qi.",
+	"Qi.Dialogue.Thu10-Before10HeartsEvent": "Hello, how are you?#$b#If you have time, feel free to come and play in the casino, talk to me in my room or take a look at my experiments in the lab. You won't be in the way.$h",
+	"Qi.Dialogue.Fri10-Before10HeartsEvent": "I think I'll spend some time at the Oasis after I leave the casino.#$b#Sandy gets so lonely down there, maybe I should talk to her more, like I used to.",
+	"Qi.Dialogue.Sat10-Before10HeartsEvent": "Hey @, I was observing what's going on out there using my extra-physical representation and I saw that one of my school friends got married!#$b#He married another friend of his who studied with me, I'm very happy for both of them.$h#$b#I wish I could personally congratulate them, but when I decided to focus on my mission, I had to leave my old social life behind... so I can't do that.$s#$e#When I saw this I remembered the day he tried to ask his friend out, he was so shy that he couldn't speak, so he wrote a letter confessing his feelings.#$b#During the break he asked me to write the letter for him because my handwriting was the best in the class.#$b#He had written such a beautiful text, I wrote the text for him and we put the letter in the guy's notebook and waited for the next class to start.#$b#I remember that when the guy saw the letter and started reading, the first thing he did was look at me, because he realized it was my handwriting. For a second I thought everything would go wrong.$h#$b#But in the end everything went well and he accepted the date, I was very happy for them. To think that now they're married is kind of crazy!$h",
+	"Qi.Dialogue.Sun10-Before10HeartsEvent": "Hey @, one of the biggest mistakes a Mister Qi can make is to overestimate your own power.#$b#This error can be fatal, and it's a bit scary to know that many Misters Qi have died because of it.#$b#When a mortal being has too much power in their hands, they tend to think they can do more than they actually can, and in the case of the Misters Qi, this can mean a death sentence.$u#$e#The first Mister Qi in history died too soon because he thought he was a god. He was worshipped by his people and used his powers to fulfill their wishes.#$b#One day, his community was facing a severe drought, which was killing their crops and animals, hunger was spreading through the community, and Mister Qi promised that he would bring heavy rains in the coming days.#$b#We cannot control the weather, and as the days passed and the rain didn't come, the community thought that Mister Qi wanted them to starve.#$b#So, in an act of rebellion, they killed him, and... well, I think it's pretty obvious what they did next.#$b#Of course, he was the first Mister Qi to exist, so he had no idea what he could and couldn't do, but his story served as a lesson for the next Misters Qi.",
+
+	//Days Of Week - 10 Hearts
+	"Qi.Dialogue.Mon10": "Hello, @. I hope you're having a good day.#$b#What about me? I'm also fine, thanks for asking.$h#$b#Anyway, feel free to play something in the casino or spend some time in my lab. You're always welcome.",
+	"Qi.Dialogue.Tue10": "Hey @, do you think I should let Sandy into the casino?#$b#She always asked me what I did in here, even when I opened the casino I didn't let her in.#$b#I don't think she's the kind of person who could be in a casino, but maybe someday I can let her in, just so she knows what goes on in here. What do you think, @?",
+	"Qi.Dialogue.Wed10": "Hey @, I was looking through some stuff in my room and I found some records by some artists that Mona liked to listen to.#$b#I was thinking of listening to them one last time before getting rid of them, at least that sound system in my room will be good for something.$h#$b#Feel free to join me, if you're not too busy.",
+	"Qi.Dialogue.Thu10": "Hello, how are you?#$b#If you have time, feel free to come and play in the casino, talk to me in my room or take a look at my experiments in the lab. You won't get in the way.$h",
+	"Qi.Dialogue.Fri10": "Hey, @... I've been noticing a lot of changes in the way I deal with the loss of Mona since our conversation in the cemetery.#$b#I think having someone listening to me has been enough to help me.$h#$b#Of course, I still have a long way to go, but I already feel much better, I no longer feel anguish when I see something related to her.$h",
+	"Qi.Dialogue.Sat10": "Since that night, I've been trying to put what happened with Mona in the past, I need to move on.#$b#I've even been trying to get out a little more and talk to Sandy, like I used to.#$b#I just don't like it when she calls me Azure, it's a... really intimate nickname.$u#$b#But I think things are going well. I'll never forget Mona, but I've spent a long time mourning, it's time to move on.",
+	"Qi.Dialogue.Sun10": "I was thinking, the Consciousness Bifurcation is an extremely helpful power for all Misters Qi, isn't it strange that this power was only discovered because of Mona?#$b#The Misters Qi have been in the world for so many years and none of them had discovered this power until Mona arrived and noticed my presence on Ginger Island many years ago.#$b#Sometimes I think that Mona being on the island at that time wasn't just a coincidence.$h",
+
+	//Questions
+	"Qi.Questions.StillAfraid.QuestionText": "Are you still afraid of me?",
+	"Qi.Questions.StillAfraid.QuestionAnwser1": "Yes, I'm still afraid of you.",
+	"Qi.Questions.StillAfraid.QuestionAnwser2": "No, I'm no longer afraid of you.",
+	"Qi.Questions.StillAfraid_Yes": "I understand... You have every right to still be afraid of me.#$b#I really made a mistake by revealing everything at once and leaving you confused, but I did it because I trust you.#$b#But anyway, it's my duty to help you achieve perfection, whether you're afraid of me or not. I'm doing this out of respect for your grandfather.",
+	"Qi.Questions.StillAfraid_No": "You're not afraid of me anymore? That's great!$h#$b#I'm very happy to hear that you're no longer afraid of me, you've finally understood my purpose in this world.",
 
 	/* ++++++++++++++++++++ */
 
@@ -175,7 +208,7 @@
 	"Sandy.DialogueEdits.spring_25-SeenQi8heartsEvent": "When Azure came to live here, he acted a bit strangely.#$b#Sometimes he'd sit near the counter and stare at the wall for long minutes, and sometimes he'd say things as if he was talking to someone.#$b#And he got annoyed if anyone tried to talk to him when he did these things, I even thought he was crazy.$h#$b#But he stopped doing this in a matter of weeks and then I never saw him do these things again.#$b#Just don't tell him I said that, he won't like knowing I said that.",
 	"Sandy.DialogueEdits.summer_10-SeenQi8heartsEvent": "Mr. Qi is a great guy, although he seems a bit cold towards me at times.#$b#When he's in a good mood he's a sweetheart, but when he's a bit stressed, it's better if I don't talk to him much, because I know I might get a rude response.#$b#But I don't even get angry about it, sometimes it's funny.$h",
 	"Sandy.DialogueEdits.winter_27-SeenQi8heartsEvent": "Today is Azure's birthday, but he doesn't even leave that club to celebrate his birthday.$s#$b#He only leaves on the last day of the year, so at least I can wish him a happy birthday tomorrow.#$e#Since you can get in there, can you wish him a happy birthday for me?",
-	"Sandy.DialogueEdits.Thu-SeenQi8heartsEvent": "Mister Qi always says I should stop calling him Azure, but it's become a habit.#$b#I can't stop calling him that, I know he doesn't like me calling him that, I swear I've been trying to stop.",
+	"Sandy.DialogueEdits.Thu4-SeenQi8heartsEvent": "Mister Qi always says I should stop calling him Azure, but it's become a habit.#$b#I can't stop calling him that, I know he doesn't like me calling him that, I swear I've been trying to stop.",
 
 	/* +++++++++++++++++++++++++++++++ */
 
@@ -249,7 +282,7 @@
 	"Event-16724001-KeptSecret.02": "I keep your secret, but you still haven't said what happened there in Skull Cavern.",
 	"Event-16724001-KeptSecret.03": "I can't talk about it right now, we're both very busy, maybe some other time I'll talk more about it, when we both have time.#$b#The only thing I can say is that what happened back in Skull Cavern is just the tip of the iceberg, {{NameOrKid}}.",
 	"Event-16724001-KeptSecret.04": "Well, since you're going to keep my secret I'll give you an item as a thank you.#$b#Here, it's an Iridium Bar, it might be useful for you to upgrade your tools or build some machines.[337]#$b#And remember, what happened back in the Skull Cavern is a secret, don't tell anyone.$u",
-	"Event-16724001-KeptSecret.05": "I hope he really keeps this secret. I'll keep an eye out, just in case.$u^I hope she really keeps this secret. I'll keep an eye out, just in case.$u",
+	"Event-16724001-KeptSecret.05": "I hope ${he¦she}$ really keeps this secret. I'll keep an eye out, just in case.$u",
 	"Event-16724001-KeptSecret.06": "That was a little scary, but I'll be true to my word and keep it a secret. But this guy definitely owes me an explanation.",
 
 	//Gossip Farmer
@@ -265,7 +298,7 @@
 	"Event-16724002.03": "You agree to play again, and again, and again.#You lose every time.",
 	"Event-16724002.04": "CalicoJack Guy: How dare you call me a cheater? I can't do anything if you're on a bad streak!",
 	"Event-16724002.05": "Hey, what's happening here? Why all this shouting?$u",
-	"Event-16724002.06": "CalicoJack Guy: This guy is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!^CalicoJack Guy: This girl is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!#CalicoJack Guy: It's not my fault he lost 4 times in a row, I played fair!^CalicoJack Guy: It's not my fault she lost 4 times in a row, I played fair!",
+	"Event-16724002.06": "CalicoJack Guy: This ${guy¦girl}$ is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!#CalicoJack Guy: It's not my fault ${he¦she}$ lost 4 times in a row, I played fair!",
 	"Event-16724002.07": "Hmm... Got it.$u#$b#Come with me, {{NameOrKid}}. You need to calm down.",
 	"Event-16724002.08": "I don't usually bring people here, it's a very private place, you're a privileged person.#$b#Anyway, let's go inside and have a little chat.",
 	"Event-16724002.09": "Come on, {{NameOrKid}}, you can come in.",
@@ -285,7 +318,7 @@
 	"Event-16724002.23": "Well, I'll introduce you to a bit of my room and then you can leave.",
 	"Event-16724002.24": "Mr. Qi's room is huge! I had no idea it was so big.#...#I wonder what he hides behind that door?",
 	"Event-16724002.25": "So? Were you really cheating or not?$u",
-	"Event-16724002.26": "CalicoJack Guy: No, I wasn't cheating, I swear!#CalicoJack Guy: He was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.^CalicoJack Guy: She was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.",
+	"Event-16724002.26": "CalicoJack Guy: No, I wasn't cheating, I swear!#CalicoJack Guy: ${He¦She}$ was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.",
 	"Event-16724002.27": "I'm keeping an eye on you... If I hear one more complaint of cheating you won't be coming back to this casino any time soon, understand?$u",
 	"Event-16724002.28": "CalicoJack Guy: Yes, I understand, Mr. Qi...",
 	"Event-16724002.29": "Great, I hope I don't hear any more complaints like that.$u",
@@ -300,11 +333,11 @@
 	"Event-16724003.06": "I-I can explain...",
 	"Event-16724003.07": "Hello, @. What are you doing here?",
 	"Event-16724003.08": "Huh? Do you know @?",
-	"Event-16724003.09": "Of course I know him, Sandy. He's part of my club, do you think I'd let someone I don't know into it?^Of course I know her, Sandy. She's part of my club, do you think I'd let someone I don't know into it?",
+	"Event-16724003.09": "Of course I know ${him¦her}$, Sandy. ${He¦She}'s part of my club, do you think I'd let someone I don't know into it?",
 	"Event-16724003.10": "I've known Sandy for a long time, {{NameOrKid}}. She allowed me to set up my club upstairs.",
 	"Event-16724003.11": "And in exchange for allowing him to stay there, I would have to keep it a secret and not tell anyone about the club and Mr. Qi...#$b#Since I've been running this place, he pays me a lot of money to keep it a secret.#$b#It's because of this money that I'm not going bankrupt, hardly anyone comes here besides you, @.$s",
 	"Event-16724003.12": "Anyway, now that you know how I met Sandy, I'm going back to the club, I have a lot of things to do and no time for small talk.",
-	"Event-16724003.13": "And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot he doesn't know about me yet.$u^And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot she doesn't know about me yet.$u",
+	"Event-16724003.13": "And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling ${him¦her}$ everything, remember it's a secret and there's a lot ${he¦she}$ doesn't know about me yet.$u",
 	"Event-16724003.14": "Okay, okay, no need to repeat that so many times...#$b#You are so annoying sometimes, Azu... Mister Qi...",
 	"Event-16724003.15": "I already told you not to...$u#$b#Ah, forget it, just don't talk about me too much, okay?#$b#Anyway, see you later, @.",
 	"Event-16724003.16": "Wow... Looks like he's a little stressed today.",
@@ -354,13 +387,13 @@
 	"Event-16724004-continue.11": "When I saw that creature trying to hold Mr. Qi's hand when he put his hand against the glass, I was really scared!#Mr. Qi assured me that it doesn't do anything more than that, but it still scared me!",
 	"Event-16724004-continue.12": "After reassuring me, Mr. Qi showed me his laboratory.",
 	"Event-16724004-continue.13": "I leave some important things on this bench.#$b#You can take a look, {{NameOrKid}}.",
-	"Event-16724004-continue.14": "You look at Mr. Qi's lab bench and see a metal pot with a sealed lid.#It has a sticker on it that says \"Do not open without protective equipment\".",
+	"Event-16724004-continue.14": "You look at Mr. Qi's lab bench and see a metal pot with a sealed lid.#It has a sticker on it that says \\\"Do not open without protective equipment\\\".",
 	"Event-16724004-continue.15": "There's radioactive ore in that container, that's why it's sealed",
 	"Event-16724004-continue.16": "Don't worry, it's not highly radioactive.#$b#But it's best to avoid exposing yourself unnecessarily.",
 	"Event-16724004-continue.17": "It's a sheet of paper with something written on it in elegant handwriting, you pick it up to read what's written.#Is written: 'Qi Seasoning: Enhances the flavor of any food, but cannot be overused. ^ Ingredients: ^ - Rotten Stardrop liquid; ^ - Grinded Prismatic Shard; ^ - Grinded Radioactive Ore (in small quantities); ^ - Acidity regulator. ^ NOTE: It's necessary to produce a non-radioactive variant.'",
 	"Event-16724004-continue.18": "This is a piece of paper with ingredients to prepare a seasoning I made some time ago.#$b#As you've read, it's called 'Qi Seasoning'. A pinch of this spice makes any food made with it worthy of being in a five-star restaurant.#$b#But as it has radioactive ingredients, it's not recommended to use it in high quantities.$u#$b#I tried to find a non-radioactive alternative, but unfortunately the active ingredient in this spice is in the Stardrop liquid, which is radioactive...#$b#Why do you think I have a Stardrop rotting right there?",
 	"Event-16724004-continue.19": "You put the sheet of paper back in place, but you notice that there is something written on the back of the sheet.",
-	"Event-16724004-continue.20": "You turn the page and see what is written.#It's a different handwriting, it's written: '\"Qi Seasoning\"? Really, Azure? It's a good name, but you could choose a different name, what about \"Galactic Seasoning\" or \"Star Seasoning\"?'",
+	"Event-16724004-continue.20": "You turn the page and see what is written.#It's a different handwriting, it's written: '\\\"Qi Seasoning\\\"? Really, Azure? It's a good name, but you could choose a different name, what about \\\"Galactic Seasoning\\\" or \\\"Star Seasoning\\\"?'",
 	"Event-16724004-continue.21": "What? There's something written on the back of the page?#$b#Let me see.",
 	"Event-16724004-continue.22": "Mr. Qi reads what is written, he looks at the paper without showing any reaction.",
 	"Event-16724004-continue.23": "Huh? Yes, I'm fine... Don't worry about it, it's probably just a silly note I made and forgot...",
@@ -398,9 +431,9 @@
 	"Event-16724005.22": "Ok, So let's go.#$b#Some of my representations don't have a physical form, but you'll be able to hear them. It can be a little scary, but it's normal.",
 	"Event-16724005.23": "Wow! Another Mister Qi appeared right in front of us!",
 	"Event-16724005.24": "Hey! What are you doing? I was doing something important!$u#$b#And why @ is here? Don't tell me you...$u",
-	"Event-16724005.25": "I'm sorry, I know you were doing other things.#$b#And yes, I told him about the representations. And he wanted to see you.^And yes, I told her about the representations. And she wanted to see you.",
+	"Event-16724005.25": "I'm sorry, I know you were doing other things.#$b#And yes, I told ${him¦her}$ about the representations. And ${he¦she}$ wanted to see you.",
 	"Event-16724005.26": "You know this is a mistake... You know the risks.$u",
-	"Event-16724005.27": "Yeah, I know it's a mistake... But I trust @ and I know nothing bad will happen.#$b#Besides, I'm his friend, I wouldn't be able to hide it from him for so long.^Besides, I'm her friend, I wouldn't be able to hide it from her for so long.",
+	"Event-16724005.27": "Yeah, I know it's a mistake... But I trust @ and I know nothing bad will happen.#$b#Besides, I'm ${his¦her}$ friend, I wouldn't be able to hide it from ${him¦her}$ for so long.",
 	"Event-16724005.28": "Can any of you explain to me what's going on???",
 	"Event-16724005.29": "I'm sorry, @. This is my semi-physical representation.#$b#It's my only representation that has a physical form.",
 	"Event-16724005.30": "We are identical in shape, but have a different structure.#$b#While the main representation is made of flesh and blood, I am made of a different material.#$b#I am made of a magical material that allows me to exist physically, but without the necessities that an ordinary human being needs to live.",
@@ -465,9 +498,95 @@
 	"Event-16724005-SurprisedFarmer.20": "This conversation I had with Mister Qi was very eye-opening! I discovered a lot about him, I had no idea he was so powerful.",
 	"Event-16724005-SurprisedFarmer.21": "And I also discovered more things about my grandfather, he trusted me a lot and I won't disappoint him!",
 
-	//Extras (NOTE: Don't remove the underscores, they'll be replaced by spaces during the event)
-	"Extras.Event-16724005.MrQiSemiPhysicalName": "Semi-physical_Qi", 
-	"Extras.Event-16724005.MrQiExtraPhysicalName": "Extra-physical_Qi",
+	//A Hidden Pain (Mister Qi's 10 Hearts Event)
+	"Event-16724006.01": "Hi @, how's your night going?",
+	"Event-16724006.02": "What am I doing here? Well, I come here occasionally to remember someone. She was very special to me.",
+	"Event-16724006.03": "You look at the tomb, it says \\\"Our Beloved Mona\\\".",
+	"Event-16724006.04": "Who was Mona? Mona was the former owner of the Oasis, she managed the Oasis to pay for her college, in the Gotoro Empire.#$b#She was loved by the Pelican Town people for being attentive to everyone, she was always willing to help anyone who needed it.#$b#Plus, she was my wife.",
+	"Event-16724006.05": "Yes, I know it's weird to think that I was married once, even I thought it was weird at first.#$b#She was a very kind person... she died very young...$s",
+	"Event-16724006.06": "I'm sorry, Mr. Qi.",
+	"Event-16724006.07": "It's a shame, how did you meet?",
+	"Event-16724006.08": "It's okay, it's been a long time.#$b#Mona and I met when she stayed on Ginger Island for a while on vacation and decided to stay longer because she discovered some interesting things on the island.#$b#She thought it would be interesting to stay on to do more research, so that she could use this research for her graduation work.#$b#Even though she was on vacation, she was still thinking about her studies. She saw this trip as a great opportunity to come up with a topic for her thesis, which she would start producing as soon as her vacation was over.",
+	"Event-16724006.09": "Time passed and she realized that she wasn't alone on the island, as she had imagined. She had noticed my presence, she felt watched.#$b#I used to leave the Walnut Room sometimes and stare at the ocean or other places on the island, she must have seen me one of those times... She was very curious about me.",
+	"Event-16724006.10": "One day, she became so curious that she decided to follow me to see where I was going.#$b#She ended up finding my nut room, she saw all that.#$b#I had no choice, I had to tell her all about myself, after all, she had already seen what she shouldn't have.#$b#She was supposed to keep it a secret, so we made a deal. She would keep the secret if I helped her with the research, and to keep the secret I had to accept.",
+	"Event-16724006.11": "We'd meet up several times during the day, she'd tell me about her new discoveries and I'd help her unravel the mysteries of the island.#$b#Despite the challenge, it was a fair exchange, and our relationship grew stronger.",
+	"Event-16724006.12": "Mona became the first friend I've had since I gave up my life to focus on being a Mister Qi.#$b#She understood that despite all the power I have, I am only a human being. We shared many secrets between us. She even gave me a nickname: Azure.#$b#I didn't like this nickname very much at first, but over time I started to not mind.$h",
+	"Event-16724006.13": "As time passed, I began to feel that something was changing in me, I had fallen in love with Mona, but I just ignored this feeling.#$b#I had to concentrate on my mission as Mister Qi, that was why I had moved to Ginger Island, I couldn't let a simple chemical reaction in my brain distract me from my goal.#$b#At that point, I couldn't ignore that feeling anymore, the more I tried to repress it, the worse it would get.#$b#So I decided to tell Mona how I felt, so that I could get rid of that weight, if Mona left and I didn't tell her how I felt about her, I would feel very bad.#$b#What I didn't expect was for the feeling to be reciprocated, when I heard her say \\\"I love you too, Mr. Qi.\\\", something in me changed.#$b#I had gone from \\\"I need to focus on my mission\\\" to \\\"I want to be there for her no matter what\\\".",
+	"Event-16724006.14": "This change made me focus on finding a way to continue my mission as Mister Qi and, at the same time, be with Mona.#$b#It was thanks to her that I discovered the Consciousness Bifurcation power, so now I could be with her, and not abandon my mission as Mister Qi.#$b#So I came to live with her in the Calico Desert, and left my semi-physical representation in the Walnut Room, so that I could continue my mission even away from the island.",
+	"Event-16724006.15": "We lived together for almost a year, we divided the chores to keep everything organized.#$b#And she also needed time to prepare her thesis, it was the most important moment in her life, so I did most of the tasks so that she wouldn't lose focus.#$b#She was really putting a lot of effort into it, she spent sleepless nights preparing her thesis, I can't even count how many times I went to sleep without her because she was busy.#$b#We were very happy together... So happy that we decided to get married.$h",
+	"Event-16724006.16": "What a emotional story, Mr. Qi!",
+	"Event-16724006.17": "Yeah, it's an emotional story, but it seems that emotional stories don't always end with a happy ending...$s",
+	"Event-16724006.18": "One week after our wedding, Mona had to present her thesis, she had to go to the Gotoro Empire to present it, since her college was there.#$b#She studied at a distance, so she would have to fly there.#$b#Of course, being planned, she had already bought the ticket. She had everything ready.#$b#I really wanted to go with her to be by her side in person, but she said I didn't need to and that she'd return the next day.#$b#Well, she didn't return... For some reason, the plane she was on hit turbulence and disappeared.$s#$b#She died literally one week after we got married, and she didn't get to present her thesis.$s#$b#She put so much effort into it and everything was just lost... everything.$s",
+	"Event-16724006.19": "And the most shocking thing for me was that... I saw it all happen with my extra-physical representation.$s#$b#I saw people's desperation... the suitcases in the luggage racks falling... the explosion and...$s",
+	"Event-16724006.20": "*sigh*",
+	"Event-16724006.21": "I saw my wife die... and I couldn't do anything to stop it...$s#$b#Do you know how painful it is to see the person you love die, and you can't do anything about it???$s",
+	"Event-16724006.22": "I'm sorry for your loss, Mr. Qi. It must have been extremely difficult for you.",
+	"Event-16724006.23": "It was more than difficult, it was devastating.$s#$b#I felt useless, what's the point of having so much power if I can't even save those I love?$u#$b#I was destroyed, my representations went crazy, and I felt like a coward for not trying to go with her and just accepting that she should go alone.$s#$b#I even thought that this happened because I told her about the Misters Qi, so I was punished for the mistake.$s#$b#But the previous Misters Qi assured me that it wasn't that, it was just very bad luck.$s",
+	"Event-16724006.24": "I tried to talk to her through the spiritual world, at least to hear her voice one last time... But I couldn't find her, it seemed like the world was against me.$s",
+	"Event-16724006.25": "How did you deal with the loss, Mr. Qi?",
+	"Event-16724006.26": "It was very hard, because of her I had started a new social life, I had met new people... But as soon as she passed away, I began to isolate myself again.$s#$b#The only person I still kept in touch with was Sandy, she was Mona's friend and managed the Oasis when she couldn't, she started to manage the Oasis full time after Mona passed away.$s#$b#Several times I thought about going back to Ginger Island, it was very difficult being in the same room where Mona slept, I remembered her no matter where I looked.$s#$b#And at night it was even worse... I couldn't even turn to the bed side where she slept.$s#$b#I only had a little peace when I took everything that reminded me of Mona out of my sight, at least that way I could sleep.",
+	"Event-16724006.27": "Then the bus broke down and the Oasis started having financial problems, so we had to find a new way to survive.$s#$b#So I created the casino, a private club where only people I trust can enter. It was the only way I found to sustain myself.#$b#The casino was a busy place, and it was a lot of work to manage the place on my own.#$b#All that work distracted me from thinking about Mona, and I slowly managed to get back to normal, or so I thought.$s",
+	"Event-16724006.28": "I thought I was over her, but no. I still feel terrible when I see anything related to her, I can still see the moment she died whenever I see anything related to her...$s",
+	"Event-16724006.29": "*sigh*",
+	"Event-16724006.30": "Lately I've been gathering the strength to visit her grave from time to time, even though it hurts me so much. I want to pay respect to her not only as her husband, but also as a Mister Qi.#$b#Unintentionally, she was an important turning point in the history of Misters Qi, thanks to her I discovered the Consciousness Bifurcation power, she was responsible for changing the whole way Misters Qi interact with the world.#$b#Thanks to her, future Misters Qi will be able to have ordinary lives and exercise their roles as Misters Qi, no longer having to abandon the whole life they live.#$b#If it weren't for her, I'd still be alone on Ginger Island, I wouldn't have the casino, I wouldn't know your grandfather, maybe I wouldn't even know you...#$b#My story would be totally different if it wasn't for her... I wanted to at least tell her how special she was.$s",
+	"Event-16724006.31": "I'm really sorry for your loss, Mr. Qi. Mona seems to have been an incredible person.",
+	"Event-16724006.32": "Yes, she really was. Mona filled a gap that was missing in my life, I had never met someone and connected in such a deep way.$h#$b#And... even though it pains me so much, I think I need to show her a little respect by coming here from time to time.#$b#I need to remember that, as well as being my wife, she was a milestone in the history of all the Misters Qi. I need to keep her legacy alive, even if it hurts me.",
+	"Event-16724006.33": "Well, let's go, let's continue our conversation somewhere else, I don't feel very well here, for obvious reasons...#$b#How about we go to that bridge? It's a calmer place, no one will see us at this time of night.",
+
+	//Still Afraid End
+	"Event-16724006-End_StillAfraid.01": "This place is a little quieter, with a lighter atmosphere.",
+	"Event-16724006-End_StillAfraid.02": "Yes, I know that seeing myself like this is very strange, especially knowing that I have so much power in my hands.#$b#But even though Misters Qi are very powerful and carry great responsibility, we are still human beings. We have weaknesses, we carry traumas, fears and insecurities, just like any other human being.#$b#And just like any other human being, we try to avoid letting our weaknesses show, but we don't always succeed.",
+	"Event-16724006-End_StillAfraid.03": "I understand that you're afraid of me, most people would be too.#$b#And I'm not angry that you're afraid of me, after Mona, you're the only person I've talked about my history and my powers with, I'd never do that if I had anything against you.",
+	"Event-16724006-End_StillAfraid.04": "And don't take this as me wanting you to stop being afraid of me, that's not what I want, I just want you to carry on being the person you are.#$b#Even though you're scared, you still come to see me, you still talk to me and listen to me, and I really value that.$h",
+	"Event-16724006-End_StillAfraid.05": "Oh, and thank you so much for listening, it really means a lot to me.#$b#I hope you have a good night, see you tomorrow.$h",
+	"Event-16724006-End_StillAfraid.06": "Mr. Qi's story with Mona is very emotional, they seemed to love each other very much. It's a shame it ended so tragically.",
+	"Event-16724006-End_StillAfraid.07": "It seems he still can't deal with grief very well... I hope that someday he'll be able to move on and won't have to avoid remembering her.",
+
+	//Not Afraid End
+	"Event-16724006-End_NotAfraid.01": "Thanks for following me this far, @. This place is much more peaceful for me.#$b#Being in that cemetery looking at Mona's grave makes me remember the moment of the accident, it's so... so painful. I feel so bad being there.$s",
+	"Event-16724006-End_NotAfraid.02": "I'm sorry, but... if being close to her grave hurts you so much, why are you still going? You don't need to suffer any more than you already have.",
+	"Event-16724006-End_NotAfraid.03": "I know, but she is very important to the Misters Qi, I should pay respect to her for all the change she has caused.",
+	"Event-16724006-End_NotAfraid.04": "Maybe there are better ways to do this... you weren't like this before.",
+	"Event-16274006-End_NotAfraid.05": "I wasn't in this condition before because I was trying to forget her existence, @.$u#$b#Why do you think I hid the things that remind me of Mona? Why do you think that when you asked about the double bed in my room I scolded you and told you not to intrude?$u#$b#Whenever something or someone reminds me of Mona, it makes me uncomfortable.$s#$b#Forgetting she existed was working, but since the day you came into my lab I've started to remember her again, so I realized what a coward I was being for trying to deal with the pain in this way.",
+	"Event-16724006-End_NotAfraid.06": "No, this isn't your fault, I just didn't pay attention to the fact that Mona had written a note in the Seasoning Qi recipe.#$b#And in a way, I think noticing it was a good thing, I was making a mistake by trying to forget someone so important to my story.#$b#I was trying to forget the reason why I revolutionized the way Misters Qi live, I was disrespecting the legacy that Mona left for all Misters Qi.#$b#I was trying to forget the reason why I revolutionized the way Misters Qi live, I was disrespecting the legacy that Mona left for all Misters Qi.",
+	"Event-16724006-End_NotAfraid.07": "*sigh*",
+	"Event-16724006-End_NotAfraid.08": "And even though remembering all this is painful, I must thank you for opening my eyes and making me realize the mistake I was making.#$b#I'd also like to thank you for listening to my story, it's really hard to share these memories, even though it's been so long.",
+	"Event-16724006-End_NotAfraid.09": "Mr. Qi... You don't need to come here if it hurts you, I think you should move on. Staying stuck in the past will only hurt you more.",
+	"Event-16724006-End_NotAfraid.10": "I think you're right, but it's so hard... I've been trying for a long time, but I can't.",
+	"Event-16724006-End_NotAfraid.11": "I understand that it's difficult and that Mona was an important part of your story, but stories come to an end and maybe it's time to end this one and start a new one.",
+	"Event-16724006-End_NotAfraid.12": "I understand that it's difficult and that Mona was important to you, but the way you're dealing with it is only going to make things worse. You'll never get over her if you carry on like this.",
+	"Event-16724006-End_NotAfraid.13": "*sigh* I have to admit that you're right, I'll never be able to move on if I hold on to the past and hide what causes me pain. I need to face it head on...$s",
+	"Event-16724006-End_NotAfraid.14": "Well... since the day you came into my lab, I've noticed some similarities between you and Mona.#$b#It's weird, but the way you acted that day reminds me of her, and the longer I talk to you, I notice more and more similarities.#$b#I can't explain it, but there's something about you that makes me feel the same way I felt when I was with Mona.",
+	"Event-16724006-End_NotAfraid.15": "I shouldn't feel that way, I still love Mona very much and to say that is like I'm betraying her...$s#$b#I know it doesn't make sense, after all, she's dead. But it seems that there's a part of me that doesn't understand this... How can a simple chemical reaction in the brain cause so much conflict???$u",
+	"Event-16724006-End_NotAfraid.16": "But I think I now understand what I'm feeling for you...#$b#I think that from the day you entered my laboratory I started to feel something for you...$s#$b#Part of me knows that it doesn't make sense, but I feel that I'm wrong to feel that way.$s",
+	"Event-16724006-End_NotAfraid.17": "I know it's very unexpected, I didn't expect it to happen either. I thought that after Mona, I'd never feel that way about anyone again, but somehow you've managed to prove otherwise.#$b#It's impressive that I'm so powerful and have so much knowledge and yet feelings still manage to confuse me.$u",
+	"Event-16724006-End_NotAfraid.18": "I know I've put you in an uncomfortable situation, but I needed to be honest with you.#$b#Since losing Mona, I thought I'd never fall in love with anyone again.#$b#You found a light that I thought was lost.$h#$b#And even though I feel like I'm betraying Mona, I want to put what happened behind me and be able to live peacefully. As you have said, sticking to the past will only hurt me more.#$b#She was important to my life and to future Misters Qi, and I will never let that be forgotten, but life goes on, I've spent too long mourning her loss.",
+	"Event-16724006-End_NotAfraid.19": "I don't expect you to reciprocate, but I still want to know...$h",
+	"Event-16724006-End_NotAfraid.20": "Do you feel the same way about me? Would you have a relationship with me if you could?",
+	"Event-16724006-End_NotAfraid.21": "Yes, I feel the same way about you, I think I would have a relationship with you.",
+	"Event-16724006-End_NotAfraid.22": "No, let's just stay friends.",
+
+	//Unlock Mr. Qi as romanceable option
+	"Event-16724006-UnlockQiRomance.01": "So you... feel the same? I didn't expect that, but I'm very happy to hear it... Very happy indeed.$h#$b#I'd completely understand if you said you didn't feel the same way about me. After all, taking into account the whole context and the difficulty I have in getting over Mona, you might think I would just be trying to fill the void she left.#$b#But I'm not doing that, I just want to be able to move on and leave what happened in the past.",
+	"Event-16724006-UnlockQiRomance.02": "To be honest, I was more prepared if you said no. I really don't know what to do now...$s#$b#I like you, but I'm afraid to continue...$s",
+	"Event-16724006-UnlockQiRomance.03": "I understand, Mr. Qi. It's understandable given everything you've been through, but I guess we can get through it together. You don't have to go through all this alone.",
+	"Event-16724006-UnlockQiRomance.04": "Would you be willing to help me?$h#$b#I really appreciate you making yourself available to help me get through all this, I tried for years and I couldn't. I hope that with you by my side I can finally move on. I hope that with you by my side I can finally move on.",
+	"Event-16724006-UnlockQiRomance.05": "I'll be here for whatever you need, it will be a long road, but if we work together to overcome the past, we can write a future.",
+	"Event-16724006-UnlockQiRomance.06": "Yes, you're right. Maybe with your help I can finally get over what happened and move on.#$b#Thank you so much for being there for me, @. It's comforting to know that I'm not alone. Let's face the difficulties together and start a new chapter in my life.",
+	"Event-16724006-UnlockQiRomance.07": "Anyway, it's getting very late, we'd better go, the sun will be up soon.#$b#Thank you very much for listening to me and being willing to help me, it means a lot to me. Good night.$h",
+	"Event-16724006-UnlockQiRomance.08": "It will be a long journey, but Mr. Qi seems to be willing to change. I hope I can help him overcome the loss of Mona so that we can be together without the past haunting him.",
+
+	//Keep Mr. Qi only friendable option
+	"Event-16724006-JustFriendsQi.01": "I understand, I expected you to say no. I just needed to be honest with you.",
+	"Event-16724006-JustFriendsQi.02": "Let's forget what just happened, I don't want it to affect our friendship.",
+	"Event-16724006-JustFriendsQi.03": "Oh, and thanks so much for listening, @. I'm really glad you're on my side.$h#$b#I swear that someday I'll get over everything that happened to Mona, I know I will.",
+	"Event-16724006-JustFriendsQi.04": "I know you'll do it, Mr. Qi!",
+	"Event-16724006-JustFriendsQi.05": "Thanks so much for believing in me, @.$h#$b#Anyway, I have to go now, it's very late, see you tomorrow.",
+	"Event-16724006-JustFriendsQi.06": "Losing Mona and seeing her die was a huge blow for Mr. Qi... I hope he can get over everything that happened.",
+
+	//Extras
+	"Extras.MrQiSemiPhysicalName": "Semi-physical Qi", 
+	"Extras.MrQiExtraPhysicalName": "Extra-physical Qi",
 
 	/* ++++++++++++++++++ */
 }

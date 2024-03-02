@@ -1,5 +1,5 @@
 {
-    "Format": "1.29.0",
+    "Format": "2.0.0",
     "ConfigSchema": {
         "Kid_or_Name": {
             "AllowValues": "Name, Kid",
@@ -24,29 +24,72 @@
         }
     ],
     "Changes": [
-        //Mr. Qi's Sprite
+        //Mr. Qi's Sprite & Portrait
         {
             "Action": "Load",
-            "Target": "Characters/Qi",
-            "FromFile": "Assets/Characters/Qi.png"
-        },
-        //Mr. Qi's Portrait
-        {
-            "Action": "Load",
-            "Target": "Portraits/Qi",
-            "FromFile": "Assets/Portraits/Qi.png"
+            "Target": "Characters/Qi, Portraits/Qi",
+            "FromFile": "Assets/{{TargetPathOnly}}/Qi.png"
         },
         //Non Giftable Mr. Qi Patch
         {
             "Action": "Include",
             "FromFile": "Data/NonGiftableData.json"
         },
-        //NPC Dispositions
+        //NPC Data
         {
             "Action": "EditData",
-            "Target": "Data/NPCDispositions",
+            "Target": "Data/Characters",
             "Entries": {
-                "Qi": "adult/neutral/neutral/neutral/male/not-datable/null/Desert/winter 27//Custom_MrQiReal_QiRoom 20 4/{{i18n:Qi.name}}"
+                "Qi": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Gender": "Male",
+                    "BirthSeason": "winter",
+                    "BirthDay": 27,
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Desert",
+                    "CanSocialize": "true",
+                    "CanBeRomanced": "false",
+                    "CanCommentOnPurchasedShopItems": "false",
+                    "CanGreetNearbyCharacters": "false",
+                    "CanVisitIsland": "false",
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "PerfectionScore": "false",
+                    "EndSlideShow": "Hidden",
+                }
+            }
+        },
+        //NPC Data (if romanceable route is unlocked)
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Qi": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Gender": "Male",
+                    "BirthSeason": "winter",
+                    "BirthDay": 27,
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Desert",
+                    "CanSocialize": "true",
+                    "CanBeRomanced": "true",
+                    "CanCommentOnPurchasedShopItems": "false",
+                    "CanGreetNearbyCharacters": "false",
+                    "CanVisitIsland": "false",
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "PerfectionScore": "false",
+                    "EndSlideShow": "Hidden",
+                }
+            },
+            "When": {
+                "HasFlag": "RomanceableQiRoute"
             }
         },
         //Gift Tastes
@@ -136,29 +179,8 @@
         },
         //Map Strings
         {
-            "Action": "EditData",
-            "Target": "Strings/StringsFromMaps",
-            "Entries": {
-                "Custom_MrQiReal_QiRoom.1": "{{i18n:MapString.QiRoom.1}}",
-                "Custom_MrQiReal_QiRoom.2": "{{i18n:MapString.QiRoom.2}}",
-                "Custom_MrQiReal_QiRoom.3": "{{i18n:MapString.QiRoom.3}}",
-                "Custom_MrQiReal_QiRoom.4": "{{i18n:MapString.QiRoom.4}}",
-                "Custom_MrQiReal_QiRoom.5": "{{i18n:MapString.QiRoom.5}}",
-                "Custom_MrQiReal_QiRoom.6": "{{i18n:MapString.QiRoom.6}}",
-                "Custom_MrQiReal_QiRoom.7": "{{i18n:MapString.QiRoom.7}}",
-                "Custom_MrQiReal_QiRoom.8": "{{i18n:MapString.QiRoom.8}}",
-                //"Custom_MrQiReal_QiRoom.9": "{{i18n:MapString.QiRoom.9}}",
-                "Custom_MrQiReal_QiLab.1": "{{i18n:MapString.QiLab.1}}",
-                "Custom_MrQiReal_QiLab.2": "{{i18n:MapString.QiLab.2}}",
-                "Custom_MrQiReal_QiLab.3": "{{i18n:MapString.QiLab.3}}",
-                "Custom_MrQiReal_QiLab.4": "{{i18n:MapString.QiLab.4}}",
-                "Custom_MrQiReal_QiLab.5": "{{i18n:MapString.QiLab.5}}",
-                "Custom_MrQiReal_QiLab.6": "{{i18n:MapString.QiLab.6}}",
-                "Custom_MrQiReal_QiLab.7": "{{i18n:MapString.QiLab.7}}",
-                "Custom_MrQiReal_QiLab.8": "{{i18n:MapString.QiLab.8}}",
-                "Custom_MrQiReal_QiLab.9": "{{i18n:MapString.QiLab.9}}",
-                "Custom_MrQiReal_QiLab.10": "{{i18n:MapString.QiLab.10}}"
-            }
+            "Action": "Include",
+            "FromFile": "Assets/Strings/MapStrings.json"
         },
         //Schedule Strings
         {
@@ -167,12 +189,8 @@
             "FromFile": "Data/Empty.json"
         },
         {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Qi",
-            "Entries": {
-                "Winter28": "{{i18n:ScheduleStrings.Qi.Winter28}}",
-                "BeachMarket": "{{i18n:ScheduleStrings.Qi.BeachMarket}}"
-            }
+            "Action": "Include",
+            "FromFile": "Assets/Strings/ScheduleStrings.json"
         },
         //Events
         {
@@ -197,13 +215,15 @@
         //Letters
         {
             "Action": "EditData",
-            "Target": "Data/Events/Farm",
+            "Target": "Data/TriggerActions",
             "Entries": {
                 //Sends a letter to you when you have 8 hearts with Mister Qi to trigger the 8 hearts event
-                "-167240001/x QiImportantTalk true": ""
-            },
-            "When": {
-                "Hearts:Qi": "8"
+                "MrQiRealNPC_QiImportantTalk": {
+                    "Id": "MrQiRealNPC_QiImportantTalk",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Qi 8",
+                    "Action": "AddMail Current QiImportantTalk now"
+                }
             }
         },
         {
@@ -211,6 +231,33 @@
             "Target": "Data/mail",
             "Entries": {
                 "QiImportantTalk": "{{i18n:MailLetter.QiImportantTalk}}"
+            }
+        },
+        //Custom Locations
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_MrQiReal_QiRoom": {
+                    "DisplayName": "{{i18n:Location.QiRoom}}",
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_MrQiReal_QiRoom"
+                    }
+                },
+                "Custom_MrQiReal_QiLab": {
+                    "DisplayName": "{{i18n:Location.QiLab}}",
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 0
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_MrQiReal_QiLab"
+                    }
+                }
             }
         }
     ],
