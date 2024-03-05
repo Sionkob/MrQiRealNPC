@@ -105,7 +105,7 @@
                 "winter_17": "{{i18n:Qi.Dialogue.winter_17}}",
                 "winter_28": "{{i18n:Qi.Dialogue.winter_28}}"
             },
-            "Condition": "PLAYER_HAS_SEEN_EVENT Current 16724004"
+            "Condition": "PLAYER_HAS_SEEN_EVENT Current 04.MrQiRealNPC.TheMrQisLab"
         },
         //If you anwser that you're afraid of Mr. Qi in his 8 hearts event, he'll ask if you still afraid of him
         {
@@ -139,11 +139,31 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Qi",
             "Entries": {
-                
+                //Days Of Week
+
+                //0 Hearts
+                "Mon": "{{i18n:Qi.Dialogue.Mon-RomanceableQi}}",
+                "Tue": "{{i18n:Qi.Dialogue.Tue-RomanceableQi}}",
+                "Wed": "{{i18n:Qi.Dialogue.Wed-RomanceableQi}}",
+                "Thu": "{{i18n:Qi.Dialogue.Thu-RomanceableQi}}",
+                "Fri": "{{i18n:Qi.Dialogue.Fri-RomanceableQi}}",
+                "Sat": "{{i18n:Qi.Dialogue.Sat-RomanceableQi}}",
+                "Sun": "{{i18n:Qi.Dialogue.Sun-RomanceableQi}}",
+
+                //2 Hearts
+                "Mon2": "",
+                "Tue2": "",
+                "Wed2": "",
+                "Thu2": "",
+                "Fri2": "",
+                "Sat2": "",
+                "Sun2": "",
+
+                //4 Hearts
             },
             "When": {
                 "HasFlag": "RomanceableQiRoute"
-            },
-        },
+            }
+        }
     ]
 }
