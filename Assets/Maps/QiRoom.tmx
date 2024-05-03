@@ -125,7 +125,7 @@
  <objectgroup id="6" name="Buildings">
   <object id="7" name="TileData" x="16" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Door Sionkob.MrQiReal-Qi"/>
+    <property name="Action" value="Door Qi"/>
    </properties>
   </object>
   <object id="13" name="TileData" x="96" y="64" width="16" height="16">
