@@ -1,19 +1,8 @@
 {
     "Changes": [
-        //Edit Non Giftable Mister Qi Sprite & Portrait
-        {
-            "Action": "EditImage",
-            "Target": "Characters/MrQi, Portraits/MrQi",
-            "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/NonGiftableQi.png"
-        },
-        //Load Non Giftable Mister Qi Dialogue
-        {
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Mister Qi",
-            "FromFile": "Data/Empty.json"
-        },
         //Non Giftable Mister Qi Default Dialogue
         {
+            "LogName": "Non Giftable Mister Qi Dialogue - Default",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Mister Qi",
             "Entries": {
@@ -28,6 +17,7 @@
         },
         //Non Giftable Mister Qi Dialogue (After seeing Mr. Qi's 8 Hearts Event)
         {
+            "LogName": "Non Giftable Mister Qi Dialogue - Seen 8 Heart Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Mister Qi",
             "Entries": {
@@ -40,7 +30,7 @@
                 "Sun": "{{i18n:MrQiNutRoom.Dialogue.Sun-SeenQi8heartsEvent}}"
             },
             "When": {
-                "HasSeenEvent": "16724005"
+                "HasSeenEvent": "05.MrQiRealNPC.ProperlyExplanations"
             }
         }
     ]

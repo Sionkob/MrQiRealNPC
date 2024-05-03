@@ -94,6 +94,15 @@
 	"Qi.Dialogue.Sat2": "Como está indo o seu fim de semana até agora, {{NameOrKid}}?#$b#Sempre que você estiver ${entediado¦entediada}$, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.",
 	"Qi.Dialogue.Sun2": "Welwick disse que não iria beber demais hoje. Conhecendo ela, eu sei que ela não vai conseguir se controlar...$u#$b#Ela precisa de ajuda para superar esse problema com bebidas, mas não dá para fazer muita coisa quando a pessoa não quer ser ajudada.$u",
 
+	//Days Of Week - 2 Hearts (As Romanceable Option)
+	"Qi.Dialogue.Mon2-RomanceableQi": "Sabe @, meu quarto está com uma atmosfera muito mais leve agora que você me ajudou a me desfazer das roupas de Mona.$h#$b#Saber que aquelas roupas ainda estavam lá tornavam a experiência de estar naquele lugar extremamente terrível, era como se eu voltasse ao dia do acidente toda vez que eu entrasse.#$b#Mas agora meu quarto parece muito mais calmo e tranquilo para mim, como ele deveria ser. Acho que embora o que fizemos tenha sido um gesto pequeno, já fez muita diferença.$h",
+	"Qi.Dialogue.Tue2-RomanceableQi": "Espero que você não se importe com isso, mas eu ainda estou te observando para te guiar até a perfeição, @.#$b#Eu devo manter a promessa que fiz ao seu avô, ele era alguém importante e me confiou para essa missão, então manterei minha palavra.",
+	"Qi.Dialogue.Wed2-RomanceableQi": "Parece que Sandy está desconfiando que pode estar acontecendo algo entre nós, ela é espertinha quando se trata dessas coisas...$u#$b#Eu tenho tentado dizer a ela que nada está acontecendo entre nós, mas é óbvio que ela não acredita.$u#$b#Eu estou fazendo isso porque eu ainda não estou pronto para isso... Preciso superar Mona primeiro para que possamos ter algo a mais, e espero que eu consiga com sua ajuda, @.$u#$e#Então você pode dizer a ela que não tem nada acontecendo entre nós, só para que ela pare de me irritar?$h",
+	"Qi.Dialogue.Thu2-RomanceableQi": "Eu tenho saído do cassino e indo até a Vila Pelicanos de vez em quando, mas eu não tenho muitas coisas para fazer lá.#$b#Inclusive ando recebendo critícas de alguns Senhores Qi passados, eles não gostam da ideia de estarmos expostos ao mundo e interagirmos com outras pessoas, e eles têm razão, pode ser perigoso.#$b#Mas as pessoas do vale não fazem ideia do que eu sou, eles acham que sou só um cara rico que cuida de alguns negócios.#$b#Eu fiz o mesmo quando me mudei pro deserto e nada aconteceu, por que aconteceria algo agora?#$b#E mesmo que eu não tenha muita coisa pra fazer lá, pelo menos estarei um pouco mais acessível se você precisar de alguma coisa ou só conversar.$h",
+	"Qi.Dialogue.Fri2-RomanceableQi": "Seu avô tinha mais expectativas em você do que apenas atingir a perfeição, ele deixou algo muito especial para você em algum lugar do vale.#$b#Eu não posso contar mais do que isso, isso é algo que você deve descobrir por conta própria, mas imagino que você descobrirá do que estou falando logo logo.",
+	"Qi.Dialogue.Sat2-RomanceableQi": "Oi @, tudo bem? Eu estava no meu laboratório agora a pouco, estava dando uma olhada naquela Fruta-Estrela, ela parecia estranha, mais estranha que o normal.#$b#Ela estava exalando um aroma adocicado, não é normal uma Fruta-Estrela exalar odores ao apodrecer.#$b#Eu tive que isolá-la para estudá-la melhor, pode ser alguma mutação. Se eu tiver alguma novidade, eu te avisarei.",
+	"Qi.Dialogue.Sun2-RomanceableQi": "Vou tentar ir ao Saloon hoje a noite, devo me enturmar com os moradores, alguns não me conhecem e sinto que sou intimidador para eles.#$b#Você deveria passar lá também se tiver tempo, @.",
+
 	//Days Of Week - 4 Hearts (As Non-Romanceable Option)
 	"Qi.Dialogue.Mon4": "Oi, {{NameOrKid}}. Espero que você esteja tendo um bom dia.#$b#Sempre que você quiser passar um tempo, venha se divertir no cassino.#$e#Se você encontrar alguém trapaceando, por favor me avise. Eu irei cuidar disso.",
 	"Qi.Dialogue.Tue4": "A vendedora no andar de baixo é Sandy, ela faz parte do meu seleto grupo de 'amigos' do vale.#$b#Bem, amigos entre aspas, já que desde que nos conhecemos nunca trocamos mais que 5 palavras entre nós, ela só me vê no dia que recebe o pagamento dela.#$b#Ela não sabe muito sobre mim, e espero que nunca saiba.",
@@ -147,9 +156,12 @@
 	"Qi.Questions.StillAfraid_Yes": "Eu entendo... Você tem todo o direito de ainda sentir medo de mim.#$b#Eu realmente cometi um erro revelando tudo aquilo de uma vez e te deixando ${confuso¦confusa}$, mas eu fiz isso porque confio em você.#$b#Mas de qualquer forma, é meu dever ajudar você a atingir a perfeição, não importa se você tem medo de mim ou não. Estou fazendo isso por respeito ao seu avô.",
 	"Qi.Questions.StillAfraid_No": "Você não tem mais medo de mim? Isso é ótimo!$h#$b#Eu fico muito feliz de saber que você não tem mais medo de mim, você finalmente entendeu o meu objetivo neste mundo.",
 	
-	/* ++++++++++++++++++++ */
+	//Reject Movie Invites
+	"Qi.Dialogue.reject_809": "Desculpe {{NameOrKid}}, mas eu não quero ver nenhum filme agora.",
 
-	/* +++++|FESTIVAL DIALOGUES|+++++ */
+	/* +++++++++++++++++++ */
+
+	/* +++++|FESTIVAL DIALOGUE|+++++ */
 
 	//Egg Festival
 	"FestivalDialogue.Qi.spring13": "Ah, então você me encontrou, não é mesmo, {{NameOrKid}}?#$b#Eu disse que não seria fácil de me encontrar neste festival, mas você se esforçou pra conseguir me encontrar, parabéns.#$b#Espero que você tenha o mesmo esforço para procurar os ovos escondidos, se você quiser participar da caça aos ovos.#$b#A garota de cabelos roxos já ganhou por vários anos seguidos, tente superá-la.",
@@ -175,7 +187,7 @@
 	//Feast of the Winter Star
 	"FestivalDialogue.Qi.winter25": "Boas festas, {{NameOrKid}}.",
 
-	/* ++++++++++++++++++++++++++++++ */
+	/* +++++++++++++++++++++++++++++ */
 
 	/* +++++|WALNUT ROOM DIALOGUE|+++++ */
 
@@ -198,6 +210,49 @@
 	"MrQiNutRoom.Dialogue.Sun-SeenQi8heartsEvent": "Eu coloquei um medidor de perfeição à direita para você saber o quão próximo da perfeição você está.#$b#Você deveria dar uma olhada para você saber o que falta para atingir a perfeição.",
 
 	/* ++++++++++++++++++++++++++++++++ */
+
+	/* +++++|MOVIE REACTIONS|+++++ */
+
+	//The Brave Little Sapling (Comedy, Family)
+	"Qi.MovieReactions.spring_movie_0.BeforeMovie": "Oi, @. \"O Pequeno Broto\"... Esse filme parece... Peculiar.",
+	"Qi.MovieReactions.spring_movie_0.DuringMovie": "Sr. Qi parece entediado.",
+	"Qi.MovieReactions.spring_movie_0.AfterMovie": "Assistir esse filme foi uma experiência um tanto sonolenta, @. Acho que vou dormir quando voltar ao Oásis.",
+
+	//Natural Wonders: Exploring Our Vibrant World (Documentary, Family)
+	"Qi.MovieReactions.spring_movie_1.BeforeMovie": "\"Maravilhas Naturais: Explorando Nosso Mundo Vibrante\", esse filme parece interessante!",
+	"Qi.MovieReactions.spring_movie_1.DuringMovie.1": "Sr. Qi parece estar feliz.",
+	"Qi.MovieReactions.spring_movie_1.DuringMovie.2": "E pensar que eu luto para manter o equilíbrio desses lugares... Eu estou fazendo um bom trabalho.$h",
+	"Qi.MovieReactions.spring_movie_1.AfterMovie": "Esse filme foi realmente muito divertido, ele me motivou a continuar meu trabalho como Senhor Qi! Muito obrigado por ter me convidado para assistir, @.$h",
+
+	//Journey Of The Prairie King: The Motion Picture (Action)
+	"Qi.MovieReactions.summer_movie_0.BeforeMovie": "\"Jornada do Rei da Pradaria\"... Esse nome me parece familiar, não é o nome de uma franquia de jogos?#$b#Esse filme é uma adaptação do jogo? Mona gostava desse jogo, será que fizeram uma boa adaptação?",
+	"Qi.MovieReactions.summer_movie_0.AfterMovie": "Eu não conheço a história do jogo, mas se realmente for da maneira que foi mostrada no filme, parece ser um jogo divertido.",
+
+	//Wumbus (Sci-fi, Comedy, Family)
+	"Qi.MovieReactions.summer_movie_1.BeforeMovie": "\"Wumbus\", né?$u#$b#Não sei, me parece muito infantil pro meu gosto... Não custa tentar, né?",
+	"Qi.MovieReactions.summer_movie_1.DuringMovie": "Sr. Qi parece confuso.",
+	"Qi.MovieReactions.summer_movie_1.AfterMovie": "Esse filme definitivamente não é pra mim, eu não consegui entender muita coisa.#$b#Eu gosto de ficção científica, mas esse filme não me interessou. De qualquer forma, obrigado por me convidar, @.",
+
+	//Mysterium (Horror, Art)
+	"Qi.MovieReactions.fall_movie_0.BeforeMovie": "Eu gosto de filmes de terror, esse filme parece interessante.",
+	"Qi.MovieReactions.fall_movie_0.DuringMovie": "Achei essa parte meio desnecessária.$u",
+	"Qi.MovieReactions.fall_movie_0.AfterMovie": "Eu gostei muito de \"Mysterium\", parece bem experimental, não é como qualquer filme de terror. Eles realmente conseguiram captar a essência maligna daquelas criaturas e colocar na tela.#$b#Apenas o final que não tem sentido nenhum, se aproveitaram da aparência do povo das sombras para criar um ar aterrorizante. Nem todos eles são da maneira que foram representados.",
+
+	//It Howls In The Rain (Horror)
+	"Qi.MovieReactions.fall_movie_1.BeforeMovie": "\"O Uivo na Chuva\" é meu filme preferido, @! Eu estava querendo muito assistí-lo outra vez!$h",
+	"Qi.MovieReactions.fall_movie_1.DuringMovie": "Ah! Isso sim é terror de verdade!",
+	"Qi.MovieReactions.fall_movie_1.AfterMovie": "Eu adoro esse gênero de terror de filmes perdidos, eles parecem tão reais quando bem atuados!#$b#Esse filme é melhor do que eu me lembrava, eu gostei muito de assistir esse filme com você! Me lembrou o dia que assisti esse filme pela primeira vez, com Mona...$h",
+
+	//The Miracle At Coldstar Ranch (Family, Classic)
+	"Qi.MovieReactions.winter_movie_0.BeforeMovie": "\"O Milagre no Rancho Estrela-Fria\"... Sério? Esse filme é uma grande... Esquece, é melhor assistirmos logo.",
+	"Qi.MovieReactions.winter_movie_0.DuringMovie": "Sr. Qi desvia o olhar da tela.",
+	"Qi.MovieReactions.winter_movie_0.AfterMovie": "Ainda bem que acabou, eu realmente não gosto desse filme.$u#$b#Eu tenho motivos para não gostar dele, mas isso não vem ao caso agora.",
+
+	//The Zuzu City Express (Classic, Romance)
+	"Qi.MovieReactions.winter_movie_1.BeforeMovie": "\"O Expresso da Cidade Zuzu\"... Esse filme é muito antigo, já tinha uma versão dele em cartaz nos cinemas antes mesmo de eu me mudar para a Ilha Gengibre.",
+	"Qi.MovieReactions.winter_movie_1.AfterMovie": "É como eu me lembrava, bem sem graça, mas Mona gostava desse filme. Obrigado por me convidar, @.",
+
+	/* +++++++++++++++++++++++++++ */
 
 	/* +++++|OTHER NPCS DIALOGUE|+++++ */
 
@@ -468,21 +523,21 @@
 	"Event-05.MrQiRealNPC.ProperlyExplanations.50": "Você pode estar em vários lugares ao mesmo tempo, pode controlar o mundo ao seu redor, não é o primeiro Senhor Qi e ainda me observa e cria desafios para mim. É tanta coisa para processar...",
 
 	//Fearful Farmer
-	"Event-Fork.MrQiRealNPC.FearfulFarmer01": "Você está com medo de mim?$s#$b#Eu entendo o seu sentimento, saber que você está sendo ${observado¦observada}$ vinte e quatro horas por dia é meio assustador.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer02": "Mas eu quero que você saiba que eu não observo você e nem com ninguém com más intenções.#$b#Muito pelo contrário, eu preciso observar as pessoas para que eu saiba que tipo de recursos as pessoas mais precisam.#$b#Por exemplo: Se Robin, a carpinteira do Vale do Orvalho, está precisando de madeira para algum projeto específico, posso fazer mais árvores crescerem no vale.#$b#Se Clint, o ferreiro do vale, precisar de ferro para forjar ferramentas, posso fazer mais minérios de ferro estarem nas minas.#$b#E no seu caso, eu te observo para que eu saiba que tipo de desafios eu devo propor a você na semana.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer03": "Meu dever como Senhor Qi é não deixar que coisas essenciais se esgotem, logo fica mais fácil de fazer isso se eu souber o que cada pessoa precisa, incluindo você.#$b#É por isso que eu observo não só você, mas todo o Vale do Orvalho. Agora você entendeu porque eu faço isso?",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer04": "Entendi. Mas eu tenho outra dúvida...",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer05": "E qual é a sua dúvida?",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer06": "Por que você me desafia? Qual é o seu interesse em mim?",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer07": "Então é essa a sua pergunta? É claro que eu respondo.#$b#O meu interesse em você se deve a uma promessa que eu fiz a alguém, esse alguém é o seu avô.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer08": "Meu avô? Você o conhecia?",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer09": "Sim, eu o conhecia. Ele era um dos poucos que sabiam da existência dos Senhores Qi e de nosso poder.#$b#Quando ele estava no fim de sua vida, ele me pediu para que eu o guiasse durante a sua jornada pelo Vale do Orvalho.#$b#Ele queria que você se esforçasse para cuidar da sua fazenda, que tivesse uma motivação para continuar o legado da fazenda %farm.#$b#Então ele pediu para que eu o observasse, criasse desafios e recompensas pelo seu esforço para que você pudesse atingir a 'perfeição', como ele mesmo chamava.#$b#Eu aceitei essa responsabilidade por respeito a seu avô, ele era um grande amigo meu.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer10": "Isso é uma grande honra, mas ao mesmo tempo é um grande peso...",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer11": "Eu sei, a jornada para chegar a perfeição é desafiadora, mas você não está ${sozinho¦sozinha}$ nessa. Eu estou aqui para ajudar você a chegar lá.$h#$b#Além do mais, você não precisa se apressar para atingir a perfeição, faça tudo no seu tempo.#$b#Aproveite o máximo que o vale tem a oferecer e antes que você perceba, já haverá atingido a perfeição.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer12": "Você ainda está com medo de mim por saber que eu te observo?$s",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer13": "Tudo bem, eu não estou com raiva de você por ter medo de mim, é compreensível.#$b#Você só precisa de um tempo para entender tudo.#$b#Espero que você saiba que apesar de você ter medo de mim, eu sempre estarei aqui para ${ajudá-lo¦ajudá-la}$.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer14": "Eu não esperava que nossa conversa ia chegar até este ponto, isso é muito assustador.",
-	"Event-Fork.MrQiRealNPC.FearfulFarmer15": "Eu acho que preciso de um tempo até confiar no Sr. Qi novamente...",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.01": "Você está com medo de mim?$s#$b#Eu entendo o seu sentimento, saber que você está sendo ${observado¦observada}$ vinte e quatro horas por dia é meio assustador.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.02": "Mas eu quero que você saiba que eu não observo você e nem com ninguém com más intenções.#$b#Muito pelo contrário, eu preciso observar as pessoas para que eu saiba que tipo de recursos as pessoas mais precisam.#$b#Por exemplo: Se Robin, a carpinteira do Vale do Orvalho, está precisando de madeira para algum projeto específico, posso fazer mais árvores crescerem no vale.#$b#Se Clint, o ferreiro do vale, precisar de ferro para forjar ferramentas, posso fazer mais minérios de ferro estarem nas minas.#$b#E no seu caso, eu te observo para que eu saiba que tipo de desafios eu devo propor a você na semana.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.03": "Meu dever como Senhor Qi é não deixar que coisas essenciais se esgotem, logo fica mais fácil de fazer isso se eu souber o que cada pessoa precisa, incluindo você.#$b#É por isso que eu observo não só você, mas todo o Vale do Orvalho. Agora você entendeu porque eu faço isso?",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.04": "Entendi. Mas eu tenho outra dúvida...",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.05": "E qual é a sua dúvida?",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.06": "Por que você me desafia? Qual é o seu interesse em mim?",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.07": "Então é essa a sua pergunta? É claro que eu respondo.#$b#O meu interesse em você se deve a uma promessa que eu fiz a alguém, esse alguém é o seu avô.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.08": "Meu avô? Você o conhecia?",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.09": "Sim, eu o conhecia. Ele era um dos poucos que sabiam da existência dos Senhores Qi e de nosso poder.#$b#Quando ele estava no fim de sua vida, ele me pediu para que eu o guiasse durante a sua jornada pelo Vale do Orvalho.#$b#Ele queria que você se esforçasse para cuidar da sua fazenda, que tivesse uma motivação para continuar o legado da fazenda %farm.#$b#Então ele pediu para que eu o observasse, criasse desafios e recompensas pelo seu esforço para que você pudesse atingir a 'perfeição', como ele mesmo chamava.#$b#Eu aceitei essa responsabilidade por respeito a seu avô, ele era um grande amigo meu.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.10": "Isso é uma grande honra, mas ao mesmo tempo é um grande peso...",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.11": "Eu sei, a jornada para chegar a perfeição é desafiadora, mas você não está ${sozinho¦sozinha}$ nessa. Eu estou aqui para ajudar você a chegar lá.$h#$b#Além do mais, você não precisa se apressar para atingir a perfeição, faça tudo no seu tempo.#$b#Aproveite o máximo que o vale tem a oferecer e antes que você perceba, já haverá atingido a perfeição.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.12": "Você ainda está com medo de mim por saber que eu te observo?$s",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.13": "Tudo bem, eu não estou com raiva de você por ter medo de mim, é compreensível.#$b#Você só precisa de um tempo para entender tudo.#$b#Espero que você saiba que apesar de você ter medo de mim, eu sempre estarei aqui para ${ajudá-lo¦ajudá-la}$.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.14": "Eu não esperava que nossa conversa ia chegar até este ponto, isso é muito assustador.",
+	"Event-Fork.MrQiRealNPC.FearfulFarmer.15": "Eu acho que preciso de um tempo até confiar no Sr. Qi novamente...",
 
 	//Surprised Farmer
 	"Event-Fork.MrQiRealNPC.SurprisedFarmer.01": "Eu entendo...$s#$b#Sei que é muito pra você processar, mas essa é a verdade.#$b#Talvez eu tenha cometido um erro ao contar tudo isso pra você de uma forma tão repentina...$s#$b#Eu devia ter introduzido esse assunto a você quando nos conhecemos, mas eu tinha muito receio de contar tudo isso pra você.#$b#Eu queria ter certeza de que podia confiar em você para revelar um segredo tão importante como esse.",
@@ -593,6 +648,87 @@
 	"Event-Fork.MrQiRealNPC.JustFriendsQi.05": "Muito obrigado por acreditar em mim, @.$h#$b#Enfim, eu tenho que ir agora, já está muito tarde, até amanhã.",
 	"Event-Fork.MrQiRealNPC.JustFriendsQi.06": "Perder Mona e ver a morte dela foi um baque muito grande para o Sr. Qi... Espero que ele consiga superar tudo o que aconteceu.",
 	
+	//A Restart (Mister Qi's 2 hearts event if romance route is unlocked)
+	"Event-07.MrQiRealNPC.ARestart.01": "O Oásis é tão vazio a essa hora... Que entediante.$s#$b#Eu deveria convidar Emily para vir aqui mais vezes.$s",
+	"Event-07.MrQiRealNPC.ARestart.02": "Olá Sandy, bom dia, como você está?",
+	"Event-07.MrQiRealNPC.ARestart.03": "Azulão... quero dizer, Senhor Qi! Bom dia. O que você tá fazendo aqui? Hoje não é dia de pagamento, você já me pagou semana passada, lembra?",
+	"Event-07.MrQiRealNPC.ARestart.04": "Não é por isso que eu vim aqui...$u#$b#É que as coisas estão meio chatas no clube, então decidi sair um pouco.",
+	"Event-07.MrQiRealNPC.ARestart.05": "Uau, que raridade! Você mesmo dizer que está entediado e sair do clube por conta própria. Vai chover hoje.#$b#Se aproxime, não precisa ficar tão longe, eu não vou te morder, Azulão.",
+	"Event-07.MrQiRealNPC.ARestart.06": "*Suspiro*",
+	"Event-07.MrQiRealNPC.ARestart.07": "Ei, você está bem? Você parece meio deprimido, nem reclamou de eu ter te chamado de Azulão.",
+	"Event-07.MrQiRealNPC.ARestart.08": "Ah, bem... É que eu comecei a me lembrar de Mona de novo...$s",
+	"Event-07.MrQiRealNPC.ARestart.09": "Oh, então é isso... o que aconteceu com ela foi realmente uma tragédia.$s",
+	"Event-07.MrQiRealNPC.ARestart.10": "Nem me fale, faz tanto tempo que aconteceu, mas parece que foi ontem... Como você conseguiu superar isso?$s",
+	"Event-07.MrQiRealNPC.ARestart.11": "Bem, infelizmente esse é o curso natural da vida, o que mais podemos fazer além de aceitar e seguir em frente?$s#$b#E mesmo que sigamos em frente, a dor não irá acabar, mas precisamos aprender a lidar com ela.$s#$b#E bem, eu era amiga dela, você era o marido dela, a dor deve ser muito maior pra você do que pra mim.",
+	"Event-07.MrQiRealNPC.ARestart.12": "Olá, @. Eu estava conversando com Sandy sobre algumas coisas...#$b#Inclusive, que bom que você está aqui, eu queria conversar algo com você, sobre aquele dia...#$b#Que tal irmos até o meu quarto? É um lugar mais privado, podemos ter essa conversa lá.",
+	"Event-07.MrQiRealNPC.ARestart.13": "Ótimo, vamos lá, @. Nós conversamos depois, Sandy.",
+	"Event-07.MrQiRealNPC.ARestart.14": "Eu tenho pensado naquela conversa que tivemos... Apesar de falar sobre Mona com alguém ser muito reconfortante, agora eu me sinto extremamente mal...$s#$b#É como se eu tivesse voltado a estaca zero, olhar para esse lugar me lembra ela...$s#$b#Saber que eu escondi as coisas dela para que eu não as visse me deixa muito desconfortável. Eu nem consegui cuidar do cassino hoje...$s",
+	"Event-07.MrQiRealNPC.ARestart.15": "Eu sei que eu disse que eu iria tentar superar a morte de Mona para que pudéssemos ter um futuro juntos mas... Eu não sei por onde começar.$s",
+	"Event-07.MrQiRealNPC.ARestart.16": "Tudo bem, Sr. Qi, vamos começar devagar. Vamos tentar ver algumas coisas dela, você consegue fazer esse esforço?",
+	"Event-07.MrQiRealNPC.ARestart.17": "Não se supera algo assim do dia para a noite, leva tempo. Vamos começar tentando ver algumas coisas dela, você acha que consegue fazer isso?",
+	"Event-07.MrQiRealNPC.ARestart.18": "Eu acho que sim, se você estiver comigo.#$b#Talvez valha a pena me desfazer de algumas coisas dela, escondê-las não me ajuda muito a superar o que aconteceu...$s",
+	"Event-07.MrQiRealNPC.ARestart.19": "Sim, eu tenho certeza de que quero fazer isso, @. Eu deveria ter dado um fim adequado às coisas de Mona à muito tempo, mas eu não conseguia fazer isso sozinho, não conseguia olhar para as coisas dela...$s#$b#Mas com você ao meu lado, eu farei um esforço para conseguir fazer isso.$h",
+	"Event-07.MrQiRealNPC.ARestart.20": "*Suspiro*",
+	"Event-07.MrQiRealNPC.ARestart.21": "Vamos começar daquele guarda-roupa...$s",
+	"Event-07.MrQiRealNPC.ARestart.22": "Eu não abro este guarda-roupa desde o dia que Mona morreu...$s#$b#Eu deixei a chave em um lugar secreto, eu vou buscá-la, espere aqui.",
+	"Event-07.MrQiRealNPC.ARestart.23": "Sr. Qi foi buscar a chave do guarda-roupa de Mona.",
+	"Event-07.MrQiRealNPC.ARestart.24": "Eu encontrei, nem acredito que vou abrir isso depois de tanto tempo.",
+	"Event-07.MrQiRealNPC.ARestart.25": "Vamos lá...",
+	"Event-07.MrQiRealNPC.ARestart.26": "Sr. Qi abre a porta do guarda-roupa. Está cheio de roupas.",
+	"Event-07.MrQiRealNPC.ARestart.27": "São as roupas dela...$s#$b#Estão exatamente como ela deixou...$s",
+	"Event-07.MrQiRealNPC.ARestart.28": "Você tem certeza de que quer fazer isso, Sr. Qi?",
+	"Event-07.MrQiRealNPC.ARestart.29": "Eu sei que é difícil, mas eu estou aqui. Vamos fazer isso juntos.",
+	"Event-07.MrQiRealNPC.ARestart.30": "Sim, eu quero fazer isso... Sinto que é necessário.#$b#Eu já passei muito tempo escondendo as coisas dela na tentativa de esquecê-la e isso não deu certo, acho que é melhor apenas tirá-las daqui.",
+	"Event-07.MrQiRealNPC.ARestart.31": "Eu sei, muito obrigado por estar aqui, @. Eu aprecio sua disposição para me ajudar, se não fosse você eu jamais teria forças para abrir esse guarda-roupa novamente.$h",
+	"Event-07.MrQiRealNPC.ARestart.32": "Enfim, vamos continuar.",
+	"Event-07.MrQiRealNPC.ARestart.33": "Sr. Qi e eu começamos a tirar as roupas de Mona de dentro do guarda-roupa e colocamos elas em uma caixa.",
+	"Event-07.MrQiRealNPC.ARestart.34": "*Suspiro*",
+	"Event-07.MrQiRealNPC.ARestart.35": "Eu acho que é isso... Todas as roupas de Mona estão aí. Ou melhor, quase todas.",
+	"Event-07.MrQiRealNPC.ARestart.36": "Ainda tem as roupas que ela colocava na gaveta de baixo da cômoda, vamos ver.",
+	"Event-07.MrQiRealNPC.ARestart.37": "*Suspiro*",
+	"Event-07.MrQiRealNPC.ARestart.38": "Sr. Qi destranca a gaveta da cômoda e a abre, dentro dela há mais algumas roupas de Mona.",
+	"Event-07.MrQiRealNPC.ARestart.39": "Essas são as roupas que ela usava no dia-a-dia.",
+	"Event-07.MrQiRealNPC.ARestart.40": "Sr. Qi pega uma roupa da gaveta, é um moletom vermelho simples com uma listra branca no meio, parece um pouco velho.",
+	"Event-07.MrQiRealNPC.ARestart.41": "Mona gostava muito desse moletom, ela usava com muita frequência. Mesmo sendo tão simples, ela ainda parecia linda.$h#$b#Todas essas roupas estão meio velhas, talvez seja melhor jogá-las fora. Vamos colocá-las em outra caixa.",
+	"Event-07.MrQiRealNPC.ARestart.42": "Nós começamos a colocar as roupas que estavam na gaveta dentro da caixa.",
+	"Event-07.MrQiRealNPC.ARestart.43": "@, eu achei uma coisa diferente aqui! É um caderno.",
+	"Event-07.MrQiRealNPC.ARestart.44": "Eu acho que é o diário de Mona, @...",
+	"Event-07.MrQiRealNPC.ARestart.45": "O que eu vou fazer com isso? Honestamente, eu queria ler, mas é algo tão pessoal dela...$s#$b#Mas eu acho importante dar uma olhada nele, talvez haja algo que eu queira manter em minhas lembranças.",
+	"Event-07.MrQiRealNPC.ARestart.46": "Sr. Qi abre uma página do diário para tentar ler, as mãos dele tremem.",
+	"Event-07.MrQiRealNPC.ARestart.47": "Eu não consigo ler...$s",
+	"Event-07.MrQiRealNPC.ARestart.48": "Você pode ler alguma página para mim, @? Eu não vou conseguir ler isso...$s",
+	"Event-07.MrQiRealNPC.ARestart.49": "Você abre uma página aleatória do diário de Mona.",
+	"Event-07.MrQiRealNPC.ARestart.50": "\\\"Dia 19 do Outono: Hoje eu decidi dar uma pausa no meu TCC para ir ao cinema com o Azulão, temos que sair juntos de vez em quando, e além do mais, um pouco de lazer faz bem.\\\"#\\\"Soube que o filme \\\"O Uivo na Chuva\\\" está em cartaz nos cinemas da cidade. Não é bem o tipo de filme que eu costumo gostar, mas decidi dar uma chance, já que o Azulão talvez pudesse gostar.\\\"#\\\"E para minha surpresa, Azulão adorou o filme! Ver o brilho nos olhos dele enquanto assistíamos fez toda a experiência valer a pena para mim, mesmo não sendo meu tipo de filme favorito.\\\"",
+	"Event-07.MrQiRealNPC.ARestart.51": "Eu lembro desse dia, ela tinha me falado sobre esse filme alguns dias antes e decidiu comprar ingressos.#$b#Na verdade eu nem achei que fosse gostar do filme, mas foi divertido.$h",
+	"Event-07.MrQiRealNPC.ARestart.52": "\\\"Depois do filme, fomos a um restaurante para um pequeno jantar antes de voltarmos para a Vila Pelicanos, foi uma noite divertida! Mas eu queria que houvesse um cinema na Vila Pelicanos, seria muito melhor se não tivéssemos que viajar para tão longe apenas para ver um filme.\\\"#\\\"Espero que alguém inaugure um cinema na Vila Pelicanos algum dia, assim nós dois poderemos assistir esse ou outro filme sem precisarmos irmos até a cidade!\\\"",
+	"Event-07.MrQiRealNPC.ARestart.53": "Eu lembro desse jantar também, ela estava muito feliz.#$b#Nós tivemos essa conversa sobre ter um cinema na Vila Pelicanos durante a viagem de volta, ela sempre dizia que a Vila Pelicanos não tinha muitas opções de lazer.#$b#Ela gostava muito de ir ao cinema, mas por conta de ficar muito longe ela não podia ir com muita frequência.#$b#Acho que eu quero ficar com esse diário, mesmo que eu não consiga ler esse diário agora, tem algumas coisas aí que eu quero guardar na memória. Talvez algum dia eu encontre forças para lê-lo.",
+	"Event-07.MrQiRealNPC.ARestart.54": "Você coloca o diário de Mona de volta na gaveta.",
+	"Event-07.MrQiRealNPC.ARestart.55": "Bem, agora sobre as roupas... O que vamos fazer com elas?",
+	"Event-07.MrQiRealNPC.ARestart.56": "Acho que Sandy saberá o que fazer com isso, vamos levar essas caixas para o Oásis, @.",
+	"Event-07.MrQiRealNPC.ARestart.57": "Sr. Qi e eu levamos as caixas de volta ao Oásis.",
+	"Event-07.MrQiRealNPC.ARestart.58": "Olá novamente, @ e Azulão! Parece que vocês dois tiveram uma conversa bem longa!$h",
+	"Event-07.MrQiRealNPC.ARestart.59": "Vejo que vocês trouxeram algumas caixas também, o que tem dentro delas?",
+	"Event-07.MrQiRealNPC.ARestart.60": "São as roupas de Mona, elas ainda estavam guardadas no quarto, mas @ me ajudou a colocá-las dentro dessas caixas. Elas estavam ocupando muito espaço.",
+	"Event-07.MrQiRealNPC.ARestart.61": "Nossa, Azulão, eu não sabia que você ainda guardava as roupas dela!#$b#Elas estão em condições quase perfeitas! O que você vai fazer com elas, Azulão?",
+	"Event-07.MrQiRealNPC.ARestart.62": "É por isso que eu trouxe essas roupas, Sandy. Eu não sei o que exatamente fazer com elas.$s#$b#Elas são muito novas para serem jogadas fora, mas eu não quero elas ocupando espaço desnecessário no meu quarto. Pensei que talvez você tivesse alguma ideia do que fazer com elas...",
+	"Event-07.MrQiRealNPC.ARestart.63": "Entendi, você confiou na pessoa certa pra resolver essa questão!$h#$b#Vou dar uma olhada melhor nessas roupas e vou decidir o que vamos fazer com elas, ok? Só um instante.",
+	"Event-07.MrQiRealNPC.ARestart.64": "Sandy abre as caixas e olha as roupas de Mona com mais atenção.",
+	"Event-07.MrQiRealNPC.ARestart.65": "E então? O que você acha que devemos fazer com essas roupas?",
+	"Event-07.MrQiRealNPC.ARestart.66": "Bem, algumas roupas estão um pouco velhas, principalmente as da segunda caixa, mas eu acho que ainda podem ser usadas!$h#$b#Acho que podemos dar essas roupas para Emily, ela certamente vai gostar dessas roupas, e ela vai dar um jeito nessas roupas mais usadas!#$b#O que você acha dessa ideia, Sr. Qi?",
+	"Event-07.MrQiRealNPC.ARestart.67": "Eu achei uma boa ideia, desde que essas roupas não estejam mais no meu quarto, está ótimo. eu realmente não quero elas lá...$s#$b#O que você achou da ideia de Sandy, @?",
+	"Event-07.MrQiRealNPC.ARestart.68": "Você também gostou da ideia? Que ótimo!$h",
+	"Event-07.MrQiRealNPC.ARestart.69": "Então está decidido, vamos fazer isso o quanto antes, certo, Sandy?",
+	"Event-07.MrQiRealNPC.ARestart.70": "Claro, Azulão. Como você quiser.#$b#Eu vou preparar as caixas para levá-las até a Vila Pelicanos, ok?",
+	"Event-07.MrQiRealNPC.ARestart.71": "Ok, estarei esperando. @, venha comigo.",
+	"Event-07.MrQiRealNPC.ARestart.72": "Muito obrigado por ter me ajudado a me livrar das roupas de Mona, @. Eu não conseguiria fazer isso se você não estivesse ao meu lado.$h#$b#Eu espero que juntos, eu consiga superar o que aconteceu no passado e poder focar no presente.$h",
+	"Event-07.MrQiRealNPC.ARestart.73": "E eu sei que pode demorar até que realmente possamos ter algo juntos, e que você pode... Deixar de sentir o que sente por mim durante o caminho...#$b#Mas mesmo que isso aconteça, eu ainda serei muito grato por você ter me ajudado a, de fato, seguir em frente.$h",
+	"Event-07.MrQiRealNPC.ARestart.74": "Ei, Azulão, está tudo pronto, já podemos levar isso pra Vila Pelicanos.#$b#Ei, o que vocês têm? Vocês estão muito perto um do outro...$u",
+	"Event-07.MrQiRealNPC.ARestart.75": "Eu só estava agradecendo a @ por ter me ajudado a levar as caixas para o Oásis, só isso.",
+	"Event-07.MrQiRealNPC.ARestart.76": "Hmm... Ok então. Vamos lá?$u",
+	"Event-07.MrQiRealNPC.ARestart.77": "Sim, vamos, é melhor irmos o quanto antes.",
+	"Event-07.MrQiRealNPC.ARestart.78": "Sandy e Sr. Qi levaram as roupas de Mona até a casa de Emily, espero que Emily faça um bom uso dessas roupas.",
+	"Event-07.MrQiRealNPC.ARestart.79": "Oi, @. Deu tudo certo, Sandy entregou as roupas para Emily, espero que aquelas roupas estejam em boas mãos, Mona cuidava daquelas roupas com muito cuidado.",
+
 	//Extras
 	"Extras.MrQiSemiPhysicalName": "Qi Semi-físico", 
 	"Extras.MrQiExtraPhysicalName": "Qi Extra-físco",

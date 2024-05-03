@@ -1,4 +1,5 @@
 {
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Format": "2.0.0",
     "ConfigSchema": {
         "Kid_or_Name": {
@@ -21,26 +22,41 @@
             "When": {
                 "Kid_or_Name": "Kid"
             }
+        },
+        {
+            "Name": "Qi",
+            "Value": "{{ModID}}-Qi"
         }
     ],
     "Changes": [
-        //Mr. Qi's Sprite & Portrait
+        //Mr. Qi's Portrait & Sprite
         {
+            "LogName": "Mister Qi Portrait and Sprite",
             "Action": "Load",
-            "Target": "Characters/Qi, Portraits/Qi",
-            "FromFile": "Assets/{{TargetPathOnly}}/Qi.png"
+            "Target": "Characters/{{Qi}}, Portraits/{{Qi}}",
+            "FromFile": "Assets/{{TargetPathOnly}}/Sionkob.MrQiReal-Qi.png"
         },
-        //Non Giftable Mr. Qi Patch
+        //Non-giftable Mr. Qi's Portrait & Sprite
         {
-            "Action": "Include",
-            "FromFile": "Data/NonGiftableData.json"
+            "LogName": "Non Giftable Mister Qi Portrait and Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/MrQi, Portraits/MrQi",
+            "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/Sionkob.MrQiReal-NonGiftableQi.png"
+        },
+        //Temporary Actors for Events
+        {
+            "LogName": "Temporary Actors Sprites",
+            "Action": "Load",
+            "Target": "Characters/{{ModID}}-Box_1, Characters/{{ModID}}-Box_2",
+            "FromFile": "Assets/{{TargetPathOnly}}/Sionkob.MrQiReal-Box.png"
         },
         //NPC Data
         {
+            "LogName": "NPC Infos - Default",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "Qi": {
+                "{{Qi}}": {
                     "DisplayName": "{{i18n:Qi.name}}",
                     "Gender": "Male",
                     "BirthSeason": "winter",
@@ -59,15 +75,17 @@
                     "SocialTab": "HiddenUntilMet",
                     "PerfectionScore": "false",
                     "EndSlideShow": "Hidden",
+                    "FormerCharacterNames": [ "Qi" ]
                 }
             }
         },
         //NPC Data (if romanceable route is unlocked)
         {
+            "LogName": "NPC Info - Romance Route Unlocked",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "Qi": {
+                "{{Qi}}": {
                     "DisplayName": "{{i18n:Qi.name}}",
                     "Gender": "Male",
                     "BirthSeason": "winter",
@@ -85,7 +103,8 @@
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
                     "PerfectionScore": "false",
-                    "EndSlideShow": "Hidden"
+                    "EndSlideShow": "Hidden",
+                    "FormerCharacterNames": [ "Qi" ]
                 }
             },
             "When": {
@@ -94,21 +113,32 @@
         },
         //Gift Tastes
         {
+            "LogName": "Mister Qi Gift Tastes",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "Qi": "{{i18n:Qi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/773 107 205 243 151 578 910/{{i18n:Qi.GiftReactions.Like}}/211 162 798 218 903/{{i18n:Qi.GiftReactions.Dislike}}/-7 -26/{{i18n:Qi.GiftReactions.Hate}}/729 253 395 348 346 303/{{i18n:Qi.GiftReactions.Neutral}}/-4 -12 -2/"
+                "{{Qi}}": "{{i18n:Qi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/773 107 205 243 151 578 910/{{i18n:Qi.GiftReactions.Like}}/211 162 798 218 903/{{i18n:Qi.GiftReactions.Dislike}}/-7 -26/{{i18n:Qi.GiftReactions.Hate}}/729 253 395 348 346 303/{{i18n:Qi.GiftReactions.Neutral}}/-4 -12 -2/"
             }
         },
-        //Dialogue
+        //Mr. Qi's Dialogue
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "FromFile": "Data/Empty.json"
         },
         {
             "Action": "Include",
-            "FromFile": "Assets/Dialogue/Qi.json"
+            "FromFile": "Assets/Dialogue/Sionkob.MrQiReal-Qi.json"
+        },
+        //Non-giftable Mr.Qi's Dialogue
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/NonGiftableData.json"
         },
         //Other NPCs Dialogue
         {
@@ -118,24 +148,26 @@
         //Schedule
         {
             "Action": "Load",
-            "Target": "Characters/Schedules/Qi",
+            "Target": "Characters/Schedules/{{Qi}}",
             "FromFile": "Data/Empty.json"
         },
         {
             "Action": "Include",
-            "FromFile": "Assets/Schedules/Qi.json"
+            "FromFile": "Assets/Schedules/Sionkob.MrQiReal-Qi.json"
         },
         //Animation Descriptions
         {
+            "LogName": "Mister Qi Animations",
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "qi_staring": "20/20/20",
-                "qi_sleep": "51/51/51"
+                "{{Lowercase:Qi}}_staring": "20/20/20",
+                "{{Lowercase:Qi}}_sleep": "51/51/51"
             }
         },
         //Map Edits
         {
+            "LogName": "Add Map Warps",
             "Action": "EditMap",
             "Target": "Maps/Club",
             "FromFile": "Assets/Maps/Club.tmx",
@@ -146,6 +178,7 @@
             ]
         },
         {
+            "LogName": "Add Map Warps",
             "Action": "EditMap",
             "Target": "Maps/Custom_MrQiReal_QiRoom",
             "AddWarps": [
@@ -153,6 +186,7 @@
             ]
         },
         {
+            "LogName": "Remove Invisible Wall Having 6 Hearts",
             "Action": "EditMap",
             "Target": "Maps/Custom_MrQiReal_QiRoom",
             "MapTiles": [
@@ -164,13 +198,14 @@
                     }
                 }
             ],
-				"When": {
-                "Hearts:Qi": "{{Range: 0, 5}}",
+            "When": {
+                "Hearts:{{Qi}}": "{{Range: 0, 5}}",
                 "LocationName": "Club, Custom_MrQiReal_QiRoom"
             },
             "Update": "OnLocationChange"
         },
         {
+            "LogName": "Add Map Warps",
             "Action": "EditMap",
             "Target": "Maps/SandyHouse",
             "AddWarps": [
@@ -185,7 +220,7 @@
         //Schedule Strings
         {
             "Action": "Load",
-            "Target": "Strings/schedules/Qi",
+            "Target": "Strings/schedules/{{Qi}}",
             "FromFile": "Data/Empty.json"
         },
         {
@@ -205,24 +240,35 @@
         //Festival Locations
         {
             "Action": "Include",
-            "FromFile": "Data/FestivalData/FestivalLocations.json"
+            "FromFile": "Data/FestivalData/FestivalLocations.json",
         },
         //Festival Dialogue
         {
             "Action": "Include",
             "FromFile": "Data/FestivalData/FestivalDialogue.json"
         },
+        //Movies Reactions
+        {
+            "Action": "Include",
+            "FromFile": "Data/MovieTheaterData/MoviesReactions.json"
+        },
+        //Concession Tastes
+        {
+            "Action": "Include",
+            "FromFile": "Data/MovieTheaterData/ConcessionTastes.json"
+        },
         //Letters
         {
+            "LogName": "Mail Letters",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
                 //Sends a letter to you when you have 8 hearts with Mister Qi to trigger the 8 hearts event
-                "MrQiRealNPC_QiImportantTalk": {
-                    "Id": "MrQiRealNPC_QiImportantTalk",
+                "{{ModID}}-QiImportantTalk": {
+                    "Id": "{{ModID}}-QiImportantTalk",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current Qi 8",
-                    "Action": "AddMail Current QiImportantTalk now"
+                    "Condition": "PLAYER_HEARTS Current {{Qi}} 8",
+                    "Action": "AddMail Current {{ModID}}-QiImportantTalk now"
                 }
             }
         },
@@ -230,18 +276,24 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "QiImportantTalk": "{{i18n:MailLetter.QiImportantTalk}}"
+                "{{ModID}}-QiImportantTalk": "{{i18n:MailLetter.QiImportantTalk}}"
             }
         },
         //Custom Locations
         {
+            "Action": "Load",
+            "Target": "Maps/Custom_MrQiReal_QiRoom, Maps/Custom_MrQiReal_QiLab",
+            "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+        },
+        {
+            "LogName": "Add Maps",
             "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
                 "Custom_MrQiReal_QiRoom": {
                     "DisplayName": "{{i18n:Location.QiRoom}}",
                     "DefaultArrivalTile": {
-                        "X": 1,
+                        "X": 1, 
                         "Y": 0
                     },
                     "CreateOnLoad": {
@@ -259,16 +311,6 @@
                     }
                 }
             }
-        }
-    ],
-    "CustomLocations": [
-        {
-            "Name": "Custom_MrQiReal_QiRoom",
-            "FromMapFile": "Assets/Maps/QiRoom.tmx"
-        },
-        {
-            "Name": "Custom_MrQiReal_QiLab",
-            "FromMapFile": "Assets/Maps/QiLab.tmx"
         }
     ]
 }

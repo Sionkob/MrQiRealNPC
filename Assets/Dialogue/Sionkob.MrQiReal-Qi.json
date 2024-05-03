@@ -2,8 +2,9 @@
     "Changes": [
         //Mister Qi's Dialogue (Before Being Romanceable)
         {
+            "LogName": "Dialogue - Default",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 //Introduction (after enter in Club for the first time)
                 "MrQiAndClubIntroduction": "{{i18n:Qi.MrQiAndClubIntroduction|NameOrKid={{NameOrKid}}}}",
@@ -77,6 +78,35 @@
                 "Sun8": "{{i18n:Qi.Dialogue.Sun8}}",
 
                 //10 Hearts (Before seen 10 hearts event)
+                "Mon10": "{{i18n:Qi.Dialogue.Mon10-Before10HeartsEvent}}",
+                "Tue10": "{{i18n:Qi.Dialogue.Tue10-Before10HeartsEvent}}",
+                "Wed10": "{{i18n:Qi.Dialogue.Wed10-Before10HeartsEvent}}",
+                "Thu10": "{{i18n:Qi.Dialogue.Thu10-Before10HeartsEvent}}",
+                "Fri10": "{{i18n:Qi.Dialogue.Fri10-Before10HeartsEvent}}",
+                "Sat10": "{{i18n:Qi.Dialogue.Sat10-Before10HeartsEvent}}",
+                "Sun10": "{{i18n:Qi.Dialogue.Sun10-Before10HeartsEvent}}"
+            }
+        },
+        //Mister Qi refuses any movie invites if romanceable route is locked
+        {
+            "LogName": "Reject movie invites",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Qi}}",
+            "Entries": {
+                //Reject Movie Invite
+                "reject_809": "{{i18n:Qi.Dialogue.reject_809|NameOrKid={{NameOrKid}}}}",
+            },
+            "When": {
+                "HasFlag| contains=RomanceableQiRoute": "false"
+            }
+        },
+        //10 hearts dialogue after seen 10 hearts event
+        {
+            "LogName": "Dialogue - 10 hearts dialogue after seen 10 hearts event",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Qi}}",
+            "Entries": {
+                //10 Hearts (After seen 10 hearts event)
                 "Mon10": "{{i18n:Qi.Dialogue.Mon10}}",
                 "Tue10": "{{i18n:Qi.Dialogue.Tue10}}",
                 "Wed10": "{{i18n:Qi.Dialogue.Wed10}}",
@@ -84,12 +114,16 @@
                 "Fri10": "{{i18n:Qi.Dialogue.Fri10}}",
                 "Sat10": "{{i18n:Qi.Dialogue.Sat10}}",
                 "Sun10": "{{i18n:Qi.Dialogue.Sun10}}"
+            },
+            "When": {
+                "HasSeenEvent": "06.MrQiRealNPC.AHiddenPain"
             }
         },
         //Translates the Dwarvish text in Saturday's 4 hearts dialogue if the player has the Dwarvish Translation Guide in their wallet
         {
+            "LogName": "Dialogue - Has Dwarf Language Guide",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 "Sat4": "{{i18n:Qi.Dialogue.Sat4.HasDwarvishGuide}}"
             },
@@ -99,30 +133,39 @@
         },
         //Adds new dialogues after seeing Mister Qi's 6 hearts event
         {
+            "LogName": "Dialogue - Seen 6 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 "winter_17": "{{i18n:Qi.Dialogue.winter_17}}",
                 "winter_28": "{{i18n:Qi.Dialogue.winter_28}}"
             },
-            "Condition": "PLAYER_HAS_SEEN_EVENT Current 04.MrQiRealNPC.TheMrQisLab"
+            "When": {
+                "HasSeenEvent": "04.MrQiRealNPC.TheMrQisLab"
+            }
         },
         //If you anwser that you're afraid of Mr. Qi in his 8 hearts event, he'll ask if you still afraid of him
         {
+            "LogName": "Dialgoue - Choose Still Afraid Option",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 "winter_26": "{{i18n:Qi.Dialogue.winter_26}}#$q -1672401/-1672402 StillAfraid#{{i18n:Qi.Questions.StillAfraid.QuestionText}}#$r -1672401 0 StillAfraid_Yes#{{i18n:Qi.Questions.StillAfraid.QuestionAnwser1}}#$r -1672402 0 StillAfraid_No#{{i18n:Qi.Questions.StillAfraid.QuestionAnwser2}}",
 
                 "StillAfraid_Yes": "{{i18n:Qi.Questions.StillAfraid_Yes}}",
                 "StillAfraid_No": "{{i18n:Qi.Questions.StillAfraid_No}}"
             },
-            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Qi 2500, PLAYER_HAS_MAIL Current AfraidOfQi,!PLAYER_HAS_MAIL Current OnlyFriendableQiRoute"
+            "When": {
+                "Hearts:{{Qi}}": "10",
+                "HasFlag": "AfraidOfQi",
+                "HasFlag |contains=OnlyFriendableQiRoute": "false"
+            }
         },
-        //Mr. Qi's 10 hearts dialogue (if you haven't unlock him as a romance option)
+        //Mister Qi's 10 hearts dialogue (if you haven't unlock him as a romance option)
         {
+            "LogName": "Dialogue - Keep MrQi Friendable",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 "Mon10": "{{i18n:Qi.Dialogue.Mon10}}",
                 "Tue10": "{{i18n:Qi.Dialogue.Tue10}}",
@@ -132,12 +175,15 @@
                 "Sat10": "{{i18n:Qi.Dialogue.Sat10}}",
                 "Sun10": "{{i18n:Qi.Dialogue.Sun10}}"
             },
-            "Condition": "PLAYER_HAS_MAIL Current OnlyFriendableQiRoute"
+            "When": {
+                "HasFlag": "OnlyFriendableQiRoute"
+            }
         },
         //Mister Qi's Dialogue (After Being Romanceable)
         {
+            "LogName": "Dialogue - Unlock Romance Option",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 //Days Of Week
 
@@ -151,13 +197,13 @@
                 "Sun": "{{i18n:Qi.Dialogue.Sun-RomanceableQi}}",
 
                 //2 Hearts
-                "Mon2": "",
-                "Tue2": "",
-                "Wed2": "",
-                "Thu2": "",
-                "Fri2": "",
-                "Sat2": "",
-                "Sun2": "",
+                "Mon2": "{{i18n:Qi.Dialogue.Mon2-RomanceableQi}}",
+                "Tue2": "{{i18n:Qi.Dialogue.Tue2-RomanceableQi}}",
+                "Wed2": "{{i18n:Qi.Dialogue.Wed2-RomanceableQi}}",
+                "Thu2": "{{i18n:Qi.Dialogue.Thu2-RomanceableQi}}",
+                "Fri2": "{{i18n:Qi.Dialogue.Fri2-RomanceableQi}}",
+                "Sat2": "{{i18n:Qi.Dialogue.Sat2-RomanceableQi}}",
+                "Sun2": "{{i18n:Qi.Dialogue.Sun2-RomanceableQi}}",
 
                 //4 Hearts
             },

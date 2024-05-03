@@ -1,0 +1,205 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        //Mister Qi's Movies Reactions
+        {
+            "LogName": "Movies Reactions",
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "{{Qi}}": {
+                    "NPCName": "{{Qi}}",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.spring_movie_1.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote {{Qi}} 16/message \"{{i18n:Qi.MovieReactions.spring_movie_1.DuringMovie.1}}\"",
+                                    "Text": "{{i18n:Qi.MovieReactions.spring_movie_1.DuringMovie.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.spring_movie_1.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "fall_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.fall_movie_1.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote {{Qi}} 16",
+                                    "Text": "{{i18n:Qi.MovieReactions.fall_movie_1.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.winter_movie_0.AfterMovie}}"
+                                },
+                                "ID": "reaction_1"
+                            }
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.summer_movie_0.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.summer_movie_0.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "fall_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.fall_movie_0.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "mysterium_shadow",
+                                    "Script": "/emote {{Qi}} 40",
+                                    "Text": "{{i18n:Qi.MovieReactions.fall_movie_0.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.fall_movie_0.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "DuringMovie": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.spring_movie_0.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote {{Qi}} 24/message \"{{i18n:Qi.MovieReactions.spring_movie_0.DuringMovie}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.spring_movie_0.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "winter_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.winter_movie_0.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Qi.MovieReactions.winter_movie_0.DuringMovie}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.winter_movie_0.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.summer_movie_1.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote {{Qi}} 8/message \"{{i18n:Qi.MovieReactions.summer_movie_1.DuringMovie}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.summer_movie_1.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.winter_movie_1.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Qi.MovieReactions.winter_movie_1.AfterMovie}}"
+                                }
+                            },
+                            "ID": "reaction_7"
+                        },
+                    ]
+                }
+            },
+            "When": {
+                "HasFlag": "RomanceableQiRoute"
+            }
+        }
+    ]
+}
