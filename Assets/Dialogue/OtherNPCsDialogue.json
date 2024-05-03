@@ -2,6 +2,7 @@
     "Changes": [
         //Sandy comments about the Casino and Mister Qi
         {
+            "LogName": "Sandy Dialogue Changes - Default",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
@@ -11,10 +12,11 @@
                 "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8}}"
             },
             "When": {
-                "HasSeenEvent": "16724000"
+                "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
             }
         },
         {
+            "LogName": "Sandy Dialogue Changes - Seen 4 Hearts Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
@@ -24,21 +26,22 @@
                 "Sun8": "{{i18n:Sandy.DialogueEdits.Sun8-SeenQi4heartsEvent}}"
             },
             "When": {
-                "HasSeenEvent": "16724003"
+                "HasSeenEvent": "03.MrQiRealNPC.ASharedSecret"
             }
         },
         //Sandy comments about Mister Qi (after seeing Mr. Qi 8 hearts event)
         {
+            "LogName": "Sandy Dialogue Changes - Seen 8 Hearts Even",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
                 "spring_25": "{{i18n:Sandy.DialogueEdits.spring_25-SeenQi8heartsEvent}}",
                 "summer_10": "{{i18n:Sandy.DialogueEdits.summer_10-SeenQi8heartsEvent}}",
                 "winter_27": "{{i18n:Sandy.DialogueEdits.winter_27-SeenQi8heartsEvent}}",
-                "Thu": "{{i18n:Sandy.DialogueEdits.Thu-SeenQi8heartsEvent}}"
+                "Thu4": "{{i18n:Sandy.DialogueEdits.Thu4-SeenQi8heartsEvent}}"
             },
             "When": {
-                "HasSeenEvent": "16724005"
+                "HasSeenEvent": "05.MrQiRealNPC.ProperlyExplanations"
             }
         }
     ]
