@@ -4,9 +4,8 @@
 [Mister Qi is a Real NPC](https://www.nexusmods.com/stardewvalley/mods/16724) is a Content patcher mod that turns Mister Qi into a giftable NPC by adding him as a custom NPC. The mod brings a new history to the character while respecting Mister Qi's original personality.
 
 # Requirements
-Currently, the mod needs 2 mods to work:
+Currently, this mod only needs one mod to work:
 - [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915) - By Pathoschild
-- [Extra Map Layers](https://www.nexusmods.com/stardewvalley/mods/9633) - By aedenthorn
 
 # Installing instructions
 To install the mod, just copy it to your game's Mods folder. To uninstall it, just remove the **[CP] Mister Qi is a Real NPC** folder from your Mods folder.
@@ -14,13 +13,14 @@ To install the mod, just copy it to your game's Mods folder. To uninstall it, ju
 # What is currently working?
 The mod is under development and some things are not completed yet, but some things are already working, for example:
 - Mr. Qi is recognized as a giftable NPC by the game.
-- There are new dialogues up to 6 hearts.
-- There are 5 events ready, 3 of them are heart events.
+- There are new dialogues up to 8 hearts.
+- There are 6 events ready, 4 of them are heart events.
 - 2 new maps have been added.
 - Mr. Qi appears at every vanilla festival when you meet him.
 - The schedules have been modified (but still incomplete).
 - New dialogues for Mr. Qi who stays inside the Walnut Room have been added.
 - Sandy talks about Mr. Qi and the casino when you become a club member.
+- Now the mod is fully compatible with Stardew Valley 1.6.
 
 As the mod is updated, more functions will be added, removed, or modified.
 
