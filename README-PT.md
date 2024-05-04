@@ -4,9 +4,8 @@
 [Senhor Qi é um Verdadeiro NPC](https://www.nexusmods.com/stardewvalley/mods/16724) é um mod Content Patcher que transforma o Senhor Qi em um NPC presenteável adicionando ele como um NPC customizado. O mod traz uma história nova para o personagem respeitando a personalidade original do Senhor Qi.
 
 # Requisitos
-Atualmente, o mod precisa de 2 mods para funcionar:
+Atualmente, este mod só precisa de um mod para funcionar:
 - [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915) - De Pathoschild
-- [Extra Map Layers](https://www.nexusmods.com/stardewvalley/mods/9633) - De aedenthorn
 
 # Instruções de instalação
 Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinstalá-lo, basta remover a pasta **[CP] Mister Qi is a Real NPC** da sua pasta Mods.
@@ -15,12 +14,13 @@ Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinst
 O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas algumas coisas já estão funcionando, por exemplo:
 - Sr. Qi é reconhecido como um NPC presenteável pelo jogo.
 - Existem novos diálogos até 6 corações.
-- Existem 5 eventos prontos, sendo 3 deles eventos de coração.
+- Existem 6 eventos prontos, sendo 4 deles eventos de coração.
 - 2 novos mapas foram adicionados.
 - Sr. Qi aparece em todos os festivais vanilla quando você o conhece.
 - Os horários foram modificados (mas ainda estão incompletos).
 - Novos diálogos para o Sr. Qi que fica dentro da Sala de nozes foram adicionados.
 - Sandy fala sobre o Sr. Qi e o cassino quando você se torna membro do clube.
+- Agora o mod é completamente compatível com o Stardew Valley 1.6.
 
 Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou modificadas.
 
