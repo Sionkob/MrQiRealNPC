@@ -21,6 +21,13 @@
 
 	/* ++++++++++++++++++++++++++++++++++++++ */
 
+	/* +++++|LOCATION NAMES TRANSLATION|+++++ */
+
+	"Location.QiRoom": "Quarto do Sr. Qi",
+	"Location.QiLab": "Laboratório do Sr. Qi",
+
+	/* ++++++++++++++++++++++++++++++++++++++ */
+
 	/* +++++|GIFT REACTIONS|+++++ */
 
 	"Qi.GiftReactions.Love": "Ei, obrigado pelo presente, {{NameOrKid}}! Será muito útil.",
@@ -63,18 +70,18 @@
 	"Qi.Dialogue.Mon": "As segundas são dias muito movimentados, há muito trabalho para fazer.#$b#Pelo menos o clube não é tão movimentado durante o começo da semana.",
 	"Qi.Dialogue.Tue": "Olá, {{NameOrKid}}. Precisa de alguma coisa?#$b#Se você tiver alguma dúvida, hesite em perguntar. Perguntar é a melhor maneira de aprender algo novo.",
 	"Qi.Dialogue.Wed": "Sempre esteja atento aos mínimos detalhes. Explore os arredores com atenção.#$b#Há muitas coisas para descobrir neste lugar, algumas delas só podem ser descobertas por pessoas muito atentas.",
-	"Qi.Dialogue.Thu": "Não conte a ninguém sobre o cassino, é um lugar exclusivo. Apenas pessoas da minha confiança podem entrar.#$b#Você deveria se sentir privilegiado de poder ter acesso a um lugar tão secreto quanto esse.^Você deveria se sentir privilegiada de poder ter acesso a um lugar tão secreto quanto esse.#$b#Você consegue manter isso em segredo, não é?.$u",
+	"Qi.Dialogue.Thu": "Não conte a ninguém sobre o cassino, é um lugar exclusivo. Apenas pessoas da minha confiança podem entrar.#$b#Você deveria se sentir ${privilegiado¦privilegiada}$ de poder ter acesso a um lugar tão secreto quanto esse.#$b#Você consegue manter isso em segredo, não é?.$u",
 	"Qi.Dialogue.Fri": "O cassino é um ótimo lugar para passar o fim de semana, venha até o cassino sempre que quiser.#$b#Só não exagere na bebida, ou você ficará como Welwick.$u",
 	"Qi.Dialogue.Sat": "Quer um conselho?#$b#Nunca deixe de buscar a perfeição.#$b#Não se contente com nada menos que a excelência em tudo o que faz.#$b#Confie em mim, ver o resultado de todo o seu trabalho é muito gratificante.",
 	"Qi.Dialogue.Sun": "Olá, {{NameOrKid}}, como vai?#$e#Só dando um passeio? Entendo, esse lugar é muito agradável de se estar após passar horas no calor do deserto.#$b#Se você estiver livre, aproveite e jogue alguns jogos, sinto que você está com sorte hoje.",
 
 	//Days Of Week - 2 Hearts
-	"Qi.Dialogue.Mon2": "Olá, {{NameOrKid}}, como você está?#$b#Eu estou um pouco ocupado. Você sabe, tenho muitas coisas a fazer.#$b#Pode jogar alguns jogos do cassino, se quiser. Você é sempre bem-vindo aqui.^Pode jogar alguns jogos do cassino, se quiser. Você é sempre bem-vinda aqui.",
+	"Qi.Dialogue.Mon2": "Olá, {{NameOrKid}}, como você está?#$b#Eu estou um pouco ocupado. Você sabe, tenho muitas coisas a fazer.#$b#Pode jogar alguns jogos do cassino, se quiser. Você é sempre ${bem-vindo¦bem-vinda}$ aqui.",
 	"Qi.Dialogue.Tue2": "Você está tendo um bom progresso em sua fazenda, {{NameOrKid}}. Continue assim e você irá ainda mais longe.",
 	"Qi.Dialogue.Wed2": "Aqui vai uma dica para quando você for minerar: Sempre leve comida junto com você quando entrar nas minas.#$b#Alimentos podem te ajudar a recuperar energia e assim você pode passar mais tempo minerando.",
 	"Qi.Dialogue.Thu2": "Você já ouviu falar no Fragmento Prismático?#$b#É uma pedra que possui um brilho extremamente colorido, ninguém sabe ao certo a sua origem, ela é muito rara de ser encontrada.#$b#Lembro da primeira vez que eu vi um, o brilho dele era tão belo, era impressionante. Até cheguei a pensar que fosse radioativo dado todo o brilho, mas não é.#$b#Talvez algum dia você encontre um. Aqui vai dica: Você tem mais chances de encontrá-lo em níveis profundos da Caverna da Caveira.",
 	"Qi.Dialogue.Fri2": "Sabe aquele cara vendendo a Estátua da Riqueza Eterna por 1 milhão de ouros?#$b#Ela é uma estátua muito útil de se ter em sua casa, além de ser uma ótima peça de decoração.#$b#Mas ela não é a única estátua útil que você obter, existem outras estátuas ainda mais úteis que ela.#$e#Quais são? Continue explorando esse mundo e em breve você descobrirá, {{NameOrKid}}.",
-	"Qi.Dialogue.Sat2": "Como está indo o seu fim de semana até agora, {{NameOrKid}}?#$b#Sempre que você estiver entediado, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.^Sempre que você estiver entediada, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.",
+	"Qi.Dialogue.Sat2": "Como está indo o seu fim de semana até agora, {{NameOrKid}}?#$b#Sempre que você estiver ${entediado¦entediada}$, você pode vir até o cassino e passar um tempo jogando Calico Vinte-e-Um ou testando sua sorte nas máquinas de caça-níquel.",
 	"Qi.Dialogue.Sun2": "Welwick disse que não iria beber demais hoje. Conhecendo ela, eu sei que ela não vai conseguir se controlar...$u#$b#Ela precisa de ajuda para superar esse problema com bebidas, mas não dá para fazer muita coisa quando a pessoa não quer ser ajudada.$u",
 
 	//Days Of Week - 4 Hearts
@@ -92,7 +99,7 @@
 	"Qi.Dialogue.Tue6": "Ser um conhecido de alguém como eu é um privilégio, e não estou tentando me gabar.#$b#Eu tenho um vasto conhecimento sobre muitas coisas, se você precisar tirar alguma dúvida, certamente terei a resposta.#$b#Mas eu não quero que você se aproveite da minha sabedoria, eu odeio amizades por interesse.$u",
 	"Qi.Dialogue.Wed6": "Você já viu um Junimo, não é mesmo?#$b#Eles são espíritos misteriosos que vivem escondidos nas matas, o objetivo deles é proteger esses lugares de possíveis perigos.#$b#Eles são inofensivos para os humanos, inclusive podem ser usados para benefício próprio. Você pode construir uma Cabana Junimo em sua fazenda e eles irão colher suas plantações por você.",
 	"Qi.Dialogue.Thu6": "Parece que você vem até o deserto com frequência, não é mesmo, {{NameOrKid}}?#$b#Espero que você esteja usando algum totem de teletransporte ao invés de ter que gastar 500 ouros a cada viagem.#$e#Já viu aquelas estátuas estranhas que ficam em alguns locais do vale? Elas são pontos de teletransporte, se você tiver o totem correspondente você pode se teletransportar entre os lugares do vale mais rapidamente.#$b#Você pode criar esses totens de teletransporte se você aprender a constuí-los, ou você também pode comprar alguns no meu cassino.",
-	"Qi.Dialogue.Fri6": "Ei, {{NameOrKid}}, eu estou fazendo alguns experimentos e preciso de uma cobaia, quer arriscar?#$b#Não é nada muito perigoso, talvez você só fique com algumas dores de cabeça, fique tranquilo.^Não é nada muito perigoso, talvez você só fique com algumas dores de cabeça, fique tranquila.#$e#É claro que eu estou brincando, {{NameOrKid}}. Eu jamais arrisco a vida de pessoas em meus experimentos, ainda mais a sua.#$b#Você precisa estar saudável para poder trabalhar em sua fazenda, não é mesmo?",
+	"Qi.Dialogue.Fri6": "Ei, {{NameOrKid}}, eu estou fazendo alguns experimentos e preciso de uma cobaia, quer arriscar?#$b#Não é nada muito perigoso, talvez você só fique com algumas dores de cabeça, fique ${tranquilo¦tranquila}$.#$e#É claro que eu estou brincando, {{NameOrKid}}. Eu jamais arrisco a vida de pessoas em meus experimentos, ainda mais a sua.#$b#Você precisa estar saudável para poder trabalhar em sua fazenda, não é mesmo?",
 	"Qi.Dialogue.Sat6": "Posso dizer uma coisa, {{NameOrKid}}?#$b#Aquelas coisas que estão no meu quarto são puramente decorativas, é apenas para não deixar tanto espaço vazio, sabe?#$b#Não costumo usá-las com frequência, nem me lembro a última vez que liguei aquele sistema de som, ele é muito alto e eu odeio coisas barulhentas demais.",
 	"Qi.Dialogue.Sun6": "Para algumas pessoas os domingos são chatos, mas para mim não.#$b#Os domingos são dias para tentar fazer algo novo.#$b#Por que você não passa um tempo jogando no cassino quando você terminar seu trabalho? Você merece uma pausa depois de trabalhar o dia todo em sua fazenda.",
 	
@@ -105,6 +112,9 @@
 	"Qi.Dialogue.Sat8": "Ei, @, você lembra do dia em que você atingiu o nível cem da Caverna da Caveira e me encontrou lá?#$b#Quem estava falando com você lá dentro e ofereceu o Leite de Cobra de Irídio era a minha representação semi-física, é por isso que logo depois de você ter saído da caverna, eu já estava na entrada.#$b#Quando eu decidi fazer aquilo eu tinha que ter certeza que você não iria contar para ninguém o que tinha visto, por isso eu estava lá na entrada da caverna aguardando você.#$b#Eu não posso deixar qualquer pessoa saber esses detalhes sobre mim, é muito perigoso, o poder dos Senhores Qi pode ser facilmente usado para fins mal-intencionados, por isso tenho cautela quanto a quem irei falar sobre meus poderes.",
 	"Qi.Dialogue.Sun8": "Olá, @. Como vai?#$b#Eu estava pensando em sair um pouco do cassino hoje, mas não há muito o que fazer por aqui, no máximo eu posso conversar com Sandy.#$b#Apesar de ser um tanto enérgica, Sandy é uma boa amiga. Ela sempre foi uma pessoa legal desde que eu me mudei para o deserto a muitos anos atrás.#$e#Por que eu me mudei para o deserto? Bem... Eu...$u#$b#Eu não quero falar sobre isso... Me desculpe.$s",
 	
+	//Reject Movie Invites
+	"Qi.Dialogue.reject_809": "Desculpe {{NameOrKid}}, mas eu não quero ver nenhum filme agora.",
+
 	/* ++++++++++++++++++++ */
 
 	/* +++++|FESTIVAL DIALOGUES|+++++ */
@@ -128,7 +138,7 @@
 	"FestivalDialogue.Qi.fall27": "Este labirinto é fácil demais, Rasmodeu poderia fazer algo mais difícil, algo que fosse diferente...#$e#Sinta-se a vontade para pegar o prêmio, ele não é importante para mim. Só estou aqui por ser um lugar mais isolado.",
 
 	//Festival of Ice
-	"FestivalDialogue.Qi.winter8": "Que festival entediante.$u#$b#Enfim, espero que você seja bom com pesca se decidir participar da competição de pesca no gelo.^Enfim, espero que você seja boa com pesca se decidir participar da competição de pesca no gelo.",
+	"FestivalDialogue.Qi.winter8": "Que festival entediante.$u#$b#Enfim, espero que você seja ${bom¦boa}$ com pesca se decidir participar da competição de pesca no gelo.",
 
 	//Feast of the Winter Star
 	"FestivalDialogue.Qi.winter25": "Boas festas, {{NameOrKid}}.",
@@ -210,7 +220,7 @@
 
 	/* +++++|LETTERS|+++++ */
 
-	"MailLetter.QiImportantTalk": "Prezado @^^ Espero que esta mensagem o encontre em boa saúde e ânimo.^^ Dirijo-me a você com o propósito de estender um convite formal para uma reunião em minha residência. Há um assunto de considerável importância que gostaria de discutir pessoalmente.^^ Reconheço que tal tópico deveria ter sido compartilhado anteriormente, no entanto, hesitei devido à necessidade de avaliar a confiança mútua.^Agora, estou convencido de que nossa relação é sólida o suficiente para que eu revele esse conteúdo a você.^   Gostaria de convidá-lo a visitar-me em meu domicílio, mais especificamente em meu quarto, durante a noite. Sugiro que sua visita ocorra antes do fechamento do Oásis, em um horário que lhe seja conveniente.^^  Estou confiante de que este encontro será frutífero e esclarecedor para ambos.^   Atenciosamente, Sr. Qi.¦Prezada @^^ Espero que esta mensagem a encontre em boa saúde e ânimo.^^ Dirijo-me a você com o propósito de estender um convite formal para uma reunião em minha residência. Há um assunto de considerável importância que gostaria de discutir pessoalmente.^^ Reconheço que tal tópico deveria ter sido compartilhado anteriormente, no entanto, hesitei devido à necessidade de avaliar a confiança mútua.^Agora, estou convencido de que nossa relação é sólida o suficiente para que eu revele esse conteúdo relevante a você.^   Gostaria de convidá-la a visitar-me em meu domicílio, mais especificamente em meu quarto, durante a noite. Sugiro que sua visita ocorra antes do fechamento do Oásis, em um horário que lhe seja conveniente.^^  Estou confiante de que este encontro será frutífero e esclarecedor para ambos.^   Atenciosamente, Sr. Qi.[#]Uma Conversa Importante",
+	"MailLetter.QiImportantTalk": "${Prezado¦Prezada}$ @^^ Espero que esta mensagem ${o¦a}$ encontre em boa saúde e ânimo.^^ Dirijo-me a você com o propósito de estender um convite formal para uma reunião em minha residência. Há um assunto de considerável importância que gostaria de discutir pessoalmente.^^ Reconheço que tal tópico deveria ter sido compartilhado anteriormente, no entanto, hesitei devido à necessidade de avaliar a confiança mútua.^Agora, estou convencido de que nossa relação é sólida o suficiente para que eu revele esse conteúdo a você.^   Gostaria de ${convidá-lo¦convidá-la}$ a visitar-me em meu domicílio, mais especificamente em meu quarto, durante a noite. Sugiro que sua visita ocorra antes do fechamento do Oásis, em um horário que lhe seja conveniente.^^  Estou confiante de que este encontro será frutífero e esclarecedor para ambos.^   Atenciosamente, Sr. Qi.[#]Uma Conversa Importante",
 
 	/* +++++++++++++++++++ */
 
@@ -236,7 +246,7 @@
 
 	//The Revealed Secret
 	"Event-16724001.01": "Olá novamente, {{NameOrKid}}.",
-	"Event-16724001.02": "He he, vejo que sua exploração na Caverna da Caveira foi bem proveitosa.#$b#Eu sabia que você era diferente, você é bem corajoso, {{NameOrKid}}.^Eu sabia que você era diferente, você é muito corajosa, {{NameOrKid}}.#$b#Você realmente mereceu aquela recompensa por toda a sua bravura, explorar um lugar como a Caverna da Caveira não é pra qualquer um.",
+	"Event-16724001.02": "He he, vejo que sua exploração na Caverna da Caveira foi bem proveitosa.#$b#Eu sabia que você era diferente, você é bem corajoso, {{NameOrKid}}.^Eu sabia que você era diferente, você é muito ${corajoso¦corajosa}$, {{NameOrKid}}.#$b#Você realmente mereceu aquela recompensa por toda a sua bravura, explorar um lugar como a Caverna da Caveira não é pra qualquer um.",
 	"Event-16724001.03": "Como você chegou aqui tão rápido? O que foi aquilo?!",
 	"Event-16724001.04": "Bem, é sobre isso que eu quero falar com você.#$b#Como você pôde ver, eu sou diferente dos outros aldeões que você conhece, sei de coisas que eles não sabem, e faço coisas que eles não fazem.#$b#As coisas que eu sei e faço podem colocar a minha vida e a vida dos outros aldeões em risco, eu preciso manter tudo isso em segredo, pela segurança de todos.#$b#Portanto, eu não posso simplesmente deixar você ir embora e correr o risco de você contar o que viu.$u",
 	"Event-16724001.05": "Sr. Qi se aproxima de você.",
@@ -249,7 +259,7 @@
 	"Event-16724001-KeptSecret.02": "Eu guardo seu segredo, mas você ainda não disse o que foi aquilo que aconteceu lá na Caverna da Caveira.",
 	"Event-16724001-KeptSecret.03": "Eu não posso falar sobre isso agora, nós dois estamos muito ocupados, talvez em outro momento eu fale mais sobre isso, quando nós dois tivermos tempo.#$b#A única coisa que posso dizer é que o que aconteceu lá na Caverna da Caveira é apenas a ponta do iceberg, {{NameOrKid}}.",
 	"Event-16724001-KeptSecret.04": "Bem, já que você irá guardar meu segredo eu vou te dar um item como agradecimento.#$b#Tome, é uma Barra de Irídio, isso pode ser útil para você atualizar suas ferramentas ou construir algumas máquinas.[337]#$b#E lembre-se, o que aconteceu lá na Caverna da Caveira é segredo, não conte a ninguém.$u",
-	"Event-16724001-KeptSecret.05": "Espero que ele realmente guarde esse segredo. Ficarei de olho, por precaução.$u^Espero que ela realmente guarde esse segredo. Ficarei de olho, por precaução.$u",
+	"Event-16724001-KeptSecret.05": "Espero que ${ele¦ela}$ realmente guarde esse segredo. Ficarei de olho, por precaução.$u",
 	"Event-16724001-KeptSecret.06": "Isso foi um pouco assustador, mas eu irei cumprir a minha palavra e guardar segredo. Mas definitivamente esse cara me deve explicações.",
 
 	//Gossip Farmer
@@ -265,7 +275,7 @@
 	"Event-16724002.03": "Você aceita jogar mais uma vez, e outra, e outra vez.#Você perde em todas as tentativas.",
 	"Event-16724002.04": "Cara do Calico Vinte-e-Um: Como ousa me chamar de trapaceiro? Não posso fazer nada se você está numa maré de azar!",
 	"Event-16724002.05": "Ei, o que está havendo aqui? Por que toda essa gritaria?$u",
-	"Event-16724002.06": "Cara do Calico Vinte-e-Um: Esse cara está me acusando de trapacear no Calico Vinte-e-um, eu sou um cara honesto, jamais trapacearia nesse jogo!^Cara do Calico Vinte-e-Um: Essa garota está me acusando de trapacear no Calico Vinte-e-um, eu sou um cara honesto, jamais trapacearia nesse jogo!#Cara do Calico Vinte-e-Um: Eu não tenho culpa se ele perdeu 4 vezes seguidas, eu joguei limpo!^Cara do Calico Vinte-e-Um: Eu não tenho culpa se ela perdeu 4 vezes seguidas, eu joguei limpo!",
+	"Event-16724002.06": "Cara do Calico Vinte-e-Um: ${Esse¦Essa}$ ${cara¦garota}$ está me acusando de trapacear no Calico Vinte-e-um, eu sou um cara honesto, jamais trapacearia nesse jogo!#Cara do Calico Vinte-e-Um: Eu não tenho culpa se ${ele¦ela}$ perdeu 4 vezes seguidas, eu joguei limpo!",
 	"Event-16724002.07": "Hmm... Entendi.$u#$b#Venha comigo, {{NameOrKid}}. Você precisa se acalmar.",
 	"Event-16724002.08": "Eu não costumo trazer pessoas até aqui, é um lugar muito particular, você é uma pessoa privilegiada.#$b#Enfim, vamos entrar e conversar um pouco.",
 	"Event-16724002.09": "Venha, {{NameOrKid}}, pode entrar.",
@@ -285,26 +295,26 @@
 	"Event-16724002.23": "Bem, eu vou apresentar um pouco do meu quarto e depois você pode ir embora.",
 	"Event-16724002.24": "O quarto do Sr. Qi é enorme! Não imaginava que era tão grande.#...#O que será que ele esconde atrás daquela porta?",
 	"Event-16724002.25": "E então? Você estava trapaceando mesmo ou não?$u",
-	"Event-16724002.26": "Cara do Calico Vinte-e-Um: Não, eu não estava trapaceando, eu juro!#Cara do Calico Vinte-e-Um: Ele só estava com muito azar, eu estava jogando limpo. Jamais trapacearia no Calico Vinte-e-um e você sabe disso.^Cara do Calico Vinte-e-Um: Ela só estava com muito azar, eu estava jogando limpo. Jamais trapacearia no Calico Vinte-e-um e você sabe disso.",
+	"Event-16724002.26": "Cara do Calico Vinte-e-Um: Não, eu não estava trapaceando, eu juro!#Cara do Calico Vinte-e-Um: ${Ele¦Ela}$ só estava com muito azar, eu estava jogando limpo. Jamais trapacearia no Calico Vinte-e-um e você sabe disso.",
 	"Event-16724002.27": "Estou de olho em você... Se eu ouvir mais uma reclamação de trapaça você não volta para este cassino tão cedo, entendeu?$u",
 	"Event-16724002.28": "Cara do Calico Vinte-e-Um: Sim, eu entendi, Sr. Qi...",
 	"Event-16724002.29": "Ótimo, espero não ouvir mais nenhuma reclamação deste tipo.$u",
-	"Event-16724002.30": "Olá, {{NameOrKid}}, espero que você não tenha mais problemas com jogadores trapaceiros por aqui, eu sempre prezo por um jogo limpo.#$e#O quê? Por que eu tenho uma cama de casal sendo solteiro?$u#$b#@, eu posso ter permitido que você entrasse no meu quarto, mas eu não te dei permissão para fazer perguntas sobre minha vida pessoal. Não seja intrometido.$u^@, eu posso ter permitido que você entrasse no meu quarto, mas eu não te dei permissão para fazer perguntas sobre minha vida pessoal. Não seja intrometida.$u",
+	"Event-16724002.30": "Olá, {{NameOrKid}}, espero que você não tenha mais problemas com jogadores trapaceiros por aqui, eu sempre prezo por um jogo limpo.#$e#O quê? Por que eu tenho uma cama de casal sendo solteiro?$u#$b#@, eu posso ter permitido que você entrasse no meu quarto, mas eu não te dei permissão para fazer perguntas sobre minha vida pessoal. Não seja ${intrometido¦intrometida}$.$u",
 
 	//A Shared Secret (Mister Qi's 4 Hearts Event)
 	"Event-16724003.01": "Aqui está o seu pagamento desse mês, Sandy.",
 	"Event-16724003.02": "Muito obrigada, Azulão!$h#$b#Quero dizer, Senhor Qi...",
 	"Event-16724003.03": "Quantas vezes eu já disse para você não me chamar de Azulão? Você sabe que eu não gosto desse apelido...$u",
 	"Event-16724003.04": "Desculpa, é força do hábito, haha.$h#$b#Sim, eu sei que você não gosta desse apelido, ele não traz boas lembranças pra você... Sinto muito mesmo.$s",
-	"Event-16724003.05": "Ah! @! Bem-vindo...^Ah! @! Bem-vinda...",
+	"Event-16724003.05": "Ah! @! ${Bem-vindo¦Bem-vinda}$....",
 	"Event-16724003.06": "E-eu posso explicar...",
 	"Event-16724003.07": "Olá, @. O que você está fazendo aqui?",
-	"Event-16724003.08": "Hein? Você conhece o @?^Hein? Você conhece a @?",
-	"Event-16724003.09": "É claro que eu o conheço, Sandy. Ele faz parte do meu clube, acha que eu deixaria alguém que não conheço entrar lá?^É claro que eu a conheço, Sandy. Ele faz parte do meu clube, acha que eu deixaria alguém que não conheço entrar lá?",
+	"Event-16724003.08": "Hein? Você conhece ${o¦a}$ @?",
+	"Event-16724003.09": "É claro que eu ${o¦a}$ conheço, Sandy. ${Ele¦Ela}$ faz parte do meu clube, acha que eu deixaria alguém que não conheço entrar lá?",
 	"Event-16724003.10": "Eu conheço Sandy a muito tempo, {{NameOrKid}}. Ela permitiu que eu montasse o meu clube no andar de cima.",
 	"Event-16724003.11": "E em troca de permitir que ele ficasse lá, eu teria que guardar segredo e não contar sobre o clube e sobre o Sr. Qi pra ninguém...#$b#Desde que eu cuido desse lugar, ele me paga uma grana pra manter o segredo.#$b#É por causa desse dinheiro que não vou a falência, quase ninguém vêm aqui além de você, @.$s",
 	"Event-16724003.12": "Enfim, agora que você já sabe como eu conheci Sandy, eu vou voltar para o clube, tenho muitas coisas para fazer e não tenho tempo para conversa fiada.",
-	"Event-16724003.13": "E quanto a você, Sandy. Só porque @ me conhece não significa que você pode sair contando tudo para ele, lembre-se de que é segredo e que tem muitas coisas que ele ainda não sabe sobre mim.$u^E quanto a você, Sandy. Só porque @ me conhece não significa que você pode sair contando tudo para ela, lembre-se de que é segredo e que tem muitas coisas que ela ainda não sabe sobre mim.$u",
+	"Event-16724003.13": "E quanto a você, Sandy. Só porque @ me conhece não significa que você pode sair contando tudo para ${ele¦ela}$, lembre-se de que é segredo e que tem muitas coisas que ${ele¦ela}$ ainda não sabe sobre mim.$u",
 	"Event-16724003.14": "Tudo bem, tudo bem, não precisa repetir isso tantas vezes...#$b#Você é tão chato às vezes, Azu... Senhor Qi...",
 	"Event-16724003.15": "Eu já disse pra não...$u#$b#Ah, esquece, só não fale demais sobre mim, tudo bem?#$b#Enfim, vejo você mais tarde, @.",
 	"Event-16724003.16": "Nossa... Parece que ele está meio estressado hoje.",
@@ -321,7 +331,7 @@
 	"Event-16724004.06": "Esquece, você só não deveria estar aqui... Tem coisas que você não deveria saber.#$b#Mas parece que você não consegue conter sua curiosidade, não é mesmo?$u",
 	"Event-16724004.07": "Me desculpe, Sr. Qi. Eu não irei entrar mais aqui sem pedir permissão.",
 	"Event-16724004.08": "Sinto muito. Mas esse lugar parece... Interessante.",
-	"Event-16724004.09": "Tudo bem, {{NameOrKid}}. Espero que você não faça isso novamente, é muito infantil.#$b#Mas como você já está aqui, pode dar uma olhada mais de perto neste lugar, eu sei que você está curioso.^Mas como você já está aqui,  pode dar uma olhada mais de perto neste lugar, eu sei que você está curiosa.",
+	"Event-16724004.09": "Tudo bem, {{NameOrKid}}. Espero que você não faça isso novamente, é muito infantil.#$b#Mas como você já está aqui, pode dar uma olhada mais de perto neste lugar, eu sei que você está ${curioso¦curiosa}$.",
 	"Event-16724004.10": "Ei, o que é isso? Por que brilha tanto?",
 	"Event-16724004.11": "Ah, é um pote de Gosma Prismática. É uma secreção proveniente de gosmas homônimas.#$b#As gosmas prismáticas não são comuns, quando elas aparecem, você deve matá-las para obter a Gosma Prismática.#$b#Você pode adivinhar pelo nome que ela brilha porque tem Fragmentos Prismáticos em sua composição, e você estaria certo. Gosmas prismáticas têm vestígios de Fragmento Prismático, o que dá a elas um efeito colorido e brilhante.",
 	"Event-16724004.12": "Isso é uma Fruta-Estrela, uma fruta que só existe no Vale do Orvalho, mas que é muito rara de ser encontrada.#$b#Um aspecto interessante dessa fruta é a alta concentração de radiação que ela contém. É uma radiação capaz de alterar temporariamente suas papilas gustativas. Isso faz com que a experiência de comer essa fruta seja única para cada pessoa.#$b#Devido à alta quantidade de radiação na fruta, não é uma boa ideia comer muitas delas.",
@@ -354,13 +364,13 @@
 	"Event-16724004-continue.11": "Quando vi aquela criatura tentando segurar a mão do Sr. Qi quando ele colocou a mão no vidro, fiquei com muito medo!#O Sr. Qi me garantiu que ela não faz nada além do que isso, mas ainda me assustou!",
 	"Event-16724004-continue.12": "Após me tranquilizar, Sr. Qi continuou apresentando o laboratório dele.",
 	"Event-16724004-continue.13": "Eu deixo algumas coisas importantes nessa bancada.#$b#Você pode dar uma olhada em algumas coisas dela, {{NameOrKid}}.",
-	"Event-16724004-continue.14": "Você observa a bancada do laboratório do Sr. Qi e você vê um pote de metal com uma tampa lacrada.#Tem uma etiqueta colada escrito \"Não abra sem equipamento de proteção\".",
+	"Event-16724004-continue.14": "Você observa a bancada do laboratório do Sr. Qi e você vê um pote de metal com uma tampa lacrada.#Tem uma etiqueta colada escrito \\\"Não abra sem equipamento de proteção\\\".",
 	"Event-16724004-continue.15": "Tem minério radioativo dentro desse recipiente, Por isso ele está lacrado.",
 	"Event-16724004-continue.16": "Não se preocupe, não é altamente radioativo.#$b#Mas é melhor evitar se expor desnecessariamente.",
 	"Event-16724004-continue.17": "É uma folha de papel com algo escrito com uma caligrafia elegante, você pega a folha para ler o que está escrito.#Está escrito: 'Tempero Qi: Realça o sabor de qualquer alimento, contudo não pode ser usado em excesso. ^ Ingredientes: ^ - Líquido de Fruta-Estrela apodrecida; ^ - Fragmento Prismático triturado; ^ - Minério Radioativo triturado (em poucas quantidades); ^ - Regulador de acidez. ^ NOTA: Necessário produzir uma variante não radioativa.'",
 	"Event-16724004-continue.18": "Isso é um papel com ingredientes para preparar um tempero que eu fiz há algum tempo atrás.#$b#Como você leu, ele se chama 'Tempero Qi'. Uma pitada dese tempero faz com que qualquer comida feita com ele seja digna de estar em um restaurante cinco estrelas.#$b#Mas como ele tem ingredientes radioativos, não é recomendado usá-lo em altas quantidades.$u#$b#Tentei descobrir uma alternativa que não fosse radioativa, mas infelizmente o princípio ativo desse tempero está no líquido da Fruta-Estrela, que é radioativo...#$b#Porque você acha que eu tenho uma Fruta-Estrela apodrecendo bem alí?",
 	"Event-16724004-continue.19": "Você coloca a folha de papel de volta no lugar, mas percebe que há algo escrito atrás da folha.",
-	"Event-16724004-continue.20": "Você vira a folha e vê o que está escrito.#É uma caligrafia diferente, Está escrito: '\"Tempero Qi\"? Sério, Azulão? É um bom nome, mas você poderia escolher um nome diferente, que tal \"Tempero Galáctico\" ou \"Tempero Estrela\"?'",
+	"Event-16724004-continue.20": "Você vira a folha e vê o que está escrito.#É uma caligrafia diferente, Está escrito: '\\\"Tempero Qi\\\"? Sério, Azulão? É um bom nome, mas você poderia escolher um nome diferente, que tal \\\"Tempero Galáctico\\\" ou \\\"Tempero Estrela\\\"?'",
 	"Event-16724004-continue.21": "O quê? Tem algo escrito atrás da folha?#$b#Deixe-me ver.",
 	"Event-16724004-continue.22": "Sr. Qi lê o que está escrito, ele olha para o papel sem esboçar nenhuma reação.",
 	"Event-16724004-continue.23": "Hein? Sim, eu estou bem... Não se preocupe com isso, deve ser só uma anotação boba que eu fiz e acabei me esquecendo...",
@@ -377,7 +387,7 @@
 	"Event-16724005.01": "Ah, @, você veio.#$b#Eu sabia que você viria depois de ler aquela carta.",
 	"Event-16724005.02": "Venha aqui, precisamos conversar. Eu te devo algumas explicações.",
 	"Event-16724005.03": "Bem, eu devo começar falando que eu estou fazendo agora é um erro, eu não deveria falar isso a você.#$b#Mas eu não me sinto bem escondendo isso de você, nós estamos muito mais próximos um do outro, mas você ainda não me conhece tão bem. Sinto que é como se eu estivesse mentindo pra você.#$b#Porque, de certa forma, é isso que eu estou fazendo...$s",
-	"Event-16724005.04": "Ok, eu sei que estou te deixando confuso, então serei direto ao ponto.^Ok, eu sei que estou te deixando confusa, então serei direto ao ponto.#$b#Você sabe que eu sei de muitas coisas sobre este mundo, não é mesmo?",
+	"Event-16724005.04": "Ok, eu sei que estou te deixando ${confuso¦confusa}$, então serei direto ao ponto.#$b#Você sabe que eu sei de muitas coisas sobre este mundo, não é mesmo?",
 	"Event-16724005.05": "Sim, você me disse que sabia de tudo que acontecia no Vale, mas o que isso tem haver?",
 	"Event-16724005.06": "Sim, lembro também que você sabia o meu nome antes mesmo de termos nos conhecido, mas porque isso importa?",
 	"Event-16724005.07": "Você nunca se perguntou como eu sei de tantas coisas sem nem mesmo sair deste lugar com frequência?",
@@ -393,14 +403,14 @@
 	"Event-16724005.17": "É, eu sei que é difícil de acreditar, mas eu estou falando a verdade.#$b#Além dessa, eu tenho três representações espalhadas pelo mundo, uma está no mundo físico e as outras duas estão em outros planos.#$b#Eu posso provar isso pra você, posso chamar minhas representações se você quiser. Você quer vê-las?",
 	"Event-16724005.18": "É claro que sim. Quero vê-las.",
 	"Event-16724005.19": "Que bom que você quer ver minhas representações, fiquei com medo que você fosse se assustar com essa revelação e não querer vê-las.#$b#Eu entenderia se você ficasse com medo, até porque não é todo dia que alguém fala algo assim.",
-	"Event-16724005.20": "Você está preparado, @?^Você está preparada, @?",
-	"Event-16724005.21": "Sim, estou pronto!^Sim, estou pronta!",
+	"Event-16724005.20": "Você está ${preparado¦preparada}$, @?",
+	"Event-16724005.21": "Sim, estou ${pronto¦pronta}$!",
 	"Event-16724005.22": "Ok, Então vamos lá.#$b#Algumas das minhas representações não tem uma forma física, mas você conseguirá ouvi-las. Pode ser um pouco assustador, mas é normal.",
 	"Event-16724005.23": "Uau! Um outro Sr. Qi apareceu bem na nossa frente!",
 	"Event-16724005.24": "Ei! O que você está fazendo? Eu estava fazendo algo importante!$u#$b#E porque @ está aqui? Não me diga que você...$u",
-	"Event-16724005.25": "Me desculpe, eu sei que você estava fazendo outras coisas.#$b#E sim, eu contei sobre as representações para ele. E ele queria ver vocês.^E sim, eu contei sobre as representações para ela. E ela queria ver vocês.",
+	"Event-16724005.25": "Me desculpe, eu sei que você estava fazendo outras coisas.#$b#E sim, eu contei sobre as representações para ${ele¦ela}$. E ${ele¦ela}$ queria ver vocês.",
 	"Event-16724005.26": "Você sabe que isso é um erro... Você sabe dos riscos.$u",
-	"Event-16724005.27": "Sim, eu sei que é um erro... Mas eu confio em @ e sei que nada de mal irá acontecer.#$b#Além do mais, eu sou amigo dele, eu não conseguiria esconder isso dele por tanto tempo.^Além do mais, eu sou amigo dela, eu não conseguiria esconder isso dela por tanto tempo.",
+	"Event-16724005.27": "Sim, eu sei que é um erro... Mas eu confio em @ e sei que nada de mal irá acontecer.#$b#Além do mais, eu sou amigo ${dele¦dela}$, eu não conseguiria esconder isso ${dele¦dela}$ por tanto tempo.",
 	"Event-16724005.28": "Algum de vocês podem me explicar o que está acontecendo???",
 	"Event-16724005.29": "Me desculpe, @. Essa é minha representação semi-física.#$b#Ela é minha única representação que tem uma forma física.",
 	"Event-16724005.30": "Somos idênticos em forma, mas possuímos uma estrutura diferente.#$b#Enquanto a representação principal é feita de carne e osso, eu sou feito de um material diferente.#$b#Sou feito de um material mágico que permite que eu possa existir fisicamente, mas sem as necessidades que um ser humano comum precisa para viver.",
@@ -417,7 +427,7 @@
 	"Event-16724005.41": "Sr. Qi (Espiritual): Eu sou um canal de comunicação entre os Senhores Qi, se algum de nossos antepassados tiver algo importante a dizer, eles se comunicam comigo.",
 	"Event-16724005.42": "A representação espiritual também tem uma grande importância para guardar as memórias, já que ela possui o conhecimento dos Senhores Qi anteriores.#$b#Tudo que eles aprenderam ao longo de suas vidas está contido nela.",
 	"Event-16724005.43": "Agora eu vou mostrar a minha representação extra-física.#$b#Ela é a representação mais importante, ela não consegue se manifestar no mundo físico como as outras, mas eu vou dar um jeito de mostrá-la para você. Se prepare.",
-	"Event-16724005.44": "Você se sente estranho.^Você se sente estranha.",
+	"Event-16724005.44": "Você se sente ${estranho¦estranha}$.",
 	"Event-16724005.45": "Me desculpe por me apresentar dessa forma, @. Mas eu não posso me comunicar com você de outra maneira.$s#$b#Essa é minha representação extra-física. Assim como a representação espiritual, ela também não possui forma física, mas ela tem uma conexão profunda com este mundo.#$b#Com esta representação, eu posso ver tudo o que você e outros moradores do Vale estão fazendo.#$b#É com ela que tenho a capacidade de manipular o mundo, é com ela que eu crio e distribuo os recursos que você precisa para viver.#$b#É com ela que proponho desafios e recompensas para que você explore melhor o Vale do Orvalho e se esforce para melhorar a fazenda o máximo possível.#$b#Bem, eu não posso ficar na sua cabeça por muito tempo, então eu vou trazer você de volta para que a representação principal explique melhor as coisas.#$b#Novamente, peço desculpas por invadir sua cabeça desse jeito...$s",
 	"Event-16724005.46": "Bem-vindo de volta, @!#$b#Agora você sabe a verdade sobre mim, eu me sinto bem mais leve agora que não preciso esconder isso de você.$h#$b#Não precisarei mais fingir ser apenas alguém comum e que administra um cassino.",
 	"Event-16724005.47": "...$s",
@@ -426,7 +436,7 @@
 	"Event-16724005.50": "Você pode estar em vários lugares ao mesmo tempo, pode controlar o mundo ao seu redor, não é o primeiro Senhor Qi e ainda me observa e cria desafios para mim. É tanta coisa para processar...",
 
 	//Fearful Farmer
-	"Event-16724005-FearfulFarmer.01": "Você está com medo de mim?$s#$b#Eu entendo o seu sentimento, saber que você está sendo observado vinte e quatro horas por dia é meio assustador.^Eu entendo o seu sentimento, saber que você está sendo observada vinte e quatro horas por dia é meio assustador.",
+	"Event-16724005-FearfulFarmer.01": "Você está com medo de mim?$s#$b#Eu entendo o seu sentimento, saber que você está sendo ${observado¦observada}$ vinte e quatro horas por dia é meio assustador.",
 	"Event-16724005-FearfulFarmer.02": "Mas eu quero que você saiba que eu não observo você e nem com ninguém com más intenções.#$b#Muito pelo contrário, eu preciso observar as pessoas para que eu saiba que tipo de recursos as pessoas mais precisam.#$b#Por exemplo: Se Robin, a carpinteira do Vale do Orvalho, está precisando de madeira para algum projeto específico, posso fazer mais árvores crescerem no vale.#$b#Se Clint, o ferreiro do vale, precisar de ferro para forjar ferramentas, posso fazer mais minérios de ferro estarem nas minas.#$b#E no seu caso, eu te observo para que eu saiba que tipo de desafios eu devo propor a você na semana.",
 	"Event-16724005-FearfulFarmer.03": "Meu dever como Senhor Qi é não deixar que coisas essenciais se esgotem, logo fica mais fácil de fazer isso se eu souber o que cada pessoa precisa, incluindo você.#$b#É por isso que eu observo não só você, mas todo o Vale do Orvalho. Agora você entendeu porque eu faço isso?",
 	"Event-16724005-FearfulFarmer.04": "Entendi. Mas eu tenho outra dúvida...",
@@ -436,18 +446,18 @@
 	"Event-16724005-FearfulFarmer.08": "Meu avô? Você o conhecia?",
 	"Event-16724005-FearfulFarmer.09": "Sim, eu o conhecia. Ele era um dos poucos que sabiam da existência dos Senhores Qi e de nosso poder.#$b#Quando ele estava no fim de sua vida, ele me pediu para que eu o guiasse durante a sua jornada pelo Vale do Orvalho.#$b#Ele queria que você se esforçasse para cuidar da sua fazenda, que tivesse uma motivação para continuar o legado da fazenda %farm.#$b#Então ele pediu para que eu o observasse, criasse desafios e recompensas pelo seu esforço para que você pudesse atingir a 'perfeição', como ele mesmo chamava.#$b#Eu aceitei essa responsabilidade por respeito a seu avô, ele era um grande amigo meu.",
 	"Event-16724005-FearfulFarmer.10": "Isso é uma grande honra, mas ao mesmo tempo é um grande peso...",
-	"Event-16724005-FearfulFarmer.11": "Eu sei, a jornada para chegar a perfeição é desafiadora, mas você não está sozinho nessa. Eu estou aqui para ajudar você a chegar lá.$h^Eu sei, a jornada para chegar a perfeição é desafiadora, mas você não está sozinha nessa. Eu estou aqui para ajudar você a chegar lá.$h#$b#Além do mais, você não precisa se apressar para atingir a perfeição, faça tudo no seu tempo.#$b#Aproveite o máximo que o vale tem a oferecer e antes que você perceba, já haverá atingido a perfeição.",
+	"Event-16724005-FearfulFarmer.11": "Eu sei, a jornada para chegar a perfeição é desafiadora, mas você não está ${sozinho¦sozinha}$ nessa. Eu estou aqui para ajudar você a chegar lá.$h#$b#Além do mais, você não precisa se apressar para atingir a perfeição, faça tudo no seu tempo.#$b#Aproveite o máximo que o vale tem a oferecer e antes que você perceba, já haverá atingido a perfeição.",
 	"Event-16724005-FearfulFarmer.12": "Você ainda está com medo de mim por saber que eu te observo?$s",
-	"Event-16724005-FearfulFarmer.13": "Tudo bem, eu não estou com raiva de você por ter medo de mim, é compreensível.#$b#Você só precisa de um tempo para entender tudo.#$b#Espero que você saiba que apesar de você ter medo de mim, eu sempre estarei aqui para ajudá-lo.",
+	"Event-16724005-FearfulFarmer.13": "Tudo bem, eu não estou com raiva de você por ter medo de mim, é compreensível.#$b#Você só precisa de um tempo para entender tudo.#$b#Espero que você saiba que apesar de você ter medo de mim, eu sempre estarei aqui para ${ajudá-lo¦ajudá-la}$.",
 	"Event-16724005-FearfulFarmer.14": "Eu não esperava que nossa conversa ia chegar até este ponto, isso é muito assustador.",
 	"Event-16724005-FearfulFarmer.15": "Eu acho que preciso de um tempo até confiar no Sr. Qi novamente...",
 
 	//Surprised Farmer
 	"Event-16724005-SurprisedFarmer.01": "Eu entendo...$s#$b#Sei que é muito pra você processar, mas essa é a verdade.#$b#Talvez eu tenha cometido um erro ao contar tudo isso pra você de uma forma tão repentina...$s#$b#Eu devia ter introduzido esse assunto a você quando nos conhecemos, mas eu tinha muito receio de contar tudo isso pra você.#$b#Eu queria ter certeza de que podia confiar em você para revelar um segredo tão importante como esse.",
-	"Event-16724005-SurprisedFarmer.02": "Espero que isso não te deixe com medo de falar comigo, minha intenção nunca foi essa.#$b#Eu só queria que você soubesse a verdade sobre mim, porque considero você um amigo.^Eu só queria que você soubesse a verdade sobre mim, porque considero você uma amiga.",
+	"Event-16724005-SurprisedFarmer.02": "Espero que isso não te deixe com medo de falar comigo, minha intenção nunca foi essa.#$b#Eu só queria que você soubesse a verdade sobre mim, porque considero você ${um¦uma}$ ${amigo¦amiga}$.",
 	"Event-16724005-SurprisedFarmer.03": "Então, você tem medo de mim agora, depois de saber de tudo isso?$s",
-	"Event-16724005-SurprisedFarmer.04": "Medo de você? Não mesmo! Eu sou amigo(a) de uma pessoa muito poderosa, e que está do meu lado. Não vejo motivos para ter medo de você.",
-	"Event-16724005-SurprisedFarmer.05": "Eu não sinto medo de você, na verdade eu me sinto honrado(a) de ser seu(a) amigo(a)!",
+	"Event-16724005-SurprisedFarmer.04": "Medo de você? Não mesmo! Eu sou ${amigo¦amiga}$ de uma pessoa muito poderosa, e que está do meu lado. Não vejo motivos para ter medo de você.",
+	"Event-16724005-SurprisedFarmer.05": "Eu não sinto medo de você, na verdade eu me sinto ${honrado¦honrada}$ de ser ${seu¦sua}$ ${amigo¦amiga}$!",
 	"Event-16724005-SurprisedFarmer.06": "Que bom saber que você não sente medo de mim, @.#$b#Essa era a maior preocupação que eu tinha, até mesmo os meus antepassados estavam preocupados em como você iria reagir.#$b#Mas enfim, você ainda tem alguma pergunta sobre mim?",
 	"Event-16724005-SurprisedFarmer.07": "Sim, você me observa para poder criar desafios para mim, mas por quê? por que você faz isso?",
 	"Event-16724005-SurprisedFarmer.08": "Oh, isso... bem, acho que realmente chegou o momento em que preciso explicar.#$b#Não sei se ele vai se irritar, mas conhecendo ele, provavelmente ele não se importaria que você soubesse.",

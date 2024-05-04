@@ -21,6 +21,13 @@
 
 	/* ++++++++++++++++++++++++++++++++++++++ */
 
+	/* +++++|LOCATION NAMES TRANSLATION|+++++ */
+
+	"Location.QiRoom": "Mister Qi's Room",
+	"Location.QiLab": "Mister Qi's Laboratory",
+
+	/* ++++++++++++++++++++++++++++++++++++++ */
+
 	/* +++++|GIFT REACTIONS|+++++ */
 
 	"Qi.GiftReactions.Love": "Hey, thanks for the gift, {{NameOrKid}}! It will very useful.",
@@ -104,6 +111,9 @@
 	"Qi.Dialogue.Fri8": "I see you're doing a good job on your farm, @.#$b#Does it have something to do with you knowing what your grandfather expected of you?#$b#In any case, it's great that you're taking care of your farm, keep it up and you'll reach perfection faster than you think.",
 	"Qi.Dialogue.Sat8": "Hey, @, do you remember the day you reached level 100 of the Skull Cave and found me there?#$b#The one who was talking to you inside and offering you the Iridium Snake Milk was my semi-physical representation, that's why right after you left the cave, I was already at the entrance.#$b#When I decided to do that, I had to be sure that you wouldn't tell anyone what you had seen, that's why I was there at the cave entrance waiting for you.#$b#I can't let just anyone know these details about me, it's too dangerous, the power of the Misters Qi can easily be used for malicious purposes, so I'm cautious about who I tell about my powers.",
 	"Qi.Dialogue.Sun8": "Hello, @. How are you?#$b#I was thinking about leaving the casino for a while today, but there's not much to do here, at most I can talk to Sandy.#$b#Despite being somewhat energetic, Sandy is a good friend. She has always been a nice person since I moved to the desert many years ago.#$e#Why did I move to the desert? Well... I...$u#$b#I don't want to talk about it... I'm sorry.$s",
+
+	//Reject Movie Invites
+	"Qi.Dialogue.reject_809": "I'm sorry {{NameOrKid}}, but I don't want to watch any movies right now.",
 
 	/* ++++++++++++++++++++ */
 
@@ -249,7 +259,7 @@
 	"Event-16724001-KeptSecret.02": "I keep your secret, but you still haven't said what happened there in Skull Cavern.",
 	"Event-16724001-KeptSecret.03": "I can't talk about it right now, we're both very busy, maybe some other time I'll talk more about it, when we both have time.#$b#The only thing I can say is that what happened back in Skull Cavern is just the tip of the iceberg, {{NameOrKid}}.",
 	"Event-16724001-KeptSecret.04": "Well, since you're going to keep my secret I'll give you an item as a thank you.#$b#Here, it's an Iridium Bar, it might be useful for you to upgrade your tools or build some machines.[337]#$b#And remember, what happened back in the Skull Cavern is a secret, don't tell anyone.$u",
-	"Event-16724001-KeptSecret.05": "I hope he really keeps this secret. I'll keep an eye out, just in case.$u^I hope she really keeps this secret. I'll keep an eye out, just in case.$u",
+	"Event-16724001-KeptSecret.05": "I hope ${he¦she}$ really keeps this secret. I'll keep an eye out, just in case.$u",
 	"Event-16724001-KeptSecret.06": "That was a little scary, but I'll be true to my word and keep it a secret. But this guy definitely owes me an explanation.",
 
 	//Gossip Farmer
@@ -265,7 +275,7 @@
 	"Event-16724002.03": "You agree to play again, and again, and again.#You lose every time.",
 	"Event-16724002.04": "CalicoJack Guy: How dare you call me a cheater? I can't do anything if you're on a bad streak!",
 	"Event-16724002.05": "Hey, what's happening here? Why all this shouting?$u",
-	"Event-16724002.06": "CalicoJack Guy: This guy is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!^CalicoJack Guy: This girl is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!#CalicoJack Guy: It's not my fault he lost 4 times in a row, I played fair!^CalicoJack Guy: It's not my fault she lost 4 times in a row, I played fair!",
+	"Event-16724002.06": "CalicoJack Guy: This ${guy¦girl}$ is accusing me of cheating on CalicoJack, I'm an honest guy, I would never cheat on this game!#CalicoJack Guy: It's not my fault ${he¦she}$ lost 4 times in a row, I played fair!",
 	"Event-16724002.07": "Hmm... Got it.$u#$b#Come with me, {{NameOrKid}}. You need to calm down.",
 	"Event-16724002.08": "I don't usually bring people here, it's a very private place, you're a privileged person.#$b#Anyway, let's go inside and have a little chat.",
 	"Event-16724002.09": "Come on, {{NameOrKid}}, you can come in.",
@@ -285,7 +295,7 @@
 	"Event-16724002.23": "Well, I'll introduce you to a bit of my room and then you can leave.",
 	"Event-16724002.24": "Mr. Qi's room is huge! I had no idea it was so big.#...#I wonder what he hides behind that door?",
 	"Event-16724002.25": "So? Were you really cheating or not?$u",
-	"Event-16724002.26": "CalicoJack Guy: No, I wasn't cheating, I swear!#CalicoJack Guy: He was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.^CalicoJack Guy: She was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.",
+	"Event-16724002.26": "CalicoJack Guy: No, I wasn't cheating, I swear!#CalicoJack Guy: ${He¦She}$ was just really unlucky, I was playing fair. I'd never cheat at CalicoJack, and you know it.",
 	"Event-16724002.27": "I'm keeping an eye on you... If I hear one more complaint of cheating you won't be coming back to this casino any time soon, understand?$u",
 	"Event-16724002.28": "CalicoJack Guy: Yes, I understand, Mr. Qi...",
 	"Event-16724002.29": "Great, I hope I don't hear any more complaints like that.$u",
@@ -300,11 +310,11 @@
 	"Event-16724003.06": "I-I can explain...",
 	"Event-16724003.07": "Hello, @. What are you doing here?",
 	"Event-16724003.08": "Huh? Do you know @?",
-	"Event-16724003.09": "Of course I know him, Sandy. He's part of my club, do you think I'd let someone I don't know into it?^Of course I know her, Sandy. She's part of my club, do you think I'd let someone I don't know into it?",
+	"Event-16724003.09": "Of course I know ${him¦her}$, Sandy. ${He¦She}$'s part of my club, do you think I'd let someone I don't know into it?",
 	"Event-16724003.10": "I've known Sandy for a long time, {{NameOrKid}}. She allowed me to set up my club upstairs.",
 	"Event-16724003.11": "And in exchange for allowing him to stay there, I would have to keep it a secret and not tell anyone about the club and Mr. Qi...#$b#Since I've been running this place, he pays me a lot of money to keep it a secret.#$b#It's because of this money that I'm not going bankrupt, hardly anyone comes here besides you, @.$s",
 	"Event-16724003.12": "Anyway, now that you know how I met Sandy, I'm going back to the club, I have a lot of things to do and no time for small talk.",
-	"Event-16724003.13": "And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot he doesn't know about me yet.$u^And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling him everything, remember it's a secret and there's a lot she doesn't know about me yet.$u",
+	"Event-16724003.13": "And as for you, Sandy. Just because @ knows me doesn't mean you can go around telling ${him¦her}$ everything, remember it's a secret and there's a lot ${he¦she}$ doesn't know about me yet.$u",
 	"Event-16724003.14": "Okay, okay, no need to repeat that so many times...#$b#You are so annoying sometimes, Azu... Mister Qi...",
 	"Event-16724003.15": "I already told you not to...$u#$b#Ah, forget it, just don't talk about me too much, okay?#$b#Anyway, see you later, @.",
 	"Event-16724003.16": "Wow... Looks like he's a little stressed today.",
@@ -354,13 +364,13 @@
 	"Event-16724004-continue.11": "When I saw that creature trying to hold Mr. Qi's hand when he put his hand against the glass, I was really scared!#Mr. Qi assured me that it doesn't do anything more than that, but it still scared me!",
 	"Event-16724004-continue.12": "After reassuring me, Mr. Qi showed me his laboratory.",
 	"Event-16724004-continue.13": "I leave some important things on this bench.#$b#You can take a look, {{NameOrKid}}.",
-	"Event-16724004-continue.14": "You look at Mr. Qi's lab bench and see a metal pot with a sealed lid.#It has a sticker on it that says \"Do not open without protective equipment\".",
+	"Event-16724004-continue.14": "You look at Mr. Qi's lab bench and see a metal pot with a sealed lid.#It has a sticker on it that says \\\"Do not open without protective equipment\\\".",
 	"Event-16724004-continue.15": "There's radioactive ore in that container, that's why it's sealed",
 	"Event-16724004-continue.16": "Don't worry, it's not highly radioactive.#$b#But it's best to avoid exposing yourself unnecessarily.",
 	"Event-16724004-continue.17": "It's a sheet of paper with something written on it in elegant handwriting, you pick it up to read what's written.#Is written: 'Qi Seasoning: Enhances the flavor of any food, but cannot be overused. ^ Ingredients: ^ - Rotten Stardrop liquid; ^ - Grinded Prismatic Shard; ^ - Grinded Radioactive Ore (in small quantities); ^ - Acidity regulator. ^ NOTE: It's necessary to produce a non-radioactive variant.'",
 	"Event-16724004-continue.18": "This is a piece of paper with ingredients to prepare a seasoning I made some time ago.#$b#As you've read, it's called 'Qi Seasoning'. A pinch of this spice makes any food made with it worthy of being in a five-star restaurant.#$b#But as it has radioactive ingredients, it's not recommended to use it in high quantities.$u#$b#I tried to find a non-radioactive alternative, but unfortunately the active ingredient in this spice is in the Stardrop liquid, which is radioactive...#$b#Why do you think I have a Stardrop rotting right there?",
 	"Event-16724004-continue.19": "You put the sheet of paper back in place, but you notice that there is something written on the back of the sheet.",
-	"Event-16724004-continue.20": "You turn the page and see what is written.#It's a different handwriting, it's written: '\"Qi Seasoning\"? Really, Azure? It's a good name, but you could choose a different name, what about \"Galactic Seasoning\" or \"Star Seasoning\"?'",
+	"Event-16724004-continue.20": "You turn the page and see what is written.#It's a different handwriting, it's written: '\\\"Qi Seasoning\\\"? Really, Azure? It's a good name, but you could choose a different name, what about \\\"Galactic Seasoning\\\" or \\\"Star Seasoning\\\"?'",
 	"Event-16724004-continue.21": "What? There's something written on the back of the page?#$b#Let me see.",
 	"Event-16724004-continue.22": "Mr. Qi reads what is written, he looks at the paper without showing any reaction.",
 	"Event-16724004-continue.23": "Huh? Yes, I'm fine... Don't worry about it, it's probably just a silly note I made and forgot...",
@@ -398,9 +408,9 @@
 	"Event-16724005.22": "Ok, So let's go.#$b#Some of my representations don't have a physical form, but you'll be able to hear them. It can be a little scary, but it's normal.",
 	"Event-16724005.23": "Wow! Another Mister Qi appeared right in front of us!",
 	"Event-16724005.24": "Hey! What are you doing? I was doing something important!$u#$b#And why @ is here? Don't tell me you...$u",
-	"Event-16724005.25": "I'm sorry, I know you were doing other things.#$b#And yes, I told him about the representations. And he wanted to see you.^And yes, I told her about the representations. And she wanted to see you.",
+	"Event-16724005.25": "I'm sorry, I know you were doing other things.#$b#And yes, I told ${him¦her}$ about the representations. And ${he¦she}$ wanted to see you.",
 	"Event-16724005.26": "You know this is a mistake... You know the risks.$u",
-	"Event-16724005.27": "Yeah, I know it's a mistake... But I trust @ and I know nothing bad will happen.#$b#Besides, I'm his friend, I wouldn't be able to hide it from him for so long.^Besides, I'm her friend, I wouldn't be able to hide it from her for so long.",
+	"Event-16724005.27": "Yeah, I know it's a mistake... But I trust @ and I know nothing bad will happen.#$b#Besides, I'm ${his¦her}$ friend, I wouldn't be able to hide it from ${him¦her}$ for so long.",
 	"Event-16724005.28": "Can any of you explain to me what's going on???",
 	"Event-16724005.29": "I'm sorry, @. This is my semi-physical representation.#$b#It's my only representation that has a physical form.",
 	"Event-16724005.30": "We are identical in shape, but have a different structure.#$b#While the main representation is made of flesh and blood, I am made of a different material.#$b#I am made of a magical material that allows me to exist physically, but without the necessities that an ordinary human being needs to live.",

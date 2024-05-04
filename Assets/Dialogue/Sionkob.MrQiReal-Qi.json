@@ -2,8 +2,9 @@
     "Changes": [
         //Mister Qi's Dialogue (Before Being Romanceable)
         {
+            "LogName": "Dialogue - Default",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 //Introduction (after enter in Club for the first time)
                 "MrQiAndClubIntroduction": "{{i18n:Qi.MrQiAndClubIntroduction|NameOrKid={{NameOrKid}}}}",
@@ -77,14 +78,18 @@
                 "Sun8": "{{i18n:Qi.Dialogue.Sun8}}",
 
                 //10 Hearts
+
+                //Reject Movie Invite
+                "reject_809": "{{i18n:Qi.Dialogue.reject_809|NameOrKid={{NameOrKid}}}}"
             }
         },
         //Translates the Dwarvish text in Saturday's 4 hearts dialogue if the player has the Dwarvish Translation Guide in their wallet
         {
+            "LogName": "Dialogue - Has Dwarf Language Guide",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
-                "Sat4": "{{i18n:Qi.Dialogue.Sat4.HasDwarvishGuide}}",
+                "Sat4": "{{i18n:Qi.Dialogue.Sat4.HasDwarvishGuide}}"
             },
             "When": {
                 "HasWalletItem": "DwarvishTranslationGuide"
@@ -92,8 +97,9 @@
         },
         //Adds new dialogues after seeing Mister Qi's 6 hearts event
         {
+            "LogName": "Dialogue - Seen 6 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Qi",
+            "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 "winter_17": "{{i18n:Qi.Dialogue.winter_17}}",
                 "winter_28": "{{i18n:Qi.Dialogue.winter_28}}"

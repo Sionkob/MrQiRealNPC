@@ -2,132 +2,140 @@
     //Mister Qi locations during vanilla festivals
     "Changes": [
         //Egg Festival
-        { 
+        {
+            "LogName": "Festival Locations - Egg Festival",
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 43 48 2",
+                    "Value": "{{Qi}} 43 48 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Flower Dance
         {
+            "LogName": "Festival Locations - Flower Dance",
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 44 30 2",
+                    "Value": "{{Qi}} 44 30 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Luau
         {
+            "LogName": "Festival Locations - Luau",
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 14 38 1",
+                    "Value": "{{Qi}} 14 38 1",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Dance of the Moonlight Jellies
         {
+            "LogName": "Festival Locations - Dance of the Moonlight Jellies",
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 92 5 1",
+                    "Value": "{{Qi}} 92 5 1",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Stardew Valley Fair
         {
+            "LogName": "Festival Locations - SV Fair",
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 2 93 2",
+                    "Value": "{{Qi}} 2 93 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Spirit's Eve
         {
+            "LogName": "Festival Locations - Sprit's Eve",
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 10 12 2",
+                    "Value": "{{Qi}} 10 12 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Festival of Ice
         {
+            "LogName": "Festival Locations - Festival of Ice",
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 45 7 2",
+                    "Value": "{{Qi}} 45 7 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         },
         //Feast of the Winter Star
         {
+            "LogName": "Festival Locations - Winter Star Festival",
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
-            "When": {
-                "HasSeenEvent": "16724000"
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "Qi 2 93 2",
+                    "Value": "{{Qi}} 2 93 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasSeenEvent": "16724000"
+            }
         }
     ]
 }

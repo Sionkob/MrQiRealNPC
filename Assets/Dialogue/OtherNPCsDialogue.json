@@ -2,6 +2,7 @@
     "Changes": [
         //Sandy comments about the Casino and Mister Qi
         {
+            "LogName": "Sandy Dialogue Changes - Default",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
@@ -15,6 +16,7 @@
             }
         },
         {
+            "LogName": "Sandy Dialogue Changes - Seen 4 Hearts Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
@@ -29,6 +31,7 @@
         },
         //Sandy comments about Mister Qi (after seeing Mr. Qi 8 hearts event)
         {
+            "LogName": "Sandy Dialogue Changes - Seen 8 Hearts Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
