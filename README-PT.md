@@ -13,7 +13,7 @@ Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinst
 # O que está funcionando atualmente?
 O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas algumas coisas já estão funcionando, por exemplo:
 - Sr. Qi é reconhecido como um NPC presenteável pelo jogo.
-- Existem novos diálogos até 6 corações.
+- Existem novos diálogos até 8 corações.
 - Existem 6 eventos prontos, sendo 4 deles eventos de coração.
 - 2 novos mapas foram adicionados.
 - Sr. Qi aparece em todos os festivais vanilla quando você o conhece.
