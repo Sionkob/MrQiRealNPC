@@ -4,7 +4,7 @@
         {
             "LogName": "Schedules - Default",
             "Action": "EditData",
-            "Target": "Characters/Schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{Qi}}",
             "Entries": {
                 "spring": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
                 "summer": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
@@ -17,7 +17,7 @@
         {
             "LogName": "Schedules - Seen 6 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/Schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{Qi}}",
             "Entries": {
                 "winter_28": "0 Custom_MrQiReal_QiRoom 22 5 0/1200 SandyHouse 4 4 2/1800 Desert 2 51 2/2000 Desert 9 34 2/2300 Town 47 88 0 {{Lowercase:Qi}}_staring \"Strings\\schedules\\{{Qi}}:Winter28\"",
                 "winter_17": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1500 SandyHouse 4 4 2/2100 Beach 55 6 \"Strings\\schedules\\{{Qi}}:BeachMarket\""
