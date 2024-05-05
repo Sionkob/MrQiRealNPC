@@ -148,7 +148,7 @@
         //Schedule
         {
             "Action": "Load",
-            "Target": "Characters/Schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{Qi}}",
             "FromFile": "Data/Empty.json"
         },
         {
