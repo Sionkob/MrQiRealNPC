@@ -67,7 +67,15 @@
                     "SocialTab": "HiddenUntilMet",
                     "PerfectionScore": "false",
                     "EndSlideShow": "Hidden",
-                    "FormerCharacterNames": [ "Qi" ]
+                    "FormerCharacterNames": [ "Qi" ],
+                    "Home": [
+                        {
+                            "ID": "{{ModID}}_DefaultHome",
+                            "Location": "Custom_MrQiReal_QiRoom",
+                            "Tile": { "X": 20, "Y": 4 },
+                            "Direction": "Down"
+                        }
+                    ]
                 }
             }
         },
@@ -109,7 +117,8 @@
         {
             "Action": "Load",
             "Target": "Characters/schedules/{{Qi}}",
-            "FromFile": "Data/Empty.json"
+            "FromFile": "Data/Empty.json",
+            "Priority": "High"
         },
         {
             "Action": "Include",
@@ -202,7 +211,8 @@
         {
             "Action": "Load",
             "Target": "Strings/schedules/{{Qi}}",
-            "FromFile": "Data/Empty.json"
+            "FromFile": "Data/Empty.json",
+            "Priority": "High"
         },
         {
             "Action": "EditData",
