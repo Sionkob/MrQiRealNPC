@@ -24,14 +24,25 @@ O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas
 
 Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou modificadas.
 
+Atualmente, estou trabalhando na versão beta do mod. No momento, essa versão adiciona:
+- Desbloqueia o Sr. Qi como uma opção de romance (veja mais detalhes abaixo)
+- Adiciona mais 2 eventos de coração para o Sr. Qi (veja mais detalhes abaixo)
+- Adiciona o diálogo de 10 corações se o Sr. Qi não é uma opção de romance
+- Adiciona diálogos até 2 corações se o Sr. Qi for uma opção de romance
+- Adiciona a possibilidade de convidar o Sr. Qi para ver um filme se ele for uma opção de romance
+
+No momento, ainda não é possível instalar a versão beta, ela estará disponível em breve.
+
 # O que não funciona/não está 100% pronto?
 Atualmente existem algumas coisas que não estão completas por enquanto, eu irei terminá-las o mais rápido possível:
 - Os horários estão incompletos.
-- Não é possível convidá-lo para assistir um filme.
-- Faltam os diálogos de 10 corações.
-- O evento de 10 corações está faltando.
+- Faltam os diálogos de 4, 6, 8 e 10 corações quando o Sr. Qi se torna uma opção de romance
+- Faltam alguns eventos de coração do Sr. Qi quando ele se torna uma opção de romance
+- Faltam os diálogos de casamento do Sr. Qi
+- O pátio e o quarto de cônjuge do Sr. Qi ainda não foram feitos
+- Os horários do Sr. Qi quando ele se torna uma opção de romance não estão completos
 
-Nos meus testes, não há nada que não esteja funcionando, apenas há alguns recursos incompletos que serão completos conforme as atualizações. Se você tiver alguma sugestão ou encontrar algum bug, sinta-se a vontade para comentar na página de [posts](https://www.nexusmods.com/stardewvalley/mods/16724?tab=posts) no Nexus Mods.
+Nos meus testes, não há nada que não esteja funcionando, apenas há alguns recursos incompletos que serão completos conforme as atualizações. Se você tiver alguma sugestão, sinta-se a vontade para comentar na página de [posts](https://www.nexusmods.com/stardewvalley/mods/16724?tab=posts) no Nexus Mods.
 
 # Mais detalhes
 Aqui estão alguns detalhes sobre o que está adicionado atualmente, algumas coisas podem mudar no decorrer das atualizações.
@@ -99,6 +110,45 @@ Independente da escolha, O Sr. Qi explica seu interesse no fazendeiro, revelando
  
 </details>
 
+#### Evento #7
+Esse evento tem pré-requisitos e finais diferentes dependendo da escolha que você fez no evento anterior:
+
+Se você escolheu a opção 2 no evento de 8 corações do Sr. Qi (**Você pode estar em vários lugares ao mesmo tempo, pode controlar o mundo ao seu redor, não é o primeiro Senhor Qi e ainda me observa e cria desafios para mim. É tanta coisa para processar...**), Tendo 10 corações com ele, vá até a [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos) no dia 28 de inverno entre 23h e 2h.
+
+Se você escolheu a opção 1 no evento de 8 corações do Sr. Qi (**Eu meio que... Estou com medo de você...**), tendo 10 corações com ele, fale com Sr. Qi no dia 26 de inverno. Ele perguntará o seguinte:
+
+> Ei [Nome do jogador], no dia em que eu te contei a verdade sobre mim, você disse que estava com medo de mim... Então eu queria te perguntar uma coisa... Você ainda tem medo de mim?
+
+Você poderá responder de duas maneiras:
+
+**Sim, eu ainda tenho medo de você.** *(sem efeito na amizade)*
+
+**Não, eu não tenho mais medo de você.** *(sem efeito na amizade)*
+
+Depois de responder essa pergunta, ainda com 10 corações, vá até a [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos) no dia 28 de inverno entre 23h e 2h.
+
+<details>
+   <summary>Detalhes (spoiler)</summary>
+
+O fazendeiro encontra o Sr. Qi no cemitério da Vila Pelicanos em frente ao túmulo de Mona, onde o jogador e o Sr. Qi conversam. A conversa continua até que Sr. Qi decide ir até a ponte.
+
+Se você escolheu a opção 2 no evento de 8 corações do Sr. Qi, ou escolheu a opção "**Não, eu não tenho mais medo de você.**" na pergunta que Sr. Qi faz no dia 26 de inverno, Sr. Qi revela que sente algo a mais pelo fazendeiro, e pergunta se o fazendeiro sente o mesmo. Você pode responder de 2 maneiras, e o evento terminará de uma maneira diferente dependendo da escolha:
+
+**Sim, também sinto o mesmo por você, eu acho que teria um relacionamento com você.**
+
+Se você escolher essa opção, Sr. Qi ficará feliz, mas admite que tem medo de continuar devido ao que aconteceu com ele anteriormente, porém o fazendeiro se compromete a ajudar Sr. Qi a superar o que aconteceu. Você voltará a ter 2 corações com Sr. Qi e, no dia seguinte, ele será uma opção de romance.
+
+**Não, vamos continuar sendo apenas amigos.**
+
+Se você escolher essa opção, Sr. Qi entenderá sua escolha e te agradece por você estar ao lado dele. A opção de romance não é desbloqueada e não há perda de corações.
+
+Se você escolheu a opção 1 no evento de 8 corações do Sr. Qi, ou escolheu a opção "**Sim, eu ainda tenho medo de você.**" na pergunta que Sr. Qi faz no dia 26 de inverno, Sr. Qi entende que o fazendeiro tem medo dele, mas que não tem ressentimentos e agradece pelo fazendeiro ter ouvido sua história. A opção de romance não é desbloqueada e não há perda de corações.
+
+</details>
+
+#### Evento #8
+Se você escolheu desbloquear Sr. Qi como opção de romance no evento de 10 corações, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 9h e 16h
+
 ## Horários
 Atualmente os horários do Sr. Qi são os seguintes:
 
@@ -135,7 +185,7 @@ Atualmente os horários do Sr. Qi são os seguintes:
 | 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
 | 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
 
-**Dia 15 de Outono**
+##### Dia 15 de Outono
 
 | Hora  | Local                                                                                                                                                                     |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -157,7 +207,7 @@ Atualmente os horários do Sr. Qi são os seguintes:
 | 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
 | 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
 
-**Dia 17 de Inverno (Após ver o evento de 6 corações do Sr. Qi)**
+##### Dia 17 de Inverno (Após ver o evento de 6 corações do Sr. Qi)
 
 | Hora  | Local                                                                                                                                           |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -166,7 +216,7 @@ Atualmente os horários do Sr. Qi são os seguintes:
 | 15:00 | No [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis).                                                                                        |
 | 21:00 | Vai a [Praia](https://pt.stardewvalleywiki.com/A_Praia) para participar do [Mercado Noturno](https://pt.stardewvalleywiki.com/Mercado_Noturno). |
 
-**Dia 28 de Inverno (Após ver o evento de 6 corações do Sr. Qi**
+##### Dia 28 de Inverno (Após ver o evento de 6 corações do Sr. Qi
 
 | Hora  | Local                                                                                                                                                       |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -179,13 +229,33 @@ Atualmente os horários do Sr. Qi são os seguintes:
 ## Gostos de Presentes
 Agora o Sr. Qi tem seus próprios gostos de presentes, veja a tabela abaixo:
 
-| Gosto de presente 	| Itens                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       	|
-|-------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Ama               	| [Elixir da Vida](https://pt.stardewvalleywiki.com/Elixir_da_vida), [Ovo de Dinossauro](https://pt.stardewvalleywiki.com/Ovo_de_dinossauro), [Cogumelo Frito](https://pt.stardewvalleywiki.com/Cogumelo_frito), [Refeição de Mineiro](https://pt.stardewvalleywiki.com/Refei%C3%A7%C3%A3o_de_mineiro), [Lula](https://pt.stardewvalleywiki.com/Lula), [Fragmentos de Estrela](https://pt.stardewvalleywiki.com/Fragmentos_de_estrela), [Barra Radioativa](https://pt.stardewvalleywiki.com/Barra_Radioativa) 	|
-| Gosta             	| [Panquecas](https://pt.stardewvalleywiki.com/Panquecas), [Enguia de Lava](https://pt.stardewvalleywiki.com/Enguia_de_lava), [Lula da Meia-Noite](https://pt.stardewvalleywiki.com/Lula_da_Meia-noite),[Sopa Tom Kha](https://pt.stardewvalleywiki.com/Sopa_Tom_Kha), [Enguia Picante](https://pt.stardewvalleywiki.com/Enguia_picante), [Ginger Ale](https://pt.stardewvalleywiki.com/Ginger_Ale)                                                                                                           	|
-| Não Gosta         	| Todos os itens de cozinha (exceto Cogumelo Frito, Panquecas, Sopa Tom Kha, Enguia Picante, Ginger Ale, Café, Café Expresso Triplo e Escargô), Itens de produtos artesanais                                                                                                                                                                                                                                                                                                                                  	|
-| Odeia             	| [Escargô](https://pt.stardewvalleywiki.com/Escarg%C3%B4), [Café Expresso Triplo](https://pt.stardewvalleywiki.com/Caf%C3%A9_Expresso_Triplo), [Café](https://pt.stardewvalleywiki.com/Caf%C3%A9), [Vinho (qualquer tipo)](https://pt.stardewvalleywiki.com/Vinho), [Cerveja](https://pt.stardewvalleywiki.com/Cerveja), [Pale Ale](https://stardewvalleywiki.com/Pale_Ale)                                                                                                                                  	|
-| Neutro            	| Peixes, Minerais e Gemas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    	|
+| Gosto de presente | Itens                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ama               | [Elixir da Vida](https://pt.stardewvalleywiki.com/Elixir_da_vida)<br>[Ovo de Dinossauro](https://pt.stardewvalleywiki.com/Ovo_de_dinossauro)<br>[Cogumelo Frito](https://pt.stardewvalleywiki.com/Cogumelo_frito)<br>[Refeição de Mineiro](https://pt.stardewvalleywiki.com/Refei%C3%A7%C3%A3o_de_mineiro)<br>[Lula](https://pt.stardewvalleywiki.com/Lula)<br>[Fragmentos de Estrela](https://pt.stardewvalleywiki.com/Fragmentos_de_estrela)<br>[Barra Radioativa](https://pt.stardewvalleywiki.com/Barra_Radioativa) |
+| Gosta             | [Panquecas](https://pt.stardewvalleywiki.com/Panquecas)<br>[Enguia de Lava](https://pt.stardewvalleywiki.com/Enguia_de_lava)<br>[Lula da Meia-Noite](https://pt.stardewvalleywiki.com/Lula_da_Meia-noite)<br>[Sopa Tom Kha](https://pt.stardewvalleywiki.com/Sopa_Tom_Kha)<br>[Enguia Picante](https://pt.stardewvalleywiki.com/Enguia_picante)<br>[Ginger Ale](https://pt.stardewvalleywiki.com/Ginger_Ale)                                                                                                            |
+| Não Gosta         | Todos os itens de cozinha (exceto Cogumelo Frito, Panquecas, Sopa Tom Kha, Enguia Picante, Ginger Ale, Café, Café Expresso Triplo e Escargô)<br>Itens de produtos artesanais                                                                                                                                                                                                                                                                                                                                            |
+| Odeia             | [Escargô](https://pt.stardewvalleywiki.com/Escarg%C3%B4)<br>[Café Expresso Triplo](https://pt.stardewvalleywiki.com/Caf%C3%A9_Expresso_Triplo)<br>[Café](https://pt.stardewvalleywiki.com/Caf%C3%A9)<br>[Vinho (qualquer tipo)](https://pt.stardewvalleywiki.com/Vinho)<br>[Cerveja](https://pt.stardewvalleywiki.com/Cerveja)<br>[Pale Ale](https://stardewvalleywiki.com/Pale_Ale)                                                                                                                                    |
+| Neutro            | Peixes<br>Minerais<br>Gemas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+# Filmes e Lanches
+Se você escolher desbloquear Sr. Qi como um NPC romanceável, ele poderá ser convidado para ir ao cinema. Você pode ver os gostos de filmes e de lanches do Sr. Qi abaixo.
+
+**Gostos de Filmes**
+| Reação    | Filme                                                                                      |
+|-----------|--------------------------------------------------------------------------------------------|
+| Ama       | Maravilhas Naturais: Explorando Nosso Mundo Vibrante<br>O Uivo na Chuva                    |
+| Gosta     | Jornada do Rei da Pradaria: O Filme<br>Mysterium                                           |
+| Não Gosta | O Pequeno Broto<br>O Milagre no Rancho Estrela-Fria<br>Wumbus<br>O Expresso da Cidade Zuzu |
+
+**Gostos de Lanches**
+| Reação    | Lanche                                                                                                                                                  |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ama       | Pedaços de Maçã<br>Chá de Jasmim                                                                                                                        |
+| Gosta     | Alcaçuz Preto                                                                                                                                           |
+| Não Gosta | Pacote de Lanchinhos de Homus<br>Hambúrguer de Salmão<br>Pipoca de Chocolate<br>Pipoca de Trufa<br>Pipoca<br>Batida de Couve<br>Sorbet de Fruta-Estrela |
+
+# Traduções
+Atualmente, esse mod não pode receber traduções por não estar disponível para download, mas se você for um tradutor e está interessado em traduzi-lo para o seu idioma assim que a versão beta estiver disponível para todos, você pode baixar uma cópia do arquivo **default.json** para seu computador e traduzi-la, mas lembre-se de que o mod está recebendo constantes mudanças e o arquivo i18n pode sofrer grandes alterações.
 
 # Erros Conhecidos
 <details>
@@ -204,3 +274,9 @@ Esse erro acontece porque existem 2 “Senhores Qi” no jogo, cada um com um no
 </details>
 
 Atualmente, não há nenhum erro conhecido neste mod. Se você encontrar algum, por favor, reporte-o na página de [bugs](https://www.nexusmods.com/stardewvalley/mods/16724?tab=bugs) do Nexus Mods.
+
+# Me Apoie
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F4KPYRZ)
+
+[Doações em Real Brasileiro](https://livepix.gg/si0nk0b)
