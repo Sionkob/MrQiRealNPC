@@ -1,5 +1,4 @@
 {
-    "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Changes": [
         //Mister Qi's Movies Reactions
         {
@@ -51,7 +50,7 @@
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:Qi.MovieReactions.winter_movie_0.AfterMovie}}"
+                                    "Text": "{{i18n:Qi.MovieReactions.fall_movie_0.AfterMovie}}"
                                 },
                                 "ID": "reaction_1"
                             }
@@ -193,7 +192,7 @@
                                 }
                             },
                             "ID": "reaction_7"
-                        },
+                        }
                     ]
                 }
             },

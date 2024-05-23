@@ -1,41 +1,36 @@
 {
-    "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Changes": [
         //Mister Qi's Concession Tastes
         {
-            "LogName": "Concession Tastes",
+            "LogName": "Mister Qi's Concession Tastes",
             "Action": "EditData",
             "Target": "Data/ConcessionTastes",
             "Entries": {
                 "{{Qi}}": {
-                    "NPCName": "{{Qi}}",
+                    "Name": "{{Qi}}",
                     "LovedTags": [
                         "Gourmet",
-                        "Healthy",
-                        "Drink",
                         "Cold",
-                        "Sweet"
+                        "Jasmine Tea",
+                        "Apple Slices"
                     ],
                     "LikedTags": [
                         "Salty",
                         "Hot",
-                        "Sandwich",
-                        "Candy"
+                        "Black Licorice"
                     ],
                     "DislikedTags": [
-                        "Fatty",
                         "Joja",
-                        "Burger",
-                        "Sour",
+                        "Candy",
                         "Hummus Snack Pack",
+                        "Salmon Burger",
                         "Chocolate Popcorn",
+                        "Truffle Popcorn",
+                        "Popcorn",
                         "Kale Smoothie",
                         "Stardrop Sorbet"
                     ]
                 }
-            },
-            "When": {
-                "HasFlag": "RomanceableQiRoute"
             }
         }
     ]

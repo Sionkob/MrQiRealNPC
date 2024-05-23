@@ -1,5 +1,4 @@
 {
-    "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Format": "2.0.0",
     "ConfigSchema": {
         "Kid_or_Name": {
@@ -128,7 +127,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Assets/Dialogue/Sionkob.MrQiReal-Qi.json"
+            "FromFile": "Data/Dialogue/Sionkob.MrQiReal-Qi.json"
         },
         //Non-giftable Mr.Qi's Dialogue
         {
@@ -138,12 +137,12 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Data/NonGiftableData.json"
+            "FromFile": "Data/Dialogue/NonGiftableQiDialogue.json"
         },
         //Other NPCs Dialogue
         {
             "Action": "Include",
-            "FromFile": "Assets/Dialogue/OtherNPCsDialogue.json"
+            "FromFile": "Data/Dialogue/OtherNPCsDialogue.json"
         },
         //Schedule
         {
@@ -153,7 +152,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Assets/Schedules/Sionkob.MrQiReal-Qi.json"
+            "FromFile": "Data/Schedules/Sionkob.MrQiReal-Qi.json"
         },
         //Animation Descriptions
         {
@@ -215,7 +214,7 @@
         //Map Strings
         {
             "Action": "Include",
-            "FromFile": "Assets/Strings/MapStrings.json"
+            "FromFile": "Data/Strings/MapStrings.json"
         },
         //Schedule Strings
         {
@@ -225,7 +224,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Assets/Strings/ScheduleStrings.json"
+            "FromFile": "Data/Strings/ScheduleStrings.json"
         },
         //Events
         {
@@ -235,12 +234,12 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Assets/Events/Events.json"
+            "FromFile": "Data/Events/Events.json"
         },
         //Festival Locations
         {
             "Action": "Include",
-            "FromFile": "Data/FestivalData/FestivalLocations.json",
+            "FromFile": "Data/FestivalData/FestivalLocations.json"
         },
         //Festival Dialogue
         {
