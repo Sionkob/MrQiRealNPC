@@ -24,12 +24,23 @@ The mod is under development and some things are not completed yet, but some thi
 
 As the mod is updated, more functions will be added, removed, or modified.
 
+Currently, I'm working on the beta version of the mod. At the moment, this version adds:
+- Unlocks Mr. Qi as a romance option (see more details below)
+- Adds 2 more heart events for Mr. Qi (see more details below)
+- Adds 10 hearts dialogue if Mr. Qi is not a romance option
+- Adds dialogue lines up to 2 hearts if Mr. Qi is a romance option
+- Adds the possibility of inviting Mr. Qi to see a movie if he is a romance option
+
+Currently, it's not possible to install the beta version, but it will be available soon.
+
 # What does not work/is not 100% ready?
 Currently there are a few things that are not complete yet, I will finish them as soon as possible:
-- The schedules are incomplete.
-- You cannot invite him to watch a movie.
-- The 10 hearts dialogues are missing.
-- The 10 hearts event is missing.
+- The schedules are incomplete
+- The dialogue lines of 4, 6, 8 and 10 hearts when Mr. Qi becomes a romance option are missing
+- Some of Mr. Qi's heart events when he becomes a romance option are missing
+- Mr. Qi's marriage dialogues are missing
+- Mr. Qi's patio and spouse room are missing
+- Mr. Qi's schedules when he becomes a romance option are missing
 
 In my testing, there's nothing that isn't working, there are just some incomplete features that will be completed as updates roll out. If you have any suggestions or find any bugs, feel free to comment on the Nexus Mods [posts](https://www.nexusmods.com/stardewvalley/mods/16724?tab=posts) page.
 
@@ -68,7 +79,7 @@ After reaching level 100 of the [Skull Cavern](https://stardewvalleywiki.com/Sku
 Having 2 hearts with Mr. Qi, enter the [Casino](https://stardewvalleywiki.com/Casino) at any time.
 
 #### Event #4
-Having 4 hearts with Mr. Qi, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 9PM
+Having 4 hearts with Mr. Qi, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 9PM.
 
 #### Event #5
 Having 6 hearts with Mr. Qi, entre the Mr. Qi Room between 5PM and 8:50PM.
@@ -78,7 +89,7 @@ Having 6 hearts with Mr. Qi, entre the Mr. Qi Room between 5PM and 8:50PM.
 #### Event #6
 When you reach 8 hearts with Mr. Qi, the next day Mr. Qi will send you a letter inviting you to come to his room during the night, before the [Oasis](https://stardewvalleywiki.com/Oasis) closes, since there's an important thing he wants to talk to you about.
 
-After reading this letter, you must enter Mr. Qi Room between 7pm and 11:40pm. 
+After reading this letter, you must enter Mr. Qi Room between 7PM and 11:40PM. 
 
 <details>
 	<summary>Details (spoiler)</summary>
@@ -99,6 +110,44 @@ Regardless of the choice, Mr. Qi explains his interest in the farmer, revealing 
  
 </details>
 
+#### Event #7
+This event has different prerequisites and endings depending on the choice you made in the previous event:
+
+If you chose option 2 in Mr. Qi's 8 hearts event (**You can be in several places at once, you can control the world around you, you're not the first Mister Qi and now you observe and create challenges for me. It's so much to process...**), Having 10 hearts with him, go to [Pelican Town](https://stardewvalleywiki.com/Pelican_Town) on the Winter 28 between 11PM and 2AM.
+
+If you chose option 2 in Mr. Qi's 8 hearts event (**I'm kind of... I'm scared of you.**), Having 10 hearts with him, talk to Mr. Qi on Winter 26. He will ask you the following:
+
+> Hey [Player name],  the day I told you the truth about me, you said you were scared of me... So I wanted to ask you something... Are you still afraid of me?
+
+You can answer in two ways:
+
+**Yes, I'm still afraid of you.** *(No effect on friendship)*
+
+**No, I'm no longer afraid of you.** *(No effect on friendship)*
+
+After answering this question, still with 10 hearts, go to [Pelican Town](https://stardewvalleywiki.com/Pelican_Town) on the Winter 28 between 11PM and 2AM.
+
+<details>
+	<summary>Details (spoiler)</summary>
+
+The farmer meets Mr. Qi in the Pelican Town cemetery in front of Mona's grave, where the player and Mr. Qi talk. The conversation continues until Mr. Qi decides to go to the bridge.
+
+If you chose option 2 in Mr. Qi's 8 hearts event, or chose the option "**No, I'm no longer afraid of you.**" in the question Mr. Qi asks on Winter 26, Mr. Qi reveals that he feels something more for the farmer, and asks if the farmer feels the same way. You can answer in 2 ways, and the event will end differently depending on your choice:
+
+**Yes, I feel the same way about you, I think I would have a relationship with you.**
+
+If you choose this option, Mr. Qi will be happy, but he admits that he is afraid to continue because of what happened to him before, but the farmer undertakes to help Mr. Qi get over what happened. The friendship with Mr. Qi will return to 2 hearts and, the next day, he will be a romance option.
+
+**No, let's just stay friends.**
+
+If you choose this option, Mr. Qi will understand your choice and thank you for being there for him. The romance option is not unlocked and there is no friendship loss.
+
+If you chose option 1 in Mr. Qi's 8 hearts event, or chose the option "**Yes, I'm still afraid of you.**" in the question Mr. Qi asks on Winter 26, Mr. Qi understands that the farmer is afraid of him, but that he has no hard feelings and is grateful that the farmer listened to his story. The romance option is not unlocked and there is no friendship loss.
+
+</details>
+
+#### Event #8
+If you chose to unlock Mr. Qi as a romance option in the 10 hearts event, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 4PM.
 
 ## Schedules
 Mr. Qi's current schedule is as follows:
@@ -136,7 +185,7 @@ Mr. Qi's current schedule is as follows:
 | 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
 | 12:20 AM | Returns to the room to sleep.                                                                                                                              |
 
-**Fall 15**
+##### Fall 15
 
 | Time     | Location                                                                                                                                                   |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -158,7 +207,7 @@ Mr. Qi's current schedule is as follows:
 | 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
 | 12:20 AM | Returns to the room to sleep.                                                                                                                              |
 
-**Winter 17 (After seeing Mr. Qi's 6 heart event)**
+##### Winter 17 (After seeing Mr. Qi's 6 heart event)
 
 | Time    | Location                                                                                                                                       |
 |---------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -167,7 +216,7 @@ Mr. Qi's current schedule is as follows:
 | 3:00 PM | In the [Oasis](https://stardewvalleywiki.com/Oasis).                                                                                           |
 | 9:00 PM | Goes to the [Beach](https://stardewvalleywiki.com/The_Beach) to participate in the [Night Market](https://stardewvalleywiki.com/Night_Market). |
 
-**Winter 28 (After seeing Mr. Qi's 6 heart event)**
+##### Winter 28 (After seeing Mr. Qi's 6 heart event)
 
 | Time     | Location                                                                                                                                                  |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -180,13 +229,33 @@ Mr. Qi's current schedule is as follows:
 ## Gift Tastes
 Now Mr. Qi has his own gift tastes, see the table below:
 
-| Gift Taste 	| Items                                                                                                                                                                                                                                                                                                                                                                                                                          	|
-|------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Love       	| [Life Elixir](https://stardewvalleywiki.com/Life_Elixir), [Dinosaur Egg](https://stardewvalleywiki.com/Dinosaur_Egg), [Fried Mushroom](https://stardewvalleywiki.com/Fried_Mushroom), [Miner's Treat](https://stardewvalleywiki.com/Miner%27s_Treat), [Squid](https://stardewvalleywiki.com/Squid), [Star Shards](https://stardewvalleywiki.com/Star_Shards), [Radioactive Bar](https://stardewvalleywiki.com/Radioactive_Bar) 	|
-| Like       	| [Pancakes](https://stardewvalleywiki.com/Pancakes), [Lava Eel](https://stardewvalleywiki.com/Lava_Eel), [Midnight Squid](https://stardewvalleywiki.com/Midnight_Squid),[Tom Kha Soup](https://stardewvalleywiki.com/Tom_Kha_Soup), [Spicy Eel](https://stardewvalleywiki.com/Spicy_Eel), [Ginger Ale](https://stardewvalleywiki.com/Ginger_Ale)                                                                                	|
-| Dislike    	| All cooking items (except Fried Mushroom, Pancakes, Tom Kha Soup, Spicy Eel, Ginger Ale, Coffee, Triple Shot Expresso and Escargot), Artisan Goods items                                                                                                                                                                                                                                                                       	|
-| Hate       	| [Escargot](https://stardewvalleywiki.com/Escargot), [Triple Shot Expresso](https://stardewvalleywiki.com/Triple_Shot_Espresso), [Coffee](https://stardewvalleywiki.com/Coffee), [Wine (any tipe)](https://stardewvalleywiki.com/Wine), [Beer](https://stardewvalleywiki.com/Beer), [Pale Ale](https://stardewvalleywiki.com/Pale_Ale)                                                                                          	|
-| Neutral    	| Fishes, Minerals and Gems                                                                                                                                                                                                                                                                                                                                                                                                      	|
+| Gift Taste | Items                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Love       | [Life Elixir](https://stardewvalleywiki.com/Life_Elixir)<br>[Dinosaur Egg](https://stardewvalleywiki.com/Dinosaur_Egg)<br>[Fried Mushroom](https://stardewvalleywiki.com/Fried_Mushroom)<br>[Miner's Treat](https://stardewvalleywiki.com/Miner%27s_Treat)<br>[Squid](https://stardewvalleywiki.com/Squid)<br>[Star Shards](https://stardewvalleywiki.com/Star_Shards)<br>[Radioactive Bar](https://stardewvalleywiki.com/Radioactive_Bar) |
+| Like       | [Pancakes](https://stardewvalleywiki.com/Pancakes)<br>[Lava Eel](https://stardewvalleywiki.com/Lava_Eel)<br>[Midnight Squid](https://stardewvalleywiki.com/Midnight_Squid)<br>[Tom Kha Soup](https://stardewvalleywiki.com/Tom_Kha_Soup)<br>[Spicy Eel](https://stardewvalleywiki.com/Spicy_Eel)<br>[Ginger Ale](https://stardewvalleywiki.com/Ginger_Ale)                                                                                 |
+| Dislike    | All cooking items (except Fried Mushroom, Pancakes, Tom Kha Soup, Spicy Eel, Ginger Ale, Coffee, Triple Shot Expresso and Escargot)<br>Artisan Goods items                                                                                                                                                                                                                                                                                 |
+| Hate       | [Escargot](https://stardewvalleywiki.com/Escargot)<br>[Triple Shot Expresso](https://stardewvalleywiki.com/Triple_Shot_Espresso)<br>[Coffee](https://stardewvalleywiki.com/Coffee)<br>[Wine (any tipe)](https://stardewvalleywiki.com/Wine)<br>[Beer](https://stardewvalleywiki.com/Beer)<br>[Pale Ale](https://stardewvalleywiki.com/Pale_Ale)                                                                                            |
+| Neutral    | Fishes<br>Minerals<br>Gems                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+# Movies and Concessions
+If you choose to unlock Mr. Qi as a romance option, he can be invited to the movies. You can see Mr. Qi's movie and concession tastes below.
+
+**Movie Tastes**
+| Reaction | Movie                                                                                        |
+|----------|----------------------------------------------------------------------------------------------|
+| Love     | Natural Wonders: Exploring Our Vibrant World<br>It Howls In The Rain                         |
+| Like     | Journey Of The Prairie King: The Motion Picture<br>Mysterium                                 |
+| Dislike  | The Brave Little Sapling<br>The Miracle At Coldstar Ranch<br>Wumbus<br>The Zuzu City Express |
+
+**Concession Tastes**
+| Reaction | Snack                                                                                                                     |
+|----------|---------------------------------------------------------------------------------------------------------------------------|
+| Love     | Apple Slices<br>Jasmine Tea                                                                                               |
+| Like     | Black Licorice                                                                                                            |
+| Dislike  | Hummus Snack Pack<br>Salmon Burger<br>Chocolate Popcorn<br>Truffle Popcorn<br>Popcorn<br>Kale Smoothie<br>Stardrop Sorbet |
+
+# Translations
+Currently, this mod cannot receive translations because it's not available for download, but if you are a translator and are interested translating it into your language as soon as the beta version is available to everyone, you can download a copy of the **default.json** file to your computer and translate it, but remember that the mod is undergoing constant changes and the i18n file may undergo major changes.
 
 # Known Errors
 <details>
@@ -205,3 +274,7 @@ This error happens because there are 2 "Mister Qi" in the game, each with a diff
 </details>
 
 Actually, there's no known errors in this mod. If you find any bugs, please report on Nexus Mods [bugs](https://www.nexusmods.com/stardewvalley/mods/16724?tab=bugs) page.
+
+# Support Me
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F4KPYRZ)
