@@ -211,6 +211,30 @@
                 "17 1 Club 8 59"
             ]
         },
+        {
+            "LogName": "Open bottom drawer after seen 2 hearts event in romance route",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 23, "Y": 4 },
+                    "SetProperties": {
+                        "Action": null
+                    } 
+                },
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 23, "Y": 4 },
+                    "SetProperties": {
+                        "Action": "Letter MrQiRealNPC_MonasDiary"
+                    }
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "07.MrQiRealNPC.ARestart"
+            }
+        },
         //Map Strings
         {
             "Action": "Include",

@@ -25,6 +25,18 @@
                 "Custom_MrQiReal_QiLab.9": "{{i18n:MapString.QiLab.9}}",
                 "Custom_MrQiReal_QiLab.10": "{{i18n:MapString.QiLab.10}}"
             }
+        },
+        //Mona's Diary Entries
+        {
+            "LogName": "Mona's Diary Entries",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "MrQiRealNPC_MonasDiary": "{{i18n:Mona-s_Diary.Entry_{{Random:{{Range: 1, 15}}}}}}"
+            },
+            "When": {
+                "HasSeenEvent": "07.MrQiRealNPC.ARestart"
+            }
         }
     ]
 }
