@@ -335,7 +335,7 @@
 	"Event-16724004.10": "Hey, what's this? Why is it so bright?",
 	"Event-16724004.11": "Ah, it's a jar of Prismatic Jelly. It's a secretion that comes from Prismatic Slimes.#$b#Prismatic Slimes aren't common, when they appear, you have to kill them to get Prismatic Jelly.#$b#You might guess from its name that it glows because it has Prismatic Shards in its composition, and you'd be right. Prismatic Slimes have traces of Prismatic Shard, which gives them their colorful and glowing effect.",
 	"Event-16724004.12": "This is a Stardrop, a fruit that only exists in Stardew Valley, but is very rare to find.#$b#An interesting aspect of this fruit is the high concentration of radiation it contains. It's a radiation capable of temporarily altering your taste buds. This makes the experience of eating this fruit unique to each person.#$b#Due to the high amount of radiation in the fruit, it's not a good idea to eat too many of them.",
-	"Event-16274004.13": "You look at the fruit more closely.#It's a bit dark and has a purple goo oozing out of it.",
+	"Event-16724004.13": "You look at the fruit more closely.#It's a bit dark and has a purple goo oozing out of it.",
 	"Event-16724004.14": "What will you do?",
 	"Event-16724004.15": "Ask why the fruit is dark and oozing a goo.",
 	"Event-16724004.16": "Try to touch the fruit.",
@@ -476,8 +476,8 @@
 	"Event-16724005-SurprisedFarmer.21": "And I also discovered more things about my grandfather, he trusted me a lot and I won't disappoint him!",
 
 	//Extras (NOTE: Don't remove the underscores, they'll be replaced by spaces during the event)
-	"Extras.Event-16724005.MrQiSemiPhysicalName": "Semi-physical_Qi", 
-	"Extras.Event-16724005.MrQiExtraPhysicalName": "Extra-physical_Qi",
+	"Extras.MrQiSemiPhysicalName": "Semi-physical_Qi", 
+	"Extras.MrQiExtraPhysicalName": "Extra-physical_Qi",
 
 	/* ++++++++++++++++++ */
 }
