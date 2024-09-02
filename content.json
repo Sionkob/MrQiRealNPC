@@ -33,14 +33,14 @@
             "LogName": "Mister Qi Portrait and Sprite",
             "Action": "Load",
             "Target": "Characters/{{Qi}}, Portraits/{{Qi}}",
-            "FromFile": "Assets/{{TargetPathOnly}}/Sionkob.MrQiReal-Qi.png"
+            "FromFile": "Assets/{{TargetPathOnly}}/Qi.png"
         },
         //Non-giftable Mr. Qi's Portrait & Sprite
         {
             "LogName": "Non Giftable Mister Qi Portrait and Sprite",
             "Action": "EditImage",
             "Target": "Characters/MrQi, Portraits/MrQi",
-            "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/Sionkob.MrQiReal-NonGiftableQi.png"
+            "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/NonGiftableQi.png"
         },
         //Temporary Actors for Events
         {
@@ -48,6 +48,13 @@
             "Action": "Load",
             "Target": "Characters/{{ModID}}-Box_1, Characters/{{ModID}}-Box_2",
             "FromFile": "Assets/{{TargetPathOnly}}/Sionkob.MrQiReal-Box.png"
+        },
+        //Mr. Qi's Beach Portrait & Sprite
+        {
+            "LogName": "Mister Qi's Beach Portrait & Sprite",
+            "Action": "Load",
+            "Target": "Characters/{{Qi}}_Beach, Portraits/{{Qi}}_Beach",
+            "FromFile": "Assets/{{TargetPathOnly}}/Qi_Beach.png"
         },
         //NPC Data
         {
@@ -110,6 +117,36 @@
                 "HasFlag": "RomanceableQiRoute"
             }
         },
+        {
+            "LogName": "NPC Info - Allow Mr. Qi go to the Ginger Island Resort",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{Qi}}": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Gender": "Male",
+                    "BirthSeason": "winter",
+                    "BirthDay": 27,
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Desert",
+                    "CanSocialize": "true",
+                    "CanCommentOnPurchasedShopItems": "false",
+                    "CanGreetNearbyCharacters": "false",
+                    "CanVisitIsland": "true",
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "PerfectionScore": "false",
+                    "EndSlideShow": "Hidden",
+                    "FormerCharacterNames": [ "Qi" ]
+                }
+            },
+            "When": {
+                "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
+            }
+        },
         //Gift Tastes
         {
             "LogName": "Mister Qi Gift Tastes",
@@ -127,7 +164,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Data/Dialogue/Sionkob.MrQiReal-Qi.json"
+            "FromFile": "Data/Dialogue/Qi.json"
         },
         //Non-giftable Mr.Qi's Dialogue
         {
@@ -152,7 +189,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Data/Schedules/Sionkob.MrQiReal-Qi.json"
+            "FromFile": "Data/Schedules/Qi.json"
         },
         //Animation Descriptions
         {
@@ -199,7 +236,8 @@
             ],
             "When": {
                 "Hearts:{{Qi}}": "{{Range: 0, 5}}",
-                "LocationName": "Club, Custom_MrQiReal_QiRoom"
+                "LocationName": "Club, Custom_MrQiReal_QiRoom",
+                "HasFlag |contains=RomanceableQiRoute": "false"
             },
             "Update": "OnLocationChange"
         },

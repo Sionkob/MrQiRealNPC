@@ -28,14 +28,19 @@
         },
         //Mister Qi's Schedule (As Romanceable Option)
         {
-            "LogName": "Schedules - Unlock Romance Option",
+            "LogName": "Schedules - After Unlock Romance Option",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Qi}}",
             "Entries": {
-                "spring": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
+                "spring_Wed": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Desert 2 51 2/900 Town 64 100 2/1300 Mountain 30 9 3/1630 Club 8 50 0 {{Lowercase:Qi}}_staring/2050 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
+                "Wed": "GOTO spring",
+                "Fri": "0 Custom_MrQiReal_QiRoom 22 5 0/1100 Club 8 50 0 {{Lowercase:Qi}}_staring/1340 Forest 34 25 2/1800 WizardHouse 4 17 2/2030 Saloon 27 23 3/2440 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
+                "Sun": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1200 Beach 12 39 2/1800 Beach 28 4 2/2000 Saloon 27 23 3/2310 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
+                "DesertFestival_3": "GOTO spring"
             },
             "When": {
-                "HasFlag": "RomanceableQiRoute"
+                "HasFlag": "RomanceableQiRoute",
+                "HasSeenEvent": "08.MrQiRealNPC.Return" 
             }
         }
     ]

@@ -94,13 +94,12 @@
             "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
                 //Reject Movie Invite
-                "reject_809": "{{i18n:Qi.Dialogue.reject_809|NameOrKid={{NameOrKid}}}}",
+                "reject_809": "{{i18n:Qi.Dialogue.reject_809|NameOrKid={{NameOrKid}}}}"
             },
             "When": {
                 "HasFlag| contains=RomanceableQiRoute": "false"
             }
         },
-        //10 hearts dialogue after seen 10 hearts event
         {
             "LogName": "Dialogue - 10 hearts dialogue after seen 10 hearts event",
             "Action": "EditData",
@@ -146,7 +145,7 @@
         },
         //If you anwser that you're afraid of Mr. Qi in his 8 hearts event, he'll ask if you still afraid of him
         {
-            "LogName": "Dialgoue - Choose Still Afraid Option",
+            "LogName": "Dialogue - Choose Still Afraid Option",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
@@ -181,7 +180,7 @@
         },
         //Mister Qi's Dialogue (After Being Romanceable)
         {
-            "LogName": "Dialogue - Unlock Romance Option",
+            "LogName": "Dialogue - After Unlock Romance Option",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
@@ -206,9 +205,33 @@
                 "Sun2": "{{i18n:Qi.Dialogue.Sun2-RomanceableQi}}",
 
                 //4 Hearts
+                "Mon4": "{{i18n:Qi.Dialogue.Mon4-RomanceableQi}}",
+                "Tue4": "{{i18n:Qi.Dialogue.Tue4-RomanceableQi}}",
+                "spring_Wed4": "{{i18n:Qi.Dialogue.spring_Wed4-RomanceableQi}}",
+                "Thu4": "{{i18n:Qi.Dialogue.Thu4-RomanceableQi}}",
+                "Fri4": "{{i18n:Qi.Dialogue.Fri4-RomanceableQi}}",
+                "Sat4": "{{i18n:Qi.Dialogue.Sat4-RomanceableQi}}",
+                "Sun4": "{{i18n:Qi.Dialogue.Sun4-RomanceableQi}}",
             },
             "When": {
                 "HasFlag": "RomanceableQiRoute"
+            }
+        },
+        //After seeing Mister Qi's 4 hearts event in romance route, Mister Qi can visit the Island Resort
+        {
+            "LogName": "Dialogue - Mister Qi Resort dialogues",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Qi}",
+            "Entries": {
+                "Resort_Entering": "{{i18n:Qi.Dialogue.Resort_Entering}}",
+                "Resort_Shore": "{{i18n:Qi.Dialogue.Resort_Shore}}",
+                "Resort_Chair": "{{i18n:Qi.Dialouge.Resort_Chair}}",
+                "Resort_Bar": "{{i18n:Qi.Dialogue.Resort_Bar}}",
+                "Resort_Leaving": "{{i18n:Qi.Dialogue.Resort_Leaving}}",
+                "Resort": "{{i18n:Qi.Dialogue.Resort}}",
+            },
+            "When": {
+                "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
             }
         }
     ]

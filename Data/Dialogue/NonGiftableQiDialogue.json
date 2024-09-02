@@ -32,6 +32,18 @@
             "When": {
                 "HasSeenEvent": "05.MrQiRealNPC.ProperlyExplanations"
             }
+        },
+        //Non Giftable Mister Qi Dialogue (After seen Mr. Qi's 4 hearts event in the romance route)
+        {
+            "LogName": "Non Giftable Mister Qi Dialogue - Seen Mr. Qi's 4 hearts event in the romance route",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Mister Qi",
+            "Entries": {
+                "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-RomanceableQi}}",
+            },
+            "When": {
+                "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
+            }
         }
     ]
 }
