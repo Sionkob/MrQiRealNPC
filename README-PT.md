@@ -149,6 +149,9 @@ Se você escolheu a opção 1 no evento de 8 corações do Sr. Qi, ou escolheu a
 #### Evento #8
 Se você escolheu desbloquear Sr. Qi como opção de romance no evento de 10 corações, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 9h e 16h
 
+#### Evento #9
+Com Sr. Qi desbloqueado como opção de romance, vá para a [Região sul](https://pt.stardewvalleywiki.com/Ilha_Gengibre#Regi.C3.A3o_Sul) da Ilha Gengibre entre 9h e 17h em um dia ensolarado 
+
 ## Horários
 Atualmente os horários do Sr. Qi são os seguintes:
 
