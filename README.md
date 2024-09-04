@@ -149,6 +149,9 @@ If you chose option 1 in Mr. Qi's 8 hearts event, or chose the option "**Yes, I'
 #### Event #8
 If you chose to unlock Mr. Qi as a romance option in the 10 hearts event, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 4PM.
 
+#### Event #9
+With Mr. Qi unlocked as a romance option, having 4 hearts with him, go to [Island South](https://stardewvalleywiki.com/Ginger_Island#Island_South) between 9AM and 5PM in a sunny day 
+
 ## Schedules
 Mr. Qi's current schedule is as follows:
 
