@@ -147,9 +147,12 @@ If you chose option 1 in Mr. Qi's 8 hearts event, or chose the option "**Yes, I'
 </details>
 
 #### Event #8
-If you chose to unlock Mr. Qi as a romance option in the 10 hearts event, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 4PM.
+If you chose to unlock Mr. Qi as a romance option in the 10 hearts event and having 2 hearts with him, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 4PM.
 
 #### Event #9
+After seeing event #8, go to [Pelican Town](https://stardewvalleywiki.com/Pelican_Town) at any time.
+
+#### Event #10
 With Mr. Qi unlocked as a romance option, having 4 hearts with him, go to [Island South](https://stardewvalleywiki.com/Ginger_Island#Island_South) between 9AM and 5PM in a sunny day 
 
 ## Schedules
@@ -165,6 +168,18 @@ Mr. Qi's current schedule is as follows:
 | 6:00 PM  | Still in the Laboratory.                                                                                                                                   |
 | 8:00 PM  | Still in the Laboratory. (If you enter [Mr. Qi's Walnut Room](https://stardewvalleywiki.com/Qi%27s_Walnut_Room) on Ginger Island, you will also find him). |
 | 12:20 AM | Returns to the room to sleep.                                                                                                                              |
+
+##### Wednesdays on spring (After seeing the event #8)
+
+| Time     | Location                                                                                                          |
+|----------|-------------------------------------------------------------------------------------------------------------------|
+| 6:00 AM | In his room.                                                                                                      |
+| 7:00 AM | In the [Desert](https://stardewvalleywiki.com/The_Desert), near the [Oasis](https://stardewvalleywiki.com/Oasis). |
+| 9:00 AM | In the [Pelican Town](https://stardewvalleywiki.com/Pelican_Town).                                                |
+| 1:00 PM | In the [Mountain](https://stardewvalleywiki.com/The_Mountain).                                                    |
+| 4:30 PM | In the [Casino](https://stardewvalleywiki.com/Casino).                                                            |
+| 8:50 PM | In the Laboratory.                                                                                                |
+| 12:20 AM | Returns to the room to sleep.                                                                                     |
 
 ##### Summer
 
@@ -228,6 +243,28 @@ Mr. Qi's current schedule is as follows:
 | 6:00 PM  | Goes to the [Desert](https://stardewvalleywiki.com/The_Desert) and stands next to the bench at the [Oasis](https://stardewvalleywiki.com/Oasis) entrance. |
 | 8:00 PM  | Still in the [Desert](https://stardewvalleywiki.com/The_Desert), he stands in front of the bones of the Sand Dragon.                                      |
 | 11:00 PM | Goes to [Pelican Town](https://stardewvalleywiki.com/Pelican_Town) and stands in front of Mona's grave.                                                   |
+
+##### Fridays (Any season after seeing the event #8)
+
+| Time     | Location                                                            |
+|----------|---------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                        |
+| 11:00 AM | In the [Casino](https://stardewvalleywiki.com/Casino).              |
+| 1:40 PM  | In the [Forest](https://stardewvalleywiki.com/Cindersap_Forest).    |
+| 6:00 PM  | In the Wizard's house.                                              |
+| 8:30 PM  | In the [Saloon](https://stardewvalleywiki.com/The_Stardrop_Saloon). |
+| 12:40 AM | Returns to the room to sleep.                                       |
+
+##### Sundays (Any season after seeing the event #8)
+
+| Time     | Location                                                            |
+|----------|---------------------------------------------------------------------|
+| 6:00 AM  | In his room.                                                        |
+| 7:00 AM  | In the [Casino](https://stardewvalleywiki.com/Casino).              |
+| 12:00 PM | In the [Beach](https://stardewvalleywiki.com/The_Beach).            |
+| 6:00 PM  | Still in the [Beach](https://stardewvalleywiki.com/The_Beach).      |
+| 8:00 PM  | In the [Saloon](https://stardewvalleywiki.com/The_Stardrop_Saloon). |
+| 11:10 PM | Returns to the room to sleep.                                       |
 
 ## Gift Tastes
 Now Mr. Qi has his own gift tastes, see the table below:
