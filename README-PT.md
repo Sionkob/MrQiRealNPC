@@ -147,10 +147,13 @@ Se você escolheu a opção 1 no evento de 8 corações do Sr. Qi, ou escolheu a
 </details>
 
 #### Evento #8
-Se você escolheu desbloquear Sr. Qi como opção de romance no evento de 10 corações, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 9h e 16h
+Se você escolheu desbloquear Sr. Qi como opção de romance no evento de 10 corações e tendo 2 corações com ele, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 9h e 16h
 
 #### Evento #9
-Com Sr. Qi desbloqueado como opção de romance, vá para a [Região sul](https://pt.stardewvalleywiki.com/Ilha_Gengibre#Regi.C3.A3o_Sul) da Ilha Gengibre entre 9h e 17h em um dia ensolarado 
+Após ver o evento #8, vá para a [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos) a qualquer hora
+
+#### Evento #10
+Com Sr. Qi desbloqueado como opção de romance, tendo 4 corações com ele, vá para a [Região sul](https://pt.stardewvalleywiki.com/Ilha_Gengibre#Regi.C3.A3o_Sul) da Ilha Gengibre entre 9h e 17h em um dia ensolarado 
 
 ## Horários
 Atualmente os horários do Sr. Qi são os seguintes:
@@ -165,6 +168,18 @@ Atualmente os horários do Sr. Qi são os seguintes:
 | 18:00 | Ainda no Laboratório.                                                                                                                                                     |
 | 20:00 | Ainda no Laboratório (Se você entrar na [Sala de Nozes do Sr. Qi](https://pt.stardewvalleywiki.com/Sala_de_Nozes_do_Sr._Qi), na Ilha Gengibre, você também o encontrará). |
 | 00:20 | Volta ao quarto para dormir.                                                                                                                                              |
+
+##### Quartas-feiras na Primavera (Depois de ver o evento #8)
+
+| Hora  | Local                                                                                                                       |
+|-------|-----------------------------------------------------------------------------------------------------------------------------|
+| 6:00 | Em seu quarto.                                                                                                              |
+| 7:00 | No [Deserto](https://pt.stardewvalleywiki.com/O_Deserto), próximo ao [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis).  |
+| 9:00 | Na [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos).                                                       |
+| 13:00 | Na [Montanha](https://pt.stardewvalleywiki.com/A_Montanha).                                                                 |
+| 16:30 | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).                                                                     |
+| 20:50 | No Laboratório.                                                                                                             |
+| 00:20 | Volta ao quarto para dormir.                                                                                                |
 
 ##### Verão
 
@@ -228,6 +243,28 @@ Atualmente os horários do Sr. Qi são os seguintes:
 | 18:00 | Vai até o [Deserto](https://pt.stardewvalleywiki.com/O_Deserto) e fica no banco ao lado da entrada do [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis). |
 | 20:00 | Ainda no [Deserto](https://pt.stardewvalleywiki.com/O_Deserto), ele fica em frente aos ossos do Dragão de Areia.                                            |
 | 23:00 | Vai até a [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos) e fica em frente ao túmulo de Mona.                                             |
+
+##### Sextas-feiras (Qualquer estação após ver o evento #8)
+
+| Hora  | Local                                                                |
+|-------|----------------------------------------------------------------------|
+| 6:00  | Em seu quarto.                                                       |
+| 11:00 | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).              |
+| 13:40 | Na [Floresta](https://pt.stardewvalleywiki.com/Floresta_Cinzaseiva). |
+| 18:00 | Na casa do Mago.                                                     |
+| 20:30 | No [Saloon](https://pt.stardewvalleywiki.com/Saloon_Fruta_Estrelar). |
+| 00:40 | Volta ao quarto para dormir.                                         |
+
+##### Domingos (Qualquer estação após ver o evento #8)
+
+| Hora  | Local                                                                |
+|-------|----------------------------------------------------------------------|
+| 6:00  | Em seu quarto.               |
+| 7:00  | No [Cassino](https://pt.stardewvalleywiki.com/Cassino).              |
+| 12:00 | Na [Praia](https://pt.stardewvalleywiki.com/A_Praia).                |
+| 18:00 | Ainda na [Praia](https://pt.stardewvalleywiki.com/A_Praia) .         |
+| 20:00 | No [Saloon](https://pt.stardewvalleywiki.com/Saloon_Fruta_Estrelar). |
+| 23:10 | Volta ao quarto para dormir.                                         |
 
 ## Gostos de Presentes
 Agora o Sr. Qi tem seus próprios gostos de presentes, veja a tabela abaixo:
