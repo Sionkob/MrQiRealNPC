@@ -212,6 +212,14 @@
                 "Fri4": "{{i18n:Qi.Dialogue.Fri4-RomanceableQi}}",
                 "Sat4": "{{i18n:Qi.Dialogue.Sat4-RomanceableQi}}",
                 "Sun4": "{{i18n:Qi.Dialogue.Sun4-RomanceableQi}}",
+
+                //6 Hearts
+                "Mon6": "{{i18n:Qi.Dialogue.Mon6-RomanceableQi}}",
+                "Tue6": "{{i18n:Qi.Dialogue.Tue6-RomanceableQi}}",
+                "Thu6": "{{i18n:Qi.Dialogue.Thu6-RomanceableQi|AlienName={{AlienName}}}}",
+                "Fri6": "{{i18n:Qi.Dialogue.Fri6-RomanceableQi}}",
+                "Sat6": "{{i18n:Qi.Dialogue.Sat6-RomanceableQi}}",
+                "winter_Sun6": "{{i18n:Qi.Dialogue.winter_Sun6-RomanceableQi}}",
             },
             "When": {
                 "HasFlag": "RomanceableQiRoute"

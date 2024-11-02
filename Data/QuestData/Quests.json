@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        //Quests
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModID}}_ScientificHelp": "Basic/{{i18n:Quest.ScientificHelp.Title}}/{{i18n:Quest.ScientificHelp.Description}}/{{i18n:Quest.ScientificHelp.Hint}}/null/-1/0/0/false"
+            }
+        }
+    ]
+}

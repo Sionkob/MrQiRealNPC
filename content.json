@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.3.0",
     "ConfigSchema": {
         "Kid_or_Name": {
             "AllowValues": "Name, Kid",
@@ -25,136 +25,48 @@
         {
             "Name": "Qi",
             "Value": "{{ModID}}-Qi"
+        },
+        {
+            "Name": "AlienName",
+            "Value": "{{i18n:AlienNameToken.Option1}}",
+            "When": {
+                "HasFlag": "AlienNameOption1"
+            }
+        },
+        {
+            "Name": "AlienName",
+            "Value": "{{i18n:AlienNameToken.Option2}}",
+            "When": {
+                "HasFlag": "AlienNameOption2"
+            }
+        },
+        {
+            "Name": "AlienName",
+            "Value": "{{i18n:AlienNameToken.Option3}}",
+            "When": {
+                "HasFlag": "AlienNameOption3"
+            }
+        },
+        {
+            "Name": "AlienName",
+            "Value": "{{i18n:AlienNameToken.Option4}}",
+            "When": {
+                "HasFlag": "AlienNameOption4"
+            }
+        },
+        {
+            "Name": "AlienName",
+            "Value": "{{i18n:AlienNameToken.Option5}}",
+            "When": {
+                "HasFlag": "AlienNameOption5"
+            }
         }
     ],
     "Changes": [
-        //Mr. Qi's Portrait & Sprite
+        //NPC Basic Informations
         {
-            "LogName": "Mister Qi Portrait and Sprite",
-            "Action": "Load",
-            "Target": "Characters/{{Qi}}, Portraits/{{Qi}}",
-            "FromFile": "Assets/{{TargetPathOnly}}/Qi.png"
-        },
-        //Non-giftable Mr. Qi's Portrait & Sprite
-        {
-            "LogName": "Non Giftable Mister Qi Portrait and Sprite",
-            "Action": "EditImage",
-            "Target": "Characters/MrQi, Portraits/MrQi",
-            "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/NonGiftableQi.png"
-        },
-        //Temporary Actors for Events
-        {
-            "LogName": "Temporary Actors Sprites",
-            "Action": "Load",
-            "Target": "Characters/{{ModID}}-Box_1, Characters/{{ModID}}-Box_2",
-            "FromFile": "Assets/{{TargetPathOnly}}/Sionkob.MrQiReal-Box.png"
-        },
-        //Mr. Qi's Beach Portrait & Sprite
-        {
-            "LogName": "Mister Qi's Beach Portrait & Sprite",
-            "Action": "Load",
-            "Target": "Characters/{{Qi}}_Beach, Portraits/{{Qi}}_Beach",
-            "FromFile": "Assets/{{TargetPathOnly}}/Qi_Beach.png"
-        },
-        //NPC Data
-        {
-            "LogName": "NPC Infos - Default",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "{{Qi}}": {
-                    "DisplayName": "{{i18n:Qi.name}}",
-                    "Gender": "Male",
-                    "BirthSeason": "winter",
-                    "BirthDay": 27,
-                    "Age": "Adult",
-                    "Manner": "Neutral",
-                    "SocialAnxiety": "Neutral",
-                    "Optimism": "Neutral",
-                    "HomeRegion": "Desert",
-                    "CanSocialize": "true",
-                    "CanBeRomanced": "false",
-                    "CanCommentOnPurchasedShopItems": "false",
-                    "CanGreetNearbyCharacters": "false",
-                    "CanVisitIsland": "false",
-                    "Calendar": "HiddenUntilMet",
-                    "SocialTab": "HiddenUntilMet",
-                    "PerfectionScore": "false",
-                    "EndSlideShow": "Hidden",
-                    "FormerCharacterNames": [ "Qi" ]
-                }
-            }
-        },
-        //NPC Data (if romanceable route is unlocked)
-        {
-            "LogName": "NPC Info - Romance Route Unlocked",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "{{Qi}}": {
-                    "DisplayName": "{{i18n:Qi.name}}",
-                    "Gender": "Male",
-                    "BirthSeason": "winter",
-                    "BirthDay": 27,
-                    "Age": "Adult",
-                    "Manner": "Neutral",
-                    "SocialAnxiety": "Neutral",
-                    "Optimism": "Neutral",
-                    "HomeRegion": "Desert",
-                    "CanSocialize": "true",
-                    "CanBeRomanced": "true",
-                    "CanCommentOnPurchasedShopItems": "false",
-                    "CanGreetNearbyCharacters": "false",
-                    "CanVisitIsland": "false",
-                    "Calendar": "HiddenUntilMet",
-                    "SocialTab": "HiddenUntilMet",
-                    "PerfectionScore": "false",
-                    "EndSlideShow": "Hidden",
-                    "FormerCharacterNames": [ "Qi" ]
-                }
-            },
-            "When": {
-                "HasFlag": "RomanceableQiRoute"
-            }
-        },
-        {
-            "LogName": "NPC Info - Allow Mr. Qi go to the Ginger Island Resort",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "{{Qi}}": {
-                    "DisplayName": "{{i18n:Qi.name}}",
-                    "Gender": "Male",
-                    "BirthSeason": "winter",
-                    "BirthDay": 27,
-                    "Age": "Adult",
-                    "Manner": "Neutral",
-                    "SocialAnxiety": "Neutral",
-                    "Optimism": "Neutral",
-                    "HomeRegion": "Desert",
-                    "CanSocialize": "true",
-                    "CanCommentOnPurchasedShopItems": "false",
-                    "CanGreetNearbyCharacters": "false",
-                    "CanVisitIsland": "true",
-                    "Calendar": "HiddenUntilMet",
-                    "SocialTab": "HiddenUntilMet",
-                    "PerfectionScore": "false",
-                    "EndSlideShow": "Hidden",
-                    "FormerCharacterNames": [ "Qi" ]
-                }
-            },
-            "When": {
-                "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
-            }
-        },
-        //Gift Tastes
-        {
-            "LogName": "Mister Qi Gift Tastes",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "Entries": {
-                "{{Qi}}": "{{i18n:Qi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/773 107 205 243 151 578 910/{{i18n:Qi.GiftReactions.Like}}/211 162 798 218 903/{{i18n:Qi.GiftReactions.Dislike}}/-7 -26/{{i18n:Qi.GiftReactions.Hate}}/729 253 395 348 346 303/{{i18n:Qi.GiftReactions.Neutral}}/-4 -12 -2/"
-            }
+            "Action": "Include",
+            "FromFile": "Data/NPCBasicInfo/NPCBasics.json"
         },
         //Mr. Qi's Dialogue
         {
@@ -191,6 +103,61 @@
             "Action": "Include",
             "FromFile": "Data/Schedules/Qi.json"
         },
+        //Schedule Strings
+        {
+            "Action": "Load",
+            "Target": "Strings/schedules/{{Qi}}",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Strings/ScheduleStrings.json"
+        },
+        //Map Strings
+        {
+            "Action": "Include",
+            "FromFile": "Data/Strings/MapStrings.json"
+        },
+        //Events
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Club, Data/Events/SkullCave, Data/Events/Custom_MrQiReal_QiRoom, Data/Events/Custom_MrQiReal_QiLab",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Events/Events.json"
+        },
+        //Festival Locations
+        {
+            "Action": "Include",
+            "FromFile": "Data/FestivalData/FestivalLocations.json"
+        },
+        //Festival Dialogue
+        {
+            "Action": "Include",
+            "FromFile": "Data/FestivalData/FestivalDialogue.json"
+        },
+        //Movies Reactions
+        {
+            "Action": "Include",
+            "FromFile": "Data/MovieTheaterData/MoviesReactions.json"
+        },
+        //Concession Tastes
+        {
+            "Action": "Include",
+            "FromFile": "Data/MovieTheaterData/ConcessionTastes.json"
+        },
+        //Letters
+        {
+            "Action": "Include",
+            "FromFile": "Data/MailData/MailLettersData.json"
+        },
+        //Quests
+        {
+            "Action": "Include",
+            "FromFile": "Data/QuestData/Quests.json"
+        },
         //Animation Descriptions
         {
             "LogName": "Mister Qi Animations",
@@ -200,6 +167,13 @@
                 "{{Lowercase:Qi}}_staring": "20/20/20",
                 "{{Lowercase:Qi}}_sleep": "51/51/51"
             }
+        },
+        //Temporary Actors for Events
+        {
+            "LogName": "Temporary Actors Sprites",
+            "Action": "Load",
+            "Target": "Characters/{{ModID}}-Box_1, Characters/{{ModID}}-Box_2",
+            "FromFile": "Assets/{{TargetPathOnly}}/Sionkob.MrQiReal-Box.png"
         },
         //Map Edits
         {
@@ -271,73 +245,6 @@
             ],
             "When": {
                 "HasSeenEvent": "07.MrQiRealNPC.ARestart"
-            }
-        },
-        //Map Strings
-        {
-            "Action": "Include",
-            "FromFile": "Data/Strings/MapStrings.json"
-        },
-        //Schedule Strings
-        {
-            "Action": "Load",
-            "Target": "Strings/schedules/{{Qi}}",
-            "FromFile": "Data/Empty.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "Data/Strings/ScheduleStrings.json"
-        },
-        //Events
-        {
-            "Action": "Load",
-            "Target": "Data/Events/Club, Data/Events/SkullCave, Data/Events/Custom_MrQiReal_QiRoom, Data/Events/Custom_MrQiReal_QiLab",
-            "FromFile": "Data/Empty.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "Data/Events/Events.json"
-        },
-        //Festival Locations
-        {
-            "Action": "Include",
-            "FromFile": "Data/FestivalData/FestivalLocations.json"
-        },
-        //Festival Dialogue
-        {
-            "Action": "Include",
-            "FromFile": "Data/FestivalData/FestivalDialogue.json"
-        },
-        //Movies Reactions
-        {
-            "Action": "Include",
-            "FromFile": "Data/MovieTheaterData/MoviesReactions.json"
-        },
-        //Concession Tastes
-        {
-            "Action": "Include",
-            "FromFile": "Data/MovieTheaterData/ConcessionTastes.json"
-        },
-        //Letters
-        {
-            "LogName": "Mail Letters",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                //Sends a letter to you when you have 8 hearts with Mister Qi to trigger the 8 hearts event
-                "{{ModID}}-QiImportantTalk": {
-                    "Id": "{{ModID}}-QiImportantTalk",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current {{Qi}} 8",
-                    "Action": "AddMail Current {{ModID}}-QiImportantTalk now"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/mail",
-            "Entries": {
-                "{{ModID}}-QiImportantTalk": "{{i18n:MailLetter.QiImportantTalk}}"
             }
         },
         //Custom Locations

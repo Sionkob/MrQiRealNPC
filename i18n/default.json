@@ -12,6 +12,11 @@
 
 	"KidOrNameToken.NameOption": "@",
 	"KidOrNameToken.KidOption": "kid",
+	"AlienNameToken.Option1": "Orbis",
+	"AlienNameToken.Option2": "Nix",
+	"AlienNameToken.Option3": "Lunaris",
+	"AlienNameToken.Option4": "Astor",
+	"AlienNameToken.Option5": "Quill",
 
 	/* ++++++++++++++++++++++++++++++++++++ */
 
@@ -177,6 +182,14 @@
 	"Qi.Dialogue.Fri4-RomanceableQi": "Hi @, Have a nice weekend. Today I'm going to spend some time in Pelican Town, I want to stay a little further away from the casino.#$b#I plan to stop by the Saloon later. Stop by if you can, too, @.",
 	"Qi.Dialogue.Sat4-RomanceableQi": "Talking to my representations at night has helped me a lot to control their personalities. But at the same time it makes me a little tired.#$b#My physical body may have had a good night's sleep, but I had to stay awake mentally for several hours to talk to the representations.",
 	"Qi.Dialogue.Sun4-RomanceableQi": "I'll try to go to the Saloon again tonight, but at the moment, I want to be alone for a while, I want to take some time to organize my thoughts. I hope you understand.#$b#No, I'm not feeling bad or anything, it's just that it's been hard to find time for myself lately, I need more time talking to my representations, don't worry.",
+
+	//Days Of Week - 6 Hearts (As Romanceable Option)
+	"Qi.Dialogue.Mon6-RomanceableQi": "Visiting Pelican Town again has drastically reduced the amount of energy my extra-physical representation requires, which is great.#$b#Now I don't have to watch them one by one twenty-four hours a day, I can simply talk to the villagers in person and that already gives me a good sense of what I need to do.#$b#This makes me less tired, since extra-physical representation needs a lot of energy to stay active, even more than the semi-physical one. The less I need it, the better for me.$h#$e#Ever since I discovered the representations, I've had to manage which one I should use. Otherwise, my physical body weakens.#$b#This wasn't a problem before I moved to the valley, but at the same time, I had a dull life. So I think this energy juggling is worth it.$h",
+	"Qi.Dialogue.Tue6-RomanceableQi": "Have you found any of the mysterious boxes I've scattered around the world? You can get various items if you take them to the town's blacksmith.#$b#I scattered these boxes so that you could find them, it's part of the promise I made to your grandfather.",
+	"Qi.Dialogue.Thu6-RomanceableQi": "Hi @. Today I'll be very busy with my experiments in the lab. {{AlienName}} needs more attention, now that he's in ideal conditions.#$b#There's no telling how fast he might develop. What if he develops so fast that he ends up escaping from the capsule? That's not a risk I want to take.#$b#Feel free to come by my lab and help me, it was really fun having your help last time.$h",
+	"Qi.Dialogue.Fri6-RomanceableQi": "I'm going to let Sandy into the casino today, she's been asking me to join the club for a long time.#$b#Today I'll give her a chance, I hope I don't regret it. I might have to skip going to the Saloon tonight.$s",
+	"Qi.Dialogue.Sat6-RomanceableQi": "You know @, although I know a lot of people, I don't consider all of them friends. I can literally count on one hand the people I consider friends: You and the Wizard.#$b#You two are the only ones I consider true friends, the only ones who know about my powers and that I don't need to hide secrets.#$b#For a human, having only two friends might seem little, but for a Mister Qi, it's a lot. Misters Qi have always been loners.#$b#I'm the first to change that, and future Misters Qi will benefit from it as well.$h",
+	"Qi.Dialogue.winter_Sun6-RomanceableQi": "Hi @, how are you? I'm doing great today. It's a beautiful day.#$b#I woke up in a good mood today. Why? Well, in the coming days solar activity will increase and solar storms may hit the earth.#$b#During this period, luminous spectacles can appear in the sky, the polar auroras.#$b#I'm fascinated by polar auroras, whenever there's an increase in solar activity I keep an eye on the planet's poles to watch them. It's a wonderful light show to see.$h#$e#Unfortunately, I've never been able to witness a polar aurora physically, I've always observed them with the extra-physical representation. I hope to see one physically someday.",
 
 	/* ++++++++++++++++++++ */
 
@@ -359,9 +372,20 @@
 
 	/* +++++|LETTERS|+++++ */
 
-	"MailLetter.QiImportantTalk": "Dear @^^ I hope this message finds you in good health and spirits.^^ I am addressing you with the purpose of extending a formal invitation to a meeting at my residence. There is a matter of considerable importance that I would like to discuss in person.^^ I recognize that such a topic should have been shared earlier, however, I hesitated due to the need to assess mutual trust^I am now convinced that our relationship is solid enough for me to reveal this content to you.^   I would like to invite you to visit me in my home, more specifically in my bedroom, during the night. I suggest that you visit me before the Oasis closes, at a time that is convenient for you.^^  I am confident that this meeting will be fruitful and enlightening for both of us.^   Sincerely, Mr. Qi.[#]An Important Talk",
+	"MailLetter.QiImportantTalk": "Dear @^^ I hope this message finds you in good health and spirits.^^ I am addressing you with the purpose of extending a formal invitation to a meeting at my residence. There is a matter of considerable importance that I would like to discuss in person.^^ I recognize that such a topic should have been shared earlier, however, I hesitated due to the need to assess mutual trust^I am now convinced that our relationship is solid enough for me to reveal this content to you.^   I would like to invite you to visit me in my home, more specifically in my bedroom, during the night. I suggest that you visit me before the Oasis closes, at a time that is convenient for you.^^  I am confident that this meeting will be fruitful and enlightening for both of us.^   Sincerely, Mr. Qi.",
+	"MailLetter.QiImportantTalk.Title": "An Important Talk",
+	"MailLetter.ScientificHelp": "Dear @, I hope you are well. ^^ I'm writing this letter because I need help and I think you're the perfect person for it.^^I'm doing some experiments in the lab, but there's a substance missing. This substance is extracted from Ancient Fruits, but I don't have any more and, for some reason, I'm not able to create them with my powers. ^^ If you can, bring 5 Ancient Fruits to my laboratory, it will be enough until I can figure out why I'm unable to create more. ^ ^ I'm counting on your help, I hope you have Ancient Fruits on your farm, I know they're not very easy to get. Sincerely, Mr. Qi.",
+	"MailLetter.ScientificHelp.Title": "Scientific Help",
 
 	/* +++++++++++++++++++ */
+
+	/* +++++|QUESTS|+++++ */
+
+	"Quest.ScientificHelp.Title": "Scientific Help",
+	"Quest.ScientificHelp.Description": "Mr. Qi is working on an experiment, but a substance is missing. He wants you to deliver it to him.",
+	"Quest.ScientificHelp.Hint": "Go to Mr. Qi's Laboratory with 5 Ancient Fruits in your inventory",
+
+	/* ++++++++++++++++++ */
 
 	/* +++++|EVENTS|+++++ */
 
@@ -856,6 +880,65 @@
 	"Event-09.MrQiRealNPC.AnInternalConflictOutsideTheBox.42": "We explored the Ginger Island cave together, it was really fun.",
 	"Event-09.MrQiRealNPC.AnInternalConflictOutsideTheBox.43": "We even found some interesting items during our exploration!",
 	"Event-09.MrQiRealNPC.AnInternalConflictOutsideTheBox.44": "...$u",
+
+	//Scientific Help (Mister Qi's 6 hearts event if romance route is unlocked)
+	"Event-10.MrQiRealNPC.ScientificHelp.01": "I hope @ brings the substance I need soon, I'm running out of time.$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.02": "@! So glad you came! You read the letter I sent you, didn't you?",
+	"Event-10.MrQiRealNPC.ScientificHelp.03": "You read it? Great. So, I assume you brought what I asked for, right? Did you bring the Ancient Fruits?",
+	"Event-10.MrQiRealNPC.ScientificHelp.04": "Thanks, @! I knew I could count on you.$h#$b#I'll extract the substance as soon as possible. It's really urgent.",
+	"Event-10.MrQiRealNPC.ScientificHelp.05": "Where are you going, {{PlayerName}}?",
+	"Event-10.MrQiRealNPC.ScientificHelp.06": "Did you think I was going to tell you to leave? Why would I do that? You can stay here.#$b#In fact, I'd love you to stay, unless you're busy, of course.$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.07": "You want to know what kind of experiment I'm doing? Well, you see that alien there? It needs to stay immersed in that liquid.#$b#The liquid has all the nutrients the alien needs to live. But this liquid is losing its capacity to keep it conscious because of its composition.#$b#The liquid was made with earthly substances adapted to replicate those of the alien planet and needs constant replenishment.#$b#The problem is that with each replenishment, the nutrient concentration decreases. And that alien is still young, it needs an increasingly higher concentration of nutrients as it develops.#$b#If this isn't fixed soon, the alien could die.$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.08": "Yeah, this is very serious. Since I discovered this, I've been studying to find a way to keep the nutrient concentration stable with each replenishment.#$b#It was in these studies that I discovered that the Ancient Fruit has a primordial element that generates the other nutrients the alien needs.$h#$b#If I extract the concentrated juice from the Ancient Fruit and mix it with the liquid, the juice will act on the liquid at a molecular level, making it about 95% more nutritious for the alien, which makes replacements less frequent.",
+	"Event-10.MrQiRealNPC.ScientificHelp.09": "Yeah, I'm very happy that this alien will be able to survive thanks to me, I wouldn't want to see it die.#$b#Well, we're already wasting too much time, let's get started.",
+	"Event-10.MrQiRealNPC.ScientificHelp.10": "Yes, I want you to help me! You brought salvation for that alien, so I want you to help me save it.$h#$b#Let's start by extracting the concentrated juice from this fruit, but the juice can't come into contact with the air, we have to extract it using a syringe.#$b#There should be some in those drawers. Can you grab one, @?",
+	"Event-10.MrQiRealNPC.ScientificHelp.11": "You open the bottom drawer and find some syringes and needles of various sizes.",
+	"Event-10.MrQiRealNPC.ScientificHelp.12": "Grab a thinner needle, this Ancient Fruit is ripe, so it'll be easy to pierce.",
+	"Event-10.MrQiRealNPC.ScientificHelp.13": "Now put the needle on the syringe and we can extract the concentrated juice.#$b#On second thought, I'd better put the needle in, you look a bit nervous.$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.14": "Mr. Qi puts the needle in the syringe.",
+	"Event-10.MrQiRealNPC.ScientificHelp.15": "Would you like to do the honors? Hahaha.$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.16": "All right, just put the needle in the fruit and pull.#$b#But the concentrated juice can only be extracted from a specific area of the fruit. I'll hold your hand so you don't miss.",
+	"Event-10.MrQiRealNPC.ScientificHelp.17": "With Mr. Qi's help, you extract the concentrated juice from the Ancient Fruit. It has a whitish color.",
+	"Event-10.MrQiRealNPC.ScientificHelp.18": "You did it, @! Now I need to mix the concentrated juice into the alien's liquid.",
+	"Event-10.MrQiRealNPC.ScientificHelp.19": "It's unconscious right now. I hope it's not too late...$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.20": "Mr. Qi presses a button on the capsule, which gives access to a tube.#Mr. Qi injects the concentrated juice into the tube. You see the liquid in the capsule change color, it's now transparent.",
+	"Event-10.MrQiRealNPC.ScientificHelp.21": "The liquid has changed color. This shouldn't happen... I'll check the nutrient concentration.",
+	"Event-10.MrQiRealNPC.ScientificHelp.22": "It worked, @! It worked! The nutrient concentration is much higher now, so high that it's like the alien is on its own planet!$h#$b#Now we just have to wait for it to wake up.",
+	"Event-10.MrQiRealNPC.ScientificHelp.23": "A few minutes passed and the alien didn't wake up...",
+	"Event-10.MrQiRealNPC.ScientificHelp.24": "Come on, wake up. I did my best to keep you healthy. Now you're in ideal conditions...$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.25": "The alien doesn't wake up, @...$s#$b#Could it be... that we're too late?$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.26": "I can't believe this happened... I've been taking care of this alien for seasons, how could I let this happen?$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.27": "Mr. Qi leans against the wall and slowly sits on the floor.",
+	"Event-10.MrQiRealNPC.ScientificHelp.28": "Don't blame yourself, you did everything you could...",
+	"Event-10.MrQiRealNPC.ScientificHelp.29": "I'm so sorry, Mr. Qi. He seemed very special to you.",
+	"Event-10.MrQiRealNPC.ScientificHelp.30": "I know... It's just that I've been taking care of this alien for so long that I've become somewhat attached.$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.31": "Yes, it was. I was taking care of this alien for so long that I became attached to him.$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.32": "I took care of him carefully so that he would develop properly and, who knows, return to his home planet.#$b#I can't believe I failed to keep him alive because of a missing juice...$s",
+	"Event-10.MrQiRealNPC.ScientificHelp.33": "A noise from the capsule is heard.",
+	"Event-10.MrQiRealNPC.ScientificHelp.34": "It woke up!$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.35": "Mr. Qi places his hand on the glass of the capsule, the creature does the same.",
+	"Event-10.MrQiRealNPC.ScientificHelp.36": "You scared me, you know that? I'm glad you're okay...$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.37": "You know @... I've been taking care of this alien for a long time, it's like an exotic pet.#$b#And like any pet, it deserves a name, don't you think?",
+	"Event-10.MrQiRealNPC.ScientificHelp.38": "Yeah, I also think he should have a proper name. It's not very nice to just call him \\\"Alien\\\".#$b#But I'm not sure what name to give him... So I thought you could help me give him a name. What do you think, @?",
+	"Event-10.MrQiRealNPC.ScientificHelp.39": "Will you help me? Great!$h#$b#So... What name ideas do you have?",
+	"Event-10.MrQiRealNPC.ScientificHelp.40": "What do you think of  \"Orbis\"?",
+	"Event-10.MrQiRealNPC.ScientificHelp.41": "What do you think of  \"Nix\"?",
+	"Event-10.MrQiRealNPC.ScientificHelp.42": "What do you think of  \"Lunaris\"?",
+	"Event-10.MrQiRealNPC.ScientificHelp.43": "What do you think of  \"Astor\"?",
+	"Event-10.MrQiRealNPC.ScientificHelp.44": "What do you think of  \"Quill\"?",
+	"Event-10.MrQiRealNPC.ScientificHelp.45": "Orbis sounds like a good name, @!$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.46": "From now on, that will be your name, Orbis.",
+	"Event-10.MrQiRealNPC.ScientificHelp.47": "Nix sounds like a good name, @!$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.48": "From now on, that will be your name, Nix.",
+	"Event-10.MrQiRealNPC.ScientificHelp.49": "Lunaris sounds like a good name, @!$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.50": "From now on, that will be your name, Lunaris.",
+	"Event-10.MrQiRealNPC.ScientificHelp.51": "Astor sounds like a good name, @!$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.52": "From now on, that will be your name, Astor.",
+	"Event-10.MrQiRealNPC.ScientificHelp.53": "Quill sounds like a good name, @!$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.54": "From now on, that will be your name, Quill.",
+	"Event-10.MrQiRealNPC.ScientificHelp.55": "Thank you so much for bringing the Ancient Fruits I needed, @.#$b#Thanks to you, he'll be able to live much longer.$h#$b#And of course, thank you for helping to choose a name for him.$h",
+	"Event-10.MrQiRealNPC.ScientificHelp.56": "I'm glad I saved that alien's life. Mr. Qi is very attached to that alien, he doesn't deserve to lose it.",
+	"Event-10.MrQiRealNPC.ScientificHelp.57": "Remember I wrote in that letter that I couldn't create Ancient Fruit with my powers? I may have exaggerated a little bit...$s#$b#Actually, I can create them with my powers, but I need to have some with me to compare their composition. Ancient fruits created with my powers are different from the real ones.#$b#And I also wanted to have an excuse to see you... I hope you don't get mad.",
 
 	/* ++++++++++++++++++ */
 

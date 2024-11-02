@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        //Mail Data
+        {
+            "LogName": "Mail Letters",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                //Sends a letter to you when you have 8 hearts with Mister Qi to trigger the 8 hearts event
+                "{{ModID}}-QiImportantTalk": {
+                    "Id": "{{ModID}}-QiImportantTalk",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current {{Qi}} 8",
+                    "Action": "AddMail Current {{ModID}}-QiImportantTalk now"
+                },
+                //Sends a letter to you when you have 6 hearts with Mister Qi if romance route is unlocked
+                "{{ModID}}-ScientificHelp": {
+                    "Id": "{{ModID}}-ScientificHelp",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current {{Qi}} 6, PLAYER_HAS_MAIL Current RomanceableQiRoute Any",
+                    "Action": "AddMail Current {{ModID}}-ScientificHelp now"
+                }
+            }
+        },
+        //Mail Letter Content
+        {
+            "LogName": "Mail Letter Texts",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModID}}-QiImportantTalk": "{{i18n:MailLetter.QiImportantTalk}}[#]{{i18n:MailLetter.QiImportantTalk.Title}}",
+                "{{ModID}}-ScientificHelp": "[letterbg 1][textcolor black]{{i18n:MailLetter.ScientificHelp}} %item quest {{ModID}}_ScientificHelp true %%[#]{{i18n:MailLetter.ScientificHelp.Title}}"
+            }
+        }
+    ]
+}
