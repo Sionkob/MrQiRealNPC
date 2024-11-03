@@ -14,7 +14,7 @@ Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinst
 O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas algumas coisas já estão funcionando, por exemplo:
 - Sr. Qi é reconhecido como um NPC presenteável pelo jogo.
 - Existem novos diálogos até 8 corações.
-- Existem 6 eventos prontos, sendo 4 deles eventos de coração.
+- Existem 11 eventos prontos, sendo 8 deles eventos de coração.
 - 2 novos mapas foram adicionados.
 - Sr. Qi aparece em todos os festivais vanilla quando você o conhece.
 - Os horários foram modificados (mas ainda estão incompletos).
@@ -26,9 +26,9 @@ Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou m
 
 Atualmente, estou trabalhando na versão beta do mod. No momento, essa versão adiciona:
 - Desbloqueia o Sr. Qi como uma opção de romance (veja mais detalhes abaixo)
-- Adiciona mais 2 eventos de coração para o Sr. Qi (veja mais detalhes abaixo)
+- Adiciona mais eventos de coração para o Sr. Qi (veja mais detalhes abaixo)
 - Adiciona o diálogo de 10 corações se o Sr. Qi não é uma opção de romance
-- Adiciona diálogos até 2 corações se o Sr. Qi for uma opção de romance
+- Adiciona diálogos até 6 corações se o Sr. Qi for uma opção de romance
 - Adiciona a possibilidade de convidar o Sr. Qi para ver um filme se ele for uma opção de romance
 
 No momento, ainda não é possível instalar a versão beta, ela estará disponível em breve.
@@ -36,7 +36,7 @@ No momento, ainda não é possível instalar a versão beta, ela estará dispon�
 # O que não funciona/não está 100% pronto?
 Atualmente existem algumas coisas que não estão completas por enquanto, eu irei terminá-las o mais rápido possível:
 - Os horários estão incompletos.
-- Faltam os diálogos de 4, 6, 8 e 10 corações quando o Sr. Qi se torna uma opção de romance
+- Faltam os diálogos de 8 e 10 corações quando o Sr. Qi se torna uma opção de romance
 - Faltam alguns eventos de coração do Sr. Qi quando ele se torna uma opção de romance
 - Faltam os diálogos de casamento do Sr. Qi
 - O pátio e o quarto de cônjuge do Sr. Qi ainda não foram feitos
@@ -67,7 +67,7 @@ O quarto do Sr. Qi pode ser acessado por um corredor no Cassino.
 A entrada para o laboratório do Sr. Qi fica na porta no centro do pequeno corredor no quarto dele. O laboratório só pode ser acessado quando o jogador tiver 6 corações ou mais com o Sr. Qi. Se o jogador não tiver corações o suficiente, a entrada para o laboratório do Sr. Qi estará fechada com uma parede invisível que impede a passagem do jogador.
 
 ## Eventos
-Atualmente há 4 eventos adicionados, 2 deles são eventos de coração, mais eventos serão adicionados com o tempo. Essas são as pré-condições para acionar cada evento:
+Atualmente há 11 eventos adicionados, 8 deles são eventos de coração, mais eventos serão adicionados com o tempo. Essas são as pré-condições para acionar cada evento:
 
 #### Evento #1
 Entre no Cassino após obter o [Cartão do Clube](https://pt.stardewvalleywiki.com/Cart%C3%A3o_do_Clube).
@@ -154,6 +154,24 @@ Após ver o evento #8, vá para a [Vila Pelicanos](https://pt.stardewvalleywiki.
 
 #### Evento #10
 Com Sr. Qi desbloqueado como opção de romance, tendo 4 corações com ele, vá para a [Região sul](https://pt.stardewvalleywiki.com/Ilha_Gengibre#Regi.C3.A3o_Sul) da Ilha Gengibre entre 9h e 17h em um dia ensolarado 
+
+#### Evento #11
+Com Sr. Qi desbloqueado como opção de romance, tendo 6 corações com ele, você receberá uma carta pela manhã.
+
+<details>
+	<summary>Detalhes (spoiler)</summary>
+
+>Caro(a) [Jogador], Espero que você esteja bem. 
+>
+>Estou escrevendo esta carta por que preciso de ajuda e acho que você é a pessoa perfeita para isso. Estou fazendo alguns experimentos no laboratório, mas há uma substância faltando. Essa substância é extraída de Frutas Antigas, mas eu não tenho mais e, por algum motivo, não estou conseguindo criá-las com meus poderes.
+>
+>Se você puder, traga 5 Frutas Antigas até o meu laboratório, será suficiente até que eu possa descobrir o porque não estou conseguindo criar Frutas Antigas. Conto com sua ajuda, espero que você tenha Frutas Antigas na sua fazenda, sei que elas não são muito fáceis de obter.
+>
+>Atenciosamente, Sr. Qi.
+
+Você deve entrar no laboratório do Sr. Qi com 5 [Frutas Antigas](https://pt.stardewvalleywiki.com/Fruta_antiga) no inventário para ver o evento. Isso pode ser feito a qualquer momento após receber a missão.
+
+</details>
 
 ## Horários
 Atualmente os horários do Sr. Qi são os seguintes:
