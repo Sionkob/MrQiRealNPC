@@ -14,7 +14,7 @@ To install the mod, just copy it to your game's Mods folder. To uninstall it, ju
 The mod is under development and some things are not completed yet, but some things are already working, for example:
 - Mr. Qi is recognized as a giftable NPC by the game.
 - There are new dialogues up to 8 hearts.
-- There are 6 events ready, 4 of them are heart events.
+- There are 11 events ready, 8 of them are heart events.
 - 2 new maps have been added.
 - Mr. Qi appears at every vanilla festival when you meet him.
 - The schedules have been modified (but still incomplete).
@@ -26,9 +26,9 @@ As the mod is updated, more functions will be added, removed, or modified.
 
 Currently, I'm working on the beta version of the mod. At the moment, this version adds:
 - Unlocks Mr. Qi as a romance option (see more details below)
-- Adds 2 more heart events for Mr. Qi (see more details below)
+- Adds more heart events for Mr. Qi (see more details below)
 - Adds 10 hearts dialogue if Mr. Qi is not a romance option
-- Adds dialogue lines up to 2 hearts if Mr. Qi is a romance option
+- Adds dialogue lines up to 6 hearts if Mr. Qi is a romance option
 - Adds the possibility of inviting Mr. Qi to see a movie if he is a romance option
 
 Currently, it's not possible to install the beta version, but it will be available soon.
@@ -36,7 +36,7 @@ Currently, it's not possible to install the beta version, but it will be availab
 # What does not work/is not 100% ready?
 Currently there are a few things that are not complete yet, I will finish them as soon as possible:
 - The schedules are incomplete
-- The dialogue lines of 4, 6, 8 and 10 hearts when Mr. Qi becomes a romance option are missing
+- The dialogue lines of 8 and 10 hearts when Mr. Qi becomes a romance option are missing
 - Some of Mr. Qi's heart events when he becomes a romance option are missing
 - Mr. Qi's marriage dialogues are missing
 - Mr. Qi's patio and spouse room are missing
@@ -67,7 +67,7 @@ Mr. Qi's room can be accessed through a corridor in the Casino.
 The entrance to Mr. Qi's laboratory is at the door in the center of the small hallway in his room. The laboratory can only be accessed when the player has 6 hearts or more with Mr. Qi. If the player doesn't have enough hearts, the entrance to Mr. Qi's laboratory will be closed with an invisible wall that prevents the player from passing through.
 
 ## Events
-Currently there are 4 events added, 2 of them are heart events, more events will be added over time. These are the preconditions to trigger each event:
+Currently there are 11 events added, 8 of them are heart events, more events will be added over time. These are the preconditions to trigger each event:
 
 #### Event #1
 Enter the Casino after obtaining the [Club Card](https://stardewvalleywiki.com/Club_Card).
@@ -154,6 +154,24 @@ After seeing event #8, go to [Pelican Town](https://stardewvalleywiki.com/Pelica
 
 #### Event #10
 With Mr. Qi unlocked as a romance option, having 4 hearts with him, go to [Island South](https://stardewvalleywiki.com/Ginger_Island#Island_South) between 9AM and 5PM in a sunny day 
+
+#### Event #11
+With Mr. Qi unlocked as a romance option, having 6 hearts with him, you will receive a letter in the morning.
+
+<details>
+	<summary>Detalhes (spoiler)</summary>
+
+>Dear [Player], I hope you are well. 
+>
+>I'm writing this letter because I need help and I think you're the perfect person for it. I'm doing some experiments in the lab, but there's a substance missing. This substance is extracted from Ancient Fruits, but I don't have any more and, for some reason, I'm not able to create them with my powers.
+>
+>If you can, bring 5 Ancient Fruits to my laboratory, it will be enough until I can figure out why I'm unable to create more. I'm counting on your help, I hope you have Ancient Fruits on your farm, I know they're not very easy to get.
+>
+>Sincerely, Mr. Qi.
+
+You must enter Mr. Qi's lab with 5 [Ancient Fruits](https://stardewvalleywiki.com/Ancient_Fruit) in your inventory to view the event. This can be done at any time after receiving the quest.
+ 
+</details>
 
 ## Schedules
 Mr. Qi's current schedule is as follows:
