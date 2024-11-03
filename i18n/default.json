@@ -895,7 +895,7 @@
 	"Event-10.MrQiRealNPC.ScientificHelp.11": "You open the bottom drawer and find some syringes and needles of various sizes.",
 	"Event-10.MrQiRealNPC.ScientificHelp.12": "Grab a thinner needle, this Ancient Fruit is ripe, so it'll be easy to pierce.",
 	"Event-10.MrQiRealNPC.ScientificHelp.13": "Now put the needle on the syringe and we can extract the concentrated juice.#$b#On second thought, I'd better put the needle in, you look a bit nervous.$h",
-	"Event-10.MrQiRealNPC.ScientificHelp.14": "Mr. Qi puts the needle in the syringe.",
+	"Event-10.MrQiRealNPC.ScientificHelp.14": "Mr. Qi puts the needle in the syringe.#Mr. Qi hands the syringe to you.",
 	"Event-10.MrQiRealNPC.ScientificHelp.15": "Would you like to do the honors? Hahaha.$h",
 	"Event-10.MrQiRealNPC.ScientificHelp.16": "All right, just put the needle in the fruit and pull.#$b#But the concentrated juice can only be extracted from a specific area of the fruit. I'll hold your hand so you don't miss.",
 	"Event-10.MrQiRealNPC.ScientificHelp.17": "With Mr. Qi's help, you extract the concentrated juice from the Ancient Fruit. It has a whitish color.",
