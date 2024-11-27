@@ -35,7 +35,7 @@
 
 	/* +++++|GIFT REACTIONS|+++++ */
 
-	"Qi.GiftReactions.Love": "Hey, thanks for the gift, {{NameOrKid}}! It will very useful.",
+	"Qi.GiftReactions.Love": "Hey, thanks for the gift, {{NameOrKid}}! It will be very useful.",
 	"Qi.GiftReactions.Like": "Thank you very much for this gift, I liked it.",
 	"Qi.GiftReactions.Dislike": "Oh, okay. Thanks I guess?",
 	"Qi.GiftReactions.Hate": "What do you want me to do with this? Do I look like a dumpster or something?",
