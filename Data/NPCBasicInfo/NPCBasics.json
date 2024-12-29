@@ -7,6 +7,13 @@
             "Target": "Characters/{{Qi}}, Portraits/{{Qi}}",
             "FromFile": "Assets/{{TargetPathOnly}}/Qi.png"
         },
+        //Mr. Qi Without Glasses Portrait & Sprite
+        {
+            "LogName": "Mister Qi Without Glasses Portrait and sprite",
+            "Action": "Load",
+            "Target": "Characters/{{Qi}}_VisibleEyes, Portraits/{{Qi}}_VisibleEyes",
+            "FromFile": "Assets/{{TargetPathOnly}}/Qi_VisibleEyes.png"
+        },
         //Non-giftable Mr. Qi's Portrait & Sprite
         {
             "LogName": "Non Giftable Mister Qi Portrait and Sprite",
