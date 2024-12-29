@@ -14,7 +14,7 @@ Para instalar o mod, basta copiá-lo para a pasta Mods do seu jogo. Para desinst
 O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas algumas coisas já estão funcionando, por exemplo:
 - Sr. Qi é reconhecido como um NPC presenteável pelo jogo.
 - Existem novos diálogos até 8 corações.
-- Existem 11 eventos prontos, sendo 8 deles eventos de coração.
+- Existem 12 eventos prontos, sendo 9 deles eventos de coração.
 - 2 novos mapas foram adicionados.
 - Sr. Qi aparece em todos os festivais vanilla quando você o conhece.
 - Os horários foram modificados (mas ainda estão incompletos).
