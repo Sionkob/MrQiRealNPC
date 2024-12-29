@@ -173,6 +173,9 @@ Você deve entrar no laboratório do Sr. Qi com 5 [Frutas Antigas](https://pt.st
 
 </details>
 
+#### Evento #12
+Com Sr. Qi desbloqueado como opção de romance, tendo 8 corações com ele, entre na [Caverna dos Piratas](https://pt.stardewvalleywiki.com/Ilha_Gengibre#Caverna_do_Pirata) na Região Sudeste da Ilha Gengibre em um dia par (2, 4, 6, etc.) em uma noite sem chuva entre 20h e 2h. 
+
 ## Horários
 Atualmente os horários do Sr. Qi são os seguintes:
 
