@@ -159,7 +159,7 @@ With Mr. Qi unlocked as a romance option, having 4 hearts with him, go to [Islan
 With Mr. Qi unlocked as a romance option, having 6 hearts with him, you will receive a letter in the morning.
 
 <details>
-	<summary>Detalhes (spoiler)</summary>
+	<summary>Details (spoiler)</summary>
 
 >Dear [Player], I hope you are well. 
 >
@@ -172,6 +172,9 @@ With Mr. Qi unlocked as a romance option, having 6 hearts with him, you will rec
 You must enter Mr. Qi's lab with 5 [Ancient Fruits](https://stardewvalleywiki.com/Ancient_Fruit) in your inventory to view the event. This can be done at any time after receiving the quest.
  
 </details>
+
+#### Event #12
+With Mr. Qi unlocked as a romance option, having 8 hearts with him, enter the [Pirate Cove](https://stardewvalleywiki.com/Ginger_Island#Pirate_Cove) in the Southeast region of Ginger Island on an even day (2, 4, 6, etc.) on a rainless night between 8PM and 2AM.  
 
 ## Schedules
 Mr. Qi's current schedule is as follows:
