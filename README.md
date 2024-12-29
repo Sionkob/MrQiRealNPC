@@ -14,7 +14,7 @@ To install the mod, just copy it to your game's Mods folder. To uninstall it, ju
 The mod is under development and some things are not completed yet, but some things are already working, for example:
 - Mr. Qi is recognized as a giftable NPC by the game.
 - There are new dialogues up to 8 hearts.
-- There are 11 events ready, 8 of them are heart events.
+- There are 12 events ready, 9 of them are heart events.
 - 2 new maps have been added.
 - Mr. Qi appears at every vanilla festival when you meet him.
 - The schedules have been modified (but still incomplete).
