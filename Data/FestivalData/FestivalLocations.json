@@ -41,6 +41,18 @@
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
                     "Value": "{{Qi}} 44 31 2",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Qi}} 44 31 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 44 31 2",
+                    "Delimiter": "/"
                 }
             ],
             "When": {

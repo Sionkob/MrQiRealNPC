@@ -208,7 +208,7 @@
 
 	//Flower Dance
 	"FestivalDialogue.Qi.spring24": "Este festival é muito bobo, mas eu entendo o apelo que ele tem.#$b#Espero que você já tenha um par para dançar {{NameOrKid}}. Receber vários \"Nãos\" seguidos é humilhante.",
-	"FestivalDialogue.Qi.spring24-DanceAccept": "Ah, você quer dançar comigo? Tudo bem, acho que posso tentar.",
+	"FestivalDialogue.Qi.spring24-DanceAccept": "Ah, você quer dançar comigo? Tudo bem, acho que posso tentar. Eu não deveria, mas acho que uma vez não irá fazer mal.#$b#... A cor da roupa é igual a cor da minha pele, vai ser tão estranho... Será que posso usar luvas?$s",
 	"FestivalDialogue.Qi.spring24-DanceAccept_Spouse": "Claro, Eu adoraria dançar com você, ${querido¦querida}$!$h",
 	"FestivalDialogue.Qi.spring24-DanceDecline": "Obrigado, mas dispenso. Não quero dançar. É melhor não me envolver com a cultura do vilarejo, espero que entenda.",
 

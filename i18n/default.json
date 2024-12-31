@@ -208,7 +208,7 @@
 
 	//Flower Dance
 	"FestivalDialogue.Qi.spring24": "This festival is really silly, but I understand the appeal it has.#$b#I hope you already have a partner to dance with, {{NameOrKid}}. Getting several \"Nos\" in a row is humiliating.",
-	"FestivalDialogue.Qi.spring24-DanceAccept": "Oh, you want to dance with me? Okay, I guess I can try.",
+	"FestivalDialogue.Qi.spring24-DanceAccept": "Oh, you want to dance with me? Okay, I guess I can try. I shouldn't have, but I think once won't be bad.#$b#... The color of the suit is the same as my skin color, it's going to be so weird... Can I wear gloves?$s",
 	"FestivalDialogue.Qi.spring24-DanceAccept_Spouse": "Of course, I'd love to dance with you, honey!$h",
 	"FestivalDialogue.Qi.spring24-DanceDecline": "Thanks, but I'll pass. I don't want to dance. It's better not to get involved in village culture, I hope you understand.",
 
