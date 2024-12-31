@@ -1,7 +1,7 @@
 #### Português | [English](./README.md)
 
 # Senhor Qi é um Verdadeiro NPC
-[Senhor Qi é um Verdadeiro NPC](https://www.nexusmods.com/stardewvalley/mods/16724) é um mod Content Patcher que transforma o Senhor Qi em um NPC presenteável adicionando ele como um NPC customizado. O mod traz uma história nova para o personagem respeitando a personalidade original do Senhor Qi.
+[Senhor Qi é um Verdadeiro NPC](https://www.nexusmods.com/stardewvalley/mods/16724) é um mod Content Patcher que transforma o Senhor Qi em um NPC presenteável adicionando ele como um NPC personalizado. O mod traz uma história nova para o personagem respeitando a personalidade original do Senhor Qi.
 
 # Requisitos
 Atualmente, este mod só precisa de um mod para funcionar:
@@ -24,20 +24,19 @@ O mod está em desenvolvimento e algumas coisas ainda não estão completas, mas
 
 Conforme o mod for atualizado, mais funções serão adicionadas, removidas ou modificadas.
 
-Atualmente, estou trabalhando na versão beta do mod. No momento, essa versão adiciona:
+Atualmente, o mod está em beta. No momento, essa versão adiciona:
 - Desbloqueia o Sr. Qi como uma opção de romance (veja mais detalhes abaixo)
 - Adiciona mais eventos de coração para o Sr. Qi (veja mais detalhes abaixo)
-- Adiciona o diálogo de 10 corações se o Sr. Qi não é uma opção de romance
-- Adiciona diálogos até 6 corações se o Sr. Qi for uma opção de romance
+- Adiciona o diálogo de 10 corações se o Sr. Qi não for uma opção de romance
+- Adiciona diálogos até 8 corações se o Sr. Qi for uma opção de romance
 - Adiciona a possibilidade de convidar o Sr. Qi para ver um filme se ele for uma opção de romance
-
-No momento, ainda não é possível instalar a versão beta, ela estará disponível em breve.
+- Adiciona mais strings de mapas
 
 # O que não funciona/não está 100% pronto?
 Atualmente existem algumas coisas que não estão completas por enquanto, eu irei terminá-las o mais rápido possível:
 - Os horários estão incompletos.
-- Faltam os diálogos de 8 e 10 corações quando o Sr. Qi se torna uma opção de romance
-- Faltam alguns eventos de coração do Sr. Qi quando ele se torna uma opção de romance
+- Os diálogos de 10 corações quando o Sr. Qi se torna uma opção de romance estão faltando
+- O evento de 10 corações do Sr. Qi quando ele se torna uma opção de romance está faltando
 - Faltam os diálogos de casamento do Sr. Qi
 - O pátio e o quarto de cônjuge do Sr. Qi ainda não foram feitos
 - Os horários do Sr. Qi quando ele se torna uma opção de romance não estão completos
@@ -67,7 +66,7 @@ O quarto do Sr. Qi pode ser acessado por um corredor no Cassino.
 A entrada para o laboratório do Sr. Qi fica na porta no centro do pequeno corredor no quarto dele. O laboratório só pode ser acessado quando o jogador tiver 6 corações ou mais com o Sr. Qi. Se o jogador não tiver corações o suficiente, a entrada para o laboratório do Sr. Qi estará fechada com uma parede invisível que impede a passagem do jogador.
 
 ## Eventos
-Atualmente há 11 eventos adicionados, 8 deles são eventos de coração, mais eventos serão adicionados com o tempo. Essas são as pré-condições para acionar cada evento:
+Atualmente há 12 eventos adicionados, 8 deles são eventos de coração, mais eventos serão adicionados com o tempo. Essas são as pré-condições para acionar cada evento:
 
 #### Evento #1
 Entre no Cassino após obter o [Cartão do Clube](https://pt.stardewvalleywiki.com/Cart%C3%A3o_do_Clube).
@@ -147,7 +146,16 @@ Se você escolheu a opção 1 no evento de 8 corações do Sr. Qi, ou escolheu a
 </details>
 
 #### Evento #8
-Se você escolheu desbloquear Sr. Qi como opção de romance no evento de 10 corações e tendo 2 corações com ele, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 9h e 16h
+Se você escolheu desbloquear Sr. Qi como opção de romance no evento de 10 corações, tendo 2 corações com ele, entre no [Oásis](https://pt.stardewvalleywiki.com/O%C3%A1sis) entre 9h e 16h.
+
+<details>
+   <summary>Detalhes (spoiler)</summary>
+
+Sr. Qi revela que ainda guarda as coisas de Mona em seu quarto, mas as escondeu para que ele não as visse. Sr. Qi decide que irá começar seu processo de superar a morte de Mona jogando as coisas dela fora com ajuda do fazendeiro. Organizando as coisas de Mona para jogar fora, Sr. Qi encontra o diário de Mona e pede para que o fazendeiro leia uma página aleatória. Sr. Qi decide guardar o diário.
+
+Após esse evento, interagir com o lado direito da cômoda do Sr. Qi permite que você leia uma página aleatória do diário de Mona todos os dias.
+
+</details> 
 
 #### Evento #9
 Após ver o evento #8, vá para a [Vila Pelicanos](https://pt.stardewvalleywiki.com/Vila_Pelicanos) a qualquer hora
@@ -315,8 +323,26 @@ Se você escolher desbloquear Sr. Qi como um NPC romanceável, ele poderá ser c
 | Gosta     | Alcaçuz Preto                                                                                                                                           |
 | Não Gosta | Pacote de Lanchinhos de Homus<br>Hambúrguer de Salmão<br>Pipoca de Chocolate<br>Pipoca de Trufa<br>Pipoca<br>Batida de Couve<br>Sorbet de Fruta-Estrela |
 
+
 # Traduções
-Atualmente, esse mod não pode receber traduções por não estar disponível para download, mas se você for um tradutor e está interessado em traduzi-lo para o seu idioma assim que a versão beta estiver disponível para todos, você pode baixar uma cópia do arquivo **default.json** para seu computador e traduzi-la, mas lembre-se de que o mod está recebendo constantes mudanças e o arquivo i18n pode sofrer grandes alterações.
+Você pode traduzir este mod para qualquer idioma que o jogo suporte. Abaixo você pode ver quais idiomas o mod possui tradução, bem como o estado delas. Clique [aqui](https://pt.stardewvalleywiki.com/Modificações:Traduções) para descobrir como contribuir com traduções.
+
+(✓ = Totalmente traduzido,↻ = Parcialmente traduzido, 🞮 = Não traduzido)
+
+| Idioma    | Estado da Tradução |
+|-----------|--------------------|
+| Alemão    | 🞮                  |
+| Coreano   | 🞮                  |
+| Chinês    | 🞮                  |
+| Espanhol  | 🞮                  |
+| Francês   | 🞮                  |
+| Húngaro   | 🞮                  |
+| Italiano  | 🞮                  |
+| Inlgês    | ✓                  |
+| Japonês   | 🞮                  |
+| Português | ✓                  |
+| Russo     | 🞮                  |
+| Turco     | 🞮                  |
 
 # Erros Conhecidos
 <details>
@@ -339,5 +365,3 @@ Atualmente, não há nenhum erro conhecido neste mod. Se você encontrar algum, 
 # Me Apoie
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F4KPYRZ)
-
-[Doações em Real Brasileiro](https://livepix.gg/si0nk0b)
