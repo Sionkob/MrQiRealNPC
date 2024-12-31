@@ -24,20 +24,19 @@ The mod is under development and some things are not completed yet, but some thi
 
 As the mod is updated, more functions will be added, removed, or modified.
 
-Currently, I'm working on the beta version of the mod. At the moment, this version adds:
+Currently, the mod is on beta. At the moment, this version adds:
 - Unlocks Mr. Qi as a romance option (see more details below)
 - Adds more heart events for Mr. Qi (see more details below)
 - Adds 10 hearts dialogue if Mr. Qi is not a romance option
-- Adds dialogue lines up to 6 hearts if Mr. Qi is a romance option
+- Adds dialogue lines up to 8 hearts if Mr. Qi is a romance option
 - Adds the possibility of inviting Mr. Qi to see a movie if he is a romance option
-
-Currently, it's not possible to install the beta version, but it will be available soon.
+- Adds more map strings
 
 # What does not work/is not 100% ready?
 Currently there are a few things that are not complete yet, I will finish them as soon as possible:
 - The schedules are incomplete
-- The dialogue lines of 8 and 10 hearts when Mr. Qi becomes a romance option are missing
-- Some of Mr. Qi's heart events when he becomes a romance option are missing
+- The dialogue lines of 10 hearts when Mr. Qi becomes a romance option are missing
+- The Mr. Qi's 10 hearts event when he becomes a romance option are missing
 - Mr. Qi's marriage dialogues are missing
 - Mr. Qi's patio and spouse room are missing
 - Mr. Qi's schedules when he becomes a romance option are missing
@@ -67,7 +66,7 @@ Mr. Qi's room can be accessed through a corridor in the Casino.
 The entrance to Mr. Qi's laboratory is at the door in the center of the small hallway in his room. The laboratory can only be accessed when the player has 6 hearts or more with Mr. Qi. If the player doesn't have enough hearts, the entrance to Mr. Qi's laboratory will be closed with an invisible wall that prevents the player from passing through.
 
 ## Events
-Currently there are 11 events added, 8 of them are heart events, more events will be added over time. These are the preconditions to trigger each event:
+Currently there are 12 events added, 8 of them are heart events, more events will be added over time. These are the preconditions to trigger each event:
 
 #### Event #1
 Enter the Casino after obtaining the [Club Card](https://stardewvalleywiki.com/Club_Card).
@@ -147,7 +146,16 @@ If you chose option 1 in Mr. Qi's 8 hearts event, or chose the option "**Yes, I'
 </details>
 
 #### Event #8
-If you chose to unlock Mr. Qi as a romance option in the 10 hearts event and having 2 hearts with him, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 4PM.
+If you chose to unlock Mr. Qi as a romance option in the 10 hearts event, having 2 hearts with him, enter the [Oasis](https://stardewvalleywiki.com/Oasis) between 9AM and 4PM.
+
+<details>
+   <summary>Details (spoiler)</summary>
+
+Mr. Qi reveals that he still keeps Mona's things in his room, but has hidden them so that he wouldn't see them. Mr. Qi decides that he will begin his process of getting over Mona's death by throwing her things away with the help of the farmer. While organizing Mona's things to throw away, Mr. Qi finds Mona's diary and asks the farmer to read a random page. Mr. Qi decides to keep the diary.
+
+After this event, interacting with the right side of Mr. Qi's dresser allows you to read a random page from Mona's diary every day.
+
+</details> 
 
 #### Event #9
 After seeing event #8, go to [Pelican Town](https://stardewvalleywiki.com/Pelican_Town) at any time.
@@ -315,8 +323,25 @@ If you choose to unlock Mr. Qi as a romance option, he can be invited to the mov
 | Like     | Black Licorice                                                                                                            |
 | Dislike  | Hummus Snack Pack<br>Salmon Burger<br>Chocolate Popcorn<br>Truffle Popcorn<br>Popcorn<br>Kale Smoothie<br>Stardrop Sorbet |
 
+ 
 # Translations
-Currently, this mod cannot receive translations because it's not available for download, but if you are a translator and are interested translating it into your language as soon as the beta version is available to everyone, you can download a copy of the **default.json** file to your computer and translate it, but remember that the mod is undergoing constant changes and the i18n file may undergo major changes.
+You can translate this mod into any language the game supports. Below you can see which languages the mod has translations for, as well as their status. Click [here](https://stardewvalleywiki.com/Modding:Translations) to discover how to contribute translations.
+
+(✓ = Fully translated,↻ = Partly translated, 🞮 = Untranslated)
+| Language   | Translation Status |
+|------------|--------------------|
+| Chinese    | 🞮                  |
+| English    | ✓                  |
+| French     | 🞮                  |
+| German     | 🞮                  |
+| Hungarian  | 🞮                  |
+| Italian    | 🞮                  |
+| Japanese   | 🞮                  |
+| Korean     | 🞮                  |
+| Portuguese | ✓                  |
+| Russian    | 🞮                  |
+| Spanish    | 🞮                  |
+| Turkish    | 🞮                  |
 
 # Known Errors
 <details>
