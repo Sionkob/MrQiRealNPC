@@ -184,6 +184,12 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
+
+                //Flower Dance Dance Invite Dialogues
+                "FlowerDance_Accept": "{{i18n:FestivalDialogue.Qi.spring24-DanceAccept}}",
+                "FlowerDance_Accept_Spouse": "{{i18n:FestivalDialogue.Qi.spring24-DanceAccept_Spouse}}",
+                "FlowerDance_Decline": "{{i18n:FestivalDialogue.Qi.spring24-DanceDecline}}",
+
                 //Days Of Week
 
                 //0 Hearts
@@ -220,6 +226,14 @@
                 "Fri6": "{{i18n:Qi.Dialogue.Fri6-RomanceableQi}}",
                 "Sat6": "{{i18n:Qi.Dialogue.Sat6-RomanceableQi}}",
                 "winter_Sun6": "{{i18n:Qi.Dialogue.winter_Sun6-RomanceableQi}}",
+
+                //8 Hearts
+                "Mon8": "{{i18n:Qi.Dialogue.Mon8-RomanceableQi}}",
+                "Tue8": "{{i18n:Qi.Dialogue.Tue8-RomanceableQi}}",
+                "Thu8": "{{i18n:Qi.Dialogue.Thu8-RomanceableQi}}",
+                "Fri8": "{{i18n:Qi.Dialogue.Fri8-RomanceableQi}}",
+                "Sat8": "{{i18n:Qi.Dialogue.Sat8-RomanceableQi|AlienName={{AlienName}}}}",
+                "Sun8": "{{i18n:Qi.Dialogue.Sun8-RomanceableQi}}",
             },
             "When": {
                 "HasFlag": "RomanceableQiRoute"

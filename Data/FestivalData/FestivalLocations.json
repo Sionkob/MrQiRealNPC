@@ -12,6 +12,12 @@
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Qi}} 43 48 2",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 43 48 2",
+                    "Delimiter": "/"
                 }
             ],
             "When": {
@@ -27,7 +33,13 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 44 30 2",
+                    "Value": "{{Qi}} 44 31 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 44 31 2",
                     "Delimiter": "/"
                 }
             ],
@@ -44,6 +56,12 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Qi}} 14 38 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
                     "Value": "{{Qi}} 14 38 1",
                     "Delimiter": "/"
                 }
@@ -63,6 +81,12 @@
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Qi}} 92 5 1",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters-y2"],
+                    "Value": "{{Qi}} 92 5 1",
+                    "Delimiter": "/"
                 }
             ],
             "When": {
@@ -79,6 +103,12 @@
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Qi}} 2 93 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 41 102 2",
                     "Delimiter": "/"
                 }
             ],
@@ -97,6 +127,12 @@
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Qi}} 10 12 2",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 62 20 2",
+                    "Delimiter": "/"
                 }
             ],
             "When": {
@@ -114,6 +150,12 @@
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Qi}} 45 7 2",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 50 10 2",
+                    "Delimiter": "/"
                 }
             ],
             "When": {
@@ -130,6 +172,12 @@
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Qi}} 2 93 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Qi}} 47 88 0",
                     "Delimiter": "/"
                 }
             ],
