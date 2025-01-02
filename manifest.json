@@ -1,7 +1,7 @@
 {
     "Name": "Mister Qi is a Real NPC",
     "Author": "Sionkob",
-    "Version": "1.0.0-beta",
+    "Version": "1.0.1-beta",
     "Description": "Turns Mister Qi into a real NPC, with dialogues, schedules and heart events.",
     "UniqueID": "Sionkob.MrQiReal",
     "ContentPackFor": {

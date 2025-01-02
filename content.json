@@ -256,7 +256,7 @@
         //Custom Locations
         {
             "Action": "Load",
-            "Target": "Maps/Custom_MrQiReal_QiRoom, Maps/Custom_MrQiReal_QiLab, Maps/MrQiReal-IslandCave_pirates",
+            "Target": "Maps/Custom_MrQiReal_QiRoom, Maps/Custom_MrQiReal_QiLab, Maps/MrQiReal-IslandCave_pirates, Maps/MrQiReal_EmptyMap",
             "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
         },
         {
