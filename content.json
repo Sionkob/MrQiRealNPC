@@ -1,5 +1,4 @@
 {
-    "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Format": "2.3.0",
     "ConfigSchema": {
         "Kid_or_Name": {
