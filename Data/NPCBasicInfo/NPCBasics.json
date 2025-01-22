@@ -108,6 +108,7 @@
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
                     "CanSocialize": "true",
+                    "CanBeRomanced": "true",
                     "CanCommentOnPurchasedShopItems": "false",
                     "CanGreetNearbyCharacters": "false",
                     "CanVisitIsland": "true",
