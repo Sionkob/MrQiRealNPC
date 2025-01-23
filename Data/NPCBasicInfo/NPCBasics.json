@@ -116,6 +116,8 @@
                     "SocialTab": "HiddenUntilMet",
                     "PerfectionScore": "false",
                     "EndSlideShow": "Hidden",
+                    "KissSpriteIndex": "42",
+                    "KissSpriteFacingDirection": "true",
                     "FormerCharacterNames": [ "Qi" ]
                 }
             },
