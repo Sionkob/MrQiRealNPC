@@ -332,15 +332,15 @@ Você pode traduzir este mod para qualquer idioma que o jogo suporte. Abaixo voc
 | Idioma    | Estado da Tradução |
 |-----------|--------------------|
 | Alemão    | 🞮                  |
-| Coreano   | 🞮                  |
+| Coreano   | [↻](i18n/ko.json)                  |
 | Chinês    | 🞮                  |
 | Espanhol  | 🞮                  |
 | Francês   | 🞮                  |
 | Húngaro   | 🞮                  |
 | Italiano  | 🞮                  |
-| Inlgês    | ✓                  |
+| Inlgês    | [✓](i18n/default.json)                  |
 | Japonês   | 🞮                  |
-| Português | ✓                  |
+| Português | [✓](i18n/pt.json)                  |
 | Russo     | 🞮                  |
 | Turco     | 🞮                  |
 
