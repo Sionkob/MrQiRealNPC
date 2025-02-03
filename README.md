@@ -331,14 +331,14 @@ You can translate this mod into any language the game supports. Below you can se
 | Language   | Translation Status |
 |------------|--------------------|
 | Chinese    | 🞮                  |
-| English    | ✓                  |
+| English    | [✓](i18n/default.json)                  |
 | French     | 🞮                  |
 | German     | 🞮                  |
 | Hungarian  | 🞮                  |
 | Italian    | 🞮                  |
 | Japanese   | 🞮                  |
-| Korean     | 🞮                  |
-| Portuguese | ✓                  |
+| Korean     | [↻](i18n/ko.json)                  |
+| Portuguese | [✓](i18n/pt.json)                  |
 | Russian    | 🞮                  |
 | Spanish    | 🞮                  |
 | Turkish    | 🞮                  |
