@@ -330,7 +330,7 @@ You can translate this mod into any language the game supports. Below you can se
 (✓ = Fully translated,↻ = Partly translated, 🞮 = Untranslated)
 | Language   | Translation Status |
 |------------|--------------------|
-| Chinese    | 🞮                  |
+| Chinese    | [✓](i18n/zh.json)                  |
 | English    | [✓](i18n/default.json)                  |
 | French     | 🞮                  |
 | German     | 🞮                  |
