@@ -333,7 +333,7 @@ Você pode traduzir este mod para qualquer idioma que o jogo suporte. Abaixo voc
 |-----------|--------------------|
 | Alemão    | 🞮                  |
 | Coreano   | [↻](i18n/ko.json)                  |
-| Chinês    | 🞮                  |
+| Chinês    | [✓](i18n/zh.json)                  |
 | Espanhol  | 🞮                  |
 | Francês   | 🞮                  |
 | Húngaro   | 🞮                  |
