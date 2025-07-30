@@ -14,11 +14,18 @@
             "Target": "Characters/{{Qi}}_VisibleEyes, Portraits/{{Qi}}_VisibleEyes",
             "FromFile": "Assets/{{TargetPathOnly}}/Qi_VisibleEyes.png"
         },
+        //Mr. Qi Sleepwear Sprite (Event exclusive)
+        {
+            "LogName": "Mister Qi Sleepwear sprite",
+            "Action": "Load",
+            "Target": "Characters/{{Qi}}_SleepWear",
+            "FromFile": "Assets/{{TargetPathOnly}}/Qi_SleepWear.png"
+        },
         //Non-giftable Mr. Qi's Portrait & Sprite
         {
             "LogName": "Non Giftable Mister Qi Portrait and Sprite",
-            "Action": "EditImage",
-            "Target": "Characters/MrQi, Portraits/MrQi",
+            "Action": "Load",
+            "Target": "Characters/{{NGQi}}, Portraits/{{NGQi}}",
             "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/NonGiftableQi.png"
         },
         //Mr. Qi's Beach Portrait & Sprite
@@ -44,14 +51,14 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
-                    "CanSocialize": "true",
-                    "CanBeRomanced": "false",
-                    "CanCommentOnPurchasedShopItems": "false",
-                    "CanGreetNearbyCharacters": "false",
-                    "CanVisitIsland": "false",
+                    "CanSocialize": true,
+                    "CanBeRomanced": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": false,
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
-                    "PerfectionScore": "false",
+                    "PerfectionScore": false,
                     "EndSlideShow": "Hidden",
                     "FormerCharacterNames": [ "Qi" ]
                 }
@@ -73,18 +80,32 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
-                    "CanSocialize": "true",
-                    "CanBeRomanced": "true",
-                    "CanCommentOnPurchasedShopItems": "false",
-                    "CanGreetNearbyCharacters": "false",
-                    "CanVisitIsland": "false",
+                    "CanSocialize": true,
+                    "CanBeRomanced": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": false,
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
-                    "PerfectionScore": "false",
+                    "PerfectionScore": false,
                     "EndSlideShow": "Hidden",
                     "KissSpriteIndex": "42",
-                    "KissSpriteFacingDirection": "true",
-                    "FormerCharacterNames": [ "Qi" ]
+                    "KissSpriteFacingDirection": true,
+                    "FormerCharacterNames": [ "Qi" ],
+                    "SpouseRoom": {
+                        "MapAsset": "Custom_MrQiReal_QiSpouseRoom",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 6,
+                        "Height": 9
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Custom_MrQiReal_QiSpousePatio",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 4,
+                        "Height": 4
+                    }
                 }
             },
             "When": {
@@ -107,22 +128,134 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
-                    "CanSocialize": "true",
-                    "CanBeRomanced": "true",
-                    "CanCommentOnPurchasedShopItems": "false",
-                    "CanGreetNearbyCharacters": "false",
-                    "CanVisitIsland": "true",
+                    "CanSocialize": true,
+                    "CanBeRomanced": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": true,
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
-                    "PerfectionScore": "false",
+                    "PerfectionScore": false,
                     "EndSlideShow": "Hidden",
                     "KissSpriteIndex": "42",
-                    "KissSpriteFacingDirection": "true",
-                    "FormerCharacterNames": [ "Qi" ]
+                    "KissSpriteFacingDirection": true,
+                    "FormerCharacterNames": [ "Qi" ],
+                    "SpouseRoom": {
+                        "MapAsset": "Custom_MrQiReal_QiSpouseRoom",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 6,
+                        "Height": 9
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Custom_MrQiReal_QiSpousePatio",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 4,
+                        "Height": 4
+                    }
                 }
             },
             "When": {
                 "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
+            }
+        },
+        //NPC Data (Edit vanilla Qi NPC informations)
+        {
+            "LogName": "NPC Info - Vanilla Qi",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Mister Qi": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "CanSocialize": false,
+                    "CanReceiveGifts": false,
+                    "Home": [
+                        {
+                            "Id": "QiNutRoom",
+                            "Condition": null,
+                            "Location": "QiNutRoom",
+                            "Tile": {
+                                "X": -50,
+                                "Y": -50
+                            },
+                            "Direction": "left"
+                        }
+                    ],
+                    "TextureName": "MrQi",
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    }
+                }
+            }
+        },
+        //NPC Data (Add Non-giftable Qi informations)
+        {
+            "LogName": "NPC Info - Non giftable Qi",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{NGQi}}": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "HomeRegion": "Other",
+                    "CanSocialize": false,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "QiNutRoom",
+                            "Tile": {
+                                "X": 7,
+                                "Y": 4
+                            },
+                            "Direction": "up"
+                        }
+                    ] 
+                }
+            }
+        },
+        //NPC Data (Add bouncer to casino)
+        {
+            "LogName": "Bouncer in Casino",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModID}}-Bouncer": {
+                    "DisplayName": "{{i18n:Extras.Bouncer.Name}}",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "HomeRegion": "Other",
+                    "CanSocialize": false,
+                    "EndSlideShow": "Hidden",
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Club",
+                            "Tile": {
+                                "X": 34,
+                                "Y": 8
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": "Bouncer",
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    }
+                }
             }
         },
         //Gift Tastes

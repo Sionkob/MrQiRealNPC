@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        //Generic strings
+        {
+            "LogName": "Generic strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "{{ModID}}.NoEnter": "{{i18n:StringsFromCSFiles.NoEnter}}",
+                "{{ModID}}.QiLabDoor": "{{i18n:StringsFromCSFiles.QiLabDoor}}"
+            }
+        }
+    ]
+}

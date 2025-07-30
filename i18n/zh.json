@@ -30,6 +30,7 @@
 
 	"Location.QiRoom": "齐先生的密室",
 	"Location.QiLab": "齐先生的实验室",
+	"Location.QiMiniLab": "Mr. Qi's Mini Laboratory",//TODO
 
 	/* ++++++++++++++++++++++++++++++++++++++ */
 
@@ -199,6 +200,21 @@
 	"Qi.Dialogue.Sat8-RomanceableQi": "嗨@，今天我要分析{{AlienName}}的成长。如果你想可以来帮我。#$b#让{{AlienName}}习惯你也是好事，毕竟你现在会经常进实验室。$h",
 	"Qi.Dialogue.Sun8-RomanceableQi": "你知道雷欧吗？我目睹了他父母在姜岛遇难的那天，那是在莫娜去世几年后。#$b#他们处境艰难，更糟的是他母亲即将分娩。#$b#不幸的是，为了寻找帮助，他父亲在爬棕榈树摘叶子时掉进了海里，而他母亲没能撑过分娩。$s#$b#我不得不用半实体形态救下他，并定期去照顾他。如果没有我，那孩子活不下来。#$b#他一直和岛上的鹦鹉是朋友。当我注意到这点时，我用能力让他理解了鸟语。#$b#他以为鹦鹉一直在照顾他，因为他对我没有记忆。#$b#我觉得最好保持现状；现在让他知道这些可能太沉重了。",
 
+	//Days Of Week - 10 Hearts (As Romanceable Option)
+	"Qi.Dialogue.Mon10-RomanceableQi": "Hello, @. Good morning! I just got out of the lab. I was preparing a few more bottles of Qi Seasoning.$h#$b#I can give you one if you want. Just don't overuse it, and you'll be fine.",//TODO
+	"Qi.Dialogue.Tue10-RomanceableQi": "Hey, @, is Sandy making jokes about us with you too now? She's been teasing me about us ever since we started dating.#$b#Really? She doesn't say anything to you? *Sigh* I have no idea why she does this to me, but she's always liked trying to get on my nerves... and sometimes she succeeds.$u",//TODO
+	"Qi.Dialogue.Wed10-RomanceableQi": "Some of the casino regulars are a bit surprised that we're together. They didn't expect me to get so close to a rookie gambler.#$b#They're afraid I'm favoring you because of it. I'd never do that; after all, even though you're my ${boyfriend¦girlfriend}$, I'll always value fair play.#$b#If these people think I'd change my fair play philosophy just because of you, they're completely mistaken.",//TODO
+	"Qi.Dialogue.Thu10-RomanceableQi": "Hey, @, how about we spend some time together? We should do this more often.#$b#What do you say we explore the caves together, like we did that day? It was really fun.$h#$b#Or, if you'd prefer something safer, we could prepare something to eat together and stay at my place.",//TODO
+	"Qi.Dialogue.Fri10-RomanceableQi": "Hi, @. I was analyzing {{AlienName}}'s brain activity today and noticed it increased significantly.#$b#That's a good sign; it means the Ancient Fruit juice is working effectively. On the other hand, it might mean that {{AlienName}} is more intelligent than we thought.#$b#If this theory is correct, we'll probably have to find a way to take it back to its planet soon. I hope I'm ready for that moment...$s#$e#I just wanted to tell you this because I think you deserve to know that, at some point, {{AlienName}} might have to leave this planet.",//TODO
+	"Qi.Dialogue.Sat10-RomanceableQi": "Hey, @, what do you think about spending a day on Ginger Island again? I swear, this time I'll actually go into the sea!#$b#With the help of an invisibility spell from the Wizard, I've been swimming in the river at Cindersap Forest occasionally, and it's been going well#$b#I no longer feel nervous when I get into the water!$h#$b#I haven't tried swimming in the sea yet, but I'm sure I can do it. However, I only want to do it if it's with you.$h",//TODO
+	"Qi.Dialogue.Sun10-RomanceableQi": "... Hi, @. Hmm...#$b#You look different today. ${Did you shave¦Are you wearing makeup}$?#$b#I like it. You look really ${handsome¦beautiful}$!$h",//TODO
+
+	//Special Dialogues
+	"Qi.Dialogue.AcceptBouquet": "So, you finally want to make our relationship a bit more serious, huh? I accept. I feel ready for this now.$h#$b#It's thanks to you that I've reached this point. I know it took some time, but I'm glad you didn't give up on me. I swear I'll be the best boyfriend in the world!$h",//TODO
+	"Qi.Dialogue.RejectBouquet": "@, it's not the right time yet. Give me more time. I need to deal with some things from the past before we move forward with this.",//TODO
+	"Qi.Dialogue.breakUp": "Oh, you want to break up? Alright, maybe it just wasn't meant to be...$s#$b#I opened up to you so much, @... I thought we'd be happy together. I hadn't felt this way in a long time... At least it was fun.$s#$b#At the very least, keep the things you know about me under wraps, okay? That's the only thing I ask of you.",//TODO
+	"Qi.Dialogue.WipedMemory": "Oh, hello, you're @, right? I saw that you wiped my memory.$u#$b#Too bad for you; that thing doesn't work so well on me. My representations don't allow me to lose all my memory. I still know who you are and what we went through together.#$b#But I understand you might have regretted it and want to take it back, so I'll let it slide this time.#$b#However, if you really want to do it all over again, at least be sure of what you want so you don't hurt anyone.$u",//TODO
+
 	/* ++++++++++++++++++++ */
 
 	/* +++++|节日对话|+++++ */
@@ -254,6 +270,22 @@
 
 	//在恋爱路线中看过齐先生4心事件后
 	"MrQiNutRoom.Dialogue.Tue-RomanceableQi": "那天你来这里时，我对主意识形态做了很残忍的事。$s#$b#作为齐先生，我曾认为要摆脱痛苦就该忘记一切。但现在我明白我错了。#$b#有些事应该被美好地记住。$h#$e#但我还是觉得那件泳衣很丑。$u",
+
+	//If you're dating giftable Mr. Qi
+	"MrQiNutRoom.Dialogue.Mon-DatingQi": "Hi, @. Did you come to check out the special orders board? I've put up some new challenges for you to choose from.#$b#But if you don't want to do any challenges this week, that's fine. There's always next week.",//TODO
+	"MrQiNutRoom.Dialogue.Tue-DatingQi": "You know, @, as one of Mr. Qi's representations, I can't quite understand how you and he ended up together.#$b#I wasn't made to have feelings; my sole purpose is to carry out the tasks that all Misters Qi must do.#$b#However, since I'm connected to the main representation, everything it feels for you is passed on to me, and I can express it, even though I don't fully understand it.#$e#The main representation created us to have personalities based on aspects of itself, but it can make us act differently from the norm according to its will.#$b#We might even try to resist changes when we disagree with them, but it's not always worth it.#$b#It can put us into a forced silence, or worse, erase and replace us with another representation.$u",//TODO
+	"MrQiNutRoom.Dialogue.Wed-DatingQi": "Hello, it's been a while since you last visited the Walnut Room. Take a look at what you can buy with your Qi Gems; there might be something interesting.",//TODO
+	"MrQiNutRoom.Dialogue.Thu-DatingQi": "Hey, @, do you know a good way to turn your Qi Gems into gold? Buy Qi Seasonings to sell.#$b#They're worth 200 gold each, and you can exchange ten of them for ten Qi Gems. It's a good investment if you don't have anything else to spend your Qi Gems on.",//TODO
+	"MrQiNutRoom.Dialogue.Fri-DatingQi": "Hey, @, have you ever stopped to think about how your relationship with the main representation affects the others?#$b#I mean, we're part of the main representation, created and controlled by it.#$b#But we also have slightly different personalities, and some of us can't even feel the love the main representation feels for you...#$b#So... are you dating just the main representation or all of us? I bet you hadn't even considered that, huh?",//TODO
+	"MrQiNutRoom.Dialogue.Sat-DatingQi": "Always remember to check the perfection tracker to see how close you are to reaching it.#$b#Sometimes, you're just one small detail away from achieving perfection, so it's always a good idea to take a look.",//TODO
+	"MrQiNutRoom.Dialogue.Sun-DatingQi": "Good morning, @. Hmm, you really seem different today, but I don't know why. I don't see anything different about you physically speaking.#$b#It must be the main representation's influence on me. It really likes you.",//TODO
+	
+	//Attempts to tell what happened (until 5 days after seeing Mr. Qi's 10 hearts event in romance route)
+	"MrQiNutRoom.Dialogue.Attempt1": "I saw you try to read the Summer 8 entry, but the Main Representation wouldn't let you read the whole thing.#$b#The Main Representation was really embarrassed by what Mona wrote. Honestly, I don't see why it acted that way. Mona even kept the details light.#$b#But anyway, what happened was...#$b#%The Semi-Physical Representation of Mr. Qi tries to speak, but no sound comes out of its mouth.#$b#...$u#$b#%The Semi-Physical Representation looks up, enraged, and tries to yell something, but no sound comes out of its mouth. However, you manage to read its lips.#$b#%It says, \"Son of a bitch!\"",//TODO
+	"MrQiNutRoom.Dialogue.Attempt2": "Ah, @, you still remember the Summer 8 entry, right?#$b#The Main Representation doesn't want you to read the rest of it... but I can try to tell you what happened.#$e#%The Semi-Physical Representation tries to speak, but its speech becomes completely jumbled. You can't understand a thing it says.#$b#*Sigh* The Main Representation didn't let me speak properly. It'll regret this.$u",//TODO
+	"MrQiNutRoom.Dialogue.Attempt3": "Hey, @, I need to tell you something, but I need to use my computer keyboard for it.#$b#%The Semi-Physical Representation tries to open Notepad on the computer but can't locate the keyboard on the desk.#$b#Damn it! I can't see anything! The Main Representation blinded me!$u#$b#Yeah, it looks like I won't be able to say what I want... Ugh, that Main Representation...$u",//TODO
+	"MrQiNutRoom.Dialogue.Attempt4": "@, remember the Summer 8 entry in Mona's diary? The Main Representation doesn't want you to read it, but I'm gonna try to tell you anyway.#$b#But since it doesn't want you to know what happened, let's use a code to talk about it.#$b#*Whisper* I'll say random words, and if you take the first letter of each, it'll form the sentence I want to tell you. Got it?#$e#White, Hat, Amber, Treasure, History, Always, Piano, Pencil...#$b#%Before the Semi-Physical Representation can finish, it stops talking and its mouth closes. It tries to pry its mouth open with its hands, but it can't.#$b#...!$u",//TODO
+	"MrQiNutRoom.Dialogue.Attempt5": "You know, @, the Main Representation is way overreacting to what Mona wrote in that entry.#$b#Seriously, it's acting like Mona wrote something absolutely horrible, but in the end, it's really nothing.#$b#I don't understand why it doesn't want you to know that...#$b#%Mr. Qi's Semi-Physical Representation suddenly stops speaking.#$e#I wasn't even going to say anything! Why does this representation keep silencing me every time? This is getting annoying!$u#$b#You know what? I'm sick of this nonsense; I can't take it anymore! Today, my silence will be of my own free will. I'm not saying another word today.$u",//TODO
 
 	/* ++++++++++++++++++++++++++++++++ */
 
@@ -333,6 +365,11 @@
 	"MapString.QiRoom.6": "这个衣柜的所有门都锁着。你只能用钥匙打开它们。",
 	"MapString.QiRoom.7": "《石头的魔力》，乔治·克拉伦斯著。",
 	"MapString.QiRoom.8": "《天文学入门》，作者未知。",
+	"MapString.QiRoom.9": "It's Mr. Qi's personal laptop. It's locked; you'll need a password to unlock it. The wallpaper on the lock screen is an image of the Northern Lights over rocky mountains.",//TODO
+	"MapString.QiRoom.10": "It looks like this computer is used to manage the casino. You can see how much money Mr. Qi makes with each bet. It's a lot of money!",//TODO
+	"MapString.QiRoom.11": "There are some frozen food packages here.",//TODO
+	"MapString.QiRoom.12": "Mr. Qi's refrigerator looks quite different from others you've seen: the freezer is on the bottom door and the fridge is on top. There's a touch-sensitive panel on the refrigerator door with some selected settings. It's best not to mess with it.",//TODO
+	"MapString.QiRoom.13": "There's a built-in dishwasher in the kitchen. There are some dishes waiting to be washed in it. On the front of the dishwasher, there's a touch-sensitive panel with some settings selected.",//TODO
 	"MapString.QiLab.1": "看起来这个水果已经被遗弃腐烂了。它变黑了，紫色的粘液流了出来。恶心！最好不要碰它。",
 	"MapString.QiLab.2": "看起来像某种奇怪的生物... 这东西在动吗，还是只是我的错觉？？？",
 	"MapString.QiLab.3": "你发现了齐先生实验室的一个秘密通道。它通向一个保险库，但锁着。你不该在这里... 在他发现之前离开。",
@@ -343,10 +380,17 @@
 	"MapString.QiLab.8": "那里存放着一些文件。看起来没什么意思。",
 	"MapString.QiLab.9": "看起来这台电脑正在分析一些数据。不幸的是，你不理解屏幕上显示的信息。",
 	"MapString.QiLab.10": "一个装着略带紫色粉末的罐子。上面贴着一个标签，写着\"齐调味料\"。",
+	"MapString.QiMiniLab.1": "Mr. Qi brought the rotten Stardrop here. He must prefer to prepare the Qi Seasoning closer to home.",//TODO
+	"MapString.QiMiniLab.2": "There are some documents in there. In one of the folders, there's a new version of the Qi Seasoning recipe. It's exactly the same as the one you've already seen, except without the note Mona left on the back of the sheet.",//TODO
+	"MapString.QiMiniLab.3": "There are some bottles of Qi Seasoning inside this fridge. Could you grab one? Better ask Mr. Qi.",//TODO
 
 	//日程字符串
 	"ScheduleStrings.Qi.Winter28": "我好想你...$s",
 	"ScheduleStrings.Qi.BeachMarket": "我只是在观察动静。我需要大部分村民离开后，再去买我想要的东西。",
+
+	//Generic Strings
+	"StringsFromCSFiles.NoEnter": "%The bouncer stands in front of the door.#$b#Authorized personnel only, kid. Keep moving...",//TODO
+	"StringsFromCSFiles.QiLabDoor": "Mr. Qi said you couldn't enter. You'd better obey him.",//TODO
 
 	/* +++++++++++++++++++ */
 
@@ -382,6 +426,15 @@
 	"Mona-s_Diary.Entry_28": "冬19日^^威利送补给带来达莉娅来信。蔚蓝整天闭门不出，试图交谈总吃闭门羹。唯名字问题会答\"叫我齐先生\"。难以建立信任。",
 	"Mona-s_Diary.Entry_29": "冬26日^^蔚蓝突然健谈，原来偷看我日记！用能力监视写作过程。愤怒谴责侵犯隐私，他勉强道歉。约定不再窥视。",
 	"Mona-s_Diary.Entry_30": "冬28日^^除夕夜与蔚蓝谈心。他幼年能听见历代齐先生低语，被当怪胎。少年时心灵感应能力觉醒，被迫隔离。问若可重选是否愿做凡人，他沉思后答\"愿意\"——神力是重担，平凡反得自由。这番倾诉让我重新认识：他不是神秘存在，只是背负宿命的普通人。",
+	"Mona-s_Diary.Entry_31": "Spring 4 ^^ Today was a very calm day around here. We found some species of crabs in the natural pools of Ginger Island. But while I was observing the crabs, I saw a ship passing in the ocean. I found it very strange; it wasn't Willy's ship, especially since he only shows up on Sunday mornings, and it's Tuesday. It couldn't be him; it was someone else. ^^ I went to where the ship had docked, but found nothing. In fact, I started hearing music as I approached a cave. When I looked inside the cave, I couldn't believe my eyes: pirates. Real pirates. ^^ Before I could do anything, Mr. Qi showed up and told me I shouldn't go in there, that it was too dangerous, and asked me to avoid that place for the rest of the night. He seemed very concerned, so I followed his advice and went back to the cabin. I don't know why he was so worried, but surely there must be a reason.",//TODO
+	"Mona-s_Diary.Entry_32": "Spring 5 ^^ Thanks to Azure's help, my research is progressing really well. I might return to Stardew Valley this season, which is great. Willy came by this morning to deliver a letter from my college, informing me that the enrollment period has begun. I need to fill out a form and mail it on Monday to renew my registration. I've already started working on it and hope everything will be ready tomorrow. ^^ Azure and I had a little adventure today. While we were exploring the northern region of Ginger Island, I noticed the island's volcano has an entrance, as if there's a cave inside. That made me curious; I've never seen a volcano with a cave. ^^ When I asked Azure if we could enter, he said that if we did, we'd need weapons to deal with the monsters and that it was too dangerous for someone with no combat experience, like me. So I asked him to teach me a little so we could enter. He was somewhat reluctant to teach me, saying I wouldn't be able to learn and would end up getting hurt. But I sensed that wasn't his real opinion: he knew I was perfectly capable of learning but didn't want to teach me for some reason. ^\"You think that just because I grew up in the city, I'm not capable of learning how to wield a sword, is that it?\" I said, confronting him. ^ He looked me in the eyes for a moment and then said, \"No. You are capable of learning. Even faster than you think.\" ^\"Then why don't you want to teach me?\" ^\"Because if you get hurt, you'll have to leave.\" ^^ His answer surprised me. Does he... care about me? I thought he was counting down the days until I left, since I'm preventing him from carrying out his responsibilities as Mister Qi. He said I came to the island with a purpose and haven't completed it yet. Until I finish my research, I can't leave. ^^ Anyway, I asked him to teach me how to defend myself from monsters so we could enter the cave. He taught me how to use the sword to defend myself, and we went in. But he wouldn't let me fight any real monsters; he defended me from them whenever I tried to attack. ^^ I know he didn't want me to get hurt, but that didn't work out very well. In one of these attempts to defend me, we were both attacked by a small group of Tiger Slimes and had to leave the cave. Those monsters are really strong! We left the exploration quite injured. If it weren't for Azure trying to defend me all the time, maybe it wouldn't have happened. ^^ When we got back to the cabin, he asked if I was badly hurt. Compared to him, I didn't have a scratch; he took most of the blows from those monsters. I don't even know how he wasn't complaining of pain; it seemed like he didn't even feel it. When I mentioned his injuries, he said they weren't very concerning and would heal in a few days. Still, I bandaged his wounds so they wouldn't get infected. ^^ I also asked him to keep teaching me how to fight monsters and to let me defend myself next time. He agreed to teach me and also said something about me: \"Some people give up learning something new as soon as they realize the difficulties or risks involved, but you still want to learn. That's admirable.\" ^ Now let's see if I learn quickly, because at the pace my research is going, I won't be on this island for long.",//TODO
+	"Mona-s_Diary.Entry_33": "Spring 7 ^^ Yesterday, I finished filling out the form to renew my college enrollment, just as I had planned. Since Willy brings me supplies on Sundays, I asked him to take the form and mail it tomorrow. He said he'd try to send it, but it might be difficult. I asked why, and he said that relations between the Ferngill Republic and the Gotoro Empire have become complicated. Mail shipments to Gotoro might be delayed or, worse, not sent at all. This could really complicate things. ^^ When Willy left the island, I went to Azure's room to ask him to help me with my research. However, he said he couldn't help me today. It was the first time he'd refused to assist me. Since he didn't want to, I continued on my own. ^^ This time, I ventured into a dense jungle area of the island to see if I'd find anything interesting, and as I expected, I did. There are many different species of frogs in that region of the island. My thesis will have a section focused solely on them. ^^ On my way back to the cabin, I ended up encountering a gorilla in the middle of the path. I came face to face with it and froze in fear, not knowing what to do. I had already accepted my fate. But just as I was ready to say goodbye to this world, Azure appeared and managed to scare the gorilla away. I thought he was too busy to help me, but it seems that when he realized I was in danger, he came to save me. ^^ When I thanked him for coming to save me despite all his responsibilities, he said that ensuring my safety was one of them. It seems that he's taking our agreement very seriously. I never asked him to protect me from possible dangers, and yet he does so, apparently of his own free will. I can't believe protecting me is part of his responsibilities.",//TODO
+	"Mona-s_Diary.Entry_34": "Spring 10 ^^ Since my research is at an advanced stage, I decided to take a day off. I spent the day at the beach. At least I'd give Azure a break today. Lately, he's been constantly by my side, helping with the research. Sometimes I wonder if our agreement isn't hindering him in some way. After all, as a Mister Qi, he should be focused on maintaining the world's balance, not helping me. Still, I'm very grateful he takes our agreement seriously. Without him, my research wouldn't be as advanced as it is now. ^^ Although I left him free to fulfill his responsibilities today, he wanted to stay with me and use my day off to continue teaching me how to use the sword. I think it's very thoughtful of him to drop everything just to help me, but he doesn't need to do that all the time; he has more important things to do. I told him I didn't want to train today and that he could go take care of his own business. He understood that I didn't feel like training but still wanted to stay with me at the beach. ^^ I asked if being available to help me all the time wasn't hindering him in some way, and he said it was, but that he could make up for lost time in just one night. He asked if I didn't like having him around, but I told him that wasn't it: I simply didn't want him to abandon his mission because of me. He got a little upset when he heard that and said he wanted to spend more time with me. He added that if I could have a day off, he could too. After that small discussion, we enjoyed our day off together. ^^ Something that made me curious is that, apparently, Azure enjoys my company. He seems to enjoy listening to me or simply being near me. I don't know if it's because of our agreement or if there's something more to it. I tried to look for any sign that he might be interested in me, but I didn't notice anything. Either he hides it very well, or I'm imagining things. ^^ Anyway, we talked a little more while we were at the beach. I asked how he ended up on Ginger Island, and he said he made a deal with a group of pirates to take him to the island in exchange for successful raids. With the help of his powers, he helped them decide who would be the best target and would bring the biggest reward, and in the end, he'd get a cut. He said he's not proud of what he did back then, but it was a necessary evil, since he needed to be on the island to fulfill his mission, and the pirates were the fastest way to get there. ^^ Azure said he and the captain had constant disagreements, but he never suffered any consequences because the crew feared that if they hurt him, they'd all have a streak of bad luck. Azure clearly went through many adventures to reach this island, but one thing wasn't clear to me: how did he meet those pirates? I decided to ask him to understand better. ^^ He explained that when he discovered his role in the world and that he'd have to leave his ordinary life behind to live on Ginger Island, he started living as a nomad in coastal areas. To find shelter, he made deals with certain people, usually fishermen. He'd demonstrate a useful power, and they'd take him in for a while until he moved on again. ^^ Because of this, he became relatively well-known among fishermen and pirates. Many hoped to be lucky enough to meet him on a beach, hoping he'd offer them a deal. And that's how, one day, he ended up meeting the crew of the ship that finally took him to Ginger Island. He had a clever strategy to get to this island. ^^ Azure is used to making deals with people, and that makes me wonder if the way he acts with me is genuine or just part of our deal. He says it's because of our agreement, but he always does things that go beyond it, like chatting with me on a day off. It feels like he sees me as a friend or something like that. But now that I know he's used to making deals, I'm a little suspicious about his true intentions. ^^ Our agreement was that he'd help me with my research in exchange for keeping the existence of the Misters Qi a secret, but I'm starting to think all this help in exchange for keeping a secret is a bit suspicious. What if he's expecting something more? I should question him about it.",//TODO
+	"Mona-s_Diary.Entry_35": "Spring 11 ^^ Because of the conversation I had with Azure yesterday, I began to think that our agreement seemed much more favorable to me than to him. He helps me with my research in exchange for me keeping his existence and powers a secret, but what else does he gain from this? Given his history with deals, I feared he was hiding something. So I decided to confront him about his true intentions once again. ^^ While we were in the cabin gathering the data we collected today, I asked him why he had proposed the deal to me. He said the agreement was the most peaceful way he found to ensure I wouldn't tell anyone about the Misters Qi. I got straight to the point and asked what advantages our deal brought him, and he was equally direct: security. ^^ He asked if I thought he was expecting something more from me, and I said yes. Azure replied, \"It's very arrogant of you to think you have something that would benefit me. You're just a student; nothing you could offer interests me. I just want you to keep my powers a secret, and that's it.\" Hearing him say I'm insignificant to him was pretty harsh, especially given the calm tone he used. It would have been less painful if he'd spoken angrily. ^^ Then I asked why he always wanted to be with me and talk about things unrelated to the research if I had nothing useful to offer him. When I asked that, he really got upset. He said that if I only make friends expecting something in return, my concept of friendship is twisted, and he wasn't like that. Saying that, he made it clear he saw me as a friend, something I wasn't sure about until then. ^^ When I said I just wanted to be sure he saw me as a friend, he said it was obvious, and if that's what I wanted to know, I should've just asked. I admitted he was right, but I didn't fully trust him enough to ask until then. I was afraid I was misinterpreting things. Besides, he never made it clear through his actions: all of them were justified as part of the agreement, and he never left room for other interpretations. ^^ He got upset that I didn't trust him and didn't talk to me again until we finished the research stuff. After that, he left without a word. I made a mistake by not trusting him. I should've asked this sooner. Now I've hurt his feelings. I hope he'll still help me with the research.",//TODO
+	"Mona-s_Diary.Entry_36": "Spring 14 ^^ Today is Sunday, and Willy showed up on the island again, as we agreed. I asked him if he'd managed to mail the form I asked him to send on my behalf last week. He said yes, and that he'd also brought some letters from the Gotoro Empire for me. When I heard that, I thought relations between Gotoro and Ferngill wouldn't affect postal service, but after reading the letters, I discovered that wasn't quite the case. ^^ I found out that from now on, any and all mail from the Gotoro Empire to Ferngill will be inspected and won't be delivered directly to the recipient. It'll have to be picked up at a post office. That's going to complicate things at my college. I'll need to go to Zuzu City whenever new materials arrive. ^^ However, one of the letters was from my college and said that whenever I have materials to pick up, I'll receive a call as soon as they're available. That eased my mind a little. What saddens me is that I won't be receiving any more letters from my parents or Dalia. At least I'll be able to call them when I return to Stardew Valley. ^^ Azure hasn't spoken to me since the discussion we had a few days ago. He won't even help me with the research. I've been trying to apologize, but he won't talk to me. I kind of miss him; it was great having someone to talk to around here. ^^ I tried to go to his room today to apologize again, but the door was locked. He was really hurt that I didn't trust him, and I understand why: he revealed many details of his life to me—things he'd never told anyone—as well as trying to go against his own nature to respect my privacy. I should've realized he trusted me, and I should've trusted him as well. ^^ I was so dumb not to notice right away how much he cares about me. I should've realized that his distant manner was just part of his personality, not indifference. I should've remembered that behind all his power and responsibilities, there's an ordinary human being who, deep down, never asked to be this way. ^^ I hope I get the chance to apologize for being so inflexible before leaving this island. I really miss talking to him, and I wouldn't feel right leaving here knowing we're at odds.",//TODO
+	"Mona-s_Diary.Entry_37": "Spring 17 ^^ Even though Azure stopped helping me with the research, I'm managing to do everything on my own, and I'm almost finished. Thinking about it makes me sad, because it means I won't see him again. ^^ Not being able to talk to him isn't doing me any good. I've been feeling abandoned on this island. I no longer receive letters from my friends and family in the Gotoro Empire; it's been a while since Sandy wrote, and now I don't even have Azure to talk to. I feel like the loneliness is going to drive me crazy. ^^ And to think that before coming here, I didn't see any problem with being alone on this island. But that's because I only knew one kind of loneliness: the physical kind. The loneliness I'm facing now is much worse.",//TODO
+	"Mona-s_Diary.Entry_38": "Spring 21 ^^ I finally received a letter from Sandy after so long. I thought she'd forgotten about me. She apologized for not sending more letters and wrote about the last festival that took place in Pelican Town: the Egg Festival. She said that for the first time, they managed to beat Abigail in the egg hunt. And she was the one who did it! ^^ She mentioned it was a shame I wasn't there to see Abigail's face when Lewis announced the winner of the egg hunt. Along with the letter, Sandy sent a cartoon sketch of Abigail's expression. It looked hilarious; it's really a shame I wasn't there to see it. I wrote a letter back to Sandy and gave it to Willy before he left. I let him know my research is practically finished and that I'll probably return to Stardew Valley next Sunday. My research only progressed so quickly because of Azure's help. I have a lot to thank him for. ^^ Speaking of him, today was the first time I saw him leave his room since that day. He was watching the sea. However, when I tried to talk to him, he ran off, just like he used to before we met. I even considered following him, but I figured it'd be better to give him some space. Maybe he needs more time before he can talk to me again. ^^ Knowing I wouldn't receive any more letters from my friends in the Gotoro Empire, combined with the fact I hadn't received any letters from Sandy until today, was making me feel very lonely on this island. And breaking Azure's trust in me made that feeling even worse. He's the only person I have daily contact with; he's the only one I can count on while I'm here. Our disagreement made me feel like I'd lost the only support network I have around here. ^^ Of course, I have friends in the Gotoro Empire and in Stardew Valley, but I can't count on them while I'm here. That's why, even knowing these people care about me and are willing to help however they can, I still feel lonely without Azure by my side. ^^ I hope we can reconcile before I leave the island. However, I believe forcing things isn't the best option: he needs to be willing to forgive me. So I'll give him some space, even though all I want to do is go into that room, give him a hug, and ask for forgiveness.",//TODO
+	"Mona-s_Diary.Entry_39": "Spring 23 ^^ My research is finally done. Now I just have to wait for Willy to come on Sunday so I can leave this island. I'm thrilled it ended so quickly, but I feel like I'm not as happy as I should be. This is my future we're talking about, yet I can't seem to grasp its importance. I think my mind is focused on something else. ^^ This \"something else\" is powerful and has blue skin. He's begun watching me from afar again, just like he did before we met. This morning, while having breakfast, I noticed him standing among some palm trees, observing me. As soon as I noticed, I tried to approach him slowly, but with each step, he moved farther and farther away until he ran off. I wish he wouldn't do that, but just not being locked in that room all day is already such progress. ^^ When I first arrived on this island and realized I was being watched, I felt like prey trying to hide from a predator in its den: no matter how well I tried to hide, I'd be caught at any moment. The sense of danger was constant, and the impossibility of escape made everything worse. But when I decided to face this \"predator\" and get to know him better, I realized he's not a threat to me. ^^ Yes, I know Azure still watches me, but the feeling isn't the same as before. I no longer feel in danger when he observes me, and in a way, I even like it: I feel... strangely comfortable with it. Even though he doesn't talk to me or run away when I notice him, I feel like he's by my side when he does it, and that makes me feel good. ^^ I know it's strange to feel this way about it, especially considering what I went through with Ricky, but what I went through with him isn't the same as what I'm going through with Azure. With Ricky, being watched was a reason to be on alert all the time: he could be anywhere, waiting to do something to me. With Azure, being watched is like having a guardian angel: he stays distant and hidden, only appearing when needed. Being watched by Azure brings me peace, and he's the only person who can make me feel this way. I wouldn't feel like this being watched by anyone else. ^^ However, even though knowing he's watching me brings me comfort, it's not enough: I want him by my side, physically. I want to speak with him face-to-face and ask for forgiveness for not trusting him. Actually, I don't think that's the only reason I want to talk to him. I've stopped talking to many people for similar reasons and never felt this desire to mend things as I do with Azure. I only felt something like this when I fell in love. I think that's what happened: I fell in love with Azure. ^^ I can't believe this happened. How could I fall in love with someone like Azure? He can't leave this island, and no one can know he exists. How would I explain to Willy why I'm visiting the island if I want to see Azure? Will I have to abandon the life I've just built to be by his side? There are so many questions, and the only way to answer them is to talk to Azure. I need to do that, even if he doesn't want to talk to me.",//TODO
 
 	/* ++++++++++++++++++++++++++++++++ */
 
@@ -469,7 +522,7 @@
     "Event-02.MrQiRealNPC.GamblersAdvice.19": "你说得对... 我不知道如果我指责那家伙作弊会发生什么。#我一定是被冲昏了头脑。我在赌场赌博时会更加小心的...",
     "Event-02.MrQiRealNPC.GamblersAdvice.20": "是的，我希望这种事不会再发生，{{NameOrKid}}。",
     "Event-02.MrQiRealNPC.GamblersAdvice.21": "好吧，我通常不会带人进我的房间。你是第一批进来的人之一。#$b#这里有点大，不是吗？#$b#如果你想，你可以看看。#$b#只是别碰我的东西。$u",
-    "Event-02.MrQiRealNPC.GamblersAdvice.22": "你看到那边的门了吗？#$b#你不能进去。无论如何都不行。$u",
+    "Event-02.MrQiRealNPC.GamblersAdvice.22": "Ah, see this door here?#$b#You can't go in. Under any circumstances.$u",//TODO
     "Event-02.MrQiRealNPC.GamblersAdvice.23": "好吧，我会向你介绍一些我的房间，然后你就可以离开了。",
     "Event-02.MrQiRealNPC.GamblersAdvice.24": "齐先生的房间真大！我没想到它这么大。#...#我很好奇他藏在那扇门后面的是什么？",
     "Event-02.MrQiRealNPC.GamblersAdvice.25": "那么？你真的作弊了吗？$u",
@@ -478,6 +531,15 @@
     "Event-02.MrQiRealNPC.GamblersAdvice.28": "卡利科杰克玩家：是的，我明白，齐先生...",
     "Event-02.MrQiRealNPC.GamblersAdvice.29": "很好，我希望不会再听到类似的投诉。$u",
     "Event-02.MrQiRealNPC.GamblersAdvice.30": "你好，{{NameOrKid}}，我希望你在这里不会再遇到作弊者。我总是重视公平竞争。#$e#什么？为什么我有一张双人床，如果我是单身？$u#$b#@，我可能允许你进入我的房间，但我没有允许你问关于我私生活的问题。别太好奇。$u",
+	"Event-02.MrQiRealNPC.GamblersAdvice.31": "This is the kitchen in my room, {{NameOrKid}}.#$b#Well, this isn't just a room; it's actually my house. That's why there are more rooms than just a bedroom.",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.32": "Well, let's continue. Follow me.",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.33": "The noise? Oh, it's the dishwasher. It always makes that sound when it finishes a cycle; no big deal. Why were you so startled by it?$u",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.34": "*Sigh* Let's keep going. You've already been here too long...$u",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.35": "This is my reading space. I spend some time here when I want to relax and unwind.#$b#The books near the armchair are ones I haven't finished reading yet.",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.36": "This is the casino's internal management system. You'd better not look too closely.#$b#We're almost done; only one room left. Come on, {{NameOrKid}}.",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.37": "Well, now we're done. This is my actual bedroom. It's quite spacious.",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.38": "I told you not to touch my things, {{NameOrKid}}. Didn't you hear me?$u",//TODO
+	"Event-02.MrQiRealNPC.GamblersAdvice.39": "I think it's time for you to leave, {{NameOrKid}}. I've shown you enough of my house. Could you please leave now?",//TODO
 
     //共享的秘密（齐先生的4心事件）
     "Event-03.MrQiRealNPC.ASharedSecret.01": "这是你这个月的薪水，桑迪。",
@@ -539,10 +601,10 @@
 	"Event-Fork.MrQiRealNPC.Continue.08": "是的，我知道把这个生物关在这里有点危险，但它非常虚弱。即使它逃走了，它也走不了多远。#$b#所以我只是试图给它一个合适的环境，让它能够勉强生存。",
 	"Event-Fork.MrQiRealNPC.Continue.09": "实际上，这个生物还有一点意识。看看这个。",
 	"Event-Fork.MrQiRealNPC.Continue.10": "齐先生把手放在玻璃上。这个生物慢慢移动，也把手放在玻璃上。",
-	"Event-Fork.MrQiRealNPC.Continue.11": "当我看到那个生物试图在齐先生把手放在玻璃上时握住他的手时，我真的吓坏了！#齐先生向我保证它不会做更多的事情，但这仍然让我害怕！",
-	"Event-Fork.MrQiRealNPC.Continue.12": "在安抚我之后，齐先生向我展示了他的实验室。",
+	"Event-Fork.MrQiRealNPC.Continue.11": "See, {{NameOrKid}}? This alien is conscious and has, to some degree, intelligence.",//TODO
+	"Event-Fork.MrQiRealNPC.Continue.12": "@, what's wrong? Are you feeling something?#$b#You seem a little nervous. Is it because of the alien?$s",//TODO
 	"Event-Fork.MrQiRealNPC.Continue.13": "我在这个工作台上放了一些重要的东西。#$b#你可以看看，{{NameOrKid}}。",
-	"Event-Fork.MrQiRealNPC.Continue.14": "你看着齐先生的实验室工作台，看到一个带有密封盖的金属罐。#上面贴着一张标签，写着“没有防护装备请勿打开”。",
+	"Event-Fork.MrQiRealNPC.Continue.14": "You see a metal pot with a sealed lid on the table where the Stardrop is.#It has a sticker on it that says \\\"Do not open without protective equipment\\\".",//TODO
 	"Event-Fork.MrQiRealNPC.Continue.15": "那个容器里有放射性矿石。这就是为什么它是密封的。",
 	"Event-Fork.MrQiRealNPC.Continue.16": "别担心，它的放射性并不强。#$b#但最好还是避免不必要的暴露。",
 	"Event-Fork.MrQiRealNPC.Continue.17": "这是一张纸，上面用优雅的笔迹写着一些东西。你拿起来读上面的内容。#上面写着：'Qi调味料：增强任何食物的风味，但不能过量使用。^ 成分：^ - 腐烂的星之果实液体；^ - 磨碎的棱光碎片；^ - 磨碎的放射性矿石（少量）；^ - 酸度调节剂。^ 注意：必须生产非放射性变体。'",
@@ -550,7 +612,7 @@
 	"Event-Fork.MrQiRealNPC.Continue.19": "你把那张纸放回原位，但你注意到纸的背面还写了一些东西。",
 	"Event-Fork.MrQiRealNPC.Continue.20": "你翻过纸页，看到上面写的内容。#这是另一种笔迹。上面写着：'“Qi调味料”？真的吗，Azure？这是个好名字，但你可以选个不同的。比如“银河调味料”或“星之调味料”？'",
 	"Event-Fork.MrQiRealNPC.Continue.21": "什么？纸的背面还写了东西？#$b#让我看看。",
-	"Event-Fork.MrQiRealNPC.Continue.22": "齐先生读了上面的内容。他看着纸，没有任何反应。",
+	"Event-Fork.MrQiRealNPC.Continue.22": "Mr. Qi reads what is written. He stares at the paper.",//TODO
 	"Event-Fork.MrQiRealNPC.Continue.23": "嗯？是的，我没事...别担心。这可能只是我写的一张愚蠢的纸条，然后忘记了...",
 	"Event-Fork.MrQiRealNPC.Continue.24": "总之，我想我已经向你介绍了这个地方的足够多的内容了...#$b#你能离开吗？我有很多工作要做。",
 	"Event-Fork.MrQiRealNPC.Continue.25": "但现在？这里还有这么多东西要看！",
@@ -560,6 +622,9 @@
 	"Event-Fork.MrQiRealNPC.Continue.29": "我想知道他看到那张纸条时为什么会那样反应。",
 	"Event-Fork.MrQiRealNPC.Continue.30": "*叹气*",
 	"Event-Fork.MrQiRealNPC.Continue.31": "'银河调味料'...#$b#你真有创意...$s",
+	"Event-Fork.MrQiRealNPC.Continue.32": "Ah, so that's it... @, it's all under control. This alien doesn't do anything beyond that.#$b#I've been taking care of this creature for a long time; I know what it can do. There's no need to be so frightened. Stay calm, okay?",//TODO
+	"Event-Fork.MrQiRealNPC.Continue.33": "Here, {{NameOrKid}}, have some water. It'll help you calm down a bit.",//TODO
+	"Event-Fork.MrQiRealNPC.Continue.34": "Now, let's continue.#$b#If you don't feel well, please let me know, okay?",//TODO
 
 	//详细解释（齐先生的8心事件）
 	"Event-05.MrQiRealNPC.ProperlyExplanations.01": "啊，@，你来了。#$b#我就知道你在读了那封信后会来。",
@@ -1091,6 +1156,194 @@
 	"Event-Fork.MrQiRealNPC.StayOnIsland.02": "现在，我们得想想晚上在哪里过夜...",
 	"Event-Fork.MrQiRealNPC.StayOnIsland.03": "齐先生和我在岛上的农舍过夜。#我希望齐先生睡了个好觉。他睡在一个非常不舒服的地方...",
 
+	//An Invitation (Part 1) (Mister Qi's 10 hearts event if romance route is unlocked)
+	"Event-12.MrQiRealNPC.AnInvitation.01": "Hello, @. Surprised to see me?#$b#I was thinking about inviting you to something tonight. We should spend more time together.",//TODO
+	"Event-12.MrQiRealNPC.AnInvitation.02": "Well, I wanted to invite you to spend the night at my place.$h#$b#I'd like you to sleep with me tonight... What do you think?",//TODO
+	"Event-12.MrQiRealNPC.AnInvitation.03": "So, you're in? Great! Then come to my house after 8 PM.$h#$b#Remember to finish your daily tasks before you go, okay? We'll spend the whole night together.",//TODO
+
+	//An Invitation (Part 2) (Mister Qi's 10 hearts event if romance route is unlocked)
+	"Event-13.MrQiRealNPC.AnInvitationPart2.01": "Hi, @. I was waiting for you! Come on in.$h",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.02": "Well, now we're here together. What do you want to do first, @?",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.03": "Do you want to see my eyes again? Yeah, it's been a while since you've seen them. You didn't even pay much attention to them the first time.#$b#All right, I'll take off my glasses, and then we can do whatever you want.$h",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.04": "Your eyes are so beautiful, Mr. Qi... I can't help but admire them.",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.05": "You should let people see your eyes, Mr. Qi.",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.06": "Haha, it's funny that the only two people who've seen my eyes had the same reaction.$h#$b#I wonder what makes them so special to you, after all?$l",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.07": "It's just that I don't know if it will be a good idea... Only you and Mona have seen my eyes, and you were both amazed by them. Imagine how other people would react.$s#$b#It would draw too much attention, and that's not good for us as Misters Qi. We should always be discreet. The blue skin's already enough of a spotlight...$u",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.08": "However, I can make an exception if you want...$l",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.09": "Look at the time, @! It's almost bedtime, and we haven't done anything yet...#$b#How about we prepare something to eat together? You must be hungry. What do you think?",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.10": "Great, then let's go to the kitchen and prepare something!$h",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.11": "What do you want to eat, @? We can prepare any dish you like!",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.12": "Seriously, any dish at all. Just pick something, and we'll roll up our sleeves and get cooking!",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.13": "So, what do you want to eat?",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.14": "How about spaghetti?",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.15": "What do you think of pizza, Mr. Qi?",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.16": "I'm in the mood for something related to the sea but also spicy... How about Spicy Eel?",//TODO
+	"Event-13.MrQiRealNPC.AnInvitationPart2.17": "Actually, I'm not sure what to eat... What's your favorite dish, Mr. Qi?",//TODO
+
+	//Spaghetti
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.01": "Spaghetti, huh? Alright then. It's a good choice and a dinner classic, too.#$b#I'll get the things we'll need.",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.02": "Okay, everything we need to make spaghetti is here.#$b#Now comes the fun part: cooking!$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.03": "Mr. Qi and I made spaghetti together. It was so much fun!",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.04": "Thank you so much for agreeing to spend tonight with me, @. Making this dish with you was really fun.$h#$b#I enjoy spending time with you. We should do things like this more often.$l",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.05": "Anyway, let's eat. Pasta cools down fast, so it's better to eat it while it's still hot!",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.06": "The spaghetti was delicious, wasn't it, Mr. Qi?",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.07": "Yes, it really was! Truly delicious, actually.$h#$b#Maybe you've made spaghetti my new favorite dish?$l",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpaghettiWithQi.08": "... Forget what I said... Let's keep going. I want to do a few more things before bed.$7",//TODO
+
+	//Pizza
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.01": "Pizza's a great choice, @! It goes really well with relaxed moments like this.$h#$b#I'll get everything we need to make one.",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.02": "Well, we've got everything to make our pizza, @. Let's get our hands dirty, literally!$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.03": "Mr. Qi and I made the pizza together. It was so much fun! Now we just have to wait for it to finish baking!",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.04": "It's ready, @! I'll get it.$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.05": "Looks delicious, doesn't it, @?",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.06": "So, what are we waiting for? Let's slice it!$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.07": "The first slice is for you, @.#$b#The second is mine!$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.08": "Hmm, it's really good! And I don't even like pizza that much!$h#$b#Preparing food with our own hands gives it a different flavor, doesn't it, @?",//TODO
+	"Event-Fork.MrQiRealNPC.CookingPizzaWithQi.09": "Anyway, let's finish eating and do something else. I want to enjoy our night a little more before bed...$h",//TODO
+
+	//Spicy Eel
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.01": "Spicy Eel is a good call! Let's do it!$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.02": "Alright, we have everything we need to make Spicy Eel! Let's get started.$h",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.03": "We both started preparing the dish.",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.04": "Okay, @. We're almost done; we just need to put it in the oven. I'll turn it on, and then you put the dish inside, okay?",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.05": "Mr. Qi went easy on the pepper in this dish. Should I add more?",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.06": "Add more pepper.",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.07": "Keep it as it is.",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.08": "I added more pepper to the dish without Mr. Qi knowing. I hope it wasn't too much...",//TODO
+	"Event-Fork.MrQiRealNPC.CookingSpicyEelWithQi.09": "I left the dish as it is. What if I overdid the pepper?",//TODO
+
+	//Add more pepper to the dish
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.01": "@, you added more pepper to this food, didn't you?",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.02": "What?! Of course not, Mr. Qi!",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.03": "No use lying to me, @. I know you added more pepper here.#$b#Did you forget I can see everything that happens in the world?$8",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.04": "Mr. Qi takes a bottle of milk from the fridge and puts it on the table.",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.05": "Well, I hope you can handle pepper, because I've already put in plenty.$8#$b#Enjoy your meal, if you can handle it.$9",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.06": "It's too spicy!",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.07": "I told you. There was plenty already, but you went ahead and added even more.$a",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.08": "Mr. Qi keeps eating like it's nothing.",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.09": "Hey, give me that bottle!",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.10": "Oh, you wanted the milk? Too bad... It's all gone.$9",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.11": "You're so mean, Mr. Qi!",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.12": "And you're too weak for pepper! Haha!$h#$b#There's more milk in the fridge, @. Just grab it.",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.13": "And now, how are we supposed to eat a dish this spicy?",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.14": "We can use Qi Seasoning. It should take away the extra heat.",//TODO
+	"Event-Fork.MrQiRealNPC.iWantMoreSpicy.15": "Mr. Qi used the seasoning he made on our dishes; now, it's absolutely delicious! Spicy in just the right amount!",//TODO
+
+	//Kept it at it is
+	"Event-Fork.MrQiRealNPC.NormalDish.01": "Looks pretty good, huh, @? I think we make a great team in the kitchen.$h",//TODO
+	"Event-Fork.MrQiRealNPC.NormalDish.02": "Anyway, enjoy your meal!$h",//TODO
+	"Event-Fork.MrQiRealNPC.NormalDish.03": "Hey, I'm not usually a big fan of spicy food, but this dish is really good, isn't it?#$b#It seems that making something together with you makes everything completely different—in a good way.$l",//TODO
+	"Event-Fork.MrQiRealNPC.NormalDish.04": "Anyway, let's finish eating. I want to enjoy more of this night with you.$l",//TODO
+
+	//Qi's Favorite Dish
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.01": "Hmm... My favorite dish is Fried Mushroom. What do you think about making that for dinner?",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.02": "Okay, so let's make Fried Mushroom for dinner! Let's get the things to prepare.#$b#You get the utensils and I'll get the ingredients, okay?",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.03": "Ah, I've always liked Fried Mushroom, but it only became my favorite dish because of the way Mona made it, you know...$l#$b#She had a different way of preparing it. It was so tasty when she made it... I've tried making it her way, but it never tastes the same.$6",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.04": "No, @, it's okay. I still want to make this dish, I think it'll be fun. Let's go ahead.",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.05": "Mr. Qi and I prepared the dish together. It was so much fun!",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.06": "Thank you so much for agreeing to spend this night with me, @. I really enjoy doing things with you.$h#$b#We should do this more often, but I understand that you're very busy and sometimes you might not have time for these things. Sometimes, I don't either.$l",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.07": "Anyway, let's eat before our food gets cold! Enjoy your meal, @.$h",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.08": "Mr. Qi suddenly stops eating. He looks emotional.",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.09": "@... The taste of this dish... It's just like the one Mona used to make...$6#$b#Actually... It's even better! It's delicious.$h",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.10": "I have no idea how we managed to do this... We didn't use Qi Seasoning and followed the recipe exactly. How could the flavor turn out so good?",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.11": "I think that all this time, the different flavor I tasted in this dish was, in fact... a manifestation of love...$l",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.12": "Yeah, I think that's it... Making this dish together really added a different flavor.$l#$b#It's such a unique flavor... I don't think even if I used Qi Seasoning I'd get this result.$h",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.13": "Maybe love is a seasoning that can't be replicated.",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.14": "You always try to find logical explanations to understand what you feel. I think that's cute!",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.15": "Yeah, maybe you're right. It seems that love is so unique it's even above the Misters Qi.$h#$b#And honestly, I'm so happy to be able to experience it again with you...$l",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.16": "Haha... Well... I think this insistence on finding logic in things that sometimes don't have any is rooted in all Misters Qi...$7#$b#I've been trying to change that and accept that not everything needs an explanation, but it's hard to break a habit so deeply ingrained in us.$s",//TODO
+	"Event-Fork.MrQiRealNPC.QisFavoriteDish.17": "Anyway, let's finish eating. I want to do other things before we go to bed.",//TODO
+
+	//Continue the event
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.01": "I usually do a few different things before bed during the week so my routine doesn't get too repetitive, you know?#$b#Today, I was planning to finish a book I started last week. There are several books you can read here, too. You can read one if you like.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.02": "Oh, no! I need to do something in the lab. I have to check {{AlienName}}'s vital signs.#$b#Sorry, @, but I need to go there; it's urgent...",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.03": "No, you don't need to come with me; it won't take long. I'll be right back, okay? You can grab any book to read.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.04": "Mr. Qi enters the lab.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.05": "It looks like this book is Mona's diary.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.06": "You open a random page of her diary.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.07": "\\\"Summer 8: Today, Sandy told me Emily had prepared a surprise for Gus tonight to celebrate his birthday. The whole village could join. Sandy asked if I was going, and I said yes. After all, if everyone was going, why couldn't I?\\\"#\\\"And, of course, I went with Azure. It had been a while since we'd gone out, so I decided to combine business with pleasure. But I think it wasn't a good idea.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.08": "?#Why wasn't it a good idea?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.09": "You continue reading.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.10": "... Happy birthday to you!",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.11": "Aw, guys, you didn't have to do this...$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.12": "And you really thought we'd let your birthday go unnoticed, Gus? No way!$h#$b#You're too special to us! Right, guys?$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.13": "YEEES!",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.14": "Ah, guys, come on... You're gonna make me emotional...$s#$b#Wanna know something? Since you did all this for me, I'll return the favor, too!",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.15": "Free drinks for everyone tonight!$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.16": "WOOHOO!",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.17": "\\\"... After Gus announced free drinks for everyone, Azure and I stepped away from the crowd. He didn't want to be around so many people.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.18": "It's much quieter here, away from that crowd and noise.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.19": "C'mon, Azure, it's not that many people, right?$h#$b#But I agree—they are pretty noisy!",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.20": "By the way, have you decided what you're going to drink, Mona?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.21": "Honestly, I'm not planning to drink anything tonight. I need to keep working on my thesis tomorrow morning, so I don't want a hangover.$s#$b#Maybe I'll have a soda; I don't know... But what about you? Are you thinking of drinking?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.22": "Yeah, I was thinking about getting something to drink—just to taste it again, you know?#$b#It's been so long since I drank that I've forgotten the taste. It's been almost twelve years since I last drank alcohol.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.23": "Wow, twelve years? That's a long time! I hope you're not planning to make up for those twelve dry years tonight! Hahaha!$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.24": "Hahaha, very funny... I know how to control myself. You won't be leaving here with a drunk.$u",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.25": "Okay, if you say so, then it's settled, Mr. Self-Control.$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.26": "Want me to get you something?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.27": "Spaghetti, please!",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.28": "\\\"Telling him not to overdo it with the drinks was completely pointless; it went in one ear and out the other. He started feeling sick after a few drinks. For someone who hadn't drunk in so long, it was much more than I expected.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.29": "Azure, are you okay? Don't you think you've had enough?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.30": "I didn't drink too much... just four drinks...$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.31": "Four drinks is already a lot, Azure. It's been over ten years since you last drank, remember?#$b#Do you want to go home? We can leave. I just wanted to stop by here.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.32": "Yeah, maybe I overdid it a little... Can we go home? I'm getting sleepy...$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.33": "Of course, let's go home. Come here, hold my hand. I'll help you up.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.34": "Mona! What happened to Azure? Is he okay?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.35": "Oh, hi, Sandy. He drank too much, so I'm taking him home to rest.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.36": "I didn't drink too much... I already said...",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.37": "Got it. Do you need help? I can give you a ride.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.38": "Of course! Any help is welcome!$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.39": "\\\"With Sandy's help, I took Azure back home. It's great having her as a friend.\\\"#\\\"Anyway, taking care of drunk Azure was... different from what I was used to.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.40": "C'mon, Azure! Get up! You're better off in bed!$a",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.41": "The bedroom floor's so nice and cool, love. C'mere, stay with me... just a little while, okay? Please...$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.42": "Ugh, Azure, seriously?! You need to rest...$a",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.43": "Pretty please?...",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.44": "Okay, okay... I will. No need to beg like that...$7",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.45": "See? Isn't the floor cold? Feels nice, right?$h",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.46": "Yeah, it is pretty cold...",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.47": "\\\"He got all goofy—laughing for no reason, talking softly... It seems like the alcohol brought out a side of him I never imagined he had.\\\"#\\\"Honestly, I couldn't resist when he gave me that puppy-dog look, begging me to lie down on the floor with him... It was so cute!\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.48": "\\\"After we lay there for a while, he let me take him to bed to sleep.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.49": "Good night, Azure.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.50": "Good night, my love...$l",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.51": "\\\"Before I could leave the room, he called me again.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.52": "Mona...$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.53": "What is it, Azure?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.54": "I'm getting hot...",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.55": "*Sigh* Okay, I'll help you. I forgot you sweat a lot at night... Sorry.$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.56": "\\\"I thought he wouldn't even feel hot, given how drunk he was, but I was wrong...\\\"#\\\"When I left the room, I found myself laughing. I never imagined I'd see him in such a... vulnerable way. He didn't even seem like the same Azure I met on Ginger Island.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.57": "\\\"About fifteen minutes after I left him sleeping, he showed up in the living room in just his underwear—the same way he'd gone to bed. He got up and went straight to the living room.\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.58": "Azure, what are you doing? I thought you were already asleep. Did something happen?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.59": "Azure, why aren't you saying anything? Are you sleepwalking?$a",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.60": "\\\"He put on some music, held my hand, lifted me off the sofa, and pulled me close to him. He didn't seem to be sleepwalking; he was looking me in the eyes. I tried asking again...\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.61": "What are you doing, Azure?$l",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.62": "\\\"When I asked again, he seemed to hear me. Then he said...\\\"",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.63": "Earth to @, Earth to @. Can you hear me?$a",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.64": "Looks like your reading was pretty immersive, huh? You didn't even notice when I came back.#$b#What were you reading, huh?$8",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.65": "Oh, an entry from Mona's diary? I see...#$b#Which entry were you on? Can I see?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.66": "You give the diary to Mr. Qi.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.67": "Oh, it's the entry from Gus's birthday...$7",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.68": "Mr. Qi looks visibly embarrassed.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.69": "She didn't have to write those... things in her diary.$7#$b#She only did it because she knew I wouldn't break my promise not to see her writing the entries with the extra-physical representation...$7#$b#I would never have allowed her to write that stuff... It's embarrassing.$a",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.70": "I don't get it. Why does that embarrass you, Mr. Qi? You were just drunk. From what I read, you were being pretty romantic.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.71": "That's because you didn't read the whole thing, and thankfully you didn't... I wouldn't have anywhere to hide my face if you'd read everything she wrote here.$7",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.72": "@, I know you want to ask something. What do you want to know? Go ahead.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.73": "While I was reading, I was imagining the whole scene. You interrupted me at the part where you pulled Mona close after waking up...#She wrote that you said something, but I couldn't read it. What did you say to her?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.74": "Oh, that part where I went to the living room minutes after she put me to bed?#$b#Well, I said I wanted to dance with her, so we did. Then I fell asleep in her arms. That's what happened.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.75": "What will I do with this diary? Honestly, I don't know.#$b#I wanted it to be kept so it could be read by future Misters Qi, so they could better know the person who was responsible for changing our entire history.#$b#But at the same time, there are things here I didn't want anyone to read—not even me.$7",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.76": "Why don't you keep this diary just for yourself and no one else? Your word should be enough for the future Misters Qi, right?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.77": "Why don't you write a book about her importance to the Misters Qi and keep the diary for yourself?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.78": "Yes, you're right. It's not necessary to leave this diary for future Misters Qi to read. What matters to us about her story is safe with me. I won't forget.$h#$b#But one thing I know: you really want to read the rest of this entry, don't you, @?",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.79": "Well, you can keep wanting. I don't want you reading the rest of this entry.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.80": "Mr. Qi uses magic and erases the rest of the entry from Summer 8.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.81": "Hey, that's a great idea, @! I can write down everything important and leave out the irrelevant details.$h#$b#I don't know how I didn't think of that before. Actually, I did, but I didn't think it would be necessary.#$b#Now that I've seen what Mona wrote in this entry, I realize that if I want future Misters Qi to know her story, I'll have to rewrite it myself.#$b#There's a lot of irrelevant stuff for us here.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.82": "Oh, and I'll erase the rest of this entry, too. I know you read Mona's diary occasionally, and I don't want you reading the rest of this entry.#$b#I'll leave only what you've already read.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.83": "Wow, it's really late already... I was thinking of doing one more thing before bed, but I don't think we'll have time.$s#$b#The problem {{AlienName}} faced took longer to solve than I expected...$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.84": "You know, @... When I invited you to spend the night with me, I wanted to spend more time by your side and do things together.#$b#Making dinner with you was really fun, but then I had to go to my lab to solve a problem...#$b#I could have asked you to come along, but I thought it would be quick, so I didn't even think to ask.$s#$b#In the end, I spent more time away from you than with you. Even after inviting you over, I still managed to find a way to distance myself...$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.85": "I know it was important and couldn't wait... but, you know, would it have hurt to ask if you wanted to come with me?#$b#This habit of focusing only on responsibilities sometimes makes me distance myself from the people I love without even realizing it...$s#$b#Sadly, it's a trait all Misters Qi share. After all, we've spent generations living solely to fulfill our mission and nothing else.#$b#I'm the first Mister Qi to have a life parallel to our mission. Breaking a generational habit is hard.$s#$b#I've been trying to change that for us, but sometimes it's tough.$s",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.86": "What I'm trying to say is that even though we haven't done many romantic things together, I cherish the few moments we've shared and every conversation we've had since you decided to help me.$l#$b#And I want you to know that even if I don't always show it through actions, I love you very much, @.$l",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.87": "Now, let's go to sleep. It's very late, and you need to wake up early tomorrow to take care of your farm.$h#$b#You know what, @? Starting today, you don't need to enter here before Sandy's shop closes anymore. You can come in anytime you want.",//TODO
+	"Event-Fork.MrQiRealNPC.AnInvitationPart2_Continue.88": "Good night, {{PlayerName}}.",//TODO
+
 	/* ++++++++++++++++++ */
 
 	/* +++++|额外内容|+++++ */
@@ -1098,6 +1351,12 @@
 	//齐先生的表现形式名称
 	"Extras.MrQiSemiPhysicalName": "半物理齐", 
 	"Extras.MrQiExtraPhysicalName": "超物理齐",
+
+	//Mona Name Translation
+	"Extras.MonaName": "Mona",//TODO
+
+	//Bouncer Translation Name
+	"Extras.Bouncer.Name": "Bouncer",//TODO
 
 	/* ++++++++++++++++++ */
 }

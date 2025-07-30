@@ -184,6 +184,11 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Qi}}",
             "Entries": {
+                //Special Dialogues
+                "AcceptBouquet": "{{i18n:Qi.Dialogue.AcceptBouquet}}",
+                "RejectBouquet": "{{i18n:Qi.Dialogue.RejectBouquet}}",
+                "breakUp": "{{i18n:Qi.Dialogue.breakUp}}",
+                "WipedMemory": "{{i18n:Qi.Dialogue.WipedMemory}}",
 
                 //Flower Dance Dance Invite Dialogues
                 "FlowerDance_Accept": "{{i18n:FestivalDialogue.Qi.spring24-DanceAccept}}",
@@ -234,6 +239,15 @@
                 "Fri8": "{{i18n:Qi.Dialogue.Fri8-RomanceableQi}}",
                 "Sat8": "{{i18n:Qi.Dialogue.Sat8-RomanceableQi|AlienName={{AlienName}}}}",
                 "Sun8": "{{i18n:Qi.Dialogue.Sun8-RomanceableQi}}",
+
+                //10 Hearts
+                "Mon10": "{{i18n:Qi.Dialogue.Mon10-RomanceableQi}}",
+                "Tue10": "{{i18n:Qi.Dialogue.Tue10-RomanceableQi}}",
+                "Wed10": "{{i18n:Qi.Dialogue.Wed10-RomanceableQi}}",
+                "Thu10": "{{i18n:Qi.Dialogue.Thu10-RomanceableQi}}",
+                "Fri10": "{{i18n:Qi.Dialogue.Fri10-RomanceableQi|AlienName={{AlienName}}}}",
+                "Sat10": "{{i18n:Qi.Dialogue.Sat10-RomanceableQi}}",
+                "Sun10": "{{i18n:Qi.Dialogue.Sun10-RomanceableQi}}"
             },
             "When": {
                 "HasFlag": "RomanceableQiRoute"

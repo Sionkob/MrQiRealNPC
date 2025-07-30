@@ -4,7 +4,7 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Default",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Mister Qi",
+            "Target": "Characters/Dialogue/{{NGQi}}",
             "Entries": {
                 "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue}}",
@@ -19,7 +19,7 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Seen 8 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Mister Qi",
+            "Target": "Characters/Dialogue/{{NGQi}}",
             "Entries": {
                 "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon-SeenQi8heartsEvent}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-SeenQi8heartsEvent}}",
@@ -37,13 +37,46 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Seen Mr. Qi's 4 hearts event in the romance route",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Mister Qi",
+            "Target": "Characters/Dialogue/{{NGQi}}",
             "Entries": {
-                "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-RomanceableQi}}",
+                "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-RomanceableQi}}"
             },
             "When": {
                 "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
             }
+        },
+        //Non Giftable Mister Qi Dialogue (If you're dating Giftable Mr. Qi)
+        {
+            "LogName": "Non Giftable Mister Qi Dialogue - Dating Romanceable Qi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Entries": {
+                "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon-DatingQi}}",
+                "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-DatingQi}}",
+                "Wed": "{{i18n:MrQiNutRoom.Dialogue.Wed-DatingQi}}",
+                "Thu": "{{i18n:MrQiNutRoom.Dialogue.Thu-DatingQi}}",
+                "Fri": "{{i18n:MrQiNutRoom.Dialogue.Fri-DatingQi}}",
+                "Sat": "{{i18n:MrQiNutRoom.Dialogue.Sat-DatingQi}}",
+                "Sun": "{{i18n:MrQiNutRoom.Dialogue.Sun-DatingQi}}"
+            },
+            "When": {
+                "Relationship:{{Qi}}": "Dating"
+            }
+        },
+        //Non Giftable Mister Qi tries to tell what happened in Summer 8 after Mr. Qi's 10 hearts event in romance route
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Entries": {
+                "Mon": "{{i18n:MrQiNutRoom.Dialogue.Attempt1}}",
+                "Tue": "{{i18n:MrQiNutRoom.Dialogue.Attempt2}}",
+                "Wed": "{{i18n:MrQiNutRoom.Dialogue.Attempt3}}",
+                "Thu": "{{i18n:MrQiNutRoom.Dialogue.Attempt4}}",
+                "Fri": "{{i18n:MrQiNutRoom.Dialogue.Attempt5}}"
+            },
+            "When": {
+                "HasConversationTopic |contains=SemiPhysicalTrytoReveal": true
+            },
         }
     ]
 }

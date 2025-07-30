@@ -13,7 +13,11 @@
                 "Custom_MrQiReal_QiRoom.6": "{{i18n:MapString.QiRoom.6}}",
                 "Custom_MrQiReal_QiRoom.7": "{{i18n:MapString.QiRoom.7}}",
                 "Custom_MrQiReal_QiRoom.8": "{{i18n:MapString.QiRoom.8}}",
-                //"Custom_MrQiReal_QiRoom.9": "{{i18n:MapString.QiRoom.9}}",
+                "Custom_MrQiReal_QiRoom.9": "{{i18n:MapString.QiRoom.9}}",
+                "Custom_MrQiReal_QiRoom.10": "{{i18n:MapString.QiRoom.10}}",
+                "Custom_MrQiReal_QiRoom.11": "{{i18n:MapString.QiRoom.11}}",
+                "Custom_MrQiReal_QiRoom.12": "{{i18n:MapString.QiRoom.12}}",
+                "Custom_MrQiReal_QiRoom.13": "{{i18n:MapString.QiRoom.13}}",
                 "Custom_MrQiReal_QiLab.1": "{{i18n:MapString.QiLab.1}}",
                 "Custom_MrQiReal_QiLab.2": "{{i18n:MapString.QiLab.2}}",
                 "Custom_MrQiReal_QiLab.3": "{{i18n:MapString.QiLab.3}}",
@@ -23,7 +27,10 @@
                 "Custom_MrQiReal_QiLab.7": "{{i18n:MapString.QiLab.7}}",
                 "Custom_MrQiReal_QiLab.8": "{{i18n:MapString.QiLab.8}}",
                 "Custom_MrQiReal_QiLab.9": "{{i18n:MapString.QiLab.9}}",
-                "Custom_MrQiReal_QiLab.10": "{{i18n:MapString.QiLab.10}}"
+                "Custom_MrQiReal_QiLab.10": "{{i18n:MapString.QiLab.10}}",
+                "Custom_MrQiReal_QiMiniLab.1": "{{i18n:MapString.QiMiniLab.1}}",
+                "Custom_MrQiReal_QiMiniLab.2": "{{i18n:MapString.QiMiniLab.2}}",
+                "Custom_MrQiReal_QiMiniLab.3": "{{i18n:MapString.QiMiniLab.3}}"
             }
         },
         //Mona's Diary Entries
@@ -32,7 +39,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "MrQiRealNPC_MonasDiary": "[letterbg 1][textcolor black]{{i18n:Mona-s_Diary.Entry_{{Random:{{Range: 1, 30}}}}}}"
+                "MrQiRealNPC_MonasDiary": "[letterbg 1][textcolor black]{{i18n:Mona-s_Diary.Entry_{{Random:{{Range: 1, 39}}}}}}"
             },
             "When": {
                 "HasSeenEvent": "07.MrQiRealNPC.ARestart"

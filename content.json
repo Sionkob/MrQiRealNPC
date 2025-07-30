@@ -1,5 +1,5 @@
 {
-    "Format": "2.3.0",
+    "Format": "2.6.0",
     "ConfigSchema": {
         "Kid_or_Name": {
             "AllowValues": "Name, Kid",
@@ -25,6 +25,10 @@
         {
             "Name": "Qi",
             "Value": "{{ModID}}-Qi"
+        },
+        {
+            "Name": "NGQi",
+            "Value": "{{ModID}}-NonGiftableQi"
         },
         {
             "Name": "AlienName",
@@ -81,7 +85,7 @@
         //Non-giftable Mr.Qi's Dialogue
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/Mister Qi",
+            "Target": "Characters/Dialogue/{{NGQi}}",
             "FromFile": "Data/Empty.json"
         },
         {
@@ -117,6 +121,11 @@
         {
             "Action": "Include",
             "FromFile": "Data/Strings/MapStrings.json"
+        },
+        //Generic Strings
+        {
+            "Action": "Include",
+            "FromFile": "Data/Strings/StringsFromCSFiles.json"
         },
         //Events
         {
@@ -183,50 +192,72 @@
         },
         //Map Edits
         {
-            "LogName": "Add Map Warps",
+            "LogName": "Extend Casino Map",
             "Action": "EditMap",
             "Target": "Maps/Club",
-            "FromFile": "Assets/Maps/Club.tmx",
-            "AddWarps": [
-                "33 60 Custom_MrQiReal_QiRoom 1 0",
-                "34 60 Custom_MrQiReal_QiRoom 1 0",
-                "8 60 SandyHouse 17 2"
-            ]
+            "FromFile": "Assets/Maps/ClubExtension.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 10, "Height": 14 },
+            "ToArea": { "X": 27, "Y": 0, "Width": 10, "Height": 14 },
+            "PatchMode": "Replace"
         },
         {
-            "LogName": "Add Map Warps",
+            "LogName": "Casino Map Warps",
             "Action": "EditMap",
-            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "Target": "Maps/Club",
             "AddWarps": [
-                "12 13 Custom_MrQiReal_QiLab 9 0"
-            ]
-        },
-        {
-            "LogName": "Remove Invisible Wall Having 6 Hearts",
-            "Action": "EditMap",
-            "Target": "Maps/Custom_MrQiReal_QiRoom",
+                "35 4 Custom_MrQiReal_QiRoom 26 27"
+            ],
+            "MapProperties": {
+                "Doors": "35 7 z_interior 120"
+            },
             "MapTiles": [
                 {
-                    "Layer": "Back",
-                    "Position": { "X": 12, "Y": 12 },
+                    "Layer": "Buildings",
+                    "Position": { "X": 35, "Y": 7 },
                     "SetProperties": {
-                        "Passable": "true"
+                        "Action": "Door {{Qi}}"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Bouncer prevents you from entering Mr. Qi's room",
+            "Action": "EditMap",
+            "Target": "Maps/Club",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 35, "Y": 7 },
+                    "SetProperties": {
+                        "Action": "NPCMessage {{ModID}}-Bouncer \"Strings\\StringsFromCSFiles:{{ModID}}.NoEnter\""
                     }
                 }
             ],
             "When": {
-                "Hearts:{{Qi}}": "{{Range: 0, 5}}",
-                "LocationName": "Club, Custom_MrQiReal_QiRoom",
-                "HasFlag |contains=RomanceableQiRoute": "false"
+                "Query: {{Hearts:{{Qi}}}} < 2": true,
+                "LocationName": "SandyHouse, Club"
             },
             "Update": "OnLocationChange"
         },
         {
-            "LogName": "Add Map Warps",
+            "LogName": "Qi Room Map Edits",
             "Action": "EditMap",
-            "Target": "Maps/SandyHouse",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
             "AddWarps": [
-                "17 1 Club 8 59"
+                "11 8 Custom_MrQiReal_QiLab 9 23",
+                "26 28 Club 35 5"
+            ],
+            "MapProperties": {
+                "Doors": "11 10 1 120"
+            },
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 11, "Y": 10 },
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
             ]
         },
         {
@@ -236,14 +267,14 @@
             "MapTiles": [
                 {
                     "Layer": "Buildings",
-                    "Position": { "X": 23, "Y": 4 },
+                    "Position": { "X": 25, "Y": 5 },
                     "SetProperties": {
                         "Action": null
                     } 
                 },
                 {
                     "Layer": "Buildings",
-                    "Position": { "X": 23, "Y": 4 },
+                    "Position": { "X": 25, "Y": 5 },
                     "SetProperties": {
                         "Action": "Letter MrQiRealNPC_MonasDiary"
                     }
@@ -253,10 +284,86 @@
                 "HasSeenEvent": "07.MrQiRealNPC.ARestart"
             }
         },
+        {
+            "LogName": "Lock laboratory door",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 11, "Y": 10 },
+                    "SetProperties": {
+                        "Action": "ConditionalDoor PLAYER_HEARTS Current {{Qi}} 6"
+                    }
+                },
+                {
+                    "Layer": "Back",
+                    "Position": { "X": 11, "Y": 10 },
+                    "SetProperties": {
+                        "TouchAction": "ConditionalDoor PLAYER_HEARTS Current {{Qi}} 6"
+                    }
+                },
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 11, "Y": 10 },
+                    "SetProperties": {
+                        "LockedDoorMessage": "Strings\\\\StringsFromCSFiles:{{ModID}}.QiLabDoor"
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag| contains=RomanceableQiRoute": "false",
+                "LocationName": "Club, Custom_MrQiReal_QiRoom"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Sleep on Mr. Qi's bed if dating with him",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom",
+            "MapTiles": [
+                {
+                    "Layer": "Back",
+                    "Position": { "X": 21, "Y": 5 },
+                    "SetProperties": {
+                        "Bed": "T",
+                        "TouchAction": "Sleep"
+                    }
+                }
+            ],
+            "When": {
+                "Relationship:{{Qi}}": "Dating"
+            }
+        },
+        {
+            "LogName": "Always open Oasis",
+            "Action": "EditMap",
+            "Target": "Maps/Desert",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 6, "Y": 51 },
+                    "SetProperties": {
+                        "Action": null
+                    }
+                },
+                {
+                    "Layer": "Buildings",
+                    "Position": { "X": 6, "Y": 51 },
+                    "SetProperties": {
+                        "Action": "Warp 4 9 SandyHouse"
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag": "{{ModID}}-AlwaysOpenOasis"
+            }
+        },
         //Custom Locations
         {
+            "LogName": "Load Maps",
             "Action": "Load",
-            "Target": "Maps/Custom_MrQiReal_QiRoom, Maps/Custom_MrQiReal_QiLab, Maps/MrQiReal-IslandCave_pirates, Maps/MrQiReal_EmptyMap",
+            "Target": "Maps/Custom_MrQiReal_QiRoom, Maps/Custom_MrQiReal_QiLab, Maps/MrQiReal-IslandCave_pirates, Maps/MrQiReal_EmptyMap, Maps/Custom_MrQiReal_QiSpouseRoom, Maps/Custom_MrQiReal_QiSpousePatio, Maps/Custom_MrQiReal_QiMiniLab",
             "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
         },
         {
@@ -267,8 +374,8 @@
                 "Custom_MrQiReal_QiRoom": {
                     "DisplayName": "{{i18n:Location.QiRoom}}",
                     "DefaultArrivalTile": {
-                        "X": 1, 
-                        "Y": 0
+                        "X": 26, 
+                        "Y": 27
                     },
                     "CreateOnLoad": {
                         "MapPath": "Maps/Custom_MrQiReal_QiRoom"
@@ -278,10 +385,20 @@
                     "DisplayName": "{{i18n:Location.QiLab}}",
                     "DefaultArrivalTile": {
                         "X": 9,
-                        "Y": 0
+                        "Y": 22
                     },
                     "CreateOnLoad": {
                         "MapPath": "Maps/Custom_MrQiReal_QiLab"
+                    }
+                },
+                "Custom_MrQiReal_QiMiniLab": {
+                    "DisplayName": "{{i18n:Location.QiMiniLab}}",
+                    "DefaultArrivalTile": {
+                        "X": 4,
+                        "Y": 10
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_MrQiReal_QiMiniLab"
                     }
                 }
             }

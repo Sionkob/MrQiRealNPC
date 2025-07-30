@@ -6,11 +6,11 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Qi}}",
             "Entries": {
-                "spring": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
-                "summer": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
-                "fall": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1300 Desert 27 53 1/1700 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
-				"fall_15": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
-                "winter": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:3 11 0, 5 11 0, 11 7 0, 13 7 0, 6 7 0, 9 9 3}}/2000 Custom_MrQiReal_QiLab 29 3 1/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep"
+                "spring": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+                "summer": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+                "fall": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1300 Desert 27 53 1/1700 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 24 8 1/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+				"fall_15": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 24 8 1/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+                "winter": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep"
             }
         },
         //After Seeing Mister Qi's 6 Heart Event
@@ -19,8 +19,8 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Qi}}",
             "Entries": {
-                "winter_28": "0 Custom_MrQiReal_QiRoom 22 5 0/1200 SandyHouse 4 4 2/1800 Desert 2 51 2/2000 Desert 9 34 2/2300 Town 47 88 0 {{Lowercase:Qi}}_staring \"Strings\\schedules\\{{Qi}}:Winter28\"",
-                "NightMarket_3": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1500 SandyHouse 4 4 2/2100 Beach 55 6 \"Strings\\schedules\\{{Qi}}:BeachMarket\""
+                "winter_28": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Custom_MrQiReal_QiRoom 6 20 0/840 Custom_MrQiReal_QiRoom 23 23 0/1200 SandyHouse 4 4 2/1800 Desert 2 51 2/2000 Desert 9 34 2/2300 Town 47 88 0 {{Lowercase:Qi}}_staring \"Strings\\schedules\\{{Qi}}:Winter28\"",
+                "NightMarket_3": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1500 SandyHouse 4 4 2/2100 Beach 55 6 \"Strings\\schedules\\{{Qi}}:BeachMarket\""
             },
             "When": {
                 "HasSeenEvent": "04.MrQiRealNPC.TheMrQisLab"
@@ -32,10 +32,10 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Qi}}",
             "Entries": {
-                "spring_Wed": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Desert 2 51 2/900 Town 64 100 2/1300 Mountain 30 9 3/1630 Club 8 50 0 {{Lowercase:Qi}}_staring/2050 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/2420 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
+                "spring_Wed": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Desert 2 51 2/900 Town 64 100 2/1300 Mountain 30 9 3/1630 Club 8 4 0 {{Lowercase:Qi}}_staring/2050 Custom_MrQiReal_QiLab 4 21 0 {{Lowercase:Qi}}_staring/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
                 "Wed": "GOTO spring",
-                "Fri": "0 Custom_MrQiReal_QiRoom 22 5 0/1100 Club 8 50 0 {{Lowercase:Qi}}_staring/1340 Forest 34 25 2/1800 WizardHouse 4 17 2/2030 Saloon 27 23 3/2440 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
-                "Sun": "0 Custom_MrQiReal_QiRoom 22 5 0/700 Club 8 50 0 {{Lowercase:Qi}}_staring/1200 Beach 12 39 2/1800 Beach 28 4 2/2000 Saloon 27 23 3/2310 Custom_MrQiReal_QiRoom 20 4 2 {{Lowercase:Qi}}_sleep",
+                "Fri": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Custom_MrQiReal_QiRoom 23 23 0/1100 Club 8 4 0 {{Lowercase:Qi}}_staring/1340 Forest 34 25 2/1800 WizardHouse 4 17 2/2030 Saloon 27 23 3/2440 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+                "Sun": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1200 Beach 12 39 2/1800 Beach 28 4 2/2000 Saloon 27 23 3/2310 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
                 "DesertFestival_3": "GOTO spring"
             },
             "When": {
