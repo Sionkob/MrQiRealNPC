@@ -64,6 +64,13 @@
             "When": {
                 "HasFlag": "AlienNameOption5"
             }
+        },
+        {
+            "Name": "AlienName",
+            "Value": "{{i18n:AlienNameToken.FallbackValue}}",
+            "When": {
+                "HasFlag |contains=AlienNameOption1, AlienNameOption2, AlienNameOption3, AlienNameOption4, AlienNameOption5": "false"
+            }
         }
     ],
     "Changes": [
@@ -75,17 +82,27 @@
         //Mr. Qi's Dialogue
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "FromFile": "Data/Empty.json"
         },
         {
             "Action": "Include",
             "FromFile": "Data/Dialogue/Qi.json"
         },
+        //Mr. Qi's Marriage Dialogue
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogue{{ModID}}-Qi",
+            "FromFile": "Data/Empty.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/MarriageDialogueQi.json"
+        },
         //Non-giftable Mr.Qi's Dialogue
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "FromFile": "Data/Empty.json"
         },
         {
@@ -100,7 +117,7 @@
         //Schedule
         {
             "Action": "Load",
-            "Target": "Characters/schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{ModID}}-Qi",
             "FromFile": "Data/Empty.json"
         },
         {
@@ -110,7 +127,7 @@
         //Schedule Strings
         {
             "Action": "Load",
-            "Target": "Strings/schedules/{{Qi}}",
+            "Target": "Strings/schedules/{{ModID}}-Qi",
             "FromFile": "Data/Empty.json"
         },
         {
@@ -173,8 +190,8 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "{{Lowercase:Qi}}_staring": "20/20/20",
-                "{{Lowercase:Qi}}_sleep": "51/51/51"
+                "sionkob.mrqireal-qi_staring": "20/20/20",
+                "sionkob.mrqireal-qi_sleep": "51/51/51"
             }
         },
         //Temporary Actors for Events
@@ -215,7 +232,7 @@
                     "Layer": "Buildings",
                     "Position": { "X": 35, "Y": 7 },
                     "SetProperties": {
-                        "Action": "Door {{Qi}}"
+                        "Action": "Door {{ModID}}-Qi"
                     }
                 }
             ]
@@ -234,7 +251,7 @@
                 }
             ],
             "When": {
-                "Query: {{Hearts:{{Qi}}}} < 2": true,
+                "Query: {{Hearts:{{ModID}}-Qi}} < 2": true,
                 "LocationName": "SandyHouse, Club"
             },
             "Update": "OnLocationChange"
@@ -293,14 +310,14 @@
                     "Layer": "Buildings",
                     "Position": { "X": 11, "Y": 10 },
                     "SetProperties": {
-                        "Action": "ConditionalDoor PLAYER_HEARTS Current {{Qi}} 6"
+                        "Action": "ConditionalDoor PLAYER_HEARTS Current {{ModID}}-Qi 6"
                     }
                 },
                 {
                     "Layer": "Back",
                     "Position": { "X": 11, "Y": 10 },
                     "SetProperties": {
-                        "TouchAction": "ConditionalDoor PLAYER_HEARTS Current {{Qi}} 6"
+                        "TouchAction": "ConditionalDoor PLAYER_HEARTS Current {{ModID}}-Qi 6"
                     }
                 },
                 {
@@ -332,7 +349,7 @@
                 }
             ],
             "When": {
-                "Relationship:{{Qi}}": "Dating"
+                "Relationship:{{ModID}}-Qi": "Dating"
             }
         },
         {
@@ -356,7 +373,40 @@
                 }
             ],
             "When": {
-                "HasFlag": "{{ModID}}-AlwaysOpenOasis"
+                "HasFlag |contains={{ModID}}-AlwaysOpenOasis": "true"
+            }
+        },
+        {
+            "LogName": "Fix Mr. Qi's mini lab map warp depending on the vanilla farm type - Default for most farm types",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiMiniLab",
+            "MapProperties": {
+                "Warp": "4 11 Farm 70 10"
+            },
+            "When": {
+                "FarmMapAsset": "Farm, Farm_Mining, Farm_Combat, Farm_Fishing, Farm_Foraging, Farm_FourCorners"
+            }
+        },
+        {
+            "LogName": "Fix Mr. Qi's mini lab map warp depending on the vanilla farm type - For Meadowlands farm",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiMiniLab",
+            "MapProperties": {
+                "Warp": "4 11 Farm 89 9"
+            },
+            "When": {
+                "FarmMapAsset": "Farm_Ranching"
+            }
+        },
+        {
+            "LogName": "Fix Mr. Qi's mini lab map warp depending on the vanilla farm type - For Beach farm",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MrQiReal_QiMiniLab",
+            "MapProperties": {
+                "Warp": "4 11 Farm 80 6"
+            },
+            "When": {
+                "FarmMapAsset": "Farm_Island"
             }
         },
         //Custom Locations

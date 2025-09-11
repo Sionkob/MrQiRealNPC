@@ -31,7 +31,7 @@
         },
         //Sandy comments about Mister Qi (after seeing Mr. Qi 8 hearts event)
         {
-            "LogName": "Sandy Dialogue Changes - Seen 8 Hearts Even",
+            "LogName": "Sandy Dialogue Changes - Seen 8 Hearts Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {

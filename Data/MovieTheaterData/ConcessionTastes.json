@@ -6,8 +6,8 @@
             "Action": "EditData",
             "Target": "Data/ConcessionTastes",
             "Entries": {
-                "{{Qi}}": {
-                    "Name": "{{Qi}}",
+                "{{ModID}}-Qi": {
+                    "Name": "{{ModID}}-Qi",
                     "LovedTags": [
                         "Gourmet",
                         "Cold",

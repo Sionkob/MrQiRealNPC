@@ -3,10 +3,18 @@
         //Schedule Strings
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/{{Qi}}",
+            "Target": "Strings/schedules/{{ModID}}-Qi",
             "Entries": {
                 "Winter28": "{{i18n:ScheduleStrings.Qi.Winter28}}",
-                "BeachMarket": "{{i18n:ScheduleStrings.Qi.BeachMarket}}"
+                "BeachMarket": "{{i18n:ScheduleStrings.Qi.BeachMarket}}",
+                "BeachMarket_marriage": "{{i18n:ScheduleStrings.Qi.BeachMarket_marriage}}",
+                "DesertFestival_Day1_marriage": "{{i18n:ScheduleStrings.Qi.DesertFestival_Day1_marriage}}",
+                "DesertFestival_Day2_marriage": "{{i18n:ScheduleStrings.Qi.DesertFestival_Day2_marriage}}",
+                "DesertFestival_Day3_marriage": "{{i18n:ScheduleStrings.Qi.DesertFestival_Day3_marriage}}",
+                "TroutDerby_marriage": "{{i18n:ScheduleStrings.Qi.TroutDerby_marriage}}",
+                "SquidFest_marriage": "{{i18n:ScheduleStrings.Qi.SquidFest_marriage}}",
+                "Winter28_marriage.1": "{{i18n:ScheduleStrings.Qi.Winter28_marriage.1}}",
+                "Winter28_marriage.2": "{{i18n:ScheduleStrings.Qi.Winter28_marriage.2}}"
             }
         }
     ]

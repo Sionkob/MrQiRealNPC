@@ -4,23 +4,23 @@
         {
             "LogName": "Schedules - Default",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{ModID}}-Qi",
             "Entries": {
-                "spring": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
-                "summer": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
-                "fall": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1300 Desert 27 53 1/1700 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 24 8 1/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
-				"fall_15": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 24 8 1/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
-                "winter": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1600 Custom_MrQiReal_QiLab 14 14 0 {{Lowercase:Qi}}_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep"
+                "spring": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1600 Custom_MrQiReal_QiLab 14 14 0 sionkob.mrqireal-qi_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
+                "summer": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1600 Custom_MrQiReal_QiLab 14 14 0 sionkob.mrqireal-qi_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
+                "fall": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1300 Desert 27 53 1/1700 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 24 8 1/2420 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
+				"fall_15": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1600 Custom_MrQiReal_QiLab 14 14 0 sionkob.mrqireal-qi_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 24 8 1/2420 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
+                "winter": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1600 Custom_MrQiReal_QiLab 14 14 0 sionkob.mrqireal-qi_staring/1800 Custom_MrQiReal_QiLab {{Random:16 20 0, 12 20 0, 6 16 0, 3 16 0, 13 16 0, 10 19 1}}/2000 Custom_MrQiReal_QiLab 14 6 0/2130 Custom_MrQiReal_QiRoom 4 7 2/2420 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep"
             }
         },
         //After Seeing Mister Qi's 6 Heart Event
         {
             "LogName": "Schedules - Seen 6 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{ModID}}-Qi",
             "Entries": {
-                "winter_28": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Custom_MrQiReal_QiRoom 6 20 0/840 Custom_MrQiReal_QiRoom 23 23 0/1200 SandyHouse 4 4 2/1800 Desert 2 51 2/2000 Desert 9 34 2/2300 Town 47 88 0 {{Lowercase:Qi}}_staring \"Strings\\schedules\\{{Qi}}:Winter28\"",
-                "NightMarket_3": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1500 SandyHouse 4 4 2/2100 Beach 55 6 \"Strings\\schedules\\{{Qi}}:BeachMarket\""
+                "winter_28": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Custom_MrQiReal_QiRoom 6 20 0/840 Custom_MrQiReal_QiRoom 23 23 0/1200 SandyHouse 4 4 2/1800 Desert 2 51 2/2000 Desert 9 34 2/2300 Town 47 88 0 sionkob.mrqireal-qi_staring \"Strings\\schedules\\{{ModID}}-Qi:Winter28\"",
+                "NightMarket_3": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1500 SandyHouse 4 4 2/2100 Beach 55 6 \"Strings\\schedules\\{{ModID}}-Qi:BeachMarket\""
             },
             "When": {
                 "HasSeenEvent": "04.MrQiRealNPC.TheMrQisLab"
@@ -30,17 +30,37 @@
         {
             "LogName": "Schedules - After Unlock Romance Option",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{Qi}}",
+            "Target": "Characters/schedules/{{ModID}}-Qi",
             "Entries": {
-                "spring_Wed": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Desert 2 51 2/900 Town 64 100 2/1300 Mountain 30 9 3/1630 Club 8 4 0 {{Lowercase:Qi}}_staring/2050 Custom_MrQiReal_QiLab 4 21 0 {{Lowercase:Qi}}_staring/2420 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+                "spring_Wed": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Desert 2 51 2/900 Town 64 100 2/1300 Mountain 30 9 3/1630 Club 8 4 0 sionkob.mrqireal-qi_staring/2050 Custom_MrQiReal_QiLab 4 21 0 sionkob.mrqireal-qi_staring/2420 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
                 "Wed": "GOTO spring",
-                "Fri": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Custom_MrQiReal_QiRoom 23 23 0/1100 Club 8 4 0 {{Lowercase:Qi}}_staring/1340 Forest 34 25 2/1800 WizardHouse 4 17 2/2030 Saloon 27 23 3/2440 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
-                "Sun": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 {{Lowercase:Qi}}_staring/1200 Beach 12 39 2/1800 Beach 28 4 2/2000 Saloon 27 23 3/2310 Custom_MrQiReal_QiRoom 22 5 2 {{Lowercase:Qi}}_sleep",
+                "Fri": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Custom_MrQiReal_QiRoom 23 23 0/1100 Club 8 4 0 sionkob.mrqireal-qi_staring/1340 Forest 34 25 2/1800 WizardHouse 4 17 2/2030 Saloon 26 18 3/2440 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
+                "Sun": "0 Custom_MrQiReal_QiRoom 24 6 0/700 Club 8 4 0 sionkob.mrqireal-qi_staring/1200 Beach 12 39 2/1800 Beach 28 4 2/2000 Saloon 26 18 3/2310 Custom_MrQiReal_QiRoom 22 5 2 sionkob.mrqireal-qi_sleep",
                 "DesertFestival_3": "GOTO spring"
             },
             "When": {
                 "HasFlag": "RomanceableQiRoute",
                 "HasSeenEvent": "08.MrQiRealNPC.Return" 
+            }
+        },
+        //Mister Qi's Marriage Schedule
+        {
+            "LogName": "Schedules - Marriage",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}-Qi",
+            "Entries": {
+                "marriage_NightMarket_3": "1800 Beach 29 34 2 \"Strings\\schedules\\{{ModID}}-Qi:BeachMarket_marriage\"/2420 bed",
+                "marriage_DesertFestival_1": "700 Desert 5 52 2 \"Strings\\schedules\\{{ModID}}-Qi:DesertFestival_Day1_marriage\"/2430 bed",
+                "marriage_DesertFestival_2": "800 Desert 36 59 3 \"Strings\\schedules\\{{ModID}}-Qi:DesertFestival_Day2_marriage\"/2430 bed",
+                "marriage_DesertFestival_3": "800 Desert 39 42 1 \"Strings\\schedules\\{{ModID}}-Qi:DesertFestival_Day3_marriage\"/2430 bed",
+                "marriage_TroutDerby_2": "1000 Club 8 4 0 sionkob.mrqireal-qi_staring/1300 Forest 63 40 2 \"Strings\\schedules\\{{ModID}}-Qi:TroutDerby_marriage\"/1900 bed",
+                "marriage_SquidFest": "800 Club 8 4 0 sionkob.mrqireal-qi_staring/1330 Beach 35 3 2 \"Strings\\schedules\\{{ModID}}-Qi:SquidFest_marriage\"/2100 Saloon 26 18 3/2400 bed",
+                "marriage_winter_28": "830 SandyHouse 4 4 2/1040 Mountain 83 9 2 \"Strings\\schedules\\{{ModID}}-Qi:Winter28_marriage.1\"/1600 Town 47 88 0 sionkob.mrqireal-qi_staring \"Strings\\schedules\\{{ModID}}-Qi:Winter28_marriage.2\"/2100 bed",
+                "marriage_Mon": "800 Club 8 4 0 sionkob.mrqireal-qi_staring/1500 Desert 14 15 3/1700 bed",
+                "marriage_Fri": "800 Club 8 4 0 sionkob.mrqireal-qi_staring/1200 SandyHouse 4 4 2/1500 Town 32 27 3/1800 Saloon 26 18 3/2200 bed"
+            },
+            "When": {
+                "HasFlag": "RomanceableQiRoute"
             }
         }
     ]

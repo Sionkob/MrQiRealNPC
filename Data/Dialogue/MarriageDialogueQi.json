@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        //Mister Qi's Marriage Dialogue
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue{{ModID}}-Qi",
+            "Entries": {
+                //Spring
+                "spring_1": "{{i18n:Qi.MarriageDialogue.spring_1}}",
+                "spring_12": "{{i18n:Qi.MarriageDialogue.spring_12}}",
+                "spring_14": "{{i18n:Qi.MarriageDialogue.spring_14}}",
+                "spring_23": "{{i18n:Qi.MarriageDialogue.spring_23}}",
+
+                //Summer
+                "summer_1": "{{i18n:Qi.MarriageDialogue.summer_1}}",
+                "summer_10": "{{i18n:Qi.MarriageDialogue.summer_10}}",
+                "summer_12": "{{i18n:Qi.MarriageDialogue.summer_12}}",
+                "summer_21": "{{i18n:Qi.MarriageDialogue.summer_21}}",
+                "summer_26": "{{i18n:Qi.MarriageDialogue.summer_26}}",
+
+                //Fall
+                "fall_1": "{{i18n:Qi.MarriageDialogue.fall_1}}",
+                "fall_10": "{{i18n:Qi.MarriageDialogue.fall_10}}",
+                "fall_15": "{{i18n:Qi.MarriageDialogue.fall_15}}",
+                "fall_26": "{{i18n:Qi.MarriageDialogue.fall_26}}",
+
+                //Winter
+                "winter_1": "{{i18n:Qi.MarriageDialogue.winter_1}}",
+                "winter_8": "{{i18n:Qi.MarriageDialogue.winter_8}}",
+                "winter_12": "{{i18n:Qi.MarriageDialogue.winter_12}}",
+                "winter_15": "{{i18n:Qi.MarriageDialogue.winter_15}}",
+                "winter_25": "{{i18n:Qi.MarriageDialogue.winter_25.1}}#$action AddItem {{Random:(O)337, (O)74, (O)578, (O)205, (O)917 , MysteryBox}} 1#$e#{{i18n:Qi.MarriageDialogue.winter_25.2}}",
+                "winter_28": "{{i18n:Qi.MarriageDialogue.winter_28}}",
+
+                "funLeave_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.FunLeave}}",
+                "funReturn_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.FunReturn}}"
+            }
+        }
+    ]
+}

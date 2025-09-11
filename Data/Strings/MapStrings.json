@@ -39,7 +39,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "MrQiRealNPC_MonasDiary": "[letterbg 1][textcolor black]{{i18n:Mona-s_Diary.Entry_{{Random:{{Range: 1, 39}}}}}}"
+                "MrQiRealNPC_MonasDiary": "[letterbg 1][textcolor black]{{i18n:Mona-s_Diary.Entry_{{Random:{{Range: 1, 40}}}}}}"
             },
             "When": {
                 "HasSeenEvent": "07.MrQiRealNPC.ARestart"

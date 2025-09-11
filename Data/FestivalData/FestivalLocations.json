@@ -10,18 +10,53 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 43 48 2",
+                    "Value": "{{ModID}}-Qi 43 48 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 43 48 2",
+                    "Value": "{{ModID}}-Qi 43 48 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Egg Festival (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 31 56 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 57 53 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 31 56 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 57 53 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Flower Dance
@@ -33,30 +68,65 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 44 31 2",
+                    "Value": "{{ModID}}-Qi 44 31 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 44 31 2",
+                    "Value": "{{ModID}}-Qi 44 31 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Qi}} 44 31 2",
+                    "Value": "{{ModID}}-Qi 44 31 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 44 31 2",
+                    "Value": "{{ModID}}-Qi 44 31 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Flower Dance (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 41 38 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 41 38 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 41 38 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 41 38 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Luau
@@ -68,18 +138,41 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 14 38 1",
+                    "Value": "{{ModID}}-Qi 14 38 1",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 14 38 1",
+                    "Value": "{{ModID}}-Qi 42 35 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Luau (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 24 35 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 43 36 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Dance of the Moonlight Jellies
@@ -91,18 +184,53 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 92 5 1",
+                    "Value": "{{ModID}}-Qi 92 5 1",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters-y2"],
-                    "Value": "{{Qi}} 92 5 1",
+                    "Value": "{{ModID}}-Qi 92 5 1",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Dance of the Moonlight Jellies (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 92 16 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 36 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 11 28 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 39 33 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Stardew Valley Fair
@@ -114,18 +242,41 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 2 93 2",
+                    "Value": "{{ModID}}-Qi 2 93 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 41 102 2",
+                    "Value": "{{ModID}}-Qi 41 102 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - SV Fair (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 44 78 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 19 49 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Spirit's Eve
@@ -137,18 +288,41 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 10 12 2",
+                    "Value": "{{ModID}}-Qi 10 12 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 62 20 2",
+                    "Value": "{{ModID}}-Qi 62 20 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Sprit's Eve (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 29 54 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 62 17 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Festival of Ice
@@ -160,18 +334,41 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 45 7 2",
+                    "Value": "{{ModID}}-Qi 45 7 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 50 10 2",
+                    "Value": "{{ModID}}-Qi 50 10 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Festival of Ice (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 62 25 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 75 9 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         },
         //Feast of the Winter Star
@@ -183,18 +380,41 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Qi}} 2 93 2",
+                    "Value": "{{ModID}}-Qi 2 93 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Qi}} 47 88 0",
+                    "Value": "{{ModID}}-Qi 47 88 0",
                     "Delimiter": "/"
                 }
             ],
             "When": {
                 "HasSeenEvent": "00.MrQiRealNPC.MrQiandClubIntro"
+            }
+        },
+        {
+            "LogName": "Festival Locations - Winter Star Festival (When Married With Mr. Qi)",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{ModID}}-Qi 42 57 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{ModID}}-Qi 17 58 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasFlag": "RomanceableQiRoute",
+                "Relationship:{{ModID}}-Qi": "Married"
             }
         }
     ]

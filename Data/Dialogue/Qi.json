@@ -4,7 +4,7 @@
         {
             "LogName": "Dialogue - Default",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 //Introduction (after enter in Club for the first time)
                 "MrQiAndClubIntroduction": "{{i18n:Qi.MrQiAndClubIntroduction|NameOrKid={{NameOrKid}}}}",
@@ -91,7 +91,7 @@
         {
             "LogName": "Reject movie invites",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 //Reject Movie Invite
                 "reject_809": "{{i18n:Qi.Dialogue.reject_809|NameOrKid={{NameOrKid}}}}"
@@ -103,7 +103,7 @@
         {
             "LogName": "Dialogue - 10 hearts dialogue after seen 10 hearts event",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 //10 Hearts (After seen 10 hearts event)
                 "Mon10": "{{i18n:Qi.Dialogue.Mon10}}",
@@ -122,7 +122,7 @@
         {
             "LogName": "Dialogue - Has Dwarf Language Guide",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 "Sat4": "{{i18n:Qi.Dialogue.Sat4.HasDwarvishGuide}}"
             },
@@ -134,7 +134,7 @@
         {
             "LogName": "Dialogue - Seen 6 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 "winter_17": "{{i18n:Qi.Dialogue.winter_17}}",
                 "winter_28": "{{i18n:Qi.Dialogue.winter_28}}"
@@ -147,7 +147,7 @@
         {
             "LogName": "Dialogue - Choose Still Afraid Option",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 "winter_26": "{{i18n:Qi.Dialogue.winter_26}}#$q -1672401/-1672402 StillAfraid#{{i18n:Qi.Questions.StillAfraid.QuestionText}}#$r -1672401 0 StillAfraid_Yes#{{i18n:Qi.Questions.StillAfraid.QuestionAnwser1}}#$r -1672402 0 StillAfraid_No#{{i18n:Qi.Questions.StillAfraid.QuestionAnwser2}}",
 
@@ -155,7 +155,7 @@
                 "StillAfraid_No": "{{i18n:Qi.Questions.StillAfraid_No}}"
             },
             "When": {
-                "Hearts:{{Qi}}": "10",
+                "Hearts:{{ModID}}-Qi": "10",
                 "HasFlag": "AfraidOfQi",
                 "HasFlag |contains=OnlyFriendableQiRoute": "false"
             }
@@ -164,7 +164,7 @@
         {
             "LogName": "Dialogue - Keep MrQi Friendable",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 "Mon10": "{{i18n:Qi.Dialogue.Mon10}}",
                 "Tue10": "{{i18n:Qi.Dialogue.Tue10}}",
@@ -182,7 +182,7 @@
         {
             "LogName": "Dialogue - After Unlock Romance Option",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 //Special Dialogues
                 "AcceptBouquet": "{{i18n:Qi.Dialogue.AcceptBouquet}}",
@@ -257,7 +257,7 @@
         {
             "LogName": "Dialogue - Mister Qi Resort dialogues",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Qi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-Qi",
             "Entries": {
                 "Resort_Entering": "{{i18n:Qi.Dialogue.Resort_Entering}}",
                 "Resort_Shore": "{{i18n:Qi.Dialogue.Resort_Shore}}",
@@ -267,7 +267,33 @@
                 "Resort": "{{i18n:Qi.Dialogue.Resort}}"
             },
             "When": {
-                "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
+                "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox",
+                "HasFlag": "RomanceableQiRoute"
+            }
+        },
+        //Engagement dialogues
+        {
+            "LogName": "Dialogue - Mister Qi's reaction when receive Mermaid pendant",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "{{ModID}}-Qi_Engaged": "{{i18n:StringsFromCSFiles.Qi_Engaged}}",
+                "{{ModID}}-Qi_AfterWedding": "{{i18n:StringsFromCSFiles.Qi_AfterWedding}}"
+            },
+            "When": {
+                "HasFlag": "RomanceableQiRoute"
+            }
+        },
+        {
+            "LogName": "Dialogue - Mister Qi's engagement dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "{{ModID}}-Qi0": "{{i18n:Qi.Dialogue.Engagement.0}}",
+                "{{ModID}}-Qi1": "{{i18n:Qi.Dialogue.Engagement.1}}"
+            },
+            "When": {
+                "HasFlag": "RomanceableQiRoute"
             }
         }
     ]

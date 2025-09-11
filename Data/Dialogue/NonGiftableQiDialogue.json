@@ -4,7 +4,7 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Default",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "Entries": {
                 "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue}}",
@@ -19,7 +19,7 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Seen 8 Heart Event",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "Entries": {
                 "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon-SeenQi8heartsEvent}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-SeenQi8heartsEvent}}",
@@ -37,7 +37,7 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Seen Mr. Qi's 4 hearts event in the romance route",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "Entries": {
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-RomanceableQi}}"
             },
@@ -49,7 +49,7 @@
         {
             "LogName": "Non Giftable Mister Qi Dialogue - Dating Romanceable Qi",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "Entries": {
                 "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon-DatingQi}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue-DatingQi}}",
@@ -60,13 +60,13 @@
                 "Sun": "{{i18n:MrQiNutRoom.Dialogue.Sun-DatingQi}}"
             },
             "When": {
-                "Relationship:{{Qi}}": "Dating"
+                "Relationship:{{ModID}}-Qi": "Dating"
             }
         },
         //Non Giftable Mister Qi tries to tell what happened in Summer 8 after Mr. Qi's 10 hearts event in romance route
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{NGQi}}",
+            "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "Entries": {
                 "Mon": "{{i18n:MrQiNutRoom.Dialogue.Attempt1}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Attempt2}}",
@@ -76,7 +76,7 @@
             },
             "When": {
                 "HasConversationTopic |contains=SemiPhysicalTrytoReveal": true
-            },
+            }
         }
     ]
 }

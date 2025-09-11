@@ -6,8 +6,8 @@
             "Action": "EditData",
             "Target": "Data/MoviesReactions",
             "Entries": {
-                "{{Qi}}": {
-                    "NPCName": "{{Qi}}",
+                "{{ModID}}-Qi": {
+                    "NPCName": "{{ModID}}-Qi",
                     "Reactions": [
                         {
                             "Tag": "spring_movie_1",

@@ -10,14 +10,14 @@
                 "{{ModID}}-QiImportantTalk": {
                     "Id": "{{ModID}}-QiImportantTalk",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current {{Qi}} 8",
+                    "Condition": "PLAYER_HEARTS Current {{ModID}}-Qi 8",
                     "Action": "AddMail Current {{ModID}}-QiImportantTalk now"
                 },
                 //Sends a letter to you when you have 6 hearts with Mister Qi if romance route is unlocked
                 "{{ModID}}-ScientificHelp": {
                     "Id": "{{ModID}}-ScientificHelp",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current {{Qi}} 6, PLAYER_HAS_MAIL Current RomanceableQiRoute Any",
+                    "Condition": "PLAYER_HEARTS Current {{ModID}}-Qi 6, PLAYER_HAS_MAIL Current RomanceableQiRoute Any",
                     "Action": "AddMail Current {{ModID}}-ScientificHelp now"
                 }
             }

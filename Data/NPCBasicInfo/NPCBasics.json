@@ -4,35 +4,35 @@
         {
             "LogName": "Mister Qi Portrait and Sprite",
             "Action": "Load",
-            "Target": "Characters/{{Qi}}, Portraits/{{Qi}}",
+            "Target": "Characters/{{ModID}}-Qi, Portraits/{{ModID}}-Qi",
             "FromFile": "Assets/{{TargetPathOnly}}/Qi.png"
         },
         //Mr. Qi Without Glasses Portrait & Sprite
         {
             "LogName": "Mister Qi Without Glasses Portrait and sprite",
             "Action": "Load",
-            "Target": "Characters/{{Qi}}_VisibleEyes, Portraits/{{Qi}}_VisibleEyes",
+            "Target": "Characters/{{ModID}}-Qi_VisibleEyes, Portraits/{{ModID}}-Qi_VisibleEyes",
             "FromFile": "Assets/{{TargetPathOnly}}/Qi_VisibleEyes.png"
         },
         //Mr. Qi Sleepwear Sprite (Event exclusive)
         {
             "LogName": "Mister Qi Sleepwear sprite",
             "Action": "Load",
-            "Target": "Characters/{{Qi}}_SleepWear",
+            "Target": "Characters/{{ModID}}-Qi_SleepWear",
             "FromFile": "Assets/{{TargetPathOnly}}/Qi_SleepWear.png"
         },
         //Non-giftable Mr. Qi's Portrait & Sprite
         {
             "LogName": "Non Giftable Mister Qi Portrait and Sprite",
             "Action": "Load",
-            "Target": "Characters/{{NGQi}}, Portraits/{{NGQi}}",
+            "Target": "Characters/{{ModID}}-NonGiftableQi, Portraits/{{ModID}}-NonGiftableQi",
             "FromFile": "Assets/{{TargetPathOnly}}/NonGiftable/NonGiftableQi.png"
         },
         //Mr. Qi's Beach Portrait & Sprite
         {
             "LogName": "Mister Qi's Beach Portrait & Sprite",
             "Action": "Load",
-            "Target": "Characters/{{Qi}}_Beach, Portraits/{{Qi}}_Beach",
+            "Target": "Characters/{{ModID}}-Qi_Beach, Portraits/{{ModID}}-Qi_Beach",
             "FromFile": "Assets/{{TargetPathOnly}}/Qi_Beach.png"
         },
         //NPC Data
@@ -41,7 +41,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "{{Qi}}": {
+                "{{ModID}}-Qi": {
                     "DisplayName": "{{i18n:Qi.name}}",
                     "Gender": "Male",
                     "BirthSeason": "winter",
@@ -53,6 +53,7 @@
                     "HomeRegion": "Desert",
                     "CanSocialize": true,
                     "CanBeRomanced": false,
+                    "FlowerDanceCanDance": true,
                     "CanCommentOnPurchasedShopItems": false,
                     "CanGreetNearbyCharacters": false,
                     "CanVisitIsland": false,
@@ -70,7 +71,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "{{Qi}}": {
+                "{{ModID}}-Qi": {
                     "DisplayName": "{{i18n:Qi.name}}",
                     "Gender": "Male",
                     "BirthSeason": "winter",
@@ -82,6 +83,7 @@
                     "HomeRegion": "Desert",
                     "CanSocialize": true,
                     "CanBeRomanced": true,
+                    "FlowerDanceCanDance": true,
                     "CanCommentOnPurchasedShopItems": false,
                     "CanGreetNearbyCharacters": false,
                     "CanVisitIsland": false,
@@ -118,7 +120,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "{{Qi}}": {
+                "{{ModID}}-Qi": {
                     "DisplayName": "{{i18n:Qi.name}}",
                     "Gender": "Male",
                     "BirthSeason": "winter",
@@ -130,6 +132,7 @@
                     "HomeRegion": "Desert",
                     "CanSocialize": true,
                     "CanBeRomanced": true,
+                    "FlowerDanceCanDance": true,
                     "CanCommentOnPurchasedShopItems": false,
                     "CanGreetNearbyCharacters": false,
                     "CanVisitIsland": true,
@@ -201,7 +204,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "{{NGQi}}": {
+                "{{ModID}}-NonGiftableQi": {
                     "DisplayName": "{{i18n:Qi.name}}",
                     "Calendar": "HiddenAlways",
                     "SocialTab": "HiddenAlways",
@@ -264,7 +267,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "{{Qi}}": "{{i18n:Qi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/773 107 205 243 151 578 910/{{i18n:Qi.GiftReactions.Like}}/211 162 798 218 903/{{i18n:Qi.GiftReactions.Dislike}}/-7 -26/{{i18n:Qi.GiftReactions.Hate}}/729 253 395 348 346 303/{{i18n:Qi.GiftReactions.Neutral}}/-4 -12 -2/"
+                "{{ModID}}-Qi": "{{i18n:Qi.GiftReactions.Love|NameOrKid={{NameOrKid}}}}/773 107 205 243 151 578 910/{{i18n:Qi.GiftReactions.Like}}/211 162 798 218 903/{{i18n:Qi.GiftReactions.Dislike}}/-7 -26/{{i18n:Qi.GiftReactions.Hate}}/729 253 395 348 346 303/{{i18n:Qi.GiftReactions.Neutral}}/-4 -12 -2/"
             }
         }
     ]
