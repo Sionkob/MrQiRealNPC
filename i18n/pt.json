@@ -64,7 +64,7 @@
 	//Fall
 	"Qi.Dialogue.fall_1": "Bem... O que dizer sobre o outono? É uma época de transição entre o verão e o inverno; é a estação em que as folhas caem no chão.#$b#Mas há lugares onde as diferenças entre essas estações não são tão notáveis assim. Em lugares tropicais, há pouca diferença entre as estações; elas podem ser facilmente confundidas.",
 	"Qi.Dialogue.fall_15": "Ah... a Feira do Vale do Orvalho, que festividade idiota e insignificante.#$b#Parece que as pessoas não têm o mínimo de esforço para atingir a excelência. Sempre trazem produtos medíocres e esperam receber muitos pontos por fazerem o mínimo que se espera delas.$u#$b#Até mesmo o campeão apresenta produtos fracos e com pouco valor. Podem até ser variados, mas não adianta nada uma grande variedade de produtos se eles são comuns.#$b#Mas a culpa disso é do avaliador que não é criterioso o suficiente. Tenho certeza de que, se ele fosse mais rígido, os participantes da feira se esforçariam muito mais para alcançar o primeiro lugar.",
-	"Qi.Dialogue.fall_26": "A Véspera dos Espíritos é um bom festival; tem coisas interessantes para ver.#$b#Aquele homem da Guilda dos Aventureiros sempre traz alguns monstros para a exposição. Não é tão difícil fazer isso, mas é um risco que os aldeões geralmente não querem correr.",
+	"Qi.Dialogue.fall_26": "A Véspera do dia dos Espíritos é um bom festival; tem coisas interessantes para ver.#$b#Aquele homem da Guilda dos Aventureiros sempre traz alguns monstros para a exposição. Não é tão difícil fazer isso, mas é um risco que os aldeões geralmente não querem correr.",
 
 	//Winter
 	"Qi.Dialogue.winter_1": "O inverno é uma boa época para relaxar, já que você não precisa cuidar de plantações.#$b#Mas também é uma época em que você pode focar em outras atividades. Você pode pescar, minerar e coletar itens.#$b#Mas, se você não quer fazer nada disso, venha passar um tempo no cassino.",
@@ -322,7 +322,7 @@
 	"Qi.MarriageDialogue.fall_1": "O outono chegou, ${querido¦querida}$. Deve estar cheio de folhas secas pelo chão da fazenda.#$b#Se quiser, posso tirá-las pra você. Você já terá muito trabalho preparando a fazenda para plantar as sementes, então é bom que você tenha uma coisa a menos para fazer.$h",
 	"Qi.MarriageDialogue.fall_10": "Sabe, ${querido¦querida}$, o problema de seres humanos serem escolhidos para serem Senhores Qi é que somos muito frágeis: podemos morrer por coisas simples, como acidentes ou até doenças.#$b#Quando um ser humano é escolhido para ser um Senhor Qi, é esperado que ele não tenha uma longevidade extensa. Porém, nosso pensamento racional compensa a fragilidade.#$b#Estou tentando me cuidar para viver por vários anos e acabar com essa ideia de que Senhores Qi humanos vivem menos.#$b#E, claro, também estou fazendo isso para poder ficar ao seu lado pelo máximo de tempo possível.$h",
 	"Qi.MarriageDialogue.fall_15": "A Feira do Vale do Orvalho é amanhã, benzinho. Você já sabe o que vai colocar na exposição da nossa fazenda? Alguns aldeões já estão escolhendo o que vão expor.#$b#Se quiser ganhar, minhas dicas são: preencha seis espaços da exposição com itens de categorias diferentes e evite deixar espaços vazios na exposição; eles diminuem a pontuação final.#$b#Se você seguir essas dicas, garanto que vai ganhar, meu bem!$h",
-	"Qi.MarriageDialogue.fall_26": "Amanhã é a Véspera dos Espíritos. Vou dar uma passada lá para ver os monstros que a Guilda dos Aventureiros capturou este ano.#$b#Também vou ver se o Rasmodeu fará um labirinto decente este ano. Às vezes, ele pega muito leve na dificuldade; provavelmente por causa das crianças.#$b#Mas, apesar de deixar tudo muito fácil, os aldeões nunca conseguem chegar ao final. Acho que ele deveria parar de pegar leve e mostrar o que é realmente capaz de fazer.",
+	"Qi.MarriageDialogue.fall_26": "Amanhã é a Véspera do Dia dos Espíritos. Vou dar uma passada lá para ver os monstros que a Guilda dos Aventureiros capturou este ano.#$b#Também vou ver se o Rasmodeu fará um labirinto decente este ano. Às vezes, ele pega muito leve na dificuldade; provavelmente por causa das crianças.#$b#Mas, apesar de deixar tudo muito fácil, os aldeões nunca conseguem chegar ao final. Acho que ele deveria parar de pegar leve e mostrar o que é realmente capaz de fazer.",
 
 	//Winter
 	"Qi.MarriageDialogue.winter_1": "Ah, o inverno é tão bom, não é, ${querido¦querida}$? Não tem nenhuma plantação pra você cuidar, menos coisas pra fazer, mais tempo pra ficar comigo...$h#$b#Mas o frio me incomoda um pouco. Não estou muito acostumado a ele; sempre morei em lugares mais quentes.#$b#Tenho problemas com calor, mas frio demais também não é legal. Equilíbrio é tudo.#$e#O que acha de passarmos uns dias juntos na Ilha Gengibre? O clima de lá é muito agradável, ainda mais nesta época do ano.$h",
@@ -338,6 +338,22 @@
 
 	//Returning Home
 	"Qi.MarriageDialogue.FunReturn": "Oi, meu bem, acabei de voltar! Eu estava contando as horas para poder te ver de novo! Que bom que você também está em casa.$h",
+
+	//Rainy Day Dialogues
+	"Qi.MarriageDialogue.RainyDay-0": "Está chovendo bastante, não é mesmo, ${querido¦querida}$? Gosto de dias assim, dá vontade de ficar na cama o dia todo.$h#$b#Adoraria que você ficasse em casa por mais um tempinho, mas, infelizmente, você tem outras coisas para fazer em sua fazenda. Mesmo debaixo de chuva, o trabalho não para.#$b#Te vejo à noite, meu bem.",
+	"Qi.MarriageDialogue.RainyDay-1": "Ei, @, eu percebi que {{AlienName}} começou a reagir ao clima. A atividade cerebral dele se eleva muito durante dias de chuva; é como se ele estivesse em um estado de alerta constante.#$b#Isso é muito estranho, né? Talvez seja melhor deixá-lo no mini laboratório. Esse estresse pode prejudicar o desenvolvimento dele a longo prazo.$s",
+	"Qi.MarriageDialogue.RainyDay-2": "Nesse tempo chuvoso, é fácil pegar um resfriado. Seu sistema imunológico enfraquece e te deixa vulnerável aos patógenos presentes no ambiente.#$b#Então, tome cuidado ao sair nessa chuva hoje, benzinho.#$b#Não chegue perto de ninguém que esteja espirrando ou tossindo; lembre-se de lavar as mãos antes de tocar no rosto e, quando chegar em casa, tome um banho e troque de roupa.",
+	"Qi.MarriageDialogue.RainyDay-3": "Bom dia, meu bem. Tá caindo o mundo lá fora, não é mesmo? Enfim, fiz seu café da manhã. Espero que goste.#$action AddItem (O)211 1#$e#Bom trabalho, benzinho. Cuidado pra nenhum raio cair na sua cabeça!$h",
+	"Qi.MarriageDialogue.RainyDay-4": "Ei, ${querido¦querida}$, estou com vontade de tomar um banho de chuva. É uma bobagem, eu sei, mas faz tempo que não faço esse tipo de coisa.#$b#Já que você não vai precisar regar suas plantações hoje, o que acha de fazermos isso juntos? Afinal, você já vai se molhar de qualquer jeito.",
+
+	//Rainy Night Dialogues
+	"Qi.MarriageDialogue.RainyNight": "Oi, meu bem, ${bem-vindo¦bem-vinda}$ de volta! Como foi seu trabalho hoje com toda essa chuva?#$b#Enfim, é melhor você trocar essas roupas molhadas antes do jantar.",
+	"Qi.MarriageDialogue.RainyNight-0": "Que bom que você voltou, benzinho! Você demorou muito pra voltar hoje, já estava ficando preocupado.#$b#Como foi o seu dia, meu bem? Encontrou alguma coisa interessante pelo caminho?",
+	"Qi.MarriageDialogue.RainyNight-1": "Esta noite vai ser muito confortável para dormir. O barulho da chuva é um ótimo ruído de fundo.",
+	"Qi.MarriageDialogue.RainyNight-2.1": "Oi, benzinho! Fiz um prato especial para o jantar! Espero que goste.$h",
+	"Qi.MarriageDialogue.RainyNight-2.2": "Acho que esse prato vai cair muito bem depois de um dia inteiro trabalhando debaixo de chuva!",
+	"Qi.MarriageDialogue.RainyNight-3": "Hoje, mais cedo, percebi que tem uma pequena goteira no telhado. Eu resolvo isso amanhã, se não estiver chovendo, ${querido¦querida}$.",
+	"Qi.MarriageDialogue.RainyNight-4": "Hoje foi um ótimo dia para pôr a leitura em dia. Finalmente terminei de ler um livro que tinha começado há quase um ano.#$b#Agora vou esperar um tempo para começar a ler outro. A fadiga literária me pegou de jeito depois daquele livro.$h",
 
 	/* +++++++++++++++++++++++++++++ */
 

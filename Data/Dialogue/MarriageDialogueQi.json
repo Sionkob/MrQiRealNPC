@@ -29,11 +29,27 @@
                 "winter_8": "{{i18n:Qi.MarriageDialogue.winter_8}}",
                 "winter_12": "{{i18n:Qi.MarriageDialogue.winter_12}}",
                 "winter_15": "{{i18n:Qi.MarriageDialogue.winter_15}}",
-                "winter_25": "{{i18n:Qi.MarriageDialogue.winter_25.1}}#$action AddItem {{Random:(O)337, (O)74, (O)578, (O)205, (O)917 , MysteryBox}} 1#$e#{{i18n:Qi.MarriageDialogue.winter_25.2}}",
+                "winter_25": "{{i18n:Qi.MarriageDialogue.winter_25.1}}#$action AddItem {{Random:(O)337, (O)74, (O)578, (O)205, (O)917 , (O)MysteryBox}} 1#$e#{{i18n:Qi.MarriageDialogue.winter_25.2}}",
                 "winter_28": "{{i18n:Qi.MarriageDialogue.winter_28}}",
 
+                //Leaving & Returning home
                 "funLeave_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.FunLeave}}",
-                "funReturn_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.FunReturn}}"
+                "funReturn_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.FunReturn}}",
+
+                //Rainy Day Dialogues
+                "Rainy_Day_0": "{{i18n:Qi.MarriageDialogue.RainyDay-0}}",
+                "Rainy_Day_1": "{{i18n:Qi.MarriageDialogue.RainyDay-1|AlienName={{AlienName}}}}",
+                "Rainy_Day_2": "{{i18n:Qi.MarriageDialogue.RainyDay-2}}",
+                "Rainy_Day_3": "{{i18n:Qi.MarriageDialogue.RainyDay-3}}",
+                "Rainy_Day_4": "{{i18n:Qi.MarriageDialogue.RainyDay-4}}",
+
+                //Rainy Night Dialogues
+                "Rainy_Night_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.RainyNight}}",
+                "Rainy_Night_0": "{{i18n:Qi.MarriageDialogue.RainyNight-0}}",
+                "Rainy_Night_1": "{{i18n:Qi.MarriageDialogue.RainyNight-1}}",
+                "Rainy_Night_2": "{{i18n:Qi.MarriageDialogue.RainyNight-2.1}}#$action AddItem {{Random: (O)197, (O)205, (O)215, (O)241, (O)225}} 1#$e#{{i18n:Qi.MarriageDialogue.RainyNight-2.2}}",
+                "Rainy_Night_3": "{{i18n:Qi.MarriageDialogue.RainyNight-3}}",
+                "Rainy_Night_4": "{{i18n:Qi.MarriageDialogue.RainyNight-4}}",
             }
         }
     ]

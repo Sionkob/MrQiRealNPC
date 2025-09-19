@@ -339,6 +339,22 @@
 	//Returning Home
 	"Qi.MarriageDialogue.FunReturn": "Hi, honey, I just got back! I was counting the hours until I could see you again! I'm so glad you're home too.$h",//TODO
 
+	//Rainy Day Dialogues
+	"Qi.MarriageDialogue.RainyDay-0": "It's raining heavily, isn't it, honey? I like days like this; they make me want to stay in bed all day.$h#$b#I'd love for you to stay home a little longer, but unfortunately, you have other things to do on your farm. Even in the rain, work doesn't stop.#$b#See you tonight, sweetheart.",//TODO
+	"Qi.MarriageDialogue.RainyDay-1": "Hey, @, I noticed {{AlienName}} has started reacting to the weather. His brain activity increases a lot on rainy days; it's like he's in a constant state of alert.#$b#That's pretty weird, right? Maybe it's better to leave him in the mini lab. This stress could harm his development in the long run.$s",//TODO
+	"Qi.MarriageDialogue.RainyDay-2": "In this rainy weather, it's easy to catch a cold. Your immune system weakens and leaves you vulnerable to pathogens in the environment.#$b#So be careful going out in this rain today, sweetie.#$b#Stay away from anyone who's sneezing or coughing; remember to wash your hands before touching your face, and when you get home, take a shower and change your clothes.",//TODO
+	"Qi.MarriageDialogue.RainyDay-3": "Good morning, sweetie. It's raining cats and dogs out there, isn't it? Anyway, I made your breakfast. I hope you like it.#$action AddItem (O)211 1#$e#Have a good day at work, sweetheart. Be careful that lightning doesn't strike your head!$h",//TODO
+	"Qi.MarriageDialogue.RainyDay-4": "Hey, honey, I feel like playing in the rain. It's silly, I know, but it's been so long since I've done something like that.#$b#Since you won't need to water your crops today, how about we do it together? After all, you're going to get wet anyway.",//TODO
+
+	//Rainy Night Dialogues
+	"Qi.MarriageDialogue.RainyNight": "Hi, honey, welcome back! How was your work today with all this rain?#$b#Anyway, you'd better change out of those wet clothes before dinner.",//TODO
+	"Qi.MarriageDialogue.RainyNight-0": "I'm so glad you're back, sweetie! You took a long time to come back today; I was starting to get worried.#$b#How was your day, honey? Did you find anything interesting along the way?",//TODO
+	"Qi.MarriageDialogue.RainyNight-1": "Tonight will be very comfortable for sleeping. The sound of rain is a great background noise.",//TODO
+	"Qi.MarriageDialogue.RainyNight-2.1": "Hi, honey! I made a special dish for dinner! I hope you like it.$h",//TODO
+	"Qi.MarriageDialogue.RainyNight-2.2": "I think this dish will really hit the spot after a whole day working in the rain!",//TODO
+	"Qi.MarriageDialogue.RainyNight-3": "Earlier today, I noticed there's a small leak in the roof. I'll take care of it tomorrow if it's not raining, honey.",//TODO
+	"Qi.MarriageDialogue.RainyNight-4": "Today was a great day to catch up on my reading. I finally finished a book I started almost a year ago.#$b#Now I'll wait a while before starting another one. Literary fatigue really hit me hard after that book.$h",//TODO
+
 	/* +++++++++++++++++++++++++++++ */
 
 	/* +++++|MOVIE REACTIONS|+++++ */
