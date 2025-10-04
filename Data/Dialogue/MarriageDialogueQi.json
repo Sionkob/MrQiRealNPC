@@ -29,7 +29,7 @@
                 "winter_8": "{{i18n:Qi.MarriageDialogue.winter_8}}",
                 "winter_12": "{{i18n:Qi.MarriageDialogue.winter_12}}",
                 "winter_15": "{{i18n:Qi.MarriageDialogue.winter_15}}",
-                "winter_25": "{{i18n:Qi.MarriageDialogue.winter_25.1}}#$action AddItem {{Random:(O)337, (O)74, (O)578, (O)205, (O)917 , (O)MysteryBox}} 1#$e#{{i18n:Qi.MarriageDialogue.winter_25.2}}",
+                "winter_25": "{{i18n:Qi.MarriageDialogue.winter_25}}",
                 "winter_28": "{{i18n:Qi.MarriageDialogue.winter_28}}",
 
                 //Leaving & Returning home
@@ -47,9 +47,24 @@
                 "Rainy_Night_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.RainyNight}}",
                 "Rainy_Night_0": "{{i18n:Qi.MarriageDialogue.RainyNight-0}}",
                 "Rainy_Night_1": "{{i18n:Qi.MarriageDialogue.RainyNight-1}}",
-                "Rainy_Night_2": "{{i18n:Qi.MarriageDialogue.RainyNight-2.1}}#$action AddItem {{Random: (O)197, (O)205, (O)215, (O)241, (O)225}} 1#$e#{{i18n:Qi.MarriageDialogue.RainyNight-2.2}}",
+                "Rainy_Night_2": "{{i18n:Qi.MarriageDialogue.RainyNight-2}}",
                 "Rainy_Night_3": "{{i18n:Qi.MarriageDialogue.RainyNight-3}}",
                 "Rainy_Night_4": "{{i18n:Qi.MarriageDialogue.RainyNight-4}}",
+
+                //Indoor Day Dialogues
+                "Indoor_Day_0": "{{i18n:Qi.MarriageDialogue.IndoorDay-0}}",
+                "Indoor_Day_1": "{{i18n:Qi.MarriageDialogue.IndoorDay-1}}",
+                "Indoor_Day_2": "{{i18n:Qi.MarriageDialogue.IndoorDay-2}}",
+                "Indoor_Day_3": "{{i18n:Qi.MarriageDialogue.IndoorDay-3}}",
+                "Indoor_Day_4": "{{i18n:Qi.MarriageDialogue.IndoorDay-4}}",
+
+                //Indoor Night Dialogues
+                "Indoor_Night_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.IndoorNight}}",
+                "Indoor_Night_0": "{{i18n:Qi.MarriageDialogue.IndoorNight-0}}",
+                "Indoor_Night_1": "{{i18n:Qi.MarriageDialogue.IndoorNight-1}}",
+                "Indoor_Night_2": "{{i18n:Qi.MarriageDialogue.IndoorNight-2}}",
+                "Indoor_Night_3": "{{i18n:Qi.MarriageDialogue.IndoorNight-3}}",
+                "Indoor_Night_4": "{{i18n:Qi.MarriageDialogue.IndoorNight-4}}",
             }
         }
     ]
