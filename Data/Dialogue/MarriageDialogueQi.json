@@ -65,6 +65,9 @@
                 "Indoor_Night_2": "{{i18n:Qi.MarriageDialogue.IndoorNight-2}}",
                 "Indoor_Night_3": "{{i18n:Qi.MarriageDialogue.IndoorNight-3}}",
                 "Indoor_Night_4": "{{i18n:Qi.MarriageDialogue.IndoorNight-4}}",
+
+                //Patio Dialogue
+                "patio_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.SpousePatio-{{Random:{{Range:0, 4}}}}}}",
             }
         }
     ]

@@ -368,6 +368,13 @@
 	"Qi.MarriageDialogue.IndoorNight-3": "Some gamblers at the casino are unhappy that I'm not there daily. They're complaining that cheating is becoming more common.#$b#I instructed the bouncers to keep an eye on the cheaters and deal with them in my absence, but apparently that's not enough. Maybe they need more authority.#$b#I think I'll start going to the casino more often during the week, honey. I'll try to train my bouncers better.",
 	"Qi.MarriageDialogue.IndoorNight-4": "Hi, honey, I'm finishing up dinner. It'll be ready in a few moments.#$b#You can come help if you'd like. I'd love to do this together with you!$h",
 
+	//Spouse Patio Dialogues
+	"Qi.MarriageDialogue.SpousePatio-0": "I need to work on some things in my lab, but I'll take a look at your work first. It's not that urgent anyway.$h",
+	"Qi.MarriageDialogue.SpousePatio-1": "It's beautiful to see all the work you've done on the farm, honey.#$b#Compared to how this land looked before you arrived, the change is radical.",
+	"Qi.MarriageDialogue.SpousePatio-2": "Sweetie, I just made a few more bottles of Qi Seasoning in my lab. You can buy some at the reward board in the Walnut Room on Ginger Island.#$b#I can adjust the reward prices on the board if you like.$h#$e#Okay, I'll give you one for free, but don't get used to it, all right? I still want you to buy them. It's a lot of work to make them, you know? [(O)917]",
+	"Qi.MarriageDialogue.SpousePatio-3": "Building the mini lab here was an excellent idea. I can continue my work without leaving our property.#$b#And you can visit me anytime. I like having you around.$h",
+	"Qi.MarriageDialogue.SpousePatio-4": "If you need help with anything, just let me know, honey. My work in the lab is done; I'm free now.",
+
 	/* +++++++++++++++++++++++++++++ */
 
 	/* +++++|MOVIE REACTIONS|+++++ */

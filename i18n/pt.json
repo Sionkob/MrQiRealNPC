@@ -368,6 +368,13 @@
 	"Qi.MarriageDialogue.IndoorNight-3": "Alguns apostadores do cassino estão descontentes por eu não estar lá diariamente. Estão reclamando que as trapaças estão ficando mais comuns.#$b#Eu instruí os seguranças a ficarem de olho nos trapaceiros e darem um jeito neles na minha ausência, mas, ao que parece, não está sendo suficiente. Talvez eles precisem de mais autoridade.#$b#Acho que vou começar a ir ao cassino mais vezes na semana, ${querido¦querida}$. Vou tentar treinar melhor meus seguranças.",
 	"Qi.MarriageDialogue.IndoorNight-4": "Oi, benzinho, estou terminando de preparar o jantar. Estará pronto em alguns instantes.#$b#Pode vir me ajudar, se quiser. Adoraria fazer isso junto com você!$h",
 
+	//Spouse Patio Dialogues
+	"Qi.MarriageDialogue.SpousePatio-0": "Preciso trabalhar em algumas coisas no meu laboratório, mas vou dar uma olhada no seu trabalho antes. Não é algo tão urgente assim, de qualquer forma.$h",
+	"Qi.MarriageDialogue.SpousePatio-1": "É muito bonito ver todo o trabalho que você fez na fazenda, ${querido¦querida}$.#$b#Se comparado com como esse terreno estava antes de você chegar, a mudança é radical.",
+	"Qi.MarriageDialogue.SpousePatio-2": "Benzinho, acabei de fazer mais alguns frascos do Tempero Qi no meu laboratório. Você pode comprar alguns lá no painel de recompensas da Sala de Nozes, na Ilha Gengibre.#$b#Posso fazer um ajuste de preço nas recompensas do painel, se você quiser.$h#$e#Tudo bem, vou te dar um de graça, mas não se acostume, não, viu? Ainda quero que você os compre. Dá muito trabalho fazê-los, sabia? [(O)917]",
+	"Qi.MarriageDialogue.SpousePatio-3": "Construir o mini laboratório aqui foi uma ideia excelente. Posso continuar meus trabalhos sem sair do nosso terreno.#$b#E você pode me visitar a qualquer momento. Gosto de ter sua companhia por perto.$h",
+	"Qi.MarriageDialogue.SpousePatio-4": "Se você precisar de ajuda com qualquer coisa, pode me chamar, ${querido¦querida}$. Meu trabalho no laboratório já terminou, estou livre.",
+
 	/* +++++++++++++++++++++++++++++ */
 
 	/* +++++|MOVIE REACTIONS|+++++ */
