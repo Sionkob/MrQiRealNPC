@@ -375,6 +375,14 @@
 	"Qi.MarriageDialogue.SpousePatio-3": "Building the mini lab here was an excellent idea. I can continue my work without leaving our property.#$b#And you can visit me anytime. I like having you around.$h",
 	"Qi.MarriageDialogue.SpousePatio-4": "If you need help with anything, just let me know, honey. My work in the lab is done; I'm free now.",
 
+	//Outdoor Dialogues
+	"Qi.MarriageDialogue.OutdoorDialogue": "I'm seeing all the work you have to do to keep this farm organized, honey.#$b#It's a lot for one person to handle; you need to be well-rested to be able to do all of this. I hope you're getting good nights' sleep so you have the energy to work.#$e#If you need anything with your work, count on me.",
+	"Qi.MarriageDialogue.OutdoorDialogue-0": "I decided to step out for some fresh air and watch you work. These idle moments are so unusual for us that they're still strange to me, but in a good way.$h#$b#Having nothing to do and no worries brings a sense of peace I never imagined possible. I wonder if anyone who isn't a Mister Qi feels the same in these circumstances.",
+	"Qi.MarriageDialogue.OutdoorDialogue-1": "I went out for a little walk and just got back. It's very relaxing to go out and observe the world around us.#$b#For those used to it, the environment might not seem that interesting, but for us, the Misters Qi, who work tirelessly to maintain its balance, it's rewarding to see the results of our work.#$b#It's even more rewarding because we rarely have the chance to witness it. Now, with the power of the Consciousness Bifurcation being passed on to future Misters Qi, everything will be different.$h",
+	"Qi.MarriageDialogue.OutdoorDialogue-2": "Good morning, sweetie, you're finally awake! You must have been really tired yesterday to have slept so deeply. You didn't even see me leave the house!$h#$b#But I understand you. Taking care of this farm is exhausting; you have every right to come home and get plenty of sleep!#$e#If you need any help, just let me know.",
+	"Qi.MarriageDialogue.OutdoorDialogue-3": "I saw Lewis today during my walk. He seemed happy as a clam, and I think I know why: Marnie.#$b#He's been doing this ever since I arrived in Stardew Valley. It surprises me that he still wants to hide it, as if it were something to be ashamed of.$u#$b#I don't like what he does to her one bit, but that's not my problem anyway. If they're both happy with the way things are, we shouldn't meddle.",
+	"Qi.MarriageDialogue.OutdoorDialogue-4": "Before you woke up, I was called by the previous Misters Qi to talk, so I came outside so I wouldn't wake you. It was a long conversation; I'm getting some fresh air. I need a little rest after that.",
+
 	/* +++++++++++++++++++++++++++++ */
 
 	/* +++++|MOVIE REACTIONS|+++++ */

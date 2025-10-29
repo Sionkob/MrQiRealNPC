@@ -68,6 +68,14 @@
 
                 //Patio Dialogue
                 "patio_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.SpousePatio-{{Random:{{Range:0, 4}}}}}}",
+
+                //Outdoor Dialogues
+                "Outdoor_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue}}",
+                "Outdoor_0": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-0}}",
+                "Outdoor_1": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-1}}",
+                "Outdoor_2": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-2}}",
+                "Outdoor_3": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-3}}",
+                "Outdoor_4": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-4}}",
             }
         }
     ]
