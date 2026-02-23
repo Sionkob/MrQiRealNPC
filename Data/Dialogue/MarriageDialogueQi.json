@@ -2,6 +2,7 @@
     "Changes": [
         //Mister Qi's Marriage Dialogue
         {
+            "LogName": "Marriage Dialogue - Default",
             "Action": "EditData",
             "Target": "Characters/Dialogue/MarriageDialogue{{ModID}}-Qi",
             "Entries": {
@@ -76,6 +77,46 @@
                 "Outdoor_2": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-2}}",
                 "Outdoor_3": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-3}}",
                 "Outdoor_4": "{{i18n:Qi.MarriageDialogue.OutdoorDialogue-4}}",
+
+                //Spouse Room Dialogue
+                "spouseRoom_{{ModID}}-Qi": "{{i18n:Qi.MarriageDialogue.SpouseRoom-{{Random:{{Range:0, 2}}}}|AlienName={{AlienName}}}}",
+
+                //One Kid Dialogues - Adopted children
+                "OneKid_0": "{{i18n:Qi.MarriageDialogue.OneKid-0}}",
+                "OneKid_1": "{{i18n:Qi.MarriageDialogue.OneKid-1}}",
+                "OneKid_2": "{{i18n:Qi.MarriageDialogue.OneKid-2}}",
+                "OneKid_3": "{{i18n:Qi.MarriageDialogue.OneKid-3}}",
+                "OneKid_4": "{{i18n:Qi.MarriageDialogue.OneKid-4}}",
+
+                //Two Kids Dialogues - Adopted children
+                "TwoKids_0": "{{i18n:Qi.MarriageDialogue.TwoKids-0}}",
+                "TwoKids_1": "{{i18n:Qi.MarriageDialogue.TwoKids-1}}",
+                "TwoKids_2": "{{i18n:Qi.MarriageDialogue.TwoKids-2}}",
+                "TwoKids_3": "{{i18n:Qi.MarriageDialogue.TwoKids-3|AlienName={{AlienName}}}}",
+                "TwoKids_4": "{{i18n:Qi.MarriageDialogue.TwoKids-4}}",
+            }
+        },
+        {
+            "LogName": "Marriage Dialogue - Biological children",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue{{ModID}}-Qi",
+            "Entries": {
+                //One Kid Dialogues - Biological children
+                "OneKid_0": "{{i18n:Qi.MarriageDialogue.OneKid-0.Biological}}",
+                "OneKid_1": "{{i18n:Qi.MarriageDialogue.OneKid-1.Biological}}",
+                "OneKid_2": "{{i18n:Qi.MarriageDialogue.OneKid-2.Biological}}",
+                "OneKid_3": "{{i18n:Qi.MarriageDialogue.OneKid-3.Biological}}",
+                "OneKid_4": "{{i18n:Qi.MarriageDialogue.OneKid-4.Biological}}",
+
+                //Two Kids Dialogues - Biological children
+                "TwoKids_0": "{{i18n:Qi.MarriageDialogue.TwoKids-0.Biological}}",
+                "TwoKids_1": "{{i18n:Qi.MarriageDialogue.TwoKids-1.Biological}}",
+                "TwoKids_2": "{{i18n:Qi.MarriageDialogue.TwoKids-2.Biological}}",
+                "TwoKids_3": "{{i18n:Qi.MarriageDialogue.TwoKids-3.Biological}}",
+                "TwoKids_4": "{{i18n:Qi.MarriageDialogue.TwoKids-4.Biological}}",
+            },
+            "When": {
+                "HasFlag": "MrQiRealNPC-BiologicalChildren"
             }
         }
     ]

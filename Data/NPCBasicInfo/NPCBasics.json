@@ -94,6 +94,7 @@
                     "KissSpriteIndex": "42",
                     "KissSpriteFacingDirection": true,
                     "FormerCharacterNames": [ "Qi" ],
+                    "SpouseWantsChildren": false,
                     "SpouseRoom": {
                         "MapAsset": "Custom_MrQiReal_QiSpouseRoom",
                         "X": 0,
@@ -143,6 +144,7 @@
                     "KissSpriteIndex": "42",
                     "KissSpriteFacingDirection": true,
                     "FormerCharacterNames": [ "Qi" ],
+                    "SpouseWantsChildren": false,
                     "SpouseRoom": {
                         "MapAsset": "Custom_MrQiReal_QiSpouseRoom",
                         "X": 0,
@@ -161,6 +163,106 @@
             },
             "When": {
                 "HasSeenEvent": "09.MrQiRealNPC.AnInternalConflictOutsideTheBox"
+            }
+        },
+        //NPC Data (After seen Mister Qi's 10 hearts event being married with him)
+        {
+            "LogName": "NPC Info - Allow having biological children with Mr. Qi",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModID}}-Qi": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Gender": "Male",
+                    "BirthSeason": "winter",
+                    "BirthDay": 27,
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Desert",
+                    "CanSocialize": true,
+                    "CanBeRomanced": true,
+                    "FlowerDanceCanDance": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "KissSpriteIndex": "42",
+                    "KissSpriteFacingDirection": true,
+                    "FormerCharacterNames": [ "Qi" ],
+                    "SpouseWantsChildren": true,
+                    "SpouseRoom": {
+                        "MapAsset": "Custom_MrQiReal_QiSpouseRoom",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 6,
+                        "Height": 9
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Custom_MrQiReal_QiSpousePatio",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 4,
+                        "Height": 4
+                    }
+                }
+            },
+            "When": {
+                "HasFlag": "MrQiRealNPC-BiologicalChildren"
+            }
+        },
+        {
+            "LogName": "NPC Info - Allow only having adopted children with Mr. Qi",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModID}}-Qi": {
+                    "DisplayName": "{{i18n:Qi.name}}",
+                    "Gender": "Male",
+                    "BirthSeason": "winter",
+                    "BirthDay": 27,
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Desert",
+                    "CanSocialize": true,
+                    "CanBeRomanced": true,
+                    "FlowerDanceCanDance": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "KissSpriteIndex": "42",
+                    "KissSpriteFacingDirection": true,
+                    "FormerCharacterNames": [ "Qi" ],
+                    "SpouseWantsChildren": false,
+                    "SpouseAdopts": true,
+                    "SpouseRoom": {
+                        "MapAsset": "Custom_MrQiReal_QiSpouseRoom",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 6,
+                        "Height": 9
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Custom_MrQiReal_QiSpousePatio",
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 4,
+                        "Height": 4
+                    }
+                }
+            },
+            "When": {
+                "HasFlag": "MrQiRealNPC-AdoptedChild"
             }
         },
         //NPC Data (Edit vanilla Qi NPC informations)

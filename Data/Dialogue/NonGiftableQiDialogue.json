@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{ModID}}-NonGiftableQi",
             "Entries": {
-                "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon}}",
+                "Mon": "{{i18n:MrQiNutRoom.Dialogue.Mon|NameOrKid={{NameOrKid}}}}",
                 "Tue": "{{i18n:MrQiNutRoom.Dialogue.Tue}}",
                 "Wed": "{{i18n:MrQiNutRoom.Dialogue.Wed}}",
                 "Thu": "{{i18n:MrQiNutRoom.Dialogue.Thu|NameOrKid={{NameOrKid}}}}",

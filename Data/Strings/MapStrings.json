@@ -30,7 +30,8 @@
                 "Custom_MrQiReal_QiLab.10": "{{i18n:MapString.QiLab.10}}",
                 "Custom_MrQiReal_QiMiniLab.1": "{{i18n:MapString.QiMiniLab.1}}",
                 "Custom_MrQiReal_QiMiniLab.2": "{{i18n:MapString.QiMiniLab.2}}",
-                "Custom_MrQiReal_QiMiniLab.3": "{{i18n:MapString.QiMiniLab.3}}"
+                "Custom_MrQiReal_QiMiniLab.3": "{{i18n:MapString.QiMiniLab.3}}",
+                "Sionkob.MrQiReal_QiSpouseRoom.1": "{{i18n:MapString.QiSpouseRoom.1}}"
             }
         },
         //Mona's Diary Entries

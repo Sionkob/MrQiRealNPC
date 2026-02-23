@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="5">
  <properties>
   <property name="DayTiles" value="Front 0 0 826 Front 5 0 826"/>
   <property name="NightTiles" value="Front 0 0 827 Front 5 0 827"/>
@@ -60,7 +60,7 @@
 0,0,0,0,0,0,
 75,75,75,75,75,75,
 107,107,107,107,107,107,
-1444,1443,0,2441,712,713,
+648,649,0,2441,712,713,
 0,0,0,0,845,0,
 0,0,0,0,0,0,
 0,589,590,591,834,0,
@@ -85,7 +85,7 @@
 827,0,244,245,0,827,
 0,0,276,277,0,0,
 0,0,1207,0,280,0,
-1412,1411,0,0,680,681,
+616,617,0,0,680,681,
 0,0,0,0,0,0,
 0,0,0,0,0,0,
 0,557,558,559,0,0,
@@ -108,14 +108,9 @@
  </layer>
  <objectgroup id="5" name="Back"/>
  <objectgroup id="6" name="Buildings">
-  <object id="1" name="TileData" x="16" y="64" width="16" height="16">
+  <object id="3" name="TileData" x="16" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Arcade_Prairie"/>
-   </properties>
-  </object>
-  <object id="2" name="TileData" x="0" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="Arcade_Minecart"/>
+    <property name="Action" value="Message Sionkob.MrQiReal_QiSpouseRoom.1"/>
    </properties>
   </object>
  </objectgroup>
