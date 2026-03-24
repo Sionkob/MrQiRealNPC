@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="18" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="56">
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="18" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="56">
  <properties>
   <property name="DayTiles" value="Front 2 12 826 Front 7 12 826 Front 11 12 826 Front 15 12 826"/>
+  <property name="LocationContext" value="Desert"/>
   <property name="NightTiles" value="Front 2 12 827 Front 7 12 827 Front 11 12 827 Front 15 12 827 "/>
   <property name="Warp" value="9 24 Custom_MrQiReal_QiRoom 11 9"/>
  </properties>

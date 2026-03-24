@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="29" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="28">
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="29" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="28">
  <properties>
   <property name="DayTiles" value="Front 4 16 256 Front 4 17 288 Front 5 1 256 Front 5 2 288 Back 4 21 258 Back 4 20 226 Front 2 1 826 Front 8 1 826 Front 6 16 826 Front 13 16 826 Front 15 8 826 Front 18 2 826 Front 25 2 826 Front 26 16 1346 Buildings 6 14 1507 Buildings 14 26 1509 Front 14 25 1477 Front 14 24 1445 Buildings 6 14 1507 Front 6 13 1475 Front 26 8 480 Front1 5 5 480"/>
+  <property name="LocationContext" value="Desert"/>
   <property name="NightTiles" value="Front 5 1 1253 Front 5 2 1285 Front 4 16 1253 Front 4 17 1285 Front 26 16 1347 Front 21 16 1347 Front 13 16 827 Front 6 16 827 Front 8 1 827 Front 2 1 827 Front 15 8 827 Front 18 2 827 Front 25 2 827 Buildings 14 26 1510 Front 14 25 1478 Front 14 24 1446 Buildings 6 14 1508 Front 6 13 1476 Front 6 12 1444 Front 26 8 809 Front1 5 5 809 Back 4 20 294 Back 4 21 262"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">

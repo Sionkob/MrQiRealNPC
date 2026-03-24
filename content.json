@@ -310,14 +310,14 @@
                     "Layer": "Buildings",
                     "Position": { "X": 11, "Y": 10 },
                     "SetProperties": {
-                        "Action": "ConditionalDoor PLAYER_HEARTS Current {{ModID}}-Qi 6"
+                        "Action": "ConditionalDoor PLAYER_HAS_SEEN_EVENT Current 04.MrQiRealNPC.TheMrQisLab"
                     }
                 },
                 {
                     "Layer": "Back",
                     "Position": { "X": 11, "Y": 10 },
                     "SetProperties": {
-                        "TouchAction": "ConditionalDoor PLAYER_HEARTS Current {{ModID}}-Qi 6"
+                        "TouchAction": "ConditionalDoor PLAYER_HAS_SEEN_EVENT Current 04.MrQiRealNPC.TheMrQisLab"
                     }
                 },
                 {
