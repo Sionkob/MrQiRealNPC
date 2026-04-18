@@ -1,17 +1,17 @@
 {
 	/* +++++|MOD CONFIG.|+++++ */
 
-	"config.Kid_or_Name.name": "꼬맹아 혹은 이름",
-	"config.Kid_or_Name.description": "미스터 치가 당신을 부르는 방식입니다. 이름과 꼬맹이 중 선택 가능합니다. 기본 세팅은 이름입니다.",
-	"config.Kid_or_Name.values.Name": "이름",
-	"config.Kid_or_Name.values.Kid": "꼬맹아",
+	//"config.Kid_or_Name.name": "꼬맹아 혹은 이름", This config is now disabled
+	//"config.Kid_or_Name.description": "미스터 치가 당신을 부르는 방식입니다. 이름과 꼬맹이 중 선택 가능합니다. 기본 세팅은 이름입니다.", This config is now disabled
+	//"config.Kid_or_Name.values.Name": "이름", This config is now disabled
+	//"config.Kid_or_Name.values.Kid": "꼬맹아", This config is now disabled
 
 	/* +++++++++++++++++++++++ */
 
 	/* +++++|TOKEN VALUES TRANSLATION|+++++ */
 
-	"KidOrNameToken.NameOption": "@",
-	"KidOrNameToken.KidOption": "꼬맹아",
+	//"KidOrNameToken.NameOption": "@", This option is now disabled
+	"KidOrNameToken.KidOption": "꼬맹아", //This value is here as a fallback for the translations. It's recommended to update your translation to remove the {{NameOrKid}} token and replace it with this value.
 	"AlienNameToken.Option1": "오르비스",
 	"AlienNameToken.Option2": "닉스",
 	"AlienNameToken.Option3": "루나리스",

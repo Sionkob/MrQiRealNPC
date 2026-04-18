@@ -1,17 +1,17 @@
 {
 	/* +++++|MOD CONFIG.|+++++ */
 
-	"config.Kid_or_Name.name": "称呼选择",
-	"config.Kid_or_Name.description": "改变齐先生对你的称呼方式。他可能会称你为'孩子'或你的名字。默认为使用你的名字。",
-	"config.Kid_or_Name.values.Name": "名字",
-	"config.Kid_or_Name.values.Kid": "孩子",
+	//"config.Kid_or_Name.name": "称呼选择", This config is now disabled
+	//"config.Kid_or_Name.description": "改变齐先生对你的称呼方式。他可能会称你为'孩子'或你的名字。默认为使用你的名字。", This config is now disabled
+	//"config.Kid_or_Name.values.Name": "名字", This config is now disabled
+	//"config.Kid_or_Name.values.Kid": "孩子", This config is now disabled
 
 	/* +++++++++++++++++++++++ */
 
 	/* +++++|令牌值翻译|+++++ */
 
-	"KidOrNameToken.NameOption": "@",
-	"KidOrNameToken.KidOption": "孩子",
+	//"KidOrNameToken.NameOption": "@", This option is now disabled
+	"KidOrNameToken.KidOption": "孩子", //This value is here as a fallback for the translations. It's recommended to update your translation to remove the {{NameOrKid}} token and replace it with this value.
 	"AlienNameToken.Option1": "奥比斯",
 	"AlienNameToken.Option2": "尼克斯",
 	"AlienNameToken.Option3": "月影",
