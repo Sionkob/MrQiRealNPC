@@ -51,6 +51,17 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_MrQiReal_QiRoom",
+                            "Tile": {
+                                "X": 24,
+                                "Y": 6
+                            },
+                            "Direction": "up"
+                        }
+                    ],
                     "CanSocialize": true,
                     "CanBeRomanced": false,
                     "FlowerDanceCanDance": true,
@@ -81,6 +92,17 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_MrQiReal_QiRoom",
+                            "Tile": {
+                                "X": 24,
+                                "Y": 6
+                            },
+                            "Direction": "up"
+                        }
+                    ],
                     "CanSocialize": true,
                     "CanBeRomanced": true,
                     "FlowerDanceCanDance": true,
@@ -131,6 +153,17 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_MrQiReal_QiRoom",
+                            "Tile": {
+                                "X": 24,
+                                "Y": 6
+                            },
+                            "Direction": "up"
+                        }
+                    ],
                     "CanSocialize": true,
                     "CanBeRomanced": true,
                     "FlowerDanceCanDance": true,
@@ -181,6 +214,17 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_MrQiReal_QiRoom",
+                            "Tile": {
+                                "X": 24,
+                                "Y": 6
+                            },
+                            "Direction": "up"
+                        }
+                    ],
                     "CanSocialize": true,
                     "CanBeRomanced": true,
                     "FlowerDanceCanDance": true,
@@ -230,6 +274,17 @@
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
                     "HomeRegion": "Desert",
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_MrQiReal_QiRoom",
+                            "Tile": {
+                                "X": 24,
+                                "Y": 6
+                            },
+                            "Direction": "up"
+                        }
+                    ],
                     "CanSocialize": true,
                     "CanBeRomanced": true,
                     "FlowerDanceCanDance": true,
