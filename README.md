@@ -29,7 +29,7 @@ The mod is currently in beta; some features or content may change. At the moment
 - Expands the vanilla game lore by exploring loose ends in the game;
 - Rewrites Mr. Qi's backstory;
 
-For more details about events, gift tastes, movies & concessions tastes, and other information, check out the mod wiki by visiting this [article](https://www.nexusmods.com/stardewvalley/articles/4298) on Nexus Mods.
+For more details about events, gift tastes, movies & concessions tastes, and other information, check out the mod wiki by visiting this [article](https://www.nexusmods.com/stardewvalley/articles/4309) on Nexus Mods.
 
 # Known Errors
 Currently, there are no known bugs in this mod. If you find any, please report it on the [bugs](https://www.nexusmods.com/stardewvalley/mods/16724?tab=bugs) page on Nexus Mods.
